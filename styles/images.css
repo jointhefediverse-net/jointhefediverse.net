@@ -1,0 +1,21 @@
+img.logo{
+    max-width: 230px;
+    max-height: 120px;
+}
+
+img.logo-small{
+    max-width: 50px;
+    max-height: 50px;
+}
+
+.logo-small-wrapper{
+    display: inline-block;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.logo-small-wrapper img{
+    display: block;
+    margin: 0 auto 0.5rem;
+    text-align: center;
+}

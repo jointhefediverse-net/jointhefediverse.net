@@ -1,0 +1,35 @@
+body{
+    background-color: var(--background-primary);
+    color: var(--color-primary);
+}
+
+mark{
+    /* color: var(--color-highlight);
+    background: none; */
+    background: #8C6BF2;
+    background: linear-gradient(to right, #8C6BF2 0%, #6648c0 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+a{
+    color: var(--color-link);
+}
+
+a:hover,
+a:focus{
+    color: var(--color-link-hover);
+}
+
+a.btn:hover,
+a.btn:focus{
+    color: var(--color-link);
+}
+
+.lead{
+    color: var(--color-headline);
+}
+
+p{
+    color: var(--color-secondary);
+}
