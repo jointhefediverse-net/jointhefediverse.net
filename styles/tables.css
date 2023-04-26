@@ -1,0 +1,7 @@
+tr{
+    padding: 0.7rem;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(36, 36, 36);
+}
