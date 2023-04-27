@@ -1,6 +1,6 @@
 body,
-p {
-    background-color: var(--background-primary);
+p.bg-dark {
+    background-color: var(--background-primary) !important;
     color: var(--color-primary);
 }
 
