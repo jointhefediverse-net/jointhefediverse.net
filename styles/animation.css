@@ -1,73 +1,244 @@
-.mover {
-    z-index: 1;
-    position: absolute;
-    top: 6rem;
-    left: 0;
-    width: 3rem;
-    height: 3rem;
+  @-webkit-keyframes move-dot1 {
+    0% {
+        transform: translateX(-50%) translateY(-50%);
+    }
+    20% {
+        transform: translateX(-50%) translateY(30%);
+    }
+    100% {
+        transform: translateX(-50%) translateY(30%);
+    }
+}
+@keyframes move-dot1 {
+    0% {
+        transform: translateX(-50%) translateY(-50%);
+    }
+    20% {
+        transform: translateX(-50%) translateY(30%);
+    }
+    100% {
+        transform: translateX(-50%) translateY(30%);
+    }
+}
+@-webkit-keyframes move-dot2 {
+    0% {
+        transform: translateX(-50%) translateY(-50%);
+    }
+    15% {
+        transform: translateX(-50%) translateY(-10%);
+    }
+    30% {
+        transform: translateX(20%) translateY(-10%);
+    }
+    100% {
+        transform: translateX(20%) translateY(30%);
+    }
+}
+@keyframes move-dot2 {
+    0% {
+        transform: translateX(-50%) translateY(-50%);
+    }
+    15% {
+        transform: translateX(-50%) translateY(-10%);
+    }
+    30% {
+        transform: translateX(20%) translateY(-10%);
+    }
+    100% {
+        transform: translateX(20%) translateY(30%);
+    }
+}
+.network-animation {
+    position: relative;
+    height: 100vw;
+    width: 100vw;
+    max-width: 400px;
+    max-height: 400px;
     margin: 0 auto;
-    display: none;
-    justify-content: center;
-    align-items: center;
 }
-
-.mover img {
-    opacity: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 3rem;
-    height: 3rem;
-    transform-origin: 50% 50%;
-    will-change: transform, opacity;
-}
-
-@supports (motion-offset: 0) {
-    .mover {
-        display: flex;
-        motion-offset: 100%;
-        motion-path: path("M200 200l1 .2.8.6s.4.5.6 1 .2.5.3 1.2-.1.6-.2 1.3-.3.7-.6 1.4-.5.7-1.2 1.3-.7.5-1.5 1-1 .3-2 .6-1.1.1-2.2.1-1.2-.2-2.4-.5-1.1-.5-2.3-1.1-1.1-.8-2.2-1.8-.9-1.1-1.8-2.4-.7-1.4-1.3-2.9-.4-1.6-.7-3.3 0-1.8.2-3.6.3-1.8.9-3.7.9-1.8 1.9-3.5 1.2-1.7 2.7-3.2 1.7-1.4 3.5-2.7 2-1 4.2-1.9 2.3-.6 4.7-1 2.5-.1 5 .1 2.6.4 5.1 1.1 2.5 1.1 4.9 2.4 2.3 1.6 4.4 3.4 2 2.2 3.8 4.5 1.5 2.6 2.8 5.4.9 2.9 1.6 6 .3 3.2.3 6.4-.3 3.3-1.1 6.6-1.1 3.2-2.5 6.4-1.8 3-3.9 5.9-2.5 2.6-5.3 5-3.1 2.1-6.4 3.9-3.5 1.5-7.2 2.6-3.9.7-7.9 1-4-.1-8.1-.7-4-1-7.9-2.5-3.8-1.8-7.4-4.1-3.4-2.7-6.6-5.8-2.8-3.4-5.3-7.2-2.1-4.1-3.7-8.4-1.3-4.4-2-9.1-.3-4.8 0-9.6.8-4.8 2.1-9.5 1.8-4.6 4.1-9.1 2.8-4.3 6-8.2 3.7-3.6 7.8-6.9 4.5-2.8 9.2-5.2 5.1-1.9 10.4-3.2 5.4-.8 10.9-1 5.6.4 11.2 1.3 5.5 1.6 10.8 3.8 5.1 2.7 10 6 4.5 3.8 8.6 8.1 3.7 4.7 6.9 9.9 2.6 5.5 4.7 11.3 1.5 6.1 2.3 12.3.2 6.3-.3 12.7-1.2 6.3-3.1 12.5-2.5 6-5.6 11.8-3.8 5.5-8.2 10.6-4.9 4.6-10.3 8.7-5.9 3.5-12.1 6.5-6.6 2.2-13.4 3.8-7 .9-14.1 1-7.1-.6-14.2-2-7-2.1-13.7-5-6.4-3.6-12.5-7.8-5.6-5-10.7-10.5-4.6-6-8.5-12.6-3.2-7-5.7-14.3-1.7-7.6-2.6-15.4-.1-7.9.7-15.8 1.5-7.8 4-15.5 3.2-7.4 7.2-14.5 4.8-6.7 10.2-12.9 6.2-5.6 12.9-10.6 7.3-4.2 15-7.7 8.1-2.7 16.4-4.6 8.6-.9 17.3-.9 8.7.8 17.3 2.6 8.4 2.7 16.5 6.3 7.8 4.4 15 9.7 6.8 6 12.9 12.8 5.4 7.4 10 15.3 3.8 8.5 6.7 17.3 1.9 9.1 2.9 18.5 0 9.5-1 18.9-2 9.4-5 18.5-3.9 8.8-8.8 17.3-5.7 7.9-12.3 15.2-7.4 6.6-15.4 12.4-8.7 4.9-17.8 9-9.6 3.1-19.6 5.2-10.1 1-20.3 1-10.3-1.2-20.4-3.3-9.9-3.3-19.4-7.6-9.1-5.3-17.6-11.5-7.8-7.2-14.9-15.1-6.3-8.7-11.6-18.1-4.3-9.9-7.6-20.3-2.2-10.7-3.3-21.6.1-11 1.3-22 2.4-10.9 6-21.5 4.6-10.2 10.3-20 6.8-9.1 14.5-17.5 8.5-7.6 17.9-14.3 10.1-5.6 20.7-10.3 11.1-3.5 22.6-5.8 11.7-1.1 23.5-1 11.8 1.4 23.4 4 11.4 3.8 22.3 8.8 10.4 6.2 20.1 13.4 9 8.2 17.1 17.4 7.1 10 13.1 20.8 4.9 11.4 8.6 23.3 2.4 12.2 3.6 24.7-.2 12.6-1.6 25.2-2.8 12.3-6.9 24.4-5.4 11.6-12 22.7-7.7 10.3-16.5 19.8-9.8 8.6-20.5 16.2-11.5 6.3-23.6 11.5-12.6 3.9-25.6 6.5-13.3 1.2-26.7 1-13.3-1.6-26.5-4.6-12.8-4.4-25.1-10.1-11.7-7-22.7-15.2-10-9.4-19.1-19.8-7.9-11.3-14.7-23.5-5.5-12.8-9.6-26.2-2.7-13.8-3.9-27.9.2-14.2 2-28.3 3.2-13.9 7.8-27.4 6.1-13 13.6-25.4 8.7-11.6 18.6-22.2 11-9.6 23-17.9 12.9-7.2 26.4-12.9 14.2-4.3 28.8-7.1 14.8-1.3 29.7-1 14.9 1.8 29.6 5.2 14.3 5 28 11.4 13 7.9 25.2 17.1 11.2 10.5 21.2 22.1 8.8 12.6 16.3 26.2 6 14.3 10.5 29.2 3 15.4 3 15.4");
-        will-change: motion-offset;
-    }
-}
-
-@supports (offset-distance: 0) {
-    .mover {
-        display: block;
-        offset-distance: 100%;
-        offset-path: path("M200 200l1 .2.8.6s.4.5.6 1 .2.5.3 1.2-.1.6-.2 1.3-.3.7-.6 1.4-.5.7-1.2 1.3-.7.5-1.5 1-1 .3-2 .6-1.1.1-2.2.1-1.2-.2-2.4-.5-1.1-.5-2.3-1.1-1.1-.8-2.2-1.8-.9-1.1-1.8-2.4-.7-1.4-1.3-2.9-.4-1.6-.7-3.3 0-1.8.2-3.6.3-1.8.9-3.7.9-1.8 1.9-3.5 1.2-1.7 2.7-3.2 1.7-1.4 3.5-2.7 2-1 4.2-1.9 2.3-.6 4.7-1 2.5-.1 5 .1 2.6.4 5.1 1.1 2.5 1.1 4.9 2.4 2.3 1.6 4.4 3.4 2 2.2 3.8 4.5 1.5 2.6 2.8 5.4.9 2.9 1.6 6 .3 3.2.3 6.4-.3 3.3-1.1 6.6-1.1 3.2-2.5 6.4-1.8 3-3.9 5.9-2.5 2.6-5.3 5-3.1 2.1-6.4 3.9-3.5 1.5-7.2 2.6-3.9.7-7.9 1-4-.1-8.1-.7-4-1-7.9-2.5-3.8-1.8-7.4-4.1-3.4-2.7-6.6-5.8-2.8-3.4-5.3-7.2-2.1-4.1-3.7-8.4-1.3-4.4-2-9.1-.3-4.8 0-9.6.8-4.8 2.1-9.5 1.8-4.6 4.1-9.1 2.8-4.3 6-8.2 3.7-3.6 7.8-6.9 4.5-2.8 9.2-5.2 5.1-1.9 10.4-3.2 5.4-.8 10.9-1 5.6.4 11.2 1.3 5.5 1.6 10.8 3.8 5.1 2.7 10 6 4.5 3.8 8.6 8.1 3.7 4.7 6.9 9.9 2.6 5.5 4.7 11.3 1.5 6.1 2.3 12.3.2 6.3-.3 12.7-1.2 6.3-3.1 12.5-2.5 6-5.6 11.8-3.8 5.5-8.2 10.6-4.9 4.6-10.3 8.7-5.9 3.5-12.1 6.5-6.6 2.2-13.4 3.8-7 .9-14.1 1-7.1-.6-14.2-2-7-2.1-13.7-5-6.4-3.6-12.5-7.8-5.6-5-10.7-10.5-4.6-6-8.5-12.6-3.2-7-5.7-14.3-1.7-7.6-2.6-15.4-.1-7.9.7-15.8 1.5-7.8 4-15.5 3.2-7.4 7.2-14.5 4.8-6.7 10.2-12.9 6.2-5.6 12.9-10.6 7.3-4.2 15-7.7 8.1-2.7 16.4-4.6 8.6-.9 17.3-.9 8.7.8 17.3 2.6 8.4 2.7 16.5 6.3 7.8 4.4 15 9.7 6.8 6 12.9 12.8 5.4 7.4 10 15.3 3.8 8.5 6.7 17.3 1.9 9.1 2.9 18.5 0 9.5-1 18.9-2 9.4-5 18.5-3.9 8.8-8.8 17.3-5.7 7.9-12.3 15.2-7.4 6.6-15.4 12.4-8.7 4.9-17.8 9-9.6 3.1-19.6 5.2-10.1 1-20.3 1-10.3-1.2-20.4-3.3-9.9-3.3-19.4-7.6-9.1-5.3-17.6-11.5-7.8-7.2-14.9-15.1-6.3-8.7-11.6-18.1-4.3-9.9-7.6-20.3-2.2-10.7-3.3-21.6.1-11 1.3-22 2.4-10.9 6-21.5 4.6-10.2 10.3-20 6.8-9.1 14.5-17.5 8.5-7.6 17.9-14.3 10.1-5.6 20.7-10.3 11.1-3.5 22.6-5.8 11.7-1.1 23.5-1 11.8 1.4 23.4 4 11.4 3.8 22.3 8.8 10.4 6.2 20.1 13.4 9 8.2 17.1 17.4 7.1 10 13.1 20.8 4.9 11.4 8.6 23.3 2.4 12.2 3.6 24.7-.2 12.6-1.6 25.2-2.8 12.3-6.9 24.4-5.4 11.6-12 22.7-7.7 10.3-16.5 19.8-9.8 8.6-20.5 16.2-11.5 6.3-23.6 11.5-12.6 3.9-25.6 6.5-13.3 1.2-26.7 1-13.3-1.6-26.5-4.6-12.8-4.4-25.1-10.1-11.7-7-22.7-15.2-10-9.4-19.1-19.8-7.9-11.3-14.7-23.5-5.5-12.8-9.6-26.2-2.7-13.8-3.9-27.9.2-14.2 2-28.3 3.2-13.9 7.8-27.4 6.1-13 13.6-25.4 8.7-11.6 18.6-22.2 11-9.6 23-17.9 12.9-7.2 26.4-12.9 14.2-4.3 28.8-7.1 14.8-1.3 29.7-1 14.9 1.8 29.6 5.2 14.3 5 28 11.4 13 7.9 25.2 17.1 11.2 10.5 21.2 22.1 8.8 12.6 16.3 26.2 6 14.3 10.5 29.2 3 15.4 3 15.4");
-        will-change: offset-distance;
-    }
-}
-
-svg {
-    stroke: #fafafd;
-    fill: transparent;
-    width: 500px;
-    height: 500px;
+.network-animation > .item {
     position: absolute;
-    top: calc(25px + 6rem);
-    left: 20px;
-    opacity: 0;
-    transition: opacity 0.2s ease;
+    top: 0;
+    left: 50%;
+    height: 50%;
+    width: 50%;
+    transform: translateX(-50%);
+    transform-origin: 50% 100%;
+    pointer-events: none;
 }
-svg[data-visible] {
-    opacity:0;
-    -webkit-animation: pulse 16s infinite ease-in-out;
-    animation: pulse 16s infinite ease-in-out;
+.network-animation > .item:nth-child(2) {
+    transform: translateX(-50%) rotate(90deg);
 }
-
-@-webkit-keyframes pulse {
-    25%, 75% {
-        opacity: 0;
-    }
+.network-animation > .item:nth-child(2) img {
+    transform: rotate(-90deg);
 }
 
-@keyframes pulse {
-    25%, 75% {
-        opacity: 0;
-    }
+.network-animation > .item:nth-child(3) {
+    transform: translateX(-50%) rotate(180deg);
 }
-* {
-    box-sizing: border-box;
+.network-animation > .item:nth-child(3) img {
+    transform: rotate(-180deg);
 }
+
+.network-animation > .item:nth-child(4) {
+    transform: translateX(-50%) rotate(270deg);
+}
+.network-animation > .item:nth-child(4) img {
+    transform: rotate(-270deg);
+}
+
+.network-animation > .item > .line {
+    height: 100%;
+    width: calc(50% + 1px);
+    border-right: 2px dashed var(--color-highlight);
+}
+.network-animation > .item > .dot {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 100%;
+    width: 100%;
+    -webkit-animation: move-dot1 5.5s linear infinite;
+    animation: move-dot1 5.5s linear infinite;
+}
+.network-animation > .item > .dot::after {
+    content: '✉️';
+    position: absolute;
+    /* top: 50%;
+    left: 50%; */
+    top: 42%;
+    left: 42%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 5%;
+    width: 5%;
+    z-index: 100;
+    position: relative;
+}
+.network-animation > .item > .circle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 20%;
+    width: 20%;
+    border-radius: 50%;
+    background: var(--color-primary);
+}
+.network-animation > .item.-type2 {
+    top: 0;
+    left: 0;
+    transform: none;
+    transform-origin: 100% 100%;
+}
+.network-animation > .item.-type2:nth-child(5) {
+    transform: scaleX(-100%);
+}
+.network-animation > .item.-type2:nth-child(5) img{
+    transform: scaleX(-100%);
+}
+.network-animation > .item.-type2:nth-child(6) {
+    transform: scaleX(-100%) scaleY(-100%);
+}
+.network-animation > .item.-type2:nth-child(6) img{
+    transform: scaleX(-100%) scaleY(-100%);
+}
+.network-animation > .item.-type2:nth-child(7) {
+    transform: scaleY(-100%);
+}
+.network-animation > .item.-type2:nth-child(7) img{
+    transform: scaleY(-100%);
+}
+.network-animation > .item.-type2 > .line {
+    position: absolute;
+    top: 30%;
+    left: calc(30% - 1px);
+    width: 70%;
+    height: 40%;
+    border-right: none;
+    border-left: 2px dashed var(--color-highlight);
+    border-bottom: 2px dashed var(--color-highlight);
+}
+.network-animation > .item.-type2 > .dot {
+    top: 30%;
+    left: 30%;
+    -webkit-animation: move-dot2 4s linear infinite;
+    animation: move-dot2 4s linear infinite;
+}
+.network-animation > .item.-type2 > .circle {
+    top: 30%;
+    left: 30%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.network-animation > .item:nth-of-type(1) > .dot {
+    -webkit-animation-delay: 0;
+    animation-delay: 0;
+}
+.network-animation > .item:nth-of-type(7) > .dot {
+    -webkit-animation-delay: 0.5s;
+    animation-delay: 0.5s;
+}
+.network-animation > .item:nth-of-type(2) > .dot {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.network-animation > .item:nth-of-type(6) > .dot {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+.network-animation > .item:nth-of-type(3) > .dot {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+.network-animation > .item:nth-of-type(5) > .dot {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+.network-animation > .item:nth-of-type(4) > .dot {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+.network-animation > .item:nth-of-type(8) > .dot {
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
+}
+.network-animation > .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 50%;
+    width: 50%;
+}
+.network-animation > .center > .circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    border-radius: 50%;
+}
+.network-animation > .center > .circle {
+    height: 50%;
+    width: 50%;
+    background: var(--color-highlight);
+}
+
+
+@keyframes fade-out {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.fade-out {
+    animation: fade-out 0.5s forwards !important;
+}
+
+.fade-in {
+    animation: fade-in 0.5s forwards;
+}
+

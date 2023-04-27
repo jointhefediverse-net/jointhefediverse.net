@@ -4,7 +4,10 @@ section{
     margin: 0 auto;
 }
 
-
 .social-media-alternatives{
     max-width: 960px;
+}
+
+.sticky-top.animation-wrapper{
+    z-index: -10 !important;
 }

@@ -1,4 +1,5 @@
-body{
+body,
+p {
     background-color: var(--background-primary);
     color: var(--color-primary);
 }

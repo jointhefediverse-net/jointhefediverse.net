@@ -1,6 +1,9 @@
 img.logo{
-    max-width: 230px;
-    max-height: 120px;
+    display: block;
+    width: 42px;
+    height: 42px;
+    object-fit: contain;
+    margin: 0 auto;
 }
 
 img.logo-small{
