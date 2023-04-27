@@ -9,15 +9,19 @@ const animate = (step) => {
             Array.from(logos).forEach((logo) => {
                 logo.src = `assets/logos/email/${logo.dataset.email}.svg`;
             });
-
-            centerCircle[0].classList.remove('fade-out');
+            
             centerCircle[0].classList.add('fade-in');
-
-            Array.from(connections).forEach((connection) => {
-                connection.classList.remove('fade-out');
-                connection.classList.add('fade-in');
+            centerCircle[0].classList.remove('fade-out');
+    
+            Array.from(envelopes).forEach((envelope) => {
+                envelope.classList.add('fade-in');
+                envelope.classList.remove('fade-out');
             });
     
+            Array.from(connections).forEach((connection) => {
+                connection.classList.add('fade-in');
+                connection.classList.remove('fade-out');
+            });
         break;
     case 2:
         Array.from(logos).forEach((logo) => {
