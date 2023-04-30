@@ -27,3 +27,10 @@ img.logo-small{
     height: 50px;
     object-fit: contain;
 }
+
+
+img.fediverse-logo-content{
+    max-width: 120px;
+    float: left;
+    margin-right: 2rem;
+}
