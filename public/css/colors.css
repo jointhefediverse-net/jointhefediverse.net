@@ -1,5 +1,6 @@
 body,
-p.bg-dark {
+p.bg-dark,
+ul {
     background-color: var(--background-primary) !important;
     color: var(--color-primary);
 }
@@ -26,7 +27,8 @@ a.nav-link:hover{
 }
 
 
-p mark{
+p mark,
+ul mark{
     font-weight: bold;
     color: var(--color-primary);
     background: none;
