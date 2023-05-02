@@ -1,11 +1,18 @@
-# Join The Fediverse.net
+# Public Domain Film Quote Search
 
-A gentle introduction to the fediverse.
-
-## Local development
-
-Run a local server, example with PHP:
+## Development
 
 ```sh
-php -S localhost:8080
+npm install
+nodemon -L
 ```
+
+## Sources
+
+### Subtitles
+
+- [opensubtitles.org](https://opensubtitles.org)
+
+### Images
+
+- [opensubtitles.org](https://opensubtitles.org)

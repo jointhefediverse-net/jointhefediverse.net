@@ -7,7 +7,7 @@ const animate = (step) => {
     switch (step) {
         case 1:
             Array.from(logos).forEach((logo) => {
-                logo.src = `assets/logos/email/${logo.dataset.email}.svg`;
+                logo.src = `images//logos/email/${logo.dataset.email}.svg`;
             });
             
             centerCircle[0].classList.add('fade-in');
@@ -25,7 +25,7 @@ const animate = (step) => {
         break;
     case 2:
         Array.from(logos).forEach((logo) => {
-            logo.src = `assets/logos/social/${logo.dataset.social}.svg`;
+            logo.src = `images//logos/social/${logo.dataset.social}.svg`;
         });
 
         centerCircle[0].classList.add('fade-out');
@@ -46,7 +46,7 @@ const animate = (step) => {
     case 3:
     case 4:
         Array.from(logos).forEach((logo) => {
-            logo.src = `assets/logos/fediverse/${logo.dataset.fediverse}.svg`;
+            logo.src = `images//logos/fediverse/${logo.dataset.fediverse}.svg`;
         });
 
         centerCircle[0].classList.add('fade-in');

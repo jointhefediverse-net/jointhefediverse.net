@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Join the fediverse!</title>
+        <link href="/fonts/Anton-Regular.ttf" rel="stylesheet">
+        <link href="/fonts/WorkSans-VariableFont_wght.ttf" rel="stylesheet">
+        <link href="/fonts/WorkSans-Italic-VariableFont_wght.ttf" rel="stylesheet">
+        <link rel="stylesheet" href="/css/main.css">
+        <link rel="stylesheet" href="/libs/bootstrap-5.3.0-alpha3/css/bootstrap.min.css">
+        {{!-- <link rel="stylesheet" href="/libs/bootstrap-5.3.0-alpha3/css/bootstrap-grid.min.css">
+        <link rel="stylesheet" href="/libs/bootstrap-5.3.0-alpha3/css/bootstrap-utilities.min.css"> --}}
+        <meta property="og:title" content="Join the fediverse!" />
+        <meta name="twitter:title" content="Join the fediverse!" />
+        <meta name="description" content="Learn about the fediverse and find your community." />
+        <meta property="og:description" content="Learn about the fediverse and find your community." />
+        <meta name="twitter:description" content="Learn about the fediverse and find your community." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://jointhefediverse.net/" />
+        <meta property="og:image" content="https://jointhefediverse.net/assets/images/join-the-fediverse.png" /> 
+        <meta property="og:image:alt" content="The text 'Join the fediverse' in shades of purple on a dark background" /> 
+        <meta property="twitter:image:src" content="https://jointhefediverse.net/assets/images/join-the-fediverse.png" /> 
+        <meta property="twitter:image:alt" content="The text 'Join the fediverse' in shades of purple on a dark background" /> 
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:domain" content="https://jointhefediverse.net/" />
+        <!-- TODO: Favicons
+        <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+        <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+        <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+        <link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+        <link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+        <link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+        <meta name="theme-color" content="#712cf9">
+        -->
+        <link rel="prefetch" href="images//logos/social/facebook.svg" />
+        <link rel="prefetch" href="images//logos/social/instagram.svg" />
+        <link rel="prefetch" href="images//logos/social/pinterest.svg" />
+        <link rel="prefetch" href="images//logos/social/snapchat.svg" />
+        <link rel="prefetch" href="images//logos/social/tiktok.svg" />
+        <link rel="prefetch" href="images//logos/social/twitter.svg" />
+        <link rel="prefetch" href="images//logos/social/wechat.svg" />
+        <link rel="prefetch" href="images//logos/social/whatsapp.svg" />
+    </head>
+    <body class="d-flex flex-column h-100 m-0 p-0">
+        <header class="position-absolute">
+            <nav class="navbar navbar-expand-md navbar-dark">
+                <div class="container-fluid">
+                <div>
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0 list-group-horizontal">
+                    <li class="nav-item p-1">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="nav-link" href="/join">Join</a>
+                    </li>
+                    <li class="nav-item p-1">
+                        <a class="nav-link" href="/learn">Learn</a>
+                    </li>
+                    </ul>
+                </div>
+                </div>
+            </nav>
+        </header>
+        <main class="flex-shrink-0">{{{body}}}</main>
+        <footer class="footer mt-auto py-3 text-center">
+            <div class="container">
+                <small>
+                    <span>Created by <a href="https://stefanbohacek.com" rel="me">Stefan Bohacek</a> a <a href="https://stefanbohacek.online/@stefan" rel="me">huge fan of the fediverse</a>. </span>
+                </small>
+            </div>
+        </footer>
+        <script type="module" src="libs/scrollama/3.1.1/scrollama.min.js" async></script>
+        <script type="module" src="js/main.js" async></script>
+        <script>{{{footer_scripts}}}</script>
+    </body>
+</html>

@@ -11,3 +11,15 @@ section{
 .sticky-top.animation-wrapper{
     z-index: -10 !important;
 }
+
+mark{
+    padding: 0 !important;
+}
+
+header{
+    z-index: 100;
+}
+
+/* header .navbar-nav {
+    flex-direction: row !important;
+} */

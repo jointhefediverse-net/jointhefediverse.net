@@ -4,13 +4,32 @@ p.bg-dark {
     color: var(--color-primary);
 }
 
-mark{
+h1 mark{
     /* color: var(--color-highlight);
     background: none; */
     background: #8C6BF2;
     background: linear-gradient(to right, #8C6BF2 0%, #6648c0 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+h1, h2, h3, h4, p{
+    color: var(--color-primary) !important;
+}
+
+a.nav-link{
+    color: var(--color-link) !important;
+}
+
+a.nav-link:hover{
+    color: var(--link-hover) !important;
+}
+
+
+p mark{
+    font-weight: bold;
+    color: var(--color-primary);
+    background: none;
 }
 
 a{
