@@ -4,5 +4,5 @@
 
 ```sh
 npm install
-nodemon -L
+npm run dev
 ```
