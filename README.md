@@ -1,4 +1,4 @@
-# Public Domain Film Quote Search
+# JoinTheFediverse.net
 
 ## Development
 
@@ -6,13 +6,3 @@
 npm install
 nodemon -L
 ```
-
-## Sources
-
-### Subtitles
-
-- [opensubtitles.org](https://opensubtitles.org)
-
-### Images
-
-- [opensubtitles.org](https://opensubtitles.org)
