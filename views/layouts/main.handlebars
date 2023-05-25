@@ -45,30 +45,36 @@
     </head>
     <body class="d-flex flex-column h-100 m-0 p-0">
         <header class="position-absolute">
-            <nav class="navbar navbar-expand-md navbar-dark">
+            <nav class="navbar navbar-expand-md navbar-dark fixed-top">
                 <div class="container-fluid">
-                    <div>
-                        <ul class="navbar-nav me-auto mb-2 mb-md-0 list-group-horizontal">
-                            <li class="nav-item p-1">
-                                <a class="nav-link" href="/">{{{__ "navigation_home"}}}</a>
-                            </li>
-                            <li class="nav-item p-1">
-                                <a class="nav-link" href="/join">{{{__ "navigation_join"}}}</a>
-                            </li>
-                            <li class="nav-item p-1">
-                                <a class="nav-link" href="/learn">{{{__ "navigation_learn"}}}</a>
-                            </li>
-                        </ul>
-                    </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+
+                        <li class="nav-item p-1">
+                            <a class="nav-link" href="/">{{{__ "navigation_home"}}}</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a class="nav-link" href="/join">{{{__ "navigation_join"}}}</a>
+                        </li>
+                        <li class="nav-item p-1">
+                            <a class="nav-link" href="/learn">{{{__ "navigation_learn"}}}</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <select id="language-switcher" class="form-select mt-2">
+                            <option value="en-us">English (US)</option>
+                            <option value="ru">на русском</option>
+                            <option value="sk">Slovensky</option>
+                            <option value="ar">عربي</option>
+                        </select>
+                    </form>
+                </div>
                 </div>
             </nav>
             <div class="position-fixed top-0 end-0 m-1">
-                <select id="language-switcher" class="form-select mt-2">
-                    <option value="en-us">English (US)</option>
-                    <option value="sk">Slovensky</option>
-                    <option value="ru">на русском</option>
-                    <option value="ar">عربي</option>
-                </select>
             </div>
         </header>
         <main class="flex-shrink-0">{{{body}}}</main>
@@ -80,6 +86,7 @@
                 </small>
             </div>
         </footer>
+        <script type="module" src="libs/bootstrap-5.3.0-alpha3/js/bootstrap.min.js" async></script>
         <script type="module" src="libs/scrollama/3.1.1/scrollama.min.js" async></script>
         <script type="module" src="js/main.js" async></script>
         <script>const supportedLanguages = {{{supported_languages}}}</script>
