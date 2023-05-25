@@ -9,18 +9,13 @@ const __dirname = path.dirname(__filename);
 const translationData = JSON.parse(fs.readFileSync(`${__dirname}/info.json`, 'utf8'));
 let availableLanguages = translationData.filter(language => language.available).map(language => language.code);
 
-console.log(availableLanguages);
+console.log('available languages:', availableLanguages);
 
 let locales = [];
 let translations = {};
 
 console.log(`loading translation strings...`);
 const translationFilesPath = `${__dirname}/data`;
-
-console.log({
-    '__dirname': __dirname,
-    translationFilesPath,
-});
 
 readdirSync(translationFilesPath)
 .filter(file => path.extname(file) === '.json')
