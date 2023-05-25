@@ -7,14 +7,17 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon -L server.js",
+    "translate": "node ./translations/script.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Stefan Bohacek",
   "license": "MIT",
   "dependencies": {
     "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
     "express": "^4.18.2",
-    "express-handlebars": "^6.0.7"
+    "express-handlebars": "^6.0.7",
+    "i18n": "^0.15.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"

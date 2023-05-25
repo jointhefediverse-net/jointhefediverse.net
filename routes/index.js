@@ -3,6 +3,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     res.render('../views/home.handlebars', {
+        supported_languages: JSON.stringify(res.locals.languages),
         footer_scripts: process.env.FOOTER_SCRIPTS
     });
 });

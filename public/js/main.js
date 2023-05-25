@@ -1,10 +1,11 @@
 import onReady from './modules/onReady.js';
 import smoothScroll from './modules/smoothScroll.js';
 import animate from './modules/animation.js';
+import switchLanguage from './modules/language-switcher.js';
 
 onReady(() => {
     smoothScroll();
-    
+    switchLanguage();
 
     const scroller = scrollama();
 

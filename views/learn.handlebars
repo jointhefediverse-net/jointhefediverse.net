@@ -1,76 +1,46 @@
 <div class="container mb-5 mt-5">
     <div class="row">
         <div class="col-sm-12">
-            <h1 class="display-4 fw-normal text-center my-5">Diving into the <mark>fediverse</mark></h1>
-
-            {{!-- <img class="fediverse-logo-content float-none float-md-start mb-5 d-sm-block mx-auto mx-md-3" src="/images/logos/fediverse/fediverse.svg" alt="Logo created to represent the Fediverse. Five nodes in pentagon shape with all diagonals, multicoloured."> --}}
-
-            <p>
-                <a href="https://en.wikipedia.org/wiki/Fediverse">Fediverse</a> is <mark>vast</mark>. It's made up of thousands of communities with millions of people like you and me, wanting to <mark>connect and share</mark>.
-            </p>
-            <p>
-                Here's a few resources that will help you get a better idea of how things work, how to find a community that's right for you, and explore tools you can use to make your experience even better.
-            </p>
-
-
-            <h2 id="faq" class="mt-5"><a href="#faq">Frequently Asked Questions</a></h2>
-            <p id="faq-instance" class="lead">Q: What is an "instance"? How do I pick one?</p>
-            <p>
-                <strong>A:</strong> Each fediverse network is made up of <mark>"instances"</mark>, or <mark>"servers"</mark>. For example, if you want to join <a href="https://joinmastodon.org/">Mastodon</a>, you can sign up for an account on <a href="https://mastodon.social">mastodon.social</a> or  <a href="https://mas.to">mas.to</a>, or <a href="https://joinmastodon.org/servers">any other Mastodon server</a>.
-            </p>
-            <p>
-                You can even <a href="https://stefanbohacek.com/blog/lessons-learned-from-running-a-single-person-mastodon-instance/#hosting">run your own server</a>, <a href="https://stefanbohacek.online/about">like I do</a>.
-            </p>
-            <p>
-                Moving between different instances is easy, and you'll be able to <mark>carry your friends and followers with you</mark>, so don't worry about picking the right instance from the start. Just sign up, feel things out, and you can move to another instance, or another network altogether, if you find a better fit.
-                
-            </p>
-            <p id="faq-instance" class="lead">Q: What is "decentralized social media"? Why is it good?</p>
-            <p>
-                <strong>A:</strong> Remember when <a href="https://botwiki.org/blog/elon-musk-steps-in-as-the-new-owner-of-twitter/">Elon Musk bought Twitter</a> and started changing things that drew a lot of people away? This is a lot less likely to happen with <a href="https://en.wikipedia.org/wiki/Distributed_social_network">social media sites that run across many servers</a>, because you'd have to buy all of them to control the whole network. And people can keep creating new ones.
-            </p>
-            <p id="faq-funding" class="lead">Q: Is the fediverse free to join? Who pays for these servers?</p>
-            <p>
-                <strong>A:</strong> Yes, joining any of the servers is typically free. Communities are maintained and moderated by <mark>volunteers</mark>, often paying for hosting from their own pocket. If you can afford it, and there is an option to do so, consider supporting them with a <mark>donation</mark>.  
-            </p>
-            <p id="faq-funding" class="lead">Q: What rules do I have to follow?</p>
-            <p>
-                <strong>A:</strong> That depends on the <mark>community</mark>. Each server can set their own rules, but generally it's important to treat other members of the community with <mark>kindness and respect</mark>. A few things to remember: 
-            </p>
-            <ul>
-                <li><mark>caption your images</mark>, so that those who can't see them still get to enjoy them</li>
-                <li>use <mark>hashtags</mark> generously, this is how others can find your posts</li>
-                <li>if your server has this features, use <mark>content warnings</mark> as appropriate</li>
-                <li>if you see something wrong, <mark>report it to the admins</mark></li>
-            </ul>
-            <h2 id="resources" class="mt-5"><a href="#resources">Resources</a></h2>
+            <h1 class="display-4 fw-normal text-center my-5">{{{__ "learn_diving_into_fediverse"}}}</h1>
+            {{{__ "learn_what_is_fediverse"}}}
+            <h2 id="faq" class="mt-5"><a href="#faq">{{{__ "learn_faq_title"}}}</a></h2>
+            <p id="faq-instance" class="lead">{{{__ "learn_faq_instance_q"}}}</p>
+            {{{__ "learn_faq_instance_a"}}}
+            <p id="faq-decentralized-social-media" class="lead">{{{__ "learn_faq_decentralized_social_media_q"}}}</p>
+            {{{__ "learn_faq_decentralized_social_media_a"}}}
+            <p id="faq-funding" class="lead">{{{__ "learn_faq_funding_q"}}}</p>
+            {{{__ "learn_faq_funding_a"}}}
+            <p id="faq-rules" class="lead">{{{__ "learn_faq_rules_q"}}}</p>
+            {{{__ "learn_faq_rules_a"}}}
+            <ul>{{{__ "learn_faq_rules_general"}}}</ul>
+            <h2 id="resources" class="mt-5"><a href="#resources">{{{__ "learn_resources_title"}}}</a></h2>
             <ul>
                 <li>
-                    <a href="https://newpublic.substack.com/p/the-summer-of-decentralized-social">The summer of decentralized social</a>: everything you want to know about decentralized social networks and the protocols that power them
+                    <a href="https://newpublic.substack.com/p/the-summer-of-decentralized-social">{{{__ "learn_resource_summmer_of_decentralized_social_title"}}}</a>: {{{__ "learn_resource_summmer_of_decentralized_social_description"}}}
                 </li>
                 <li>
-                    <a href="https://joinfediverse.wiki">joinfediverse.wiki</a>: an encyclopedia dedicated to all things fediverse
+                    <a href="https://joinfediverse.wiki">joinfediverse.wiki</a>: {{{__ "learn_resource_joinfediverse_wiki_description"}}}
                 </li>
                 <li>
-                    <a href="https://fediverse.info/">fediverse.info</a>: learn about fediverse, browse trending topics and communities, and more
+                    <a href="https://fediverse.info/">fediverse.info</a>: {{{__ "learn_resource_fediverse_info_description"}}}
                 </li>
                 <li>
-                    <a href="https://fediverse.observer/">fediverse.observer</a>: find communities and dive deeper into the data about the fediverse 
+                    <a href="https://fediverse.observer/">fediverse.observer</a>: {{{__ "learn_resource_fediverse_observer_description"}}}
                 </li>
                 <li>
-                    <a href="https://fediverse.party">fediverse.party</a>: a quick look into fediverse networks
+                    <a href="https://fediverse.party">fediverse.party</a>: {{{__ "learn_resource_fediverse_party_description"}}}
                 </li>
                 <li>
-                    <a href="https://fedi.tips/">fedi.tips</a> and <a href="https://mstdn.social/@feditips">@feditips@mstdn.social</a>: non-technical guide to using Mastodon and the wider fediverse
+                    <a href="https://fedi.tips/">fedi.tips</a> + <a href="https://mstdn.social/@feditips">@feditips@mstdn.social</a>: {{{__ "learn_resource_fedi_tips_description"}}}
                 </li>
                 <li>
-                    <a href="https://fediversereport.com/">The Fediverse report</a> and <a href="https://mastodon.social/@fediversereport">@fediversereport@mastodon.social</a>: hints and tips about Mastodon and the Fediverse
+                    <a href="https://fediversereport.com/">The Fediverse report</a> + <a href="https://mastodon.social/@fediversereport">@fediversereport@mastodon.social</a>: {{{__ "learn_resource_fediverse_report_description"}}}
                 </li>
                 <li>
-                    <a href="https://stefanbohacek.com/blog/a-netizens-guide-to-mastodon-fediverse/">A netizen's guide to Mastodon and the fediverse</a>
+                    <a href="https://stefanbohacek.com/blog/a-netizens-guide-to-mastodon-fediverse/">{{{__ "learn_resource_netizens_guide_title"}}}</a>
                 </li>
             </ul>
-            <p class="mt-5"><a href="/">Go back home</a> or <a href="/join">explore communities</a></p>
+            <p class="mt-5"><a href="/">{{{__ "learn_cta_home"}}}</a> {{{__ "learn_cta_or"}}} <a href="/join">{{{__ "learn_cta_explore"}}}</a>.</p>
         </div>
     </div>
 </div>

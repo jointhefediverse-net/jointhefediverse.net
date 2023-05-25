@@ -1,0 +1,102 @@
+{
+    "diving_into_fediverse": {
+        "en-us": "Diving into the <mark>fediverse</mark>",
+        "sk": "Dozveď sa viac o <mark>fediverse</mark>"
+    },
+    "what_is_fediverse": {
+        "en-us": "<p><a href='https://en.wikipedia.org/wiki/Fediverse'>Fediverse</a> is <mark>vast</mark>. It's made up of thousands of communities with millions of people like you and me, wanting to <mark>connect and share</mark>.</p><p>Here's a few resources that will help you get a better idea of how things work, how to find a community that's right for you, and explore tools you can use to make your experience even better.</p>",
+        "sk": "<p><a href='https://en.wikipedia.org/wiki/Fediverse'>Fediverse</a> je <mark>obrovský</mark>. Tvoria ho tisíce komunít s miliónmi ľudí ako ty a ja, ktorí sa chcú <mark>spojiť a zdieľať</mark>.</p><p>Tu je niekoľko zdrojov, ktoré ti pomôžu získať lepšiu predstavu o tom, ako veci fungujú, ako nájsť tu pravú a preskúmať nástroje, ktoré môžeš použiť na to, aby sa vaša skúsenosť ešte zlepšila.</p>"
+    },
+    "faq_title": {
+        "en-us": "Frequently Asked Questions",
+        "sk": "Často kladené otázky"
+    },
+    "faq_instance_q": {
+        "en-us": "Q: What is an \"instance\"? How do I pick one?",
+        "sk": "Otázka: Čo je to \"inštancia\"? Ako si vyberiem tú správnu?"
+    },
+    "faq_instance_a": {
+        "en-us": "<p><strong>A:</strong> Each fediverse network is made up of <mark>\"instances\"</mark>, or <mark>\"servers\"</mark>. For example, if you want to join <a href='https://joinmastodon.org/'>Mastodon</a>, you can sign up for an account on <a href='https://mastodon.social'>mastodon.social</a> or <a href='https://mas.to'>mas.to</a>, or <a href='https://joinmastodon.org/servers'>any other Mastodon server</a>.</p><p>You can even <a href='https://stefanbohacek.com/blog/lessons-learned-from-running-a-single-person-mastodon-instance/#hosting'>run your own server</a>.</p><p>Moving between different instances is easy, and you'll be able to <mark>carry your friends and followers with you</mark>, so don't worry about picking the right instance from the start. Just sign up, feel things out, and you can move to another instance, or another network altogether, if you find a better fit.</p>",
+        "sk": "<p><strong>Odpoveď:</strong> Každá sieť vo fediverse sa skladá z <mark>\"inštancií\"</mark> alebo <mark>\"serverov\"</mark>. Napríklad, ak sa chceš pripojiť do <a href='https://joinmastodon.org/'>Mastodonu</a>, môžeš si zaregistrovať účet na <a href='https://mastodon.social' >mastodon.social</a> alebo <a href='https://mas.to'>mas.to</a> alebo <a href='https://joinmastodon.org/servers'>na akokoľvek inomon Mastodon serveri</a>.</p><p>Môžeš si dokonca <a href='https://stefanbohacek.com/blog/lessons-learned-from-running-a-single-person-mastodon-instance/ #hosting'>založiť svoj vlastný server</a>.</p><p>Presun medzi rôznymi inštanciami je jednoduchý a <mark>môžeš si so sebou zobrať svojich priateľov a kontakty</mark>, takže si príliš nerob starosti s výberom správnej inštancie hneď od začiatku. Stačí sa zaregistrovať, vyskúšať si to a prejsť na inú inštanciu alebo úplne inú sieť, ak ti to nevyhovuje.</p>"
+    },
+    "faq_decentralized_social_media_q": {
+        "en-us": "Q: What is \"decentralized social media\"? Why is it good?",
+        "sk": "Otázka: Čo sú to \"decentralizované sociálne médiá\"? Prečo je to dobré?"
+    },
+    "faq_decentralized_social_media_a": {
+        "en-us": "<p><strong>A:</strong> Remember when <a href='https://botwiki.org/blog/elon-musk-steps-in-as-the-new-owner-of-twitter/'>Elon Musk bought Twitter</a> and started changing things that drew a lot of people away? This is a lot less likely to happen with <a href='https://en.wikipedia.org/wiki/Distributed_social_network'>social media sites that run across many servers</a>, because you'd have to buy all of them to control the whole network. And people can keep creating new ones.</p>",
+        "sk": "<p><strong>Odpoveď:</strong> Pamätáš si, keď <a href='https://botwiki.org/blog/elon-musk-steps-in-as-the-new-owner-of-twitter/' >Elon Musk kúpil Twitter</a> a začal meniť veci, ktoré odlákali veľa ľudí? Toto je oveľa menej pravdepodobné, že sa to stane <a href='https://en.wikipedia.org/wiki/Distributed_social_network'>na stránkach sociálnych médií, ktoré bežia na viacerých serveroch</a>, pretože by bolo treba kúpiť všetky z nich aby si mohol ovládať celú sieť. A ľudia si môžu jednoducho založiť nové serveri.</p>"
+    },
+    "faq_funding_q": {
+        "en-us": "Q: Is the fediverse free to join? Who pays for these servers?",
+        "sk": "Otázka: Je fediverse zadarmo? Kto platí za tieto servery?"
+    },
+    "faq_funding_a": {
+        "en-us": "<p><strong>A:</strong> Yes, joining any of the servers is typically free. Communities are maintained and moderated by <mark>volunteers</mark>, often paying for hosting from their own pocket. If you can afford it, and there is an option to do so, consider supporting them with a <mark>donation</mark>.</p>",
+        "sk": "<p><strong>Odpoveď:</strong> Áno, vytvoriť účet je zvyčajne bezplatné. Komunity udržiavajú a moderujú <mark>dobrovoľníci</mark>, ktorí často platia za hosťovanie z vlastného vrecka. Ak si to môžeš dovoliť, je dobré ich podporiť <mark>finančným darom</mark>.</p>"
+    },
+    "faq_rules_q": {
+        "en-us": "Q: What rules do I have to follow?",
+        "sk": "Otázka: Aké pravidlá musím dodržiavať?"
+    },
+    "faq_rules_a": {
+        "en-us": "<p><strong>A:</strong> That depends on the <mark>community</mark>. Each server can set their own rules, but generally it's important to treat other members of the community with <mark>kindness and respect</mark>. A few things to remember:</p>",
+        "sk": "<p><strong>Odpoveď:</strong> To závisí to od <mark>každej komunity</mark>. Každý server si môže nastaviť svoje vlastné pravidlá, ale vo všeobecnosti je dôležité správať sa k ostatným členom komunity s <mark>láskavosťou a rešpektom</mark>. Niekoľko vecí na zapamätanie:</p>"
+    },
+    "faq_rules_general": {
+        "en-us": "<li><mark>caption your images</mark>, so that those who can't see them still get to enjoy them</li><li>use <mark>hashtags</mark> generously, this is how others can find your posts</li><li>if your server has this features, use <mark>content warnings</mark> as appropriate</li><li>if you see something wrong, <mark>report it to the admins</mark></li>",
+        "sk": "<li><mark>popíš svoje obrázky</mark>, aby si ich mohli užiť aj tí, ktorí ich nevidia,</li><li>používaj <mark>hashtagy</mark> veľkoryso, tak môžu ostatní nájsť tvoje príspevky</li><li>ak to tvoj server podporuje, použi <mark>upozornenia na obsah (\"content warning\")</mark> podľa potreby</li><li>ak uvidíš niečo nevhodné, <mark>nahlás to adminom</mark></li>"
+    },
+    "resources_title": {
+        "en-us": "Resources",
+        "sk": "Odkazy"
+    },
+    "resource_summmer_of_decentralized_social_title": {
+        "en-us": "The summer of decentralized social",
+        "sk": "Leto decentralizovaných sociálnych sietí"
+    },
+    "resource_summmer_of_decentralized_social_description": {
+        "en-us": "everything you want to know about decentralized social networks and the protocols that power them",
+        "sk": "všetko, čo sa chceš dozvedieť o decentralizovaných sociálnych sieťach a protokoloch, ktoré ich poháňajú"
+    },
+    "resource_joinfediverse_wiki_description": {
+        "en-us": "an encyclopedia dedicated to all things fediverse",
+        "sk": "encyklopédia venovaná fediversu"
+    },
+    "resource_fediverse_info_description": {
+        "en-us": "learn about fediverse, browse trending topics and communities, and more",
+        "sk": "dozveď sa viac fediverse a prezri si populárne témy a komunity"
+    },
+    "resource_fediverse_observer_description": {
+        "en-us": "find communities and dive deeper into the data about the fediverse ",
+        "sk": "nájdi si komunity a ponoriť sa hlbšie do údajov o fediverse"
+    },
+    "resource_fediverse_party_description": {
+        "en-us": "a quick look into fediverse networks",
+        "sk": "rýchly pohľad do federálnych sietí"
+    },
+    "resource_fedi_tips_description": {
+        "en-us": "non-technical guide to using Mastodon and the wider fediverse",
+        "sk": "netechnický návod na používanie Mastodonu a širšieho fediversu"
+    },
+    "resource_fediverse_report_description": {
+        "en-us": "hints and tips about Mastodon and the fediverse",
+        "sk": "rady a tipy o Mastodone a fediverse"
+    },
+    "resource_netizens_guide_title": {
+        "en-us": "A netizen's guide to Mastodon and the fediverse",
+        "sk": "Netizenov sprievodca po Mastodone a fediverse"
+    },
+    "cta_home": {
+        "en-us": "Go back home",
+        "sk": "Vráť sa domov"
+    },
+    "cta_or": {
+        "en-us": "or",
+        "sk": "alebo"
+    },
+    "cta_explore": {
+        "en-us": "explore communities",
+        "sk": "preskúmaj komunity"
+    }
+}

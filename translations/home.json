@@ -1,0 +1,74 @@
+{
+    "intro_what_is_fediverse": {
+        "en-us": "What is <mark>fediverse</mark>?",
+        "sk": "Čo je <mark>fediverse</mark>?"
+    },
+    "intro_btn_explore": {
+        "en-us": "Explore",
+        "sk": "Povedz mi"
+    },
+    "intro_analogy": {
+        "en-us": "A good analogy for the fediverse is <mark>email</mark>.",
+        "sk": "Fediverse sa najviac podobá <mark>emailu</mark>."
+    },
+    "intro_email": {
+        "en-us": "You're probably using Gmail. Or perhaps Outlook. Or Yahoo Mail.",
+        "sk": "Pravdepodobne používaš Gmail. Alebo Zoznam.sk. Možno Centrum.sk."
+    },
+    "intro_anyone": {
+        "en-us": "Regardless of your choice, you can send an email to <mark>anyone</mark> in the world without knowing or caring what service they use.",
+        "sk": "Bez ohľadu na tvoju voľbu, môžeš poslať email <mark>hocikomu</mark> na celom svete."
+    },
+    "intro_btn_neat": {
+        "en-us": "Neat",
+        "sk": "Pekné"
+    },
+    "intro_not_social_media": {
+        "en-us": "This is not the case for social media",
+        "sk": "Sociálne média takto nefunguju."
+    },
+    "intro_social_media": {
+        "en-us": "If you're on Instagram or TikTok, and your friends or celebrities you like are on Twitter, or Facebook, you will have to sign up for <mark>each separate service</mark> to stay in touch with them.",
+        "sk": "Ak si na Instagrame alebo TikToku a tvoji priatelia alebo celebrity, o ktoré sa zaujímaš sú na Twitteri alebo Facebooku, musíš sa zaregistrovať <mark>na každej sociálnej sieti</mark>."
+    },
+    "intro_btn_good_point": {
+        "en-us": "Good point",
+        "sk": "To je pravda"
+    },
+    "intro_what_if": {
+        "en-us": "But what if you could sign up for just <mark>one site</mark>, and follow <mark>anyone</mark> in the world, just like sending them an email?",
+        "sk": "Ale čo keby si sa mohol zaregistrovať len na <mark>jednej</mark> a sledovať <mark>kohokoľvek</mark> na svete, ako keby si mu poslal e-mail?"
+    },
+    "intro_fediverse_lets_you": {
+        "en-us": "That's exactly what fediverse lets you do.",
+        "sk": "A takto presne fediverse funguje."
+    },
+    "intro_btn_interesting": {
+        "en-us": "Interesting",
+        "sk": "Zaujímavé"
+    },
+    "intro_fediverse_is": {
+        "en-us": "Fediverse is a common name for social media sites that <mark>cooperate</mark> instead of competing.",
+        "sk": "Fediverse je sieť sociálnych médií, ktoré <mark>spolupracujú</mark> namiesto toho, aby súťažili."
+    },
+    "intro_fediverse_social_media": {
+        "en-us": "And every major social media site has a great <mark>alternative</mark> in the fediverse, so it doesn't matter if you're into sharing images, videos, news, or just short quips. You will find <mark>your home</mark>.",
+        "sk": "A väčšina má skvelú <mark>alternatívu</mark> vo fediverse, takže nezáleží na tom, či chceš zdieľať obrázky, videá, správy, alebo len krátke vtipy. Nájdeš tu <mark>svoj domov</mark>."
+    },
+    "intro_btn_alright": {
+        "en-us": "Alright!",
+        "sk": "Super!"
+    },
+    "outro_join": {
+        "en-us": "Join the fediverse",
+        "sk": "Pripoj sa do fediversu"
+    },
+    "outro_or": {
+        "en-us": "or",
+        "sk": "alebo"
+    },
+    "outro_learn_more": {
+        "en-us": "See how it works",
+        "sk": "sa dozveď viac"
+    }
+}

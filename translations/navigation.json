@@ -1,0 +1,14 @@
+{
+   "home": {
+        "en-us": "Home",
+        "sk": "Domov"
+    },
+    "join": {
+        "en-us": "Join",
+        "sk": "Pripoj sa"
+    },
+    "learn": {
+        "en-us": "Learn",
+        "sk": "Nauč sa"
+    }
+}

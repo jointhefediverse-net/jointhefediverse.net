@@ -1,0 +1,54 @@
+{
+    "page_title": {
+        "en-us": "Join the <mark>fediverse</mark>",
+        "sk": "Pripoj sa do <mark>fediversu</mark>"
+    },
+    "page_intro": {
+        "en-us": "Here are some of the popular <mark>fediverse alternatives</mark> to commercial social media sites. You can join any of these and still <mark>follow anyone</mark> on the other services, because they all speak the same language, unlike traditional social media.",
+        "sk": "Tu je zopár populárnych <mark>alternatív</mark> ku komerčným stránkam sociálnych médií. Môžeš sa zaregistrovať na ktorejkoľvek z týchto služieb a stále <mark>sledovať kohokoľvek</mark> na iných platformách, pretože všetky hovoria rovnakým jazykom, na rozdiel od tradičných sociálnych médií."
+    },
+    "comparison_if": {
+        "en-us": "If you like...",
+        "sk": "Ak sa ti páči..."
+    },
+    "comparison_then": {
+        "en-us": "You should try...",
+        "sk": "Vyskúšaj..."
+    },
+    "outro": {
+        "en-us": "You can also browse fediverse communities based on <mark>interests</mark> at <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, or by <mark>features</mark> that the various networks offer at <a href='https://fediverse.info/explore/projects'>fediverse.info</a> or at the bottom of <a href='https://calckey.org/#comparison'>calckey.org</a>",
+        "sk": "Môžeš si tiež pozrieť komunity vo fediverse na základe <mark>záujmov</mark> na <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> alebo podľa <mark>funkcií</mark > ktoré rôzne siete ponúkajú na <a href='https://fediverse.info/explore/projects'>fediverse.info</a> alebo na konci <a href='https://calckey.org/#comparison'>calckey.org</a> stranky."
+    },
+    "more_info_label": {
+        "en-us": "And once you're in, you can find some <mark>popular accounts</mark> and content to follow:",
+        "sk": "A potom, čo sa zaregistruješ si môžetš nájsť niekoľko <mark>populárnych účtov</mark> a obsah, ktorý môžeš sledovať:"
+    },
+    "more_info_feditrends_description": {
+        "en-us": "aggregating what's trending across the fediverse",
+        "sk": "agregácia popularneho obsahu"
+    },
+    "more_info_fedi_directory_description": {
+        "en-us": "interesting accounts to follow",
+        "sk": "zaujímavé účty, ktoré môžeš sledovať"
+    },
+    "more_info_fedified_description": {
+        "en-us": "notable accounts on Mastodon",
+        "sk": "významné účty na Mastodone"
+    },
+    "more_info_fediverse_explorer_description": {
+        "en-us": "browse most recent public posts across the fediverse by hashtag",
+        "sk": "prehliadni si najnovšie verejné príspevky vo fediverse podľa hashtagu"
+    },
+    "cta_home": {
+        "en-us": "Go back home",
+        "sk": "Vráť sa domov"
+    },
+    "cta_or": {
+        "en-us": "or",
+        "sk": "alebo"
+    },
+    "cta_learn": {
+        "en-us": "dive deeper",
+        "sk": "sa dozveď viac"
+    }
+}

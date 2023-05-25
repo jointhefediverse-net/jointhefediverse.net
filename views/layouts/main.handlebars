@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Join the fediverse!</title>
+        <title>{{{__ "main_site_title"}}}</title>
         <link href="/fonts/Anton-Regular.ttf" rel="stylesheet">
         <link href="/fonts/WorkSans-VariableFont_wght.ttf" rel="stylesheet">
         <link href="/fonts/WorkSans-Italic-VariableFont_wght.ttf" rel="stylesheet">
@@ -12,11 +12,11 @@
         <link rel="stylesheet" href="/libs/bootstrap-5.3.0-alpha3/css/bootstrap.min.css">
         {{!-- <link rel="stylesheet" href="/libs/bootstrap-5.3.0-alpha3/css/bootstrap-grid.min.css">
         <link rel="stylesheet" href="/libs/bootstrap-5.3.0-alpha3/css/bootstrap-utilities.min.css"> --}}
-        <meta property="og:title" content="Join the fediverse!" />
-        <meta name="twitter:title" content="Join the fediverse!" />
-        <meta name="description" content="Learn about the fediverse and find your community." />
-        <meta property="og:description" content="Learn about the fediverse and find your community." />
-        <meta name="twitter:description" content="Learn about the fediverse and find your community." />
+        <meta property="og:title" content="{{{__ "main_site_title"}}}" />
+        <meta name="twitter:title" content="{{{__ "main_site_title"}}}" />
+        <meta name="description" content="{{{__ "main_site_description"}}}" />
+        <meta property="og:description" content="{{{__ "main_site_description"}}}" />
+        <meta name="twitter:description" content="{{{__ "main_site_description"}}}" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://jointhefediverse.net/" />
         <meta property="og:image" content="https://jointhefediverse.net/assets/images/join-the-fediverse.png" /> 
@@ -47,32 +47,40 @@
         <header class="position-absolute">
             <nav class="navbar navbar-expand-md navbar-dark">
                 <div class="container-fluid">
-                <div>
-                    <ul class="navbar-nav me-auto mb-2 mb-md-0 list-group-horizontal">
-                    <li class="nav-item p-1">
-                        <a class="nav-link" href="/">Home</a>
-                    </li>
-                    <li class="nav-item p-1">
-                        <a class="nav-link" href="/join">Join</a>
-                    </li>
-                    <li class="nav-item p-1">
-                        <a class="nav-link" href="/learn">Learn</a>
-                    </li>
-                    </ul>
-                </div>
+                    <div>
+                        <ul class="navbar-nav me-auto mb-2 mb-md-0 list-group-horizontal">
+                            <li class="nav-item p-1">
+                                <a class="nav-link" href="/">{{{__ "navigation_home"}}}</a>
+                            </li>
+                            <li class="nav-item p-1">
+                                <a class="nav-link" href="/join">{{{__ "navigation_join"}}}</a>
+                            </li>
+                            <li class="nav-item p-1">
+                                <a class="nav-link" href="/learn">{{{__ "navigation_learn"}}}</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </nav>
+            <div class="position-fixed top-0 end-0 m-1">
+                <select id="language-switcher" class="form-select mt-2">
+                    <option value="en-us">English (US)</option>
+                    <option value="sk">Slovensky</option>
+                </select>
+            </div>
         </header>
         <main class="flex-shrink-0">{{{body}}}</main>
         <footer class="footer mt-auto py-3 text-center">
             <div class="container">
                 <small>
-                    <span>Created by <a href="https://stefanbohacek.com" rel="me">Stefan Bohacek</a> a <a href="https://stefanbohacek.online/@stefan" rel="me">huge fan of the fediverse</a>. | <a href="https://github.com/jointhefediverse-net/jointhefediverse.net">View source</a></span>
+                    <a href="/about">{{{__ "footer_about"}}}</a> |
+                    <a href="https://github.com/jointhefediverse-net/jointhefediverse.net">{{{__ "footer_view_source"}}}</a>
                 </small>
             </div>
         </footer>
         <script type="module" src="libs/scrollama/3.1.1/scrollama.min.js" async></script>
         <script type="module" src="js/main.js" async></script>
+        <script>const supportedLanguages = {{{supported_languages}}}</script>
         <script>{{{footer_scripts}}}</script>
     </body>
 </html>
