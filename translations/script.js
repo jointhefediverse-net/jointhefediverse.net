@@ -1,9 +1,15 @@
 import { readdirSync, readFileSync, writeFileSync } from 'fs';
+import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+const translationData = JSON.parse(fs.readFileSync(`${__dirname}/info.json`, 'utf8'));
+let availableLanguages = translationData.filter(language => language.available).map(language => language.code);
+
+console.log(availableLanguages);
 
 let locales = [];
 let translations = {};
@@ -25,11 +31,13 @@ readdirSync(translationFilesPath)
 
     for (const key in translation) {
         for (const locale in translation[key]) {
-            if (!locales.includes(locale)){
-                locales.push(locale);
-                translations[locale] = {};
+            if (availableLanguages.includes(locale)){
+                if (!locales.includes(locale)){
+                    locales.push(locale);
+                    translations[locale] = {};
+                }
+                translations[locale][`${page}_${key}`] = translation[key][locale];
             }
-            translations[locale][`${page}_${key}`] = translation[key][locale];
         }      
     }
 });

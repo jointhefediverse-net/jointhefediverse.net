@@ -13,10 +13,11 @@ import joinRoute from './routes/join.js';
 import learnRoute from './routes/learn.js';
 
 import { I18n } from 'i18n';
+import fs from 'fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-
+const translationData = JSON.parse(fs.readFileSync(`${__dirname}/translations/info.json`, 'utf8'));
 
 const i18n = new I18n({
   directory: path.join(__dirname, 'locales'),
@@ -49,6 +50,7 @@ app.use(i18n.init)
 
 app.use((req, res, next) => {
   res.locals.languages = i18n.getLocales();
+  res.translations = translationData;
   next();
 });
 

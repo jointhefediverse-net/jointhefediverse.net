@@ -66,8 +66,13 @@
                     <form class="d-flex" role="search">
                         <select id="language-switcher" class="form-select mt-2">
                             <option value="en-us">English (US)</option>
-                            <option value="ru">на русском</option>
-                            <option value="sk">Slovensky</option>
+                            {{#each translations}}
+                                {{#if this.available}}
+                                    {{#if this.translators}}
+                                        <option value="{{this.code}}">{{this.label}}</option>
+                                    {{/if}}
+                                {{/if}}
+                            {{/each}}
                         </select>
                     </form>
                 </div>

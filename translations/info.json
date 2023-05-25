@@ -1,16 +1,12 @@
-{
-    "en-us": {
+[
+    {
         "label": "English (US)",
-        "available": true,
-        "translators": [
-            {
-                "name": "",
-                "url": ""
-            }
-        ]
+        "code": "en-us",
+        "available": true
     },
-    "sk": {
+    {
         "label": "Slovenčina",
+        "code": "sk",
         "available": true,
         "translators": [
             {
@@ -19,8 +15,9 @@
             }
         ]
     },
-    "ru": {
+    {
         "label": "Рустина",
+        "code": "ru",
         "available": true,
         "translators": [
             {
@@ -29,14 +26,15 @@
             }
         ]
     },
-    "ar": {
-        "label": "",
+    {
+        "label": "العربية",
+        "code": "ar",
         "available": false,
         "translators": [
             {
-                "name": "",
-                "url": ""
+                "name": "Tarek Hoteit",
+                "url": "https://oldbytes.space/@tarek"
             }
         ]
     }
-}
+]
