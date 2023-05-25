@@ -49,8 +49,20 @@ app.use(bodyParser.json());
 app.use(i18n.init)
 
 app.use((req, res, next) => {
+  const cookies = cookieParser.JSONCookies(req.cookies);
+  let currentLocale = 'en-us';
+  
   res.locals.languages = i18n.getLocales();
   res.translations = translationData;
+
+  if (cookies && cookies.locale){
+    currentLocale =  cookies.locale;
+  }
+
+  try{
+    res.currentLocale = translationData.filter(locale => locale.code === currentLocale)[0]; 
+  } catch (err) { translationData.filter(locale => locale.code === 'en-us')[0]; }
+
   next();
 });
 

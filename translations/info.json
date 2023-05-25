@@ -2,12 +2,14 @@
     {
         "label": "English (US)",
         "label_en": "English (US)",
+        "lang_dir": "LTR",
         "code": "en-us",
         "available": true
     },
     {
         "label": "Slovenčina",
         "label_en": "Slovak",
+        "lang_dir": "LTR",
         "code": "sk",
         "available": true,
         "translators": [
@@ -20,6 +22,7 @@
     {
         "label": "Рустина",
         "label_en": "Russian",
+        "lang_dir": "LTR",
         "code": "ru",
         "available": true,
         "translators": [
@@ -32,6 +35,7 @@
     {
         "label": "Française",
         "label_en": "French",
+        "lang_dir": "LTR",
         "code": "fr",
         "available": false,
         "translators": [
@@ -44,8 +48,9 @@
     {
         "label": "العربية",
         "label_en": "Arabic",
+        "lang_dir": "RTL",
         "code": "ar",
-        "available": false,
+        "available": true,
         "translators": [
             {
                 "name": "Tarek Hoteit",
