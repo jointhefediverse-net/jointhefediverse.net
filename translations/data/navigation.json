@@ -3,18 +3,21 @@
         "en-us": "Home",
         "sk": "Domov",
         "ru": "Домой",
+        "fr": "Accueil",
         "ar": "الصفحة الرئيسية"
     },
     "join": {
         "en-us": "Join",
         "sk": "Pripoj sa",
         "ru": "Присоединиться",
+        "fr": "Rejoidre",
         "ar": "انضم"
     },
     "learn": {
         "en-us": "Learn",
         "sk": "Nauč sa",
         "ru": "Узнать больше",
+        "fr": "Découvrir",
         "ar": "تعلَّم"
     }
 }
