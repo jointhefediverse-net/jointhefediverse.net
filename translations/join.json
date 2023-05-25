@@ -2,66 +2,79 @@
     "page_title": {
         "en-us": "Join the <mark>fediverse</mark>",
         "sk": "Pripoj sa do <mark>fediversu</mark>",
-        "ru": "Присоединиться к <mark>fediverse</mark>"
+        "ru": "Присоединиться к <mark>fediverse</mark>",
+        "ar": "انضم إلى <mark> الفديفيرس </mark>"
     },
     "page_intro": {
         "en-us": "Here are some of the popular <mark>fediverse alternatives</mark> to commercial social media sites. You can join any of these and still <mark>follow anyone</mark> on the other services, because they all speak the same language, unlike traditional social media.",
         "sk": "Tu je zopár populárnych <mark>alternatív</mark> ku komerčným stránkam sociálnych médií. Môžeš sa zaregistrovať na ktorejkoľvek z týchto služieb a stále <mark>sledovať kohokoľvek</mark> na iných platformách, pretože všetky hovoria rovnakým jazykom, na rozdiel od tradičných sociálnych médií.",
-        "ru": "Вот несколько популярных <mark>fediverse альтернатив</mark> коммерческим социальным сетям. Вы можете присоединиться к любой из них и всё ещё </mark>подписываться на кого угодно</mark> на других сервисах, потому что они все общаются на одном языке, в отличие от традиционных социальных сетей."
+        "ru": "Вот несколько популярных <mark>fediverse альтернатив</mark> коммерческим социальным сетям. Вы можете присоединиться к любой из них и всё ещё </mark>подписываться на кого угодно</mark> на других сервисах, потому что они все общаются на одном языке, в отличие от традиционных социальных сетей.",
+        "ar": "فيما يلي بعض <mark> البدائل الشعبية في الفديفيرس </ mark> لمواقع شبكات النترنت. يمكنك الانضمام إلى أي من هؤلاء ولا يزال بإمكانك <mark> متابعة أي شخص </ mark> على الخدمات الأخرى ، لأنهم جميعًا يتحدثون نفس اللغة ، على عكس وسائل التواصل الاجتماعي التقليدية."
     },
     "comparison_if": {
         "en-us": "If you like...",
         "sk": "Ak sa ti páči...",
-        "ru": "Если вам нравится..."
+        "ru": "Если вам нравится...",
+        "ar": "إذا أردت ..."
     },
     "comparison_then": {
         "en-us": "You should try...",
         "sk": "Vyskúšaj...",
-        "ru": "Вам стоит опробовать..."
+        "ru": "Вам стоит опробовать...",
+        "ar": "يجب أن تحاول ..."
     },
     "outro": {
         "en-us": "You can also browse fediverse communities based on <mark>interests</mark> at <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, or by <mark>features</mark> that the various networks offer at <a href='https://fediverse.info/explore/projects'>fediverse.info</a> or at the bottom of <a href='https://calckey.org/#comparison'>calckey.org</a>",
         "sk": "Môžeš si tiež pozrieť komunity vo fediverse na základe <mark>záujmov</mark> na <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> alebo podľa <mark>funkcií</mark > ktoré rôzne siete ponúkajú na <a href='https://fediverse.info/explore/projects'>fediverse.info</a> alebo na konci <a href='https://calckey.org/#comparison'>calckey.org</a> stranky.",
-        "ru": "Вы также можете просмотреть список fediverse сообществ <mark>по интересам</mark> на <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> или по <mark>функционалу</mark> который предоставляют различные сети на <a href='https://fediverse.info/explore/projects'>fediverse.info</a> или внизу страницы <a href='https://calckey.org/#comparison'>calckey.org</a>"
+        "ru": "Вы также можете просмотреть список fediverse сообществ <mark>по интересам</mark> на <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> или по <mark>функционалу</mark> который предоставляют различные сети на <a href='https://fediverse.info/explore/projects'>fediverse.info</a> или внизу страницы <a href='https://calckey.org/#comparison'>calckey.org</a>",
+        "ar": "يمكنك أيضًا تصفح مجتمعات الفديفيرس استنادًا إلى <mark> الاهتمامات </ mark> على <a href='https://joinfediverse.wiki/Instances'> Joinfediverse.wiki </a> ، أو حسب <mark> الميزات </ mark > التي تقدمها الشبكات المختلفة على <a href='https://fediverse.info/explore/projects'> fediverse.info </a> أو أسفل <a href = 'https: //calckey.org/ #comparison '> calckey.org </a>"
     },
     "more_info_label": {
         "en-us": "And once you're in, you can find some <mark>popular accounts</mark> and content to follow:",
         "sk": "A potom, čo sa zaregistruješ si môžetš nájsť niekoľko <mark>populárnych účtov</mark> a obsah, ktorý môžeš sledovať:",
-        "ru": "И после того, как вы зарегистрировались, вы можете поискать <mark>популярные аккаунты</mark> и контент, на который можно подписаться:"
+        "ru": "И после того, как вы зарегистрировались, вы можете поискать <mark>популярные аккаунты</mark> и контент, на который можно подписаться:",
+        "ar": "وبمجرد دخولك ، يمكنك العثور على بعض <mark> الحسابات الشائعة </ mark> والمحتوى لمتابعة:"
     },
     "more_info_feditrends_description": {
         "en-us": "aggregating what's trending across the fediverse",
         "sk": "agregácia popularneho obsahu",
-        "ru": "агрегирование того, что в тренде во всём fediverse"
+        "ru": "агрегирование того, что в тренде во всём fediverse",
+        "ar": "تجميع ما هو شائع عبرالفديفيرس" 
     },
     "more_info_fedi_directory_description": {
         "en-us": "interesting accounts to follow",
         "sk": "zaujímavé účty, ktoré môžeš sledovať",
-        "ru": "интересные аккаунты, на которые можно подписаться"
+        "ru": "интересные аккаунты, на которые можно подписаться",
+        "ar": "حسابات مثيرة للاهتمام للمتابعة"
     },
     "more_info_fedified_description": {
         "en-us": "notable accounts on Mastodon",
         "sk": "významné účty na Mastodone",
-        "ru": "примечательные аккаунты на Mastodon"
+        "ru": "примечательные аккаунты на Mastodon",
+        "ar": "حسابات بارزة في ماستودون"
     },
     "more_info_fediverse_explorer_description": {
         "en-us": "browse most recent public posts across the fediverse by hashtag",
         "sk": "prehliadni si najnovšie verejné príspevky vo fediverse podľa hashtagu",
-        "ru": "просматривайте самые свежие публичные посты во всём fediverse по хэштегам"
+        "ru": "просматривайте самые свежие публичные посты во всём fediverse по хэштегам",
+        "ar": "تصفح أحدث المشاركات العامة عبرالفديفيرس من خلال الهاشتاغ"
     },
     "cta_home": {
         "en-us": "Go back home",
         "sk": "Vráť sa domov",
-        "ru": "Вернуться домой"
+        "ru": "Вернуться домой",
+        "ar": "العودة الى الصفحة الرئيسية"
     },
     "cta_or": {
         "en-us": "or",
         "sk": "alebo",
-        "ru": "или"
+        "ru": "или",
+        "ar": "أو"
     },
     "cta_learn": {
         "en-us": "dive deeper",
         "sk": "sa dozveď viac",
-        "ru": "погрузиться глубже"
+        "ru": "погрузиться глубже",
+        "ar": "تعمق"
     }
 }
