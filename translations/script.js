@@ -9,12 +9,18 @@ let locales = [];
 let translations = {};
 
 console.log(`loading translation strings...`);
+const translationFilesPath = `${__dirname}/data`;
 
-readdirSync(__dirname)
+console.log({
+    '__dirname': __dirname,
+    translationFilesPath,
+});
+
+readdirSync(translationFilesPath)
 .filter(file => path.extname(file) === '.json')
 .forEach(file => {
     const page = file.replace('.json', '');
-    const translation = JSON.parse(readFileSync(`${__dirname}/${page}.json`));
+    const translation = JSON.parse(readFileSync(`${translationFilesPath}/${page}.json`));
     // console.log(translation);
 
     for (const key in translation) {

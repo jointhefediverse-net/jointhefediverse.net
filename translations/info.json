@@ -1,0 +1,42 @@
+{
+    "en-us": {
+        "label": "English (US)",
+        "available": true,
+        "translators": [
+            {
+                "name": "",
+                "url": ""
+            }
+        ]
+    },
+    "sk": {
+        "label": "Slovenčina",
+        "available": true,
+        "translators": [
+            {
+                "name": "Štefan Boháček",
+                "url": "https://stefanbohacek.online/@stefan"
+            }
+        ]
+    },
+    "ru": {
+        "label": "Рустина",
+        "available": true,
+        "translators": [
+            {
+                "name": "Sarah Quartz",
+                "url": "https://lamp.leemoon.network/@sarahquartz"
+            }
+        ]
+    },
+    "ar": {
+        "label": "",
+        "available": false,
+        "translators": [
+            {
+                "name": "",
+                "url": ""
+            }
+        ]
+    }
+}
