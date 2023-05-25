@@ -3,12 +3,14 @@
         "en-us": "About this project",
         "sk": "O projekte",
         "ru": "О проекте",
+		"fr": "A propos du projet",
         "ar": "عن هذا المشروع"
     },
     "view_source": {
         "en-us": "View source",
         "sk": "Zobraziť zdrojový kód",
         "ru": "Посмотреть исходный код",
+        "fr": "Accéder au code source",
         "ar": "عرض شفرة المصدر"
     }
 }

@@ -30,6 +30,18 @@
         ]
     },
     {
+        "label": "Française",
+        "label_en": "French",
+        "code": "fr",
+        "available": false,
+        "translators": [
+            {
+                "name": "NAME",
+                "url": "URL"
+            }
+        ]
+    },
+    {
         "label": "العربية",
         "label_en": "Arabic",
         "code": "ar",
