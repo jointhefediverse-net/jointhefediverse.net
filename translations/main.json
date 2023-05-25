@@ -11,6 +11,18 @@
         "ru": "Узнайте больше про fediverse и найдите сообщество для себя.",
         "ar": "تعرف على الفديفيرس واعثر على مجتمعك."
     },
+    "site_lang_locale": {
+        "en-us": "en-us",
+        "sk": "sk",
+        "ru": "ru",
+        "ar": "ar"
+    },
+    "site_lang_dir": {
+        "en-us": "LTR",
+        "sk": "LTR",
+        "ru": "LTR",
+        "ar": "RTL"
+    },
     "text_3": {
         "en-us": "",
         "sk": "",

@@ -62,6 +62,8 @@
   "learn_cta_explore": "explore communities",
   "main_site_title": "Join the fediverse!",
   "main_site_description": "Learn about the fediverse and find your community.",
+  "main_site_lang_locale": "en-us",
+  "main_site_lang_dir": "LTR",
   "main_text_3": "",
   "main_text_4": "",
   "navigation_home": "Home",
