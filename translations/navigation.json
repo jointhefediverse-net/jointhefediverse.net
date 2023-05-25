@@ -1,14 +1,17 @@
 {
    "home": {
         "en-us": "Home",
-        "sk": "Domov"
+        "sk": "Domov",
+        "ar": "الصفحة الرئيسية"
     },
     "join": {
         "en-us": "Join",
-        "sk": "Pripoj sa"
+        "sk": "Pripoj sa",
+        "ar": "انضم"
     },
     "learn": {
         "en-us": "Learn",
-        "sk": "Nauč sa"
+        "sk": "Nauč sa",
+        "ar": "تعلَّم"
     }
 }

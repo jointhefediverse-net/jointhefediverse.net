@@ -1,18 +1,22 @@
 {
     "site_title": {
         "en-us": "Join the fediverse!",
-        "sk": "Pripoj sa do fediversu!"
+        "sk": "Pripoj sa do fediversu!",
+        "ar": "انضم إلى الفديفيرس!"
     },
     "site_description": {
         "en-us": "Learn about the fediverse and find your community.",
-        "sk": "Zisti co je  o federatívnom svete a nájdite svoju komunitu"
+        "sk": "Zisti co je  o federatívnom svete a nájdite svoju komunitu",
+        "ar": "تعرف على الفديفيرس واعثر على مجتمعك."
     },
     "text_3": {
         "en-us": "",
-        "sk": ""
+        "sk": "",
+        "ar": ""
     },
     "text_4": {
         "en-us": "",
-        "sk": ""
+        "sk": "",
+        "ar": ""
     }
 }

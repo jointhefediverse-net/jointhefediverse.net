@@ -1,10 +1,12 @@
 {
     "about": {
         "en-us": "About this project",
-        "sk": "O projekte"
+        "sk": "O projekte",
+        "er": "عن هذا المشروع"
     },
     "view_source": {
         "en-us": "View source",
-        "sk": "Zobraziť zdrojový kód"
+        "sk": "Zobraziť zdrojový kód",
+        "ar": "عرض شفرة المصدر"
     }
 }
