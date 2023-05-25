@@ -1,13 +1,13 @@
 [
     {
         "label": "English (US)",
-        "label_english": "English (US)",
+        "label_en": "English (US)",
         "code": "en-us",
         "available": true
     },
     {
         "label": "Slovenčina",
-        "label_english": "Slovak",
+        "label_en": "Slovak",
         "code": "sk",
         "available": true,
         "translators": [
@@ -19,7 +19,7 @@
     },
     {
         "label": "Рустина",
-        "label_english": "Russian",
+        "label_en": "Russian",
         "code": "ru",
         "available": true,
         "translators": [
@@ -31,7 +31,7 @@
     },
     {
         "label": "العربية",
-        "label_english": "Arabic",
+        "label_en": "Arabic",
         "code": "ar",
         "available": false,
         "translators": [
