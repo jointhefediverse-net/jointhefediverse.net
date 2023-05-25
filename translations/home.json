@@ -1,74 +1,92 @@
 {
     "intro_what_is_fediverse": {
         "en-us": "What is <mark>fediverse</mark>?",
-        "sk": "Čo je <mark>fediverse</mark>?"
+        "sk": "Čo je <mark>fediverse</mark>?",
+        "ru": "Что такое <mark>fediverse</mark>?"
     },
     "intro_btn_explore": {
         "en-us": "Explore",
-        "sk": "Povedz mi"
+        "sk": "Povedz mi",
+        "ru": "Обзор"
     },
     "intro_analogy": {
         "en-us": "A good analogy for the fediverse is <mark>email</mark>.",
-        "sk": "Fediverse sa najviac podobá <mark>emailu</mark>."
+        "sk": "Fediverse sa najviac podobá <mark>emailu</mark>.",
+        "ru": "Хорошей аналогией для fediverse можно назвать <mark>электронную почту</mark>." 
     },
     "intro_email": {
         "en-us": "You're probably using Gmail. Or perhaps Outlook. Or Yahoo Mail.",
-        "sk": "Pravdepodobne používaš Gmail. Alebo Zoznam.sk. Možno Centrum.sk."
+        "sk": "Pravdepodobne používaš Gmail. Alebo Zoznam.sk. Možno Centrum.sk.",
+        "ru": "Вы, скорее всего, используете Gmail. Или, может, Outlook. Или Yahoo Mail."
     },
     "intro_anyone": {
         "en-us": "Regardless of your choice, you can send an email to <mark>anyone</mark> in the world without knowing or caring what service they use.",
-        "sk": "Bez ohľadu na tvoju voľbu, môžeš poslať email <mark>hocikomu</mark> na celom svete."
+        "sk": "Bez ohľadu na tvoju voľbu, môžeš poslať email <mark>hocikomu</mark> na celom svete.",
+        "ru": "Независимо от вашего выбора, вы всегда можете отправить письмо <mark>любому</mark> человеку в мире, не зная и не думая о том, каким сервисом они пользуются."
     },
     "intro_btn_neat": {
         "en-us": "Neat",
-        "sk": "Pekné"
+        "sk": "Pekné",
+        "ru": "Неплохо"
     },
     "intro_not_social_media": {
         "en-us": "This is not the case for social media",
-        "sk": "Sociálne média takto nefunguju."
+        "sk": "Sociálne média takto nefunguju.",
+        "ru": "С социальными сетями всё по-другому."
     },
     "intro_social_media": {
         "en-us": "If you're on Instagram or TikTok, and your friends or celebrities you like are on Twitter, or Facebook, you will have to sign up for <mark>each separate service</mark> to stay in touch with them.",
-        "sk": "Ak si na Instagrame alebo TikToku a tvoji priatelia alebo celebrity, o ktoré sa zaujímaš sú na Twitteri alebo Facebooku, musíš sa zaregistrovať <mark>na každej sociálnej sieti</mark>."
+        "sk": "Ak si na Instagrame alebo TikToku a tvoji priatelia alebo celebrity, o ktoré sa zaujímaš sú na Twitteri alebo Facebooku, musíš sa zaregistrovať <mark>na každej sociálnej sieti</mark>.",
+        "ru": "Если вы пользуетесь Instagram или TikTok, а ваши друзья или знаменитости, которые вам нравятся, используют Twitter, или Facebook, вам придётся зарегистрироваться на <mark>каждом отдельном сервисе</mark>, чтобы с ними держать связь."
     },
     "intro_btn_good_point": {
         "en-us": "Good point",
-        "sk": "To je pravda"
+        "sk": "To je pravda",
+        "ru": "Действительно"
     },
     "intro_what_if": {
         "en-us": "But what if you could sign up for just <mark>one site</mark>, and follow <mark>anyone</mark> in the world, just like sending them an email?",
-        "sk": "Ale čo keby si sa mohol zaregistrovať len na <mark>jednej</mark> a sledovať <mark>kohokoľvek</mark> na svete, ako keby si mu poslal e-mail?"
+        "sk": "Ale čo keby si sa mohol zaregistrovať len na <mark>jednej</mark> a sledovať <mark>kohokoľvek</mark> na svete, ako keby si mu poslal e-mail?",
+        "ru": "Но что если бы вы могли зарегистрироваться на всего <mark>одном сайте</mark>, и подписываться <mark>на всех</mark> людей в мире, также как и отправлять им электронные письма?"
     },
     "intro_fediverse_lets_you": {
         "en-us": "That's exactly what fediverse lets you do.",
-        "sk": "A takto presne fediverse funguje."
+        "sk": "A takto presne fediverse funguje.",
+        "ru": "Именно это вам fediverse и позволяет сделать."
     },
     "intro_btn_interesting": {
         "en-us": "Interesting",
-        "sk": "Zaujímavé"
+        "sk": "Zaujímavé",
+        "ru": "Интересно"
     },
     "intro_fediverse_is": {
         "en-us": "Fediverse is a common name for social media sites that <mark>cooperate</mark> instead of competing.",
-        "sk": "Fediverse je sieť sociálnych médií, ktoré <mark>spolupracujú</mark> namiesto toho, aby súťažili."
+        "sk": "Fediverse je sieť sociálnych médií, ktoré <mark>spolupracujú</mark> namiesto toho, aby súťažili.",
+        "ru": "Fediverse это общее название для социальных сетей, которые <mark>сотрудничают</mark> вместо того, чтобы конкурировать."
     },
     "intro_fediverse_social_media": {
         "en-us": "And every major social media site has a great <mark>alternative</mark> in the fediverse, so it doesn't matter if you're into sharing images, videos, news, or just short quips. You will find <mark>your home</mark>.",
-        "sk": "A väčšina má skvelú <mark>alternatívu</mark> vo fediverse, takže nezáleží na tom, či chceš zdieľať obrázky, videá, správy, alebo len krátke vtipy. Nájdeš tu <mark>svoj domov</mark>."
+        "sk": "A väčšina má skvelú <mark>alternatívu</mark> vo fediverse, takže nezáleží na tom, či chceš zdieľať obrázky, videá, správy, alebo len krátke vtipy. Nájdeš tu <mark>svoj domov</mark>.",
+        "ru": "И каждая популярная социальная сеть имеет отличную <mark>альтернативу</mark> в fediverse, так что неважно, нравится ли вам делиться картинками, видео, новостями, или просто колкими шутками."
     },
     "intro_btn_alright": {
         "en-us": "Alright!",
-        "sk": "Super!"
+        "sk": "Super!",
+        "ru": "Отлично!"
     },
     "outro_join": {
         "en-us": "Join the fediverse",
-        "sk": "Pripoj sa do fediversu"
+        "sk": "Pripoj sa do fediversu",
+        "ru": "Присоединиться к fediverse"
     },
     "outro_or": {
         "en-us": "or",
-        "sk": "alebo"
+        "sk": "alebo",
+        "ru": "или"
     },
     "outro_learn_more": {
         "en-us": "see how it works",
-        "sk": "sa dozveď viac"
+        "sk": "sa dozveď viac",
+        "ru": "посмотрите как это работает"
     }
 }

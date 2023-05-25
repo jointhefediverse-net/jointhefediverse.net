@@ -1,14 +1,17 @@
 {
    "home": {
         "en-us": "Home",
-        "sk": "Domov"
+        "sk": "Domov",
+        "ru": "Домой"
     },
     "join": {
         "en-us": "Join",
-        "sk": "Pripoj sa"
+        "sk": "Pripoj sa",
+        "ru": "Присоединиться"
     },
     "learn": {
         "en-us": "Learn",
-        "sk": "Nauč sa"
+        "sk": "Nauč sa",
+        "ru": "Узнать больше"
     }
 }
