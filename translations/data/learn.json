@@ -58,7 +58,7 @@
     "faq_funding_a": {
         "en-us": "<p><strong>A:</strong> Yes, joining any of the servers is typically free. Communities are maintained and moderated by <mark>volunteers</mark>, often paying for hosting from their own pocket. If you can afford it, and there is an option to do so, consider supporting them with a <mark>donation</mark>.</p>",
         "sk": "<p><strong>Odpoveď:</strong> Áno, vytvoriť účet je zvyčajne bezplatné. Komunity udržiavajú a moderujú <mark>dobrovoľníci</mark>, ktorí často platia za hosťovanie z vlastného vrecka. Ak si to môžeš dovoliť, je dobré ich podporiť <mark>finančným darom</mark>.</p>",
-        "ru": "<p><strong>О:</strong> Да, регистрация на любых серверах, как правило, бесплатна. Сообщества содержутся и модерируются <mark>волонтёрами</mark>, зачастую оплачивающих сервера за счёт собственного кармана. Если вы можете себе это позволить, и существует таковая опция, подумайте над тем, чтобы поддержать их <mark>пожертвованием</mark>.</p>",
+        "ru": "<p><strong>О:</strong> Да, регистрация на любых серверах, как правило, бесплатна. Сообщества содержутся и модерируются <mark>волонтёрами</mark>, зачастую оплачивающими сервера за счёт собственного кармана. Если вы можете себе это позволить, и существует таковая опция, подумайте над тем, чтобы поддержать их <mark>пожертвованием</mark>.</p>",
         "fr": "<p><strong>Réponse :</strong> Oui, la plupart du temps, rejoindre un serveur est gratuit. Les communautés sont gérées et modérées par des <mark>volontaires</mark>, qui payent l'hébergement de leur poche. Si vous pouvez vous le permettre, et si une  telle option existe, pensez à apporter votre soutien financier par une <mark>donation ou contribution régulière</mark>.</p>",
         "ar": "<p> <strong> ج: </ strong> نعم ، عادةً ما يكون الانضمام إلى أي من الخوادم مجانًا. تتم صيانة المنتديات وإدارتها بواسطة <mark> متطوعين </ mark> ، وغالبًا ما يدفعون مقابل الاستضافة من جيوبهم الخاصة. إذا كنت تستطيع تحمل تكلفة ذلك ، وكان هناك خيار للقيام بذلك ، ففكر في دعمهم بتبرع <mark> </mark>. </p>"
     },
@@ -72,7 +72,7 @@
     "faq_rules_a": {
         "en-us": "<p><strong>A:</strong> That depends on the <mark>community</mark>. Each server can set their own rules, but generally it's important to treat other members of the community with <mark>kindness and respect</mark>. A few things to remember:</p>",
         "sk": "<p><strong>Odpoveď:</strong> To závisí to od <mark>každej komunity</mark>. Každý server si môže nastaviť svoje vlastné pravidlá, ale vo všeobecnosti je dôležité správať sa k ostatným členom komunity s <mark>láskavosťou a rešpektom</mark>. Niekoľko vecí na zapamätanie:</p>",
-        "ru": "<p><strong>О:</strong> Это зависит от <mark>сообщества</mark>. Каждый сервер имеет свои собственные правила, но во всех случаях важно относиться к другим участникам с <mark>доброжетальено и с уважением</mark>. Несколько вещей, которые следует запомнить:</p>",
+        "ru": "<p><strong>О:</strong> Это зависит от <mark>сообщества</mark>. Каждый сервер имеет свои собственные правила, но во всех случаях важно относиться к другим участникам <mark>доброжелательно и с уважением</mark>. Несколько вещей, которые следует запомнить:</p>",
         "fr": "<p><strong>Réponse :</strong> Tout dépend de la <mark>communauté</mark>. Chaque serveur peut définir ses propres règles, mais en général, il est important de traiter les autres membres avec <mark>respect et gentillesse</mark>. Notez en particulier les points suivants :</p>",
         "ar": "<p> <strong> ج: </ strong> هذا يعتمد على <mark> المجتمع </ mark>. يمكن لكل سرفير وضع قواعده الخاصة ، ولكن بشكل عام من المهم معاملة أعضاء المجتمع الآخرين <mark> بلطف واحترام </ mark>. بعض الأشياء التي يجب تذكرها: </ p>"
     },
@@ -107,7 +107,7 @@
     "resource_joinfediverse_wiki_description": {
         "en-us": "an encyclopedia dedicated to all things fediverse",
         "sk": "encyklopédia venovaná fediversu",
-        "ru": "энциклопедия посвящённая всему федивёрсному",
+        "ru": "энциклопедия, посвящённая всему федивёрсному",
         "fr": "une encyclopédie dédiée à tout ce qui concerne le fediverse",
         "ar": "موسوعة مخصصة لكل ما في الفديفيرس"
     },
