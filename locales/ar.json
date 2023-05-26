@@ -1,6 +1,6 @@
 {
   "about_page_title": "حول المشروع",
-  "about_description": "تم إنشاء JoinTheFediverse.net بواسطة <a href=''> Stefan Bohacek </a> (<a href='mailto:stefan@stefanbohacek.com'> contakt </a>). الترجمة إلى العربية قدمها <a href='mailto:tarek@infocom.ai'> طارق حطيط </a>)",
+  "about_description": "تم إنشاء JoinTheFediverse.net بواسطة <a href=''> Stefan Bohacek </a> (<a href='mailto:stefan@stefanbohacek.com'> جهة اتصال </a>). تم توفير الترجمات من قبل الأشخاص الرائعين التاليين:",
   "about_cta_home": "العودة إلى الصفحة الرئيسية",
   "footer_about": "عن هذا المشروع",
   "footer_view_source": "عرض شفرة المصدر",
@@ -55,7 +55,7 @@
   "learn_resource_fediverse_observer_description": "العثور على المجتمعات والتعمق في البيانات حول الفديفيرس",
   "learn_resource_fediverse_party_description": "نظرة سريعة على الشبكات الفديفيرس",
   "learn_resource_fedi_tips_description": "دليل غير تقني لاستخدام المستودون و الفديفيرس",
-  "learn_resource_fediverse_report_description": "",
+  "learn_resource_fediverse_report_description": "تلميحات ونصائح حول المستودون والفدرالية",
   "learn_resource_netizens_guide_title": "تلميحات ونصائح حول المستودون و الفديفيرس",
   "learn_cta_home": "العودة الصفحة الرئيسية",
   "learn_cta_or": "أو",
