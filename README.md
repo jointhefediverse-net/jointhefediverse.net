@@ -13,6 +13,10 @@ npm start dev
 
 ## Translation
 
+The current translation workflow is described below. If you don't have a GitHub account, or prefer not to use it, feel free to follow steps 1 through 3 and send the translated files [via email](https://stefanbohacek.com/contact/).
+
+Otherwise, you can fork this repo, make the necessary changes, and open a pull request.
+
 1. Navigate to the `translations` folder.
 2. Add a new language section inside the `info.json` file.
 
