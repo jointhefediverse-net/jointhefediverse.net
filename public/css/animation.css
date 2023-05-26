@@ -52,10 +52,19 @@
     position: relative;
     height: 100vw;
     width: 100vw;
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 300px;
+    max-height: 300px;
     margin: 0 auto;
 }
+
+@media (min-width: 768px) {
+    .network-animation {
+        max-width: 400px;
+        max-height: 400px;
+    }
+}
+
+
 .network-animation > .item {
     position: absolute;
     top: 0;
