@@ -37,11 +37,11 @@
         "label_en": "French",
         "lang_dir": "LTR",
         "code": "fr",
-        "available": false,
+        "available": true,
         "translators": [
             {
-                "name": "NAME",
-                "url": "URL"
+                "name": "Didier J. MARY",
+                "url": "https://masto.ai/@cybeardjm"
             }
         ]
     },
