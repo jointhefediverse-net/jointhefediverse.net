@@ -22,7 +22,6 @@ readdirSync(translationFilesPath)
 .forEach(file => {
     const page = file.replace('.json', '');
     const translation = JSON.parse(readFileSync(`${translationFilesPath}/${page}.json`));
-    // console.log(translation);
 
     for (const key in translation) {
         for (const locale in translation[key]) {
@@ -36,9 +35,6 @@ readdirSync(translationFilesPath)
         }      
     }
 });
-
-// console.log({locales});
-// console.log({translations});
 
 console.log(`writing locale files...`);
 

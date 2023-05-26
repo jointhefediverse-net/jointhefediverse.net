@@ -90,8 +90,17 @@
 .network-animation > .item > .line {
     height: 100%;
     width: calc(50% + 1px);
+}
+
+html[dir="RTL"] .network-animation > .item > .line{
+    border-left: 2px dashed var(--color-highlight);
+}
+
+html[dir="LTR"] .network-animation > .item > .line{
     border-right: 2px dashed var(--color-highlight);
 }
+
+
 .network-animation > .item > .dot {
     position: absolute;
     left: 50%;
@@ -105,16 +114,22 @@
 .network-animation > .item > .dot::after {
     content: '✉️';
     position: absolute;
-    /* top: 50%;
-    left: 50%; */
     top: 42%;
-    left: 42%;
     transform: translateX(-50%) translateY(-50%);
     height: 5%;
     width: 5%;
     z-index: 100;
     position: relative;
 }
+
+html[dir="RTL"] .network-animation > .item > .dot::after{
+    right: 42%;
+}
+
+html[dir="LTR"] .network-animation > .item > .dot::after{
+    left: 42%;
+}
+
 .network-animation > .item > .circle {
     position: absolute;
     top: 0;
@@ -156,9 +171,18 @@
     width: 70%;
     height: 40%;
     border-right: none;
-    border-left: 2px dashed var(--color-highlight);
     border-bottom: 2px dashed var(--color-highlight);
 }
+
+
+html[dir="RTL"] .network-animation > .item.-type2 > .line{
+    /* border-right: 2px dashed var(--color-highlight); */
+}
+
+html[dir="LTR"] .network-animation > .item.-type2 > .line{
+    border-left: 2px dashed var(--color-highlight);
+}
+
 .network-animation > .item.-type2 > .dot {
     top: 30%;
     left: 30%;
