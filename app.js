@@ -16,8 +16,12 @@ import { I18n } from 'i18n';
 import fs from 'fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+
+
+import sortArrayOfObjects from './modules/sort-array-of-objects.js';
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const translationData = JSON.parse(fs.readFileSync(`${__dirname}/translations/info.json`, 'utf8'));
+const translationData = sortArrayOfObjects(JSON.parse(fs.readFileSync(`${__dirname}/translations/info.json`, 'utf8')), 'label_en', false);
 
 const i18n = new I18n({
   directory: path.join(__dirname, 'locales'),
