@@ -1,3 +1,4 @@
+![Logos of various fediverse platforms arranged in a circle, with little envelopes being sent between them.](public/images/images/fedi-920x240.png)
 # JoinTheFediverse.net
 
 Learn about the fediverse and find your new community.
