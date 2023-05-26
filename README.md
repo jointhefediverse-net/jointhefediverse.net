@@ -16,7 +16,7 @@ npm start dev
 1. Navigate to the `translations` folder.
 2. Add a new language section inside the `info.json` file.
 
-```json
+```js
     {
         "label": "Native name of the language",
         "label_en": "English name of the language, used for sorting",
