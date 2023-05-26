@@ -177,7 +177,7 @@ html[dir="LTR"] .network-animation > .item > .dot::after{
     position: absolute;
     top: 30%;
     left: calc(30% - 1px);
-    width: 70%;
+    width: 71%;
     height: 40%;
     border-right: none;
     border-bottom: 2px dashed var(--color-highlight);
