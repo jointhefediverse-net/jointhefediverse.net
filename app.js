@@ -21,7 +21,7 @@ import { fileURLToPath } from 'node:url';
 import sortArrayOfObjects from './modules/sort-array-of-objects.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const translationData = sortArrayOfObjects(JSON.parse(fs.readFileSync(`${__dirname}/translations/info.json`, 'utf8')), 'label_en', false);
+const translationData = sortArrayOfObjects(JSON.parse(fs.readFileSync(`${__dirname}/translations/info.json`, 'utf8')), 'label_lat', false);
 
 const i18n = new I18n({
   directory: path.join(__dirname, 'locales'),
