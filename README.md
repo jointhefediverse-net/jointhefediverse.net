@@ -18,12 +18,13 @@ The current translation workflow is described below. If you don't have a GitHub 
 Otherwise, you can fork this repo, make the necessary changes, and open a pull request.
 
 1. Navigate to the `translations` folder.
-2. Add a new language section inside the `info.json` file.
+2. Add a new language section inside the `info.json` file. If you need help with this step, please reach out!
 
 ```js
     {
         "label": "Native name of the language",
-        "label_en": "English name of the language, used for sorting",
+        "label_en": "English name of the language",
+        "label_lat": "latinized native name of the language, used for sorting",
         "lang_dir": "the direction of the languaue, LTR (left-to-right) or RTL (right-to-left)",
         "code": "the ISO 639-1 language code, see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes",
         "available": true, // Should the language be visible in the language picker? true or false
@@ -41,3 +42,11 @@ Otherwise, you can fork this repo, make the necessary changes, and open a pull r
 ```
 3. Update the JSON files inside the `data` folder for each page and selected site sections.
 4. Run `npm run translate` to generate translation files inside `locales`.
+
+Keep in mind that the goal is to [communicate the same ideas to an audience in a different culture](https://localizejs.com/articles/what-is-the-difference-between-translation-and-localization/). For example, in this sentence:
+
+> You're probably using Gmail. Or perhaps Outlook. Or Yahoo Mail.
+
+Consider listing services that are popular in your particular country.
+
+> Pravdepodobne používaš Gmail. Alebo Zoznam.sk. Možno Centrum.sk.
