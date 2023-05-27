@@ -13,7 +13,7 @@ npm start dev
 
 ## Translation
 
-You can see a list of translations in progress [here](https://github.com/jointhefediverse-net/jointhefediverse.net/issues?q=is%3Aopen+label%3Atranslation+sort%3Aupdated-desc).
+You can see a list of open and in-progress translations [here](https://github.com/jointhefediverse-net/jointhefediverse.net/issues?q=is%3Aopen+label%3Atranslation+sort%3Aupdated-desc).
 
 The current translation workflow is described below. If you don't have a GitHub account, or prefer not to use it, feel free to follow steps 1 through 3 and send the translated files [via email](https://stefanbohacek.com/contact/).
 
