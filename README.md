@@ -51,6 +51,15 @@ Step 4 does not require installing project dependencies, but you will need [node
         ]
     },
 ```
+
+Please note that `label_lat` should be a latinized (or transliterated) version of the English name of the language. This is needed for a more natural alphabetical sorting in the language picker menu. For example, for Spanish:
+
+```json
+"label": "Español",
+"label_en": "Spanish",
+"label_lat": "espanol",
+```
+
 3. Update the JSON files inside the `data` folder for each page and selected site sections.
 4. Run `npm run translate` to generate translation files inside `locales`.
 
