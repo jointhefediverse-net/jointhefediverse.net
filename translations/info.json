@@ -62,5 +62,19 @@
                 "url": "https://oldbytes.space/@tarek"
             }
         ]
-    }
+    },
+    {
+        "label": "Dansk",
+        "label_en": "Danish",
+        "label_lat": "danish",
+        "lang_dir": "LTR",
+        "code": "dk",
+        "available": true,
+        "translators": [
+            {
+                "name": "Leif Denby",
+                "url": "https://mas.to/@leifdenby"
+            }
+        ]
+    },
 ]
