@@ -20,7 +20,7 @@ Note that there is an [open ticket](https://github.com/jointhefediverse-net/join
 
 If you'd like to help translate the site to another language, please [reach out](https://stefanbohacek.com/contact/) first so that we can open a new translation ticket to keep track of any ongoing work.
 
-You can see a list of translation tickets [here](https://github.com/jointhefediverse-net/jointhefediverse.net/issues?q=is%3Aopen+is%3Aissue+author%3A%40me+sort%3Aupdated-desc+label%3Atranslation).
+You can see a list of translation tickets [here](https://github.com/jointhefediverse-net/jointhefediverse.net/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-desc+label%3Atranslation).
 
 The current translation workflow is described below. If you don't have a GitHub account, or prefer not to use it, feel free to follow steps 1 through 3 and send the translated files [via email](https://stefanbohacek.com/contact/).
 
