@@ -1,6 +1,7 @@
 {
     "intro_what_is_fediverse": {
         "en-us": "What is <mark>fediverse</mark>?",
+        "nl": "Wat is de <mark>fediverse</mark>?",
         "sk": "Čo je <mark>fediverse</mark>?",
         "fr": "Qu'est-ce que le <mark>fediverse</mark> ?",
         "ru": "Что такое <mark>fediverse</mark>?",
@@ -8,6 +9,7 @@
     },
     "intro_btn_explore": {
         "en-us": "Explore",
+        "nl": "Ontdek",
         "sk": "Povedz mi",
         "fr": "Explorer",
         "ru": "Обзор",
@@ -15,6 +17,7 @@
     },
     "intro_analogy": {
         "en-us": "A good analogy for the fediverse is <mark>email</mark>.",
+        "nl": "Een goede analogie voor de fediverse is <mark>email</mark>.",
         "sk": "Fediverse sa najviac podobá <mark>emailu</mark>.",
         "fr": "Une analogie utile pour le fediverse est l'<mark>email</mark>.",
         "ru": "Хорошей аналогией для fediverse можно назвать <mark>электронную почту</mark>.",
@@ -22,6 +25,7 @@
     },
     "intro_email": {
         "en-us": "You're probably using Gmail. Or perhaps Outlook. Or Yahoo Mail.",
+        "nl": "Je gebruikt waarschijnlijk Gmail. Of misschien Outlook. Of Hotmail.",
         "sk": "Pravdepodobne používaš Gmail. Alebo Zoznam.sk. Možno Centrum.sk.",
         "fr": "Vous utilisez probablement Gmail. Ou peut-être Outlook. Ou Yahoo Mail.",
         "ru": "Вы, скорее всего, используете Gmail. Или, может, Outlook. Или Yahoo Mail.",
@@ -29,6 +33,7 @@
     },
     "intro_anyone": {
         "en-us": "Regardless of your choice, you can send an email to <mark>anyone</mark> in the world without knowing or caring what service they use.",
+        "nl": "Ongeacht je keuze kun je een e-mail sturen naar <mark>iedereen</mark> in de wereld zonder te weten welke dienst zij gebruiken.",
         "sk": "Bez ohľadu na tvoju voľbu, môžeš poslať email <mark>hocikomu</mark> na celom svete.",
         "fr": "Indépendamment du choix que vous avez effectué, vous pouvez adresser un email à toute personne dans le monde, sans avoir à vous soucier du service qu'elle utilise.",
         "ru": "Независимо от вашего выбора, вы всегда можете отправить письмо <mark>любому</mark> человеку в мире, не зная и не думая о том, каким сервисом они пользуются.",
@@ -36,6 +41,7 @@
     },
     "intro_btn_neat": {
         "en-us": "Neat",
+        "nl": "Lekker!",
         "sk": "Pekné",
         "fr": "Sympa !",
         "ru": "Неплохо",
@@ -43,6 +49,7 @@
     },
     "intro_not_social_media": {
         "en-us": "This is not the case for social media",
+        "nl": "Helaas is dat niet zo bij social media",
         "sk": "Sociálne média takto nefunguju.",
         "fr": "Ce n'est pas le cas pour les réseaux sociaux.",
         "ru": "С социальными сетями всё по-другому.",
@@ -50,6 +57,7 @@
     },
     "intro_social_media": {
         "en-us": "If you're on Instagram or TikTok, and your friends or celebrities you like are on Twitter, or Facebook, you will have to sign up for <mark>each separate service</mark> to stay in touch with them.",
+        "nl": "Als je op Instagram of TikTok zit, en je vrienden of beroemdheden die je leuk vindt zitten op Twitter, of Facebook, dan moet je je aanmelden voor <mark>elke aparte dienst</mark> om met hen in contact te blijven.",
         "sk": "Ak si na Instagrame alebo TikToku a tvoji priatelia alebo celebrity, o ktoré sa zaujímaš sú na Twitteri alebo Facebooku, musíš sa zaregistrovať <mark>na každej sociálnej sieti</mark>.",
         "fr": "Si vous êtes sur Instagram ou TikTok, et vos amis, ou les célébrités que vous suivez sont sur Twitter ou Facebook, vous devrez créer un compte sur <mark>chacun de ces services séparément</mark> pour rester en contact avec eux.",
         "ru": "Если вы пользуетесь Instagram или TikTok, а ваши друзья или знаменитости, которые вам нравятся, используют Twitter, или Facebook, вам придётся зарегистрироваться на <mark>каждом отдельном сервисе</mark>, чтобы с ними держать связь.",
@@ -57,6 +65,7 @@
     },
     "intro_btn_good_point": {
         "en-us": "Good point",
+        "nl": "Goed punt...",
         "sk": "To je pravda",
         "fr": "Effectivement...",
         "ru": "Действительно",
@@ -64,6 +73,7 @@
     },
     "intro_what_if": {
         "en-us": "But what if you could sign up for just <mark>one site</mark>, and follow <mark>anyone</mark> in the world, just like sending them an email?",
+        "nl": "Maar wat als je je zou kunnen aanmelden voor slechts <mark>één site</mark>, en <mark>iedereen</mark> in de wereld zou kunnen volgen, net zoals je ze een e-mail stuurt?",
         "sk": "Ale čo keby si sa mohol zaregistrovať len na <mark>jednej</mark> a sledovať <mark>kohokoľvek</mark> na svete, ako keby si mu poslal e-mail?",
         "fr": "Mais imaginons que vous puissiez créer un compte sur <mark>un site unique</mark> et suivre <mark>n'importe qui</mark> dans le monde, aussi simplement que de lui adresser un email...",
         "ru": "Но что если бы вы могли зарегистрироваться на всего <mark>одном сайте</mark>, и подписываться <mark>на всех</mark> людей в мире, также как и отправлять им электронные письма?",
@@ -71,6 +81,7 @@
     },
     "intro_fediverse_lets_you": {
         "en-us": "That's exactly what fediverse lets you do.",
+        "nl": "Dat is precies wat de fediverse je laat doen.",
         "sk": "A takto presne fediverse funguje.",
         "fr": "C'est exactement ce que le fediverse autorise.",
         "ru": "Именно это вам fediverse и позволяет сделать.",
@@ -78,6 +89,7 @@
     },
     "intro_btn_interesting": {
         "en-us": "Interesting",
+        "nl": "Interessant...",
         "sk": "Zaujímavé",
         "fr": "Intéressant !",
         "ru": "Интересно",
@@ -85,6 +97,7 @@
     },
     "intro_fediverse_is": {
         "en-us": "Fediverse is a common name for social media sites that <mark>cooperate</mark> instead of competing.",
+        "nl": "Fediverse is een algemene benaming voor sociale mediasites die <mark>samenwerken</mark> in plaats van concurreren.",
         "sk": "Fediverse je sieť sociálnych médií, ktoré <mark>spolupracujú</mark> namiesto toho, aby súťažili.",
         "fr": "Le fediverse est un nom générique pour les réseaux sociaux qui <mark>coopèrent</mark>, plutôt que de se faire concurrence.",
         "ru": "Fediverse это общее название для социальных сетей, которые <mark>сотрудничают</mark> вместо того, чтобы конкурировать.",
@@ -92,6 +105,7 @@
     },
     "intro_fediverse_social_media": {
         "en-us": "And every major social media site has a great <mark>alternative</mark> in the fediverse, so it doesn't matter if you're into sharing images, videos, news, or just short quips. You will find <mark>your home</mark>.",
+        "nl": "En elke grote sociale mediasite heeft een geweldig <mark>alternatief</mark> in het fediverse, dus het maakt niet uit of je houdt van het delen van afbeeldingen, video's, nieuws of gewoon korte updates. Je vindt er <mark>je thuis</mark>.",
         "sk": "A väčšina má skvelú <mark>alternatívu</mark> vo fediverse, takže nezáleží na tom, či chceš zdieľať obrázky, videá, správy, alebo len krátke vtipy. Nájdeš tu <mark>svoj domov</mark>.",
         "fr": "Et chaque réseau social majeur dispose d'une super <mark>alternative</mark> dans le fediverse, donc peu importe que vous préfériez partager des images, des vidéos, des informations ou de courts messages. Vous trouverez ce qui <mark>vous convient le mieux</mark>.",
         "ru": "И каждая популярная социальная сеть имеет отличную <mark>альтернативу</mark> в fediverse, так что неважно, нравится ли вам делиться картинками, видео, новостями, или просто колкими шутками.",
@@ -99,6 +113,7 @@
     },
     "intro_btn_alright": {
         "en-us": "Alright!",
+        "nl": "Geweldig!",
         "sk": "Super!",
         "fr": "Génial !",
         "ru": "Отлично!",
@@ -106,6 +121,7 @@
     },
     "outro_join": {
         "en-us": "Join the fediverse",
+        "nl": "Doe mee met de fediverse",
         "sk": "Pripoj sa do fediversu",
         "fr": "Rejoindre le fediverse",
         "ru": "Присоединиться к fediverse",
@@ -113,6 +129,7 @@
     },
     "outro_or": {
         "en-us": "or",
+        "nl": "of",
         "sk": "alebo",
         "fr": "ou",
         "ru": "или",
@@ -120,6 +137,7 @@
     },
     "outro_learn_more": {
         "en-us": "see how it works",
+        "nl": "zie hoe het werkt",
         "sk": "sa dozveď viac",
         "fr": "découvrir comment ça fonctionne",
         "ru": "посмотрите как это работает",

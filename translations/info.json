@@ -8,6 +8,20 @@
         "available": true
     },
     {
+        "label": "Nederlands",
+        "label_en": "Dutch",
+        "label_lat": "dutch",
+        "lang_dir": "LTR",
+        "code": "nl",
+        "available": true,
+        "translators": [
+            {
+                "name": "Frank Meeuwsen",
+                "url": "https://frankmeeuwsen.com"
+            }
+        ]
+    },
+    {
         "label": "Slovenčina",
         "label_en": "Slovak",
         "label_lat": "slovak",
