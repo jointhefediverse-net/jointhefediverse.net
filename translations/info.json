@@ -63,4 +63,17 @@
             }
         ]
     }
+     {
+        "label": "suomi",
+        "label_en": "finnish",
+        "label_lat": "finnish",
+        "lang_dir": "LTR",
+        "code": "fi",
+        "available": true,
+        "translators": [
+            {
+                "name": "Jari Nikkinen",
+                "url": "https://mastodontti.fi/@Jarska96"
+            }
+        ]
 ]
