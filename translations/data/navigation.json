@@ -1,6 +1,7 @@
 {
    "home": {
         "en-us": "Home",
+        "da": "Hjem",
         "sk": "Domov",
         "ru": "Домой",
         "fr": "Accueil",
@@ -8,6 +9,7 @@
     },
     "join": {
         "en-us": "Join",
+        "da": "Join",
         "sk": "Pripoj sa",
         "ru": "Присоединиться",
         "fr": "Rejoindre",
@@ -15,6 +17,7 @@
     },
     "learn": {
         "en-us": "Learn",
+        "da": "Lær",
         "sk": "Nauč sa",
         "ru": "Узнать больше",
         "fr": "Découvrir",

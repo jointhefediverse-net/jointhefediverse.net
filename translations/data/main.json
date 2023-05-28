@@ -1,6 +1,7 @@
 {
     "site_title": {
         "en-us": "Join the fediverse!",
+        "da": "Join fediverset!",
         "sk": "Pripoj sa do fediversu!",
         "ru": "Присоединяйтесь к fediverse!",
         "fr": "Rejoindre le fediverse !",
@@ -8,6 +9,7 @@
     },
     "site_description": {
         "en-us": "Learn about the fediverse and find your community.",
+        "da": "Lær om fediverset og find dit fællesskab",
         "sk": "Zisti co je  o federatívnom svete a nájdite svoju komunitu.",
         "ru": "Узнайте больше про fediverse и найдите сообщество для себя.",
         "fr": "Comprendre le fediverse et trouver sa communauté.",
