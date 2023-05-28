@@ -5,6 +5,7 @@
         "ru": "О проекте",
 		"fr": "A propos du projet",
         "ar": "عن هذا المشروع"
+	"fi": "Projektista"
     },
     "view_source": {
         "en-us": "View source",
@@ -12,5 +13,6 @@
         "ru": "Посмотреть исходный код",
         "fr": "Accéder au code source",
         "ar": "عرض شفرة المصدر"
+	"fi": "Katso lähde"
     }
 }
