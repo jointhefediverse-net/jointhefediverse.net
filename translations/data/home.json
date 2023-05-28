@@ -5,6 +5,7 @@
         "fr": "Qu'est-ce que le <mark>fediverse</mark> ?",
         "ru": "Что такое <mark>fediverse</mark>?",
         "ar": "ما هو <mark>الفديفيرس</ mark>؟"
+        "fi": "Mikä on fediverse?"
     },
     "intro_btn_explore": {
         "en-us": "Explore",
@@ -12,6 +13,7 @@
         "fr": "Explorer",
         "ru": "Обзор",
         "ar": "استكشف"
+        "fi": "Tutki"
     },
     "intro_analogy": {
         "en-us": "A good analogy for the fediverse is <mark>email</mark>.",
@@ -19,6 +21,7 @@
         "fr": "Une analogie utile pour le fediverse est l'<mark>email</mark>.",
         "ru": "Хорошей аналогией для fediverse можно назвать <mark>электронную почту</mark>.",
         "ar": "<mark> البريد الإلكتروني </ mark> هو تشبيه جيد بالنسبة إلى الفديفيرس."
+        "fi": "Hyvä analogia fediverselle on <mark>sähköposti</mark>."
     },
     "intro_email": {
         "en-us": "You're probably using Gmail. Or perhaps Outlook. Or Yahoo Mail.",
@@ -26,6 +29,7 @@
         "fr": "Vous utilisez probablement Gmail. Ou peut-être Outlook. Ou Yahoo Mail.",
         "ru": "Вы, скорее всего, используете Gmail. Или, может, Outlook. Или Yahoo Mail.",
         "ar": "من المحتمل أنك تستخدم Gmail أو ربما Outlook أو بريد Yahoo."
+        "fi": "Sinä käytät mahdollisesti Gmailia. Tai kenties Outlookia. Ehkä jopa hotmailia."
     },
     "intro_anyone": {
         "en-us": "Regardless of your choice, you can send an email to <mark>anyone</mark> in the world without knowing or caring what service they use.",
@@ -33,6 +37,7 @@
         "fr": "Indépendamment du choix que vous avez effectué, vous pouvez adresser un email à toute personne dans le monde, sans avoir à vous soucier du service qu'elle utilise.",
         "ru": "Независимо от вашего выбора, вы всегда можете отправить письмо <mark>любому</mark> человеку в мире, не зная и не думая о том, каким сервисом они пользуются.",
         "ar": "بغض النظر عن اختيارك ، يمكنك إرسال بريد إلكتروني إلى <mark> أي شخص </ mark> في العالم دون معرفة أو الاهتمام بالخدمة التي يستخدمونها." 
+        "fi": "Valinnastasi huolimatta, sinä voit lähettää sähköpostin <mark>kenelle tahansa</mark> ympäri maailman tietämättä tai välittämättä mitä palvelua he käyttävät."
     },
     "intro_btn_neat": {
         "en-us": "Neat",
@@ -40,6 +45,7 @@
         "fr": "Sympa !",
         "ru": "Неплохо",
         "ar": "أنيق"
+        "fi": "Siistiä"
     },
     "intro_not_social_media": {
         "en-us": "This is not the case for social media",
@@ -47,6 +53,7 @@
         "fr": "Ce n'est pas le cas pour les réseaux sociaux.",
         "ru": "С социальными сетями всё по-другому.",
         "ar": "هذا ليس هو الحال بالنسبة لوسائل الإعلام الاجتماعية"
+        "fi": "Näin ei ole sosiaalisen median kanssa"
     },
     "intro_social_media": {
         "en-us": "If you're on Instagram or TikTok, and your friends or celebrities you like are on Twitter, or Facebook, you will have to sign up for <mark>each separate service</mark> to stay in touch with them.",
@@ -54,6 +61,7 @@
         "fr": "Si vous êtes sur Instagram ou TikTok, et vos amis, ou les célébrités que vous suivez sont sur Twitter ou Facebook, vous devrez créer un compte sur <mark>chacun de ces services séparément</mark> pour rester en contact avec eux.",
         "ru": "Если вы пользуетесь Instagram или TikTok, а ваши друзья или знаменитости, которые вам нравятся, используют Twitter, или Facebook, вам придётся зарегистрироваться на <mark>каждом отдельном сервисе</mark>, чтобы с ними держать связь.",
         "ar": "إذا كنت تستخدم Instagram أو TikTok ، وكان أصدقاؤك أو المشاهير الذين تحبهم على Twitter أو Facebook ، فسيتعين عليك الاشتراك في <mark> كل خدمة منفصلة </ mark> للبقاء على اتصال معهم." 
+        "fi": "Jos käytät Instagramia tai TikTokkia ja sinun ystävästi tai julkkikset ovat twitterissä tai Facebookissa, niin sinun täyttyy rekisteröityä <mark>jokaiselle palvelulle erikseen<mark> että pystyt olemaan yhteyksissä heidän kanssaan."
     },
     "intro_btn_good_point": {
         "en-us": "Good point",
@@ -61,6 +69,7 @@
         "fr": "Effectivement...",
         "ru": "Действительно",
         "ar": "وجهة نظر جيدة"
+        "fi": "Hyvä pointti"
     },
     "intro_what_if": {
         "en-us": "But what if you could sign up for just <mark>one site</mark>, and follow <mark>anyone</mark> in the world, just like sending them an email?",
@@ -68,6 +77,7 @@
         "fr": "Mais imaginons que vous puissiez créer un compte sur <mark>un site unique</mark> et suivre <mark>n'importe qui</mark> dans le monde, aussi simplement que de lui adresser un email...",
         "ru": "Но что если бы вы могли зарегистрироваться на всего <mark>одном сайте</mark>, и подписываться <mark>на всех</mark> людей в мире, также как и отправлять им электронные письма?",
         "ar": "ولكن ماذا لو كان بإمكانك الاشتراك في <mark> موقع واحد </ mark> فقط ، ومتابعة <mark> أي شخص </ mark> في العالم ، تمامًا مثل إرسال بريد إلكتروني إليهم؟"
+        "fi": "Mutta mitä jos voisit rekisteröityä <mark>vain yhdelle sivustolle<mark> ja seurata ketä tahansa ympäri maailmaa, vähän niinkuin lähettäisit heille sähköpostia?"
     },
     "intro_fediverse_lets_you": {
         "en-us": "That's exactly what fediverse lets you do.",
@@ -75,6 +85,7 @@
         "fr": "C'est exactement ce que le fediverse autorise.",
         "ru": "Именно это вам fediverse и позволяет сделать.",
         "ar": "هذا هو بالضبط ما يتيح لك الفديفيرس القيام به."
+        "fi": "Fediversumi antaa sinun tehdä juuri niin."
     },
     "intro_btn_interesting": {
         "en-us": "Interesting",
@@ -82,6 +93,7 @@
         "fr": "Intéressant !",
         "ru": "Интересно",
         "ar": "ممتع"
+        "fi": "Mielenkiintoista"
     },
     "intro_fediverse_is": {
         "en-us": "Fediverse is a common name for social media sites that <mark>cooperate</mark> instead of competing.",
@@ -89,6 +101,7 @@
         "fr": "Le fediverse est un nom générique pour les réseaux sociaux qui <mark>coopèrent</mark>, plutôt que de se faire concurrence.",
         "ru": "Fediverse это общее название для социальных сетей, которые <mark>сотрудничают</mark> вместо того, чтобы конкурировать.",
         "ar": "الفديفيرس هو اسم شائع لمواقع التواصل الاجتماعي التي <mark> تتعاون </ mark> بدلاً من المنافسة."
+        "fi": "Fediversumi on yleinen nimi sosiaalisen median sivustoille, jotka <mark>tekevät yhteistyötä</mark> kilpailemisen sijaan."
     },
     "intro_fediverse_social_media": {
         "en-us": "And every major social media site has a great <mark>alternative</mark> in the fediverse, so it doesn't matter if you're into sharing images, videos, news, or just short quips. You will find <mark>your home</mark>.",
@@ -96,6 +109,7 @@
         "fr": "Et chaque réseau social majeur dispose d'une super <mark>alternative</mark> dans le fediverse, donc peu importe que vous préfériez partager des images, des vidéos, des informations ou de courts messages. Vous trouverez ce qui <mark>vous convient le mieux</mark>.",
         "ru": "И каждая популярная социальная сеть имеет отличную <mark>альтернативу</mark> в fediverse, так что неважно, нравится ли вам делиться картинками, видео, новостями, или просто колкими шутками.",
         "ar": "وكل موقع من مواقع التواصل الاجتماعي الرئيسية لديه <mark> بديل </ mark> رائع في الفديفيرس، لذلك لا يهم إذا كنت تشارك الصور أو مقاطع الفيديو أو الأخبار أو مجرد المزح القصيرة. سوف تجد <mark> منزلك </ mark>."
+        "fi": "Jokaisella suurella sosiaalisen median palvelulla on loistava <mark>vaihtoehto<mark> fediversumissa, joten sillä ei ole väliä jos sinua kiinnostaa joko kuvien, videoiden, uutisten tai lyhyiden lausahduksien jakaminen. Sinä kyllä <mark>löydät kotisi<mark>."
     },
     "intro_btn_alright": {
         "en-us": "Alright!",
@@ -103,6 +117,7 @@
         "fr": "Génial !",
         "ru": "Отлично!",
         "ar": "ممتاز!"
+        "fi": "Nonni!"
     },
     "outro_join": {
         "en-us": "Join the fediverse",
@@ -110,6 +125,7 @@
         "fr": "Rejoindre le fediverse",
         "ru": "Присоединиться к fediverse",
         "ar": "انضم إلى الفديفيرس"
+        "fi": "Liity fediversumiin"
     },
     "outro_or": {
         "en-us": "or",
@@ -117,6 +133,7 @@
         "fr": "ou",
         "ru": "или",
         "ar": "أو"
+        "fi": "tai"
     },
     "outro_learn_more": {
         "en-us": "see how it works",
@@ -124,5 +141,6 @@
         "fr": "découvrir comment ça fonctionne",
         "ru": "посмотрите как это работает",
         "ar": "انظر كيف يعمل"
+        "fi": "tutki lisää aiheesta"
     }
 }
