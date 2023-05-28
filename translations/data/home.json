@@ -136,11 +136,11 @@
         "ar": "أو"
     },
     "outro_learn_more": {
-        "en-us": "see how it works",
-        "nl": "zie hoe het werkt",
-        "sk": "sa dozveď viac",
-        "fr": "découvrir comment ça fonctionne",
-        "ru": "посмотрите как это работает",
+        "en-us": "see how it works.",
+        "nl": "zie hoe het werkt.",
+        "sk": "sa dozveď viac.",
+        "fr": "découvrir comment ça fonctionne.",
+        "ru": "посмотрите как это работает.",
         "ar": "انظر كيف يعمل"
     }
 }
