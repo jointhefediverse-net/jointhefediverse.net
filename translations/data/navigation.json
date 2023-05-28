@@ -5,6 +5,7 @@
         "ru": "Домой",
         "fr": "Accueil",
         "ar": "الصفحة الرئيسية"
+        "fi": "Kotisivu"
     },
     "join": {
         "en-us": "Join",
@@ -12,6 +13,7 @@
         "ru": "Присоединиться",
         "fr": "Rejoindre",
         "ar": "انضم"
+        "fi": "Liity"
     },
     "learn": {
         "en-us": "Learn",
@@ -19,5 +21,6 @@
         "ru": "Узнать больше",
         "fr": "Découvrir",
         "ar": "تعلَّم"
+        "fi": "Opettele"
     }
 }
