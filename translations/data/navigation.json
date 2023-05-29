@@ -1,26 +1,32 @@
 {
-   "home": {
+    "home": {
         "en-us": "Home",
-	"de-de": "Hauptseite",
+        "de-de": "Hauptseite",
+        "nl": "Home",
         "sk": "Domov",
         "ru": "Домой",
         "fr": "Accueil",
-        "ar": "الصفحة الرئيسية"
+        "ar": "الصفحة الرئيسية",
+        "fi": "Kotisivu"
     },
     "join": {
         "en-us": "Join",
-	"de-de": "Beitreten",
+        "de-de": "Beitreten",
+        "nl": "Doe mee",
         "sk": "Pripoj sa",
         "ru": "Присоединиться",
         "fr": "Rejoindre",
-        "ar": "انضم"
+        "ar": "انضم",
+        "fi": "Liity"
     },
     "learn": {
         "en-us": "Learn",
-	"de-de": "Mehr erfahren",
+        "de-de": "Mehr erfahren",
+        "nl": "Ontdek",
         "sk": "Nauč sa",
         "ru": "Узнать больше",
         "fr": "Découvrir",
-        "ar": "تعلَّم"
+        "ar": "تعلَّم",
+        "fi": "Opettele"
     }
 }

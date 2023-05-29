@@ -2,9 +2,24 @@
     {
         "label": "English (US)",
         "label_en": "English (US)",
+        "label_lat": "english us",
         "lang_dir": "LTR",
         "code": "en-us",
         "available": true
+    },
+    {
+        "label": "Nederlands",
+        "label_en": "Dutch",
+        "label_lat": "nederlands",
+        "lang_dir": "LTR",
+        "code": "nl",
+        "available": true,
+        "translators": [
+            {
+                "name": "Frank Meeuwsen",
+                "url": "https://frankmeeuwsen.com"
+            }
+        ]
     },
     {
         "label": "Deutsch (Deutschland)",
@@ -18,10 +33,12 @@
                 "url": "https://rollenspiel.social/@rkbw"
             }
         ]
+
     },
     {
         "label": "Slovenčina",
         "label_en": "Slovak",
+        "label_lat": "slovak",
         "lang_dir": "LTR",
         "code": "sk",
         "available": true,
@@ -35,6 +52,7 @@
     {
         "label": "Русский",
         "label_en": "Russian",
+        "label_lat": "russkiy",
         "lang_dir": "LTR",
         "code": "ru",
         "available": true,
@@ -48,6 +66,7 @@
     {
         "label": "Français",
         "label_en": "French",
+        "label_lat": "francais",
         "lang_dir": "LTR",
         "code": "fr",
         "available": true,
@@ -61,6 +80,7 @@
     {
         "label": "العربية",
         "label_en": "Arabic",
+        "label_lat": "al arabiyyah",
         "lang_dir": "RTL",
         "code": "ar",
         "available": true,
@@ -68,6 +88,20 @@
             {
                 "name": "Tarek Hoteit",
                 "url": "https://oldbytes.space/@tarek"
+            }
+        ]
+    },
+    {
+        "label": "Suomi",
+        "label_en": "finnish",
+        "label_lat": "suomi",
+        "lang_dir": "LTR",
+        "code": "fi",
+        "available": true,
+        "translators": [
+            {
+                "name": "Jari Nikkinen",
+                "url": "https://mastodontti.fi/@Jarska96"
             }
         ]
     }

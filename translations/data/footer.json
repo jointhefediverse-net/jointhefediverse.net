@@ -1,18 +1,22 @@
 {
     "about": {
         "en-us": "About this project",
-	"de-de": "Über das Projekt",
+        "de-de": "Über das Projekt",
+        "nl": "Over dit project",
         "sk": "O projekte",
         "ru": "О проекте",
-		"fr": "A propos du projet",
-        "ar": "عن هذا المشروع"
+        "fr": "A propos du projet",
+        "ar": "عن هذا المشروع",
+        "fi": "Projektista"
     },
     "view_source": {
         "en-us": "View source",
-	"de-de": "Quelltext anschauen",
+        "de-de": "Quelltext anschauen",
+        "nl": "Bekijk broncode",
         "sk": "Zobraziť zdrojový kód",
         "ru": "Посмотреть исходный код",
         "fr": "Accéder au code source",
-        "ar": "عرض شفرة المصدر"
+        "ar": "عرض شفرة المصدر",
+        "fi": "Katso lähde"
     }
 }
