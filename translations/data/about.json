@@ -4,6 +4,8 @@
         "sk": "O projekte",
         "ru": "О проекте",
         "fr": "A propos du projet",
+        "ar": "حول المشروع"
+        "fi": "Projektista"
         "ar": "حول المشروع",
         "nl": "Over het project"
     },
@@ -14,13 +16,15 @@
         "ru": "JoinTheFediverse.net был создан <a href=''>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>связаться</a>). Переводы были предоставлены следующими крутыми людьми:",
 		"fr": "JoinTheFediverse.net est une création de <a href=''>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>). Les traductions ont été réalisées par les sympathiques personnes suivantes :",
         "ar": "تم إنشاء JoinTheFediverse.net بواسطة <a href=''> Stefan Bohacek </a> (<a href='mailto:stefan@stefanbohacek.com'> جهة اتصال </a>). تم توفير الترجمات من قبل الأشخاص الرائعين التاليين:"
+	"fi": "JoinTheFediverse.net:in loi <a href=''>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>). Käännökset tarjosi seuraavat mahtavat ihmiset:"
     },
     "cta_home": {
         "en-us": "Back to main page",
         "nl": "Terug naar de homepage",
         "sk": "Naspäť na hlavnú stránku",
         "ru": "Вернуться на главную страницу",
-		"fr": "Retour à la page d'accueil",
+	"fr": "Retour à la page d'accueil",
         "ar": "العودة إلى الصفحة الرئيسية"
+	"fi": "Takaisin etusivulle"
     }
 }
