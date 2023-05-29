@@ -76,5 +76,19 @@
                 "url": "https://oldbytes.space/@tarek"
             }
         ]
+    },
+    {
+        "label": "Suomi",
+        "label_en": "finnish",
+        "label_lat": "suomi",
+        "lang_dir": "LTR",
+        "code": "fi",
+        "available": true,
+        "translators": [
+            {
+                "name": "Jari Nikkinen",
+                "url": "https://mastodontti.fi/@Jarska96"
+            }
+        ]
     }
 ]
