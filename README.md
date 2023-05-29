@@ -63,7 +63,8 @@ Please note that `label_lat` should be a latinized (or transliterated) version o
 ```
 
 3. Update the JSON files inside the `data` folder for each page and selected site sections.
-4. Run `npm run translate` to generate translation files inside `locales`.
+
+If you're working with a local copy of the site, you will need to run `npm run translate` to compile  translation files inside the `locales` directory. These files are not committed to the repo and will be generated during site deployment. 
 
 Keep in mind that the goal is to [communicate the same ideas to an audience in a different culture](https://localizejs.com/articles/what-is-the-difference-between-translation-and-localization/). For example, in this sentence:
 
