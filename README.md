@@ -7,17 +7,26 @@ Learn about the fediverse and find your new community.
 This projects uses node 18.13.0.
 
 ```sh
+#install dependencies
 npm install
+
+# start development server
 npm start dev
 ```
 
+Note that there is an [open ticket](https://github.com/jointhefediverse-net/jointhefediverse.net/issues/13) to migrate the styles to SCSS, which will also require adding a build step.
+
 ## Translation
 
-You can see a list of open and in-progress translations [here](https://github.com/jointhefediverse-net/jointhefediverse.net/issues?q=is%3Aopen+label%3Atranslation+sort%3Aupdated-desc).
+If you'd like to help translate the site to another language, please [reach out](https://stefanbohacek.com/contact/) first so that we can open a new translation ticket to keep track of any ongoing work.
+
+You can see a list of translation tickets [here](https://github.com/jointhefediverse-net/jointhefediverse.net/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-desc+label%3Atranslation).
 
 The current translation workflow is described below. If you don't have a GitHub account, or prefer not to use it, feel free to follow steps 1 through 3 and send the translated files [via email](https://stefanbohacek.com/contact/).
 
 Otherwise, you can [fork this repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo), make the necessary changes, and open a pull request.
+
+Step 4 does not require installing project dependencies, but you will need [node](https://nodejs.org/en/download) installed.
 
 1. Navigate to the `translations` folder.
 2. Add a new language section inside the `info.json` file. If you need help with this step, please reach out!
@@ -42,6 +51,15 @@ Otherwise, you can [fork this repo](https://docs.github.com/en/get-started/quick
         ]
     },
 ```
+
+Please note that `label_lat` should be a latinized (or transliterated) version of the English name of the language. This is needed for a more natural alphabetical sorting in the language picker menu. For example, for Spanish:
+
+```json
+"label": "Español",
+"label_en": "Spanish",
+"label_lat": "espanol",
+```
+
 3. Update the JSON files inside the `data` folder for each page and selected site sections.
 4. Run `npm run translate` to generate translation files inside `locales`.
 

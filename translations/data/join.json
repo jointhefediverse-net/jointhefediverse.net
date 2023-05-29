@@ -1,6 +1,7 @@
 {
     "page_title": {
         "en-us": "Join the <mark>fediverse</mark>",
+        "nl": "Kom bij de <mark>fediverse</mark>",
         "sk": "Pripoj sa do <mark>fediversu</mark>",
         "ru": "Присоединиться к <mark>fediverse</mark>",
         "fr": "Rejoindre le <mark>fediverse</mark>",
@@ -9,6 +10,7 @@
     },
     "page_intro": {
         "en-us": "Here are some of the popular <mark>fediverse alternatives</mark> to commercial social media sites. You can join any of these and still <mark>follow anyone</mark> on the other services, because they all speak the same language, unlike traditional social media.",
+        "nl": "Hier zijn een paar van de populaire <mark>fediverse alternatieven</mark> voor commerciële sociale netwerken. Je kunt je bij elk van deze aansluiten en toch <mark>volgen wie je wilt</mark> op de andere diensten, omdat ze allemaal dezelfde taal spreken, in tegenstelling tot traditionele sociale media.",
         "sk": "Tu je zopár populárnych <mark>alternatív</mark> ku komerčným stránkam sociálnych médií. Môžeš sa zaregistrovať na ktorejkoľvek z týchto služieb a stále <mark>sledovať kohokoľvek</mark> na iných platformách, pretože všetky hovoria rovnakým jazykom, na rozdiel od tradičných sociálnych médií.",
         "ru": "Вот несколько популярных <mark>fediverse альтернатив</mark> коммерческим социальным сетям. Вы можете присоединиться к любой из них и всё ещё </mark>подписываться на кого угодно</mark> на других сервисах, потому что они все общаются на одном языке, в отличие от традиционных социальных сетей.",
         "fr": "Voici quelques-unes des <mark>alternatives dans le fediverse</mark> pour les réseaux sociaux commerciaux. Vous pouvez vous inscrire à n'importe laquelle et pourtant <mark>suivre n'importe qui</mark> sur les autres services, car ils savent communiquer entre eux, à la différence des réseaux sociaux traditionnels.",
@@ -17,6 +19,7 @@
     },
     "comparison_if": {
         "en-us": "If you like...",
+        "nl": "Als je wilt...",
         "sk": "Ak sa ti páči...",
         "ru": "Если вам нравится...",
         "fr": "Si vous aimez...",
@@ -25,6 +28,7 @@
     },
     "comparison_then": {
         "en-us": "You should try...",
+        "nl": "Probeer dan...",
         "sk": "Vyskúšaj...",
         "ru": "Вам стоит опробовать...",
         "fr": "Vous devriez essayer...",
@@ -33,6 +37,7 @@
     },
     "outro": {
         "en-us": "You can also browse fediverse communities based on <mark>interests</mark> at <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, or by <mark>features</mark> that the various networks offer at <a href='https://fediverse.info/explore/projects'>fediverse.info</a> or at the bottom of <a href='https://calckey.org/#comparison'>calckey.org</a>",
+        "nl": "Je kunt ook fediverse comunities vinden op basis van <mark>interesses</mark> op <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, of op <mark>kenmerken</mark> die de verschillende netwerken aanbieden op <a href='https://fediverse.info/explore/projects'>fediverse.info</a> of onder aan de pagina op <a href='https://calckey.org/#comparison'>calckey.org</a>",
         "sk": "Môžeš si tiež pozrieť komunity vo fediverse na základe <mark>záujmov</mark> na <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> alebo podľa <mark>funkcií</mark > ktoré rôzne siete ponúkajú na <a href='https://fediverse.info/explore/projects'>fediverse.info</a> alebo na konci <a href='https://calckey.org/#comparison'>calckey.org</a> stranky.",
         "ru": "Вы также можете просмотреть список fediverse сообществ <mark>по интересам</mark> на <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> или по <mark>функционалу</mark> который предоставляют различные сети на <a href='https://fediverse.info/explore/projects'>fediverse.info</a> или внизу страницы <a href='https://calckey.org/#comparison'>calckey.org</a>",
         "fr": "Vous pouvez également parcourir les communautés du fediverse en fonction de <mark>vos centres d'intérêt</mark> sur <a href='https://joinfediverse.wiki/Main_Page/fr'>joinfediverse.wiki</a> (cliquez l'option 'Instances' dans le menu à gauche), par les <mark>fonctionnalités</mark> qu'offrent ces nombreux réseaux sur <a href='https://fediverse.info/explore/projects'>fediverse.info</a> (EN) ou utilisez le comparateur disponible sur <a href='https://calckey.org/#comparison'>calckey.org</a> (EN)",
@@ -41,6 +46,7 @@
     },
     "more_info_label": {
         "en-us": "And once you're in, you can find some <mark>popular accounts</mark> and content to follow:",
+        "nl": "En als je eenmaal bent gestart, kun je een aantal <mark>populaire accounts</mark> en onderwerpen vinden om te volgen:",
         "sk": "A potom, čo sa zaregistruješ si môžetš nájsť niekoľko <mark>populárnych účtov</mark> a obsah, ktorý môžeš sledovať:",
         "ru": "И после того, как вы зарегистрировались, вы можете поискать <mark>популярные аккаунты</mark> и контент, на который можно подписаться:",
         "fr": "Une fois inscrit, vous pourrez trouver des <mark>comptes intéressants</mark> ou des sujets pertinents à suivre:",
@@ -49,6 +55,7 @@
     },
     "more_info_feditrends_description": {
         "en-us": "aggregating what's trending across the fediverse",
+        "nl": "Wat is trending in het hele fediverse",
         "sk": "agregácia popularneho obsahu",
         "ru": "агрегирование того, что в тренде во всём fediverse",
         "fr": "parcourir une sélection des tendances dans le fediverse",
@@ -57,6 +64,7 @@
     },
     "more_info_fedi_directory_description": {
         "en-us": "interesting accounts to follow",
+        "nl": "interessante accounts om te volgen",
         "sk": "zaujímavé účty, ktoré môžeš sledovať",
         "ru": "интересные аккаунты, на которые можно подписаться",
         "fr": "suivre des comptes intéressants",
@@ -65,6 +73,7 @@
     },
     "more_info_fedified_description": {
         "en-us": "notable accounts on Mastodon",
+        "nl": "opmerkelijke accounts op Mastodon",
         "sk": "významné účty na Mastodone",
         "ru": "примечательные аккаунты на Mastodon",
         "fr": "suivre des comptes pertinents sur Mastodon",
@@ -73,6 +82,7 @@
     },
     "more_info_fediverse_explorer_description": {
         "en-us": "browse most recent public posts across the fediverse by hashtag",
+        "nl": "bladeren door de meest recente openbare berichten in de fediverse op hashtag",
         "sk": "prehliadni si najnovšie verejné príspevky vo fediverse podľa hashtagu",
         "ru": "просматривайте самые свежие публичные посты во всём fediverse по хэштегам",
         "fr": "parcourir les billets publiés récemment dans le fediverse, par hashtag" ,
@@ -81,6 +91,7 @@
     },
     "cta_home": {
         "en-us": "Go back home",
+        "nl": "Ga naar de homepage",
         "sk": "Vráť sa domov",
         "ru": "Вернуться домой",
         "fr": "Retour à l'accueil",
@@ -89,6 +100,7 @@
     },
     "cta_or": {
         "en-us": "or",
+        "nl": "of",
         "sk": "alebo",
         "ru": "или",
         "fr": "ou",
@@ -97,6 +109,7 @@
     },
     "cta_learn": {
         "en-us": "dive deeper",
+        "nl": "ga verder",
         "sk": "sa dozveď viac",
         "ru": "погрузиться глубже",
         "fr": "en savoir plus",
