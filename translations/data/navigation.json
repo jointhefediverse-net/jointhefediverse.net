@@ -1,11 +1,11 @@
 {
-   "home": {
+    "home": {
         "en-us": "Home",
         "nl": "Home",
         "sk": "Domov",
         "ru": "Домой",
         "fr": "Accueil",
-        "ar": "الصفحة الرئيسية"
+        "ar": "الصفحة الرئيسية",
         "fi": "Kotisivu"
     },
     "join": {
@@ -14,7 +14,7 @@
         "sk": "Pripoj sa",
         "ru": "Присоединиться",
         "fr": "Rejoindre",
-        "ar": "انضم"
+        "ar": "انضم",
         "fi": "Liity"
     },
     "learn": {
@@ -23,7 +23,7 @@
         "sk": "Nauč sa",
         "ru": "Узнать больше",
         "fr": "Découvrir",
-        "ar": "تعلَّم"
+        "ar": "تعلَّم",
         "fi": "Opettele"
     }
 }

@@ -76,8 +76,8 @@
                 "url": "https://oldbytes.space/@tarek"
             }
         ]
-    }
-     {
+    },
+    {
         "label": "suomi",
         "label_en": "finnish",
         "label_lat": "finnish",
@@ -90,4 +90,5 @@
                 "url": "https://mastodontti.fi/@Jarska96"
             }
         ]
+    }
 ]

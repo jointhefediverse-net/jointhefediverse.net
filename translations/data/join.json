@@ -5,7 +5,7 @@
         "sk": "Pripoj sa do <mark>fediversu</mark>",
         "ru": "Присоединиться к <mark>fediverse</mark>",
         "fr": "Rejoindre le <mark>fediverse</mark>",
-        "ar": "انضم إلى <mark> الفديفيرس </mark>"
+        "ar": "انضم إلى <mark> الفديفيرس </mark>",
         "fi": "Liity <mark>fediversumiin</mark>"
     },
     "page_intro": {
@@ -14,7 +14,7 @@
         "sk": "Tu je zopár populárnych <mark>alternatív</mark> ku komerčným stránkam sociálnych médií. Môžeš sa zaregistrovať na ktorejkoľvek z týchto služieb a stále <mark>sledovať kohokoľvek</mark> na iných platformách, pretože všetky hovoria rovnakým jazykom, na rozdiel od tradičných sociálnych médií.",
         "ru": "Вот несколько популярных <mark>fediverse альтернатив</mark> коммерческим социальным сетям. Вы можете присоединиться к любой из них и всё ещё </mark>подписываться на кого угодно</mark> на других сервисах, потому что они все общаются на одном языке, в отличие от традиционных социальных сетей.",
         "fr": "Voici quelques-unes des <mark>alternatives dans le fediverse</mark> pour les réseaux sociaux commerciaux. Vous pouvez vous inscrire à n'importe laquelle et pourtant <mark>suivre n'importe qui</mark> sur les autres services, car ils savent communiquer entre eux, à la différence des réseaux sociaux traditionnels.",
-        "ar": "فيما يلي بعض <mark> البدائل الشعبية في الفديفيرس </ mark> لمواقع شبكات النترنت. يمكنك الانضمام إلى أي من هؤلاء ولا يزال بإمكانك <mark> متابعة أي شخص </ mark> على الخدمات الأخرى ، لأنهم جميعًا يتحدثون نفس اللغة ، على عكس وسائل التواصل الاجتماعي التقليدية."
+        "ar": "فيما يلي بعض <mark> البدائل الشعبية في الفديفيرس </ mark> لمواقع شبكات النترنت. يمكنك الانضمام إلى أي من هؤلاء ولا يزال بإمكانك <mark> متابعة أي شخص </ mark> على الخدمات الأخرى ، لأنهم جميعًا يتحدثون نفس اللغة ، على عكس وسائل التواصل الاجتماعي التقليدية.",
         "fi": "Tässä on joitain suosittuja <mark>fediversumin vaihtoehtoja</mark> tavanomaisille sosiaalisen median sivuille. Sinä voit liittyä mihin tahansa näistä ja silti <mark>seurata ketä tahansa</mark> muissa palveluissa, koska ne kaikki puhuvat samaa kieltä, toisin kuin perinteinen some."
     },
     "comparison_if": {
@@ -23,7 +23,7 @@
         "sk": "Ak sa ti páči...",
         "ru": "Если вам нравится...",
         "fr": "Si vous aimez...",
-        "ar": "إذا أردت ..."
+        "ar": "إذا أردت ...",
         "fi": "jos pidät..."
     },
     "comparison_then": {
@@ -32,7 +32,7 @@
         "sk": "Vyskúšaj...",
         "ru": "Вам стоит опробовать...",
         "fr": "Vous devriez essayer...",
-        "ar": "يجب أن تحاول ..."
+        "ar": "يجب أن تحاول ...",
         "fi": "sinun kannattaisi kokeilla..."
     },
     "outro": {
@@ -41,7 +41,7 @@
         "sk": "Môžeš si tiež pozrieť komunity vo fediverse na základe <mark>záujmov</mark> na <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> alebo podľa <mark>funkcií</mark > ktoré rôzne siete ponúkajú na <a href='https://fediverse.info/explore/projects'>fediverse.info</a> alebo na konci <a href='https://calckey.org/#comparison'>calckey.org</a> stranky.",
         "ru": "Вы также можете просмотреть список fediverse сообществ <mark>по интересам</mark> на <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> или по <mark>функционалу</mark> который предоставляют различные сети на <a href='https://fediverse.info/explore/projects'>fediverse.info</a> или внизу страницы <a href='https://calckey.org/#comparison'>calckey.org</a>",
         "fr": "Vous pouvez également parcourir les communautés du fediverse en fonction de <mark>vos centres d'intérêt</mark> sur <a href='https://joinfediverse.wiki/Main_Page/fr'>joinfediverse.wiki</a> (cliquez l'option 'Instances' dans le menu à gauche), par les <mark>fonctionnalités</mark> qu'offrent ces nombreux réseaux sur <a href='https://fediverse.info/explore/projects'>fediverse.info</a> (EN) ou utilisez le comparateur disponible sur <a href='https://calckey.org/#comparison'>calckey.org</a> (EN)",
-        "ar": "يمكنك أيضًا تصفح مجتمعات الفديفيرس استنادًا إلى <mark> الاهتمامات </ mark> على <a href='https://joinfediverse.wiki/Instances'> Joinfediverse.wiki </a> ، أو حسب <mark> الميزات </ mark > التي تقدمها الشبكات المختلفة على <a href='https://fediverse.info/explore/projects'> fediverse.info </a> أو أسفل <a href = 'https: //calckey.org/ #comparison '> calckey.org </a>"
+        "ar": "يمكنك أيضًا تصفح مجتمعات الفديفيرس استنادًا إلى <mark> الاهتمامات </ mark> على <a href='https://joinfediverse.wiki/Instances'> Joinfediverse.wiki </a> ، أو حسب <mark> الميزات </ mark > التي تقدمها الشبكات المختلفة على <a href='https://fediverse.info/explore/projects'> fediverse.info </a> أو أسفل <a href = 'https: //calckey.org/ #comparison '> calckey.org </a>",
         "fi": "Voit myös tutkia fediversumin yhteisöjä perustuen <mark>mielenkiinnon kohteisiin</mark> osoitteessa <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> tai <mark>ominaisuuksiin</mark> ,mitä erilaiset verkostot tarjoavat, osoitteessa <a href='https://fediverse.info/explore/projects'>fediverse.info</a> tai <a href='https://calckey.org/#comparison'>calckey.org</a> pohjalla."
     },
     "more_info_label": {
@@ -50,7 +50,7 @@
         "sk": "A potom, čo sa zaregistruješ si môžetš nájsť niekoľko <mark>populárnych účtov</mark> a obsah, ktorý môžeš sledovať:",
         "ru": "И после того, как вы зарегистрировались, вы можете поискать <mark>популярные аккаунты</mark> и контент, на который можно подписаться:",
         "fr": "Une fois inscrit, vous pourrez trouver des <mark>comptes intéressants</mark> ou des sujets pertinents à suivre:",
-        "ar": "وبمجرد دخولك ، يمكنك العثور على بعض <mark> الحسابات الشائعة </ mark> والمحتوى لمتابعة:"
+        "ar": "وبمجرد دخولك ، يمكنك العثور على بعض <mark> الحسابات الشائعة </ mark> والمحتوى لمتابعة:",
         "fi": "Ja sitten kun olet sisällä, niin voit löytää joitain <mark>suositumpia tilejä</mark> ja kontenttia mitä seurata:"
     },
     "more_info_feditrends_description": {
@@ -59,7 +59,7 @@
         "sk": "agregácia popularneho obsahu",
         "ru": "агрегирование того, что в тренде во всём fediverse",
         "fr": "parcourir une sélection des tendances dans le fediverse",
-        "ar": "تجميع ما هو شائع عبرالفديفيرس" 
+        "ar": "تجميع ما هو شائع عبرالفديفيرس",
         "fi": "Kerää yhteenvedon siitä, mikä trendaa fediversumissa"
     },
     "more_info_fedi_directory_description": {
@@ -68,7 +68,7 @@
         "sk": "zaujímavé účty, ktoré môžeš sledovať",
         "ru": "интересные аккаунты, на которые можно подписаться",
         "fr": "suivre des comptes intéressants",
-        "ar": "حسابات مثيرة للاهتمام للمتابعة"
+        "ar": "حسابات مثيرة للاهتمام للمتابعة",
         "fi": "mielenkiintoisia tilejä, mitä seurata"
     },
     "more_info_fedified_description": {
@@ -77,7 +77,7 @@
         "sk": "významné účty na Mastodone",
         "ru": "примечательные аккаунты на Mastodon",
         "fr": "suivre des comptes pertinents sur Mastodon",
-        "ar": "حسابات بارزة في ماستودون"
+        "ar": "حسابات بارزة في ماستودون",
         "fi": "Merkittäviä tilejä mastodonissa"
     },
     "more_info_fediverse_explorer_description": {
@@ -86,7 +86,7 @@
         "sk": "prehliadni si najnovšie verejné príspevky vo fediverse podľa hashtagu",
         "ru": "просматривайте самые свежие публичные посты во всём fediverse по хэштегам",
         "fr": "parcourir les billets publiés récemment dans le fediverse, par hashtag" ,
-        "ar": "تصفح أحدث المشاركات العامة عبرالفديفيرس من خلال الهاشتاغ"
+        "ar": "تصفح أحدث المشاركات العامة عبرالفديفيرس من خلال الهاشتاغ",
         "fi": "Selaa kaikkein tuoreimpia postauksia fediversumissa käyttäen hashtagia"
     },
     "cta_home": {
@@ -95,7 +95,7 @@
         "sk": "Vráť sa domov",
         "ru": "Вернуться домой",
         "fr": "Retour à l'accueil",
-        "ar": "العودة الى الصفحة الرئيسية"
+        "ar": "العودة الى الصفحة الرئيسية",
         "fi": "palaa etusivulle"
     },
     "cta_or": {
@@ -104,7 +104,7 @@
         "sk": "alebo",
         "ru": "или",
         "fr": "ou",
-        "ar": "أو"
+        "ar": "أو",
         "fi": "tai"
     },
     "cta_learn": {
@@ -113,7 +113,7 @@
         "sk": "sa dozveď viac",
         "ru": "погрузиться глубже",
         "fr": "en savoir plus",
-        "ar": "تعمق"
+        "ar": "تعمق",
         "fi": "sukella syvemmälle"
     }
 }
