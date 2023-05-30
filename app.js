@@ -65,17 +65,13 @@ app.use((req, res, next) => {
   let currentLocale = 'en-us';
   
   res.locals.languages = i18n.getLocales();
-
   res.translations = translationData;
 
   if (cookies && cookies.locale){
     currentLocale =  cookies.locale;
   }
 
-  try{
-    res.currentLocale = locales.filter(locale => locale.code === currentLocale)[0]; 
-  } catch (err) { locales.filter(locale => locale.code === 'en-us')[0]; }
-
+  res.currentLocale = translationData[currentLocale] 
   next();
 });
 
