@@ -134,7 +134,6 @@
         "de-de": "Und zu jeder wichtigen Social Media Seite gibt es im Fediverse tolle <mark>Alternativen</mark>. Es kommt also nicht darauf an, ob Du Bilder, Videos, Nachrichten oder witzige Sprüche austauschen möchtest. Du wirst ein passendes Zuhause finden.",
         "sk": "A väčšina má skvelú <mark>alternatívu</mark> vo fediverse, takže nezáleží na tom, či chceš zdieľať obrázky, videá, správy, alebo len krátke vtipy. Nájdeš tu <mark>svoj domov</mark>.",
         "nl": "En elke grote sociale mediasite heeft een geweldig <mark>alternatief</mark> in het fediverse, dus het maakt niet uit of je houdt van het delen van afbeeldingen, video's, nieuws of gewoon korte updates. Je vindt er <mark>je thuis</mark>.",
-        "sk": "A väčšina má skvelú <mark>alternatívu</mark> vo fediverse, takže nezáleží na tom, či chceš zdieľať obrázky, videá, správy, alebo len krátke vtipy. Nájdeš tu <mark>svoj domov</mark>.",
         "fr": "Et chaque réseau social majeur dispose d'une super <mark>alternative</mark> dans le fediverse, donc peu importe que vous préfériez partager des images, des vidéos, des informations ou de courts messages. Vous trouverez ce qui <mark>vous convient le mieux</mark>.",
         "ru": "И каждая популярная социальная сеть имеет отличную <mark>альтернативу</mark> в fediverse, так что неважно, нравится ли вам делиться картинками, видео, новостями, или просто колкими шутками.",
         "ar": "وكل موقع من مواقع التواصل الاجتماعي الرئيسية لديه <mark> بديل </ mark> رائع في الفديفيرس، لذلك لا يهم إذا كنت تشارك الصور أو مقاطع الفيديو أو الأخبار أو مجرد المزح القصيرة. سوف تجد <mark> منزلك </ mark>.",
@@ -142,7 +141,7 @@
     },
     "intro_btn_alright": {
         "en-us": "Alright!",
-	"de-de": "Zauberhaft!",
+        "de-de": "Zauberhaft!",
         "nl": "Geweldig!",
         "sk": "Super!",
         "fr": "Génial !",
