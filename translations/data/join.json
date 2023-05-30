@@ -1,119 +1,132 @@
 {
     "page_title": {
         "en-us": "Join the <mark>fediverse</mark>",
-        "nl": "Kom bij de <mark>fediverse</mark>",
-        "sk": "Pripoj sa do <mark>fediversu</mark>",
-        "ru": "Присоединиться к <mark>fediverse</mark>",
-        "fr": "Rejoindre le <mark>fediverse</mark>",
         "ar": "انضم إلى <mark> الفديفيرس </mark>",
-        "fi": "Liity <mark>fediversumiin</mark>"
+        "de-de": "Tritt dem <mark>Fediverse</mark> bei",
+        "fi": "Liity <mark>fediversumiin</mark>",
+        "fr": "Rejoindre le <mark>fediverse</mark>",
+        "nl": "Kom bij de <mark>fediverse</mark>",
+        "ru": "Присоединиться к <mark>fediverse</mark>",
+        "sk": "Pripoj sa do <mark>fediversu</mark>"
     },
     "page_intro": {
         "en-us": "Here are some of the popular <mark>fediverse alternatives</mark> to commercial social media sites. You can join any of these and still <mark>follow anyone</mark> on the other services, because they all speak the same language, unlike traditional social media.",
-        "nl": "Hier zijn een paar van de populaire <mark>fediverse alternatieven</mark> voor commerciële sociale netwerken. Je kunt je bij elk van deze aansluiten en toch <mark>volgen wie je wilt</mark> op de andere diensten, omdat ze allemaal dezelfde taal spreken, in tegenstelling tot traditionele sociale media.",
-        "sk": "Tu je zopár populárnych <mark>alternatív</mark> ku komerčným stránkam sociálnych médií. Môžeš sa zaregistrovať na ktorejkoľvek z týchto služieb a stále <mark>sledovať kohokoľvek</mark> na iných platformách, pretože všetky hovoria rovnakým jazykom, na rozdiel od tradičných sociálnych médií.",
-        "ru": "Вот несколько популярных <mark>fediverse альтернатив</mark> коммерческим социальным сетям. Вы можете присоединиться к любой из них и всё ещё </mark>подписываться на кого угодно</mark> на других сервисах, потому что они все общаются на одном языке, в отличие от традиционных социальных сетей.",
-        "fr": "Voici quelques-unes des <mark>alternatives dans le fediverse</mark> pour les réseaux sociaux commerciaux. Vous pouvez vous inscrire à n'importe laquelle et pourtant <mark>suivre n'importe qui</mark> sur les autres services, car ils savent communiquer entre eux, à la différence des réseaux sociaux traditionnels.",
         "ar": "فيما يلي بعض <mark> البدائل الشعبية في الفديفيرس </ mark> لمواقع شبكات النترنت. يمكنك الانضمام إلى أي من هؤلاء ولا يزال بإمكانك <mark> متابعة أي شخص </ mark> على الخدمات الأخرى ، لأنهم جميعًا يتحدثون نفس اللغة ، على عكس وسائل التواصل الاجتماعي التقليدية.",
-        "fi": "Tässä on joitain suosittuja <mark>fediversumin vaihtoehtoja</mark> tavanomaisille sosiaalisen median sivuille. Sinä voit liittyä mihin tahansa näistä ja silti <mark>seurata ketä tahansa</mark> muissa palveluissa, koska ne kaikki puhuvat samaa kieltä, toisin kuin perinteinen some."
+        "de-de": "Hier sind ein paar der bekannteren <mark>Fediverse Alternativen</mark> zu kommerziellen Sozialen Medien. Due kannst diesen beitreten, und trotzdem <mark>allen auf anderen Plattformen folgen</mark>, da diese, im gegensatz zu konventionellen Sozialen Medien, alle dieselbe Sprache untereinander sprechen.",
+        "fi": "Tässä on joitain suosittuja <mark>fediversumin vaihtoehtoja</mark> tavanomaisille sosiaalisen median sivuille. Sinä voit liittyä mihin tahansa näistä ja silti <mark>seurata ketä tahansa</mark> muissa palveluissa, koska ne kaikki puhuvat samaa kieltä, toisin kuin perinteinen some.",
+        "fr": "Voici quelques-unes des <mark>alternatives dans le fediverse</mark> pour les réseaux sociaux commerciaux. Vous pouvez vous inscrire à n'importe laquelle et pourtant <mark>suivre n'importe qui</mark> sur les autres services, car ils savent communiquer entre eux, à la différence des réseaux sociaux traditionnels.",
+        "nl": "Hier zijn een paar van de populaire <mark>fediverse alternatieven</mark> voor commerciële sociale netwerken. Je kunt je bij elk van deze aansluiten en toch <mark>volgen wie je wilt</mark> op de andere diensten, omdat ze allemaal dezelfde taal spreken, in tegenstelling tot traditionele sociale media.",
+        "ru": "Вот несколько популярных <mark>fediverse альтернатив</mark> коммерческим социальным сетям. Вы можете присоединиться к любой из них и всё ещё </mark>подписываться на кого угодно</mark> на других сервисах, потому что они все общаются на одном языке, в отличие от традиционных социальных сетей.",
+        "sk": "Tu je zopár populárnych <mark>alternatív</mark> ku komerčným stránkam sociálnych médií. Môžeš sa zaregistrovať na ktorejkoľvek z týchto služieb a stále <mark>sledovať kohokoľvek</mark> na iných platformách, pretože všetky hovoria rovnakým jazykom, na rozdiel od tradičných sociálnych médií."
     },
     "comparison_if": {
         "en-us": "If you like...",
-        "nl": "Als je wilt...",
-        "sk": "Ak sa ti páči...",
-        "ru": "Если вам нравится...",
-        "fr": "Si vous aimez...",
         "ar": "إذا أردت ...",
-        "fi": "jos pidät..."
+        "de-de": "Wenn du folgende magst...",
+        "fi": "jos pidät...",
+        "fr": "Si vous aimez...",
+        "nl": "Als je wilt...",
+        "ru": "Если вам нравится...",
+        "sk": "Ak sa ti páči..."
     },
     "comparison_then": {
         "en-us": "You should try...",
-        "nl": "Probeer dan...",
-        "sk": "Vyskúšaj...",
-        "ru": "Вам стоит опробовать...",
-        "fr": "Vous devriez essayer...",
         "ar": "يجب أن تحاول ...",
-        "fi": "sinun kannattaisi kokeilla..."
+        "de-de": "Solltest du diese probieren...",
+        "fi": "sinun kannattaisi kokeilla...",
+        "fr": "Vous devriez essayer...",
+        "nl": "Probeer dan...",
+        "ru": "Вам стоит опробовать...",
+        "sk": "Vyskúšaj..."
     },
     "outro": {
         "en-us": "You can also browse fediverse communities based on <mark>interests</mark> at <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, or by <mark>features</mark> that the various networks offer at <a href='https://fediverse.info/explore/projects'>fediverse.info</a> or at the bottom of <a href='https://calckey.org/#comparison'>calckey.org</a>",
-        "nl": "Je kunt ook fediverse comunities vinden op basis van <mark>interesses</mark> op <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, of op <mark>kenmerken</mark> die de verschillende netwerken aanbieden op <a href='https://fediverse.info/explore/projects'>fediverse.info</a> of onder aan de pagina op <a href='https://calckey.org/#comparison'>calckey.org</a>",
-        "sk": "Môžeš si tiež pozrieť komunity vo fediverse na základe <mark>záujmov</mark> na <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> alebo podľa <mark>funkcií</mark > ktoré rôzne siete ponúkajú na <a href='https://fediverse.info/explore/projects'>fediverse.info</a> alebo na konci <a href='https://calckey.org/#comparison'>calckey.org</a> stranky.",
-        "ru": "Вы также можете просмотреть список fediverse сообществ <mark>по интересам</mark> на <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> или по <mark>функционалу</mark> который предоставляют различные сети на <a href='https://fediverse.info/explore/projects'>fediverse.info</a> или внизу страницы <a href='https://calckey.org/#comparison'>calckey.org</a>",
-        "fr": "Vous pouvez également parcourir les communautés du fediverse en fonction de <mark>vos centres d'intérêt</mark> sur <a href='https://joinfediverse.wiki/Main_Page/fr'>joinfediverse.wiki</a> (cliquez l'option 'Instances' dans le menu à gauche), par les <mark>fonctionnalités</mark> qu'offrent ces nombreux réseaux sur <a href='https://fediverse.info/explore/projects'>fediverse.info</a> (EN) ou utilisez le comparateur disponible sur <a href='https://calckey.org/#comparison'>calckey.org</a> (EN)",
         "ar": "يمكنك أيضًا تصفح مجتمعات الفديفيرس استنادًا إلى <mark> الاهتمامات </ mark> على <a href='https://joinfediverse.wiki/Instances'> Joinfediverse.wiki </a> ، أو حسب <mark> الميزات </ mark > التي تقدمها الشبكات المختلفة على <a href='https://fediverse.info/explore/projects'> fediverse.info </a> أو أسفل <a href = 'https: //calckey.org/ #comparison '> calckey.org </a>",
-        "fi": "Voit myös tutkia fediversumin yhteisöjä perustuen <mark>mielenkiinnon kohteisiin</mark> osoitteessa <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> tai <mark>ominaisuuksiin</mark> ,mitä erilaiset verkostot tarjoavat, osoitteessa <a href='https://fediverse.info/explore/projects'>fediverse.info</a> tai <a href='https://calckey.org/#comparison'>calckey.org</a> pohjalla."
+        "de-de": "Du kannst auch Fediverse Communities nach deinen <mark>Interessen</mark> durchstöbern auf <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, oder nach <mark>technischen Beschaffenheiten</mark>, welche die diversen Netzwerke zur Verfügung stellen auf <a href='https://fediverse.info/explore/projects'>fediverse.info</a> oder am Seitenende von <a href='https://calckey.org/#comparison'>calckey.org</a>",
+        "fi": "Voit myös tutkia fediversumin yhteisöjä perustuen <mark>mielenkiinnon kohteisiin</mark> osoitteessa <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> tai <mark>ominaisuuksiin</mark> ,mitä erilaiset verkostot tarjoavat, osoitteessa <a href='https://fediverse.info/explore/projects'>fediverse.info</a> tai <a href='https://calckey.org/#comparison'>calckey.org</a> pohjalla.",
+        "fr": "Vous pouvez également parcourir les communautés du fediverse en fonction de <mark>vos centres d'intérêt</mark> sur <a href='https://joinfediverse.wiki/Main_Page/fr'>joinfediverse.wiki</a> (cliquez l'option 'Instances' dans le menu à gauche), par les <mark>fonctionnalités</mark> qu'offrent ces nombreux réseaux sur <a href='https://fediverse.info/explore/projects'>fediverse.info</a> (EN) ou utilisez le comparateur disponible sur <a href='https://calckey.org/#comparison'>calckey.org</a> (EN)",
+        "nl": "Je kunt ook fediverse comunities vinden op basis van <mark>interesses</mark> op <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, of op <mark>kenmerken</mark> die de verschillende netwerken aanbieden op <a href='https://fediverse.info/explore/projects'>fediverse.info</a> of onder aan de pagina op <a href='https://calckey.org/#comparison'>calckey.org</a>",
+        "ru": "Вы также можете просмотреть список fediverse сообществ <mark>по интересам</mark> на <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> или по <mark>функционалу</mark> который предоставляют различные сети на <a href='https://fediverse.info/explore/projects'>fediverse.info</a> или внизу страницы <a href='https://calckey.org/#comparison'>calckey.org</a>",
+        "sk": "Môžeš si tiež pozrieť komunity vo fediverse na základe <mark>záujmov</mark> na <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> alebo podľa <mark>funkcií</mark > ktoré rôzne siete ponúkajú na <a href='https://fediverse.info/explore/projects'>fediverse.info</a> alebo na konci <a href='https://calckey.org/#comparison'>calckey.org</a> stranky."
     },
     "more_info_label": {
         "en-us": "And once you're in, you can find some <mark>popular accounts</mark> and content to follow:",
-        "nl": "En als je eenmaal bent gestart, kun je een aantal <mark>populaire accounts</mark> en onderwerpen vinden om te volgen:",
-        "sk": "A potom, čo sa zaregistruješ si môžetš nájsť niekoľko <mark>populárnych účtov</mark> a obsah, ktorý môžeš sledovať:",
-        "ru": "И после того, как вы зарегистрировались, вы можете поискать <mark>популярные аккаунты</mark> и контент, на который можно подписаться:",
-        "fr": "Une fois inscrit, vous pourrez trouver des <mark>comptes intéressants</mark> ou des sujets pertinents à suivre:",
         "ar": "وبمجرد دخولك ، يمكنك العثور على بعض <mark> الحسابات الشائعة </ mark> والمحتوى لمتابعة:",
-        "fi": "Ja sitten kun olet sisällä, niin voit löytää joitain <mark>suositumpia tilejä</mark> ja kontenttia mitä seurata:"
+        "de-de": "Und sobald du drin bist, kannst du <mark>beliebte Benutzer</mark> und Themen folgen:",
+        "fi": "Ja sitten kun olet sisällä, niin voit löytää joitain <mark>suositumpia tilejä</mark> ja kontenttia mitä seurata:",
+        "fr": "Une fois inscrit, vous pourrez trouver des <mark>comptes intéressants</mark> ou des sujets pertinents à suivre:",
+        "nl": "En als je eenmaal bent gestart, kun je een aantal <mark>populaire accounts</mark> en onderwerpen vinden om te volgen:",
+        "ru": "И после того, как вы зарегистрировались, вы можете поискать <mark>популярные аккаунты</mark> и контент, на который можно подписаться:",
+        "sk": "A potom, čo sa zaregistruješ si môžetš nájsť niekoľko <mark>populárnych účtov</mark> a obsah, ktorý môžeš sledovať:"
     },
     "more_info_feditrends_description": {
         "en-us": "aggregating what's trending across the fediverse",
-        "nl": "Wat is trending in het hele fediverse",
-        "sk": "agregácia popularneho obsahu",
-        "ru": "агрегирование того, что в тренде во всём fediverse",
-        "fr": "parcourir une sélection des tendances dans le fediverse",
         "ar": "تجميع ما هو شائع عبرالفديفيرس",
-        "fi": "Kerää yhteenvedon siitä, mikä trendaa fediversumissa"
+        "de-de": "fässt zusammen, was momentan im Fediverse trendet",
+        "fi": "Kerää yhteenvedon siitä, mikä trendaa fediversumissa",
+        "fr": "parcourir une sélection des tendances dans le fediverse",
+        "nl": "Wat is trending in het hele fediverse",
+        "ru": "агрегирование того, что в тренде во всём fediverse",
+        "sk": "agregácia popularneho obsahu"
     },
     "more_info_fedi_directory_description": {
         "en-us": "interesting accounts to follow",
-        "nl": "interessante accounts om te volgen",
-        "sk": "zaujímavé účty, ktoré môžeš sledovať",
-        "ru": "интересные аккаунты, на которые можно подписаться",
-        "fr": "suivre des comptes intéressants",
         "ar": "حسابات مثيرة للاهتمام للمتابعة",
-        "fi": "mielenkiintoisia tilejä, mitä seurata"
+        "de-de": "interessante Benutzer",
+        "fi": "mielenkiintoisia tilejä, mitä seurata",
+        "fr": "suivre des comptes intéressants",
+        "nl": "interessante accounts om te volgen",
+        "ru": "интересные аккаунты, на которые можно подписаться",
+        "sk": "zaujímavé účty, ktoré môžeš sledovať"
     },
     "more_info_fedified_description": {
         "en-us": "notable accounts on Mastodon",
-        "nl": "opmerkelijke accounts op Mastodon",
-        "sk": "významné účty na Mastodone",
-        "ru": "примечательные аккаунты на Mastodon",
-        "fr": "suivre des comptes pertinents sur Mastodon",
         "ar": "حسابات بارزة في ماستودون",
-        "fi": "Merkittäviä tilejä mastodonissa"
+        "de-de": "wichtige Benutzer auf Mastodon",
+        "fi": "Merkittäviä tilejä mastodonissa",
+        "fr": "suivre des comptes pertinents sur Mastodon",
+        "nl": "opmerkelijke accounts op Mastodon",
+        "ru": "примечательные аккаунты на Mastodon",
+        "sk": "významné účty na Mastodone"
     },
     "more_info_fediverse_explorer_description": {
         "en-us": "browse most recent public posts across the fediverse by hashtag",
-        "nl": "bladeren door de meest recente openbare berichten in de fediverse op hashtag",
-        "sk": "prehliadni si najnovšie verejné príspevky vo fediverse podľa hashtagu",
-        "ru": "просматривайте самые свежие публичные посты во всём fediverse по хэштегам",
-        "fr": "parcourir les billets publiés récemment dans le fediverse, par hashtag" ,
         "ar": "تصفح أحدث المشاركات العامة عبرالفديفيرس من خلال الهاشتاغ",
-        "fi": "Selaa kaikkein tuoreimpia postauksia fediversumissa käyttäen hashtagia"
+        "de-de": "durchsuche das Fediverse nach Hashtags",
+        "fi": "Selaa kaikkein tuoreimpia postauksia fediversumissa käyttäen hashtagia",
+        "fr": "parcourir les billets publiés récemment dans le fediverse, par hashtag" ,
+        "nl": "bladeren door de meest recente openbare berichten in de fediverse op hashtag",
+        "ru": "просматривайте самые свежие публичные посты во всём fediverse по хэштегам",
+        "sk": "prehliadni si najnovšie verejné príspevky vo fediverse podľa hashtagu"
     },
     "cta_home": {
         "en-us": "Go back home",
-        "nl": "Ga naar de homepage",
-        "sk": "Vráť sa domov",
-        "ru": "Вернуться домой",
-        "fr": "Retour à l'accueil",
         "ar": "العودة الى الصفحة الرئيسية",
-        "fi": "palaa etusivulle"
+        "de-de": "Zurück zur Hauptseite",
+        "fi": "Palaa etusivulle",
+        "fr": "Retour à l'accueil",
+        "nl": "Ga naar de homepage",
+        "ru": "Вернуться домой",
+        "sk": "Vráť sa domov"
     },
     "cta_or": {
         "en-us": "or",
-        "nl": "of",
-        "sk": "alebo",
-        "ru": "или",
-        "fr": "ou",
         "ar": "أو",
-        "fi": "tai"
+        "de-de": "oder",
+        "fi": "tai",
+        "fr": "ou",
+        "nl": "of",
+        "ru": "или",
+        "sk": "alebo"
     },
     "cta_learn": {
         "en-us": "dive deeper",
-        "nl": "ga verder",
-        "sk": "sa dozveď viac",
-        "ru": "погрузиться глубже",
-        "fr": "en savoir plus",
         "ar": "تعمق",
-        "fi": "sukella syvemmälle"
+        "de-de": "erfahre mehr",
+        "fi": "sukella syvemmälle",
+        "fr": "en savoir plus",
+        "nl": "ga verder",
+        "ru": "погрузиться глубже",
+        "sk": "sa dozveď viac"
     }
 }

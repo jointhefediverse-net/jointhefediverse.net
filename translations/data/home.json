@@ -151,32 +151,32 @@
     },
     "outro_join": {
         "en-us": "Join the fediverse",
-        "de-de": "Komm ins Fediverse!",
-        "nl": "Doe mee met de fediverse",
-        "sk": "Pripoj sa do fediversu",
-        "fr": "Rejoindre le fediverse",
-        "ru": "Присоединиться к fediverse",
         "ar": "انضم إلى الفديفيرس",
-        "fi": "Liity fediversumiin"
+        "de-de": "Komm ins Fediverse!",
+        "fi": "Liity fediversumiin",
+        "fr": "Rejoindre le fediverse",
+        "nl": "Doe mee met de fediverse",
+        "ru": "Присоединиться к fediverse",
+        "sk": "Pripoj sa do fediversu"
     },
     "outro_or": {
         "en-us": "or",
-        "de-de": "oder",
-        "nl": "of",
-        "sk": "alebo",
-        "fr": "ou",
-        "ru": "или",
         "ar": "أو",
-        "fi": "tai"
+        "de-de": "oder",
+        "fi": "tai",
+        "fr": "ou",
+        "nl": "of",
+        "ru": "или",
+        "sk": "alebo"
     },
     "outro_learn_more": {
         "en-us": "see how it works.",
       	"de-de": "schau Dir an, wie es funktioniert.",
-        "nl": "zie hoe het werkt.",
-        "sk": "sa dozveď viac.",
-        "fr": "découvrir comment ça fonctionne.",
-        "ru": "посмотрите как это работает.",
         "ar": "انظر كيف يعمل",
-        "fi": "tutki lisää aiheesta."
+        "fi": "tutki lisää aiheesta.",
+        "fr": "découvrir comment ça fonctionne.",
+        "nl": "zie hoe het werkt.",
+        "ru": "посмотрите как это работает.",
+        "sk": "sa dozveď viac."
     }
 }

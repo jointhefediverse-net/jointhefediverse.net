@@ -26,7 +26,7 @@
         "label_en": "German (Germany)",
         "lang_dir": "DE",
         "code": "de-de",
-        "available": false,
+        "available": true,
         "translators": [
             {
                 "name": "DasMammut",
