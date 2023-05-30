@@ -28,9 +28,9 @@ The current translation workflow is described below. If you don't have a GitHub 
 
 Otherwise, you can [fork this repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo), make the necessary changes, and open a pull request.
 
-1. Note the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language you'd like to translate. This will be your "locale". 
+1. Note the [language code](https://www.ibm.com/docs/en/datacap/9.1.8?topic=support-supported-language-codes) for the language you'd like to translate. This will be your "locale".
 2. Navigate to the `translations` folder.
-3. Make a copy of the `en-us.json` file and `en-us` folder. Rename these to match your locale.
+3. Make a copy of the `en-us.json` file and `en-us` folder. Rename these to match your locale, in lower case.
 4. Update the `.json` file for your locale.
 
 ```js
