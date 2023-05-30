@@ -65,9 +65,7 @@
                         <select id="language-switcher" class="form-select mt-2">
                             <option style="display:none"></option>
                             {{#each translations}}
-                                {{#if this.available}}
-                                    <option value="{{this.code}}">{{this.label}}</option>
-                                {{/if}}
+                                <option value="{{this.code}}">{{this.label}}</option>
                             {{/each}}
                         </select>
                     </form>

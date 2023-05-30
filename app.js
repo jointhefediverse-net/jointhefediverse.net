@@ -15,13 +15,21 @@ import learnRoute from './routes/learn.js';
 import { I18n } from 'i18n';
 import fs from 'fs';
 import path from 'node:path';
+import { readdirSync, readFileSync } from 'fs';
 import { fileURLToPath } from 'node:url';
 
-
-import sortArrayOfObjects from './modules/sort-array-of-objects.js';
-
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const translationData = sortArrayOfObjects(JSON.parse(fs.readFileSync(`${__dirname}/translations/info.json`, 'utf8')), 'label_lat', false);
+let translationData = {}, locales = [];
+
+readdirSync(`${__dirname}/locales`)
+.filter(file => path.extname(file) === '.json')
+.forEach(locale => {
+  locale = locale.replace('.json', '');
+  locales.push(locale);
+
+  translationData[locale] = JSON.parse(fs.readFileSync(`${__dirname}/translations/${locale}.json`, 'utf8'));
+  translationData[locale].code = locale;
+});
 
 const i18n = new I18n({
   directory: path.join(__dirname, 'locales'),
@@ -57,6 +65,7 @@ app.use((req, res, next) => {
   let currentLocale = 'en-us';
   
   res.locals.languages = i18n.getLocales();
+
   res.translations = translationData;
 
   if (cookies && cookies.locale){
@@ -64,8 +73,8 @@ app.use((req, res, next) => {
   }
 
   try{
-    res.currentLocale = translationData.filter(locale => locale.code === currentLocale)[0]; 
-  } catch (err) { translationData.filter(locale => locale.code === 'en-us')[0]; }
+    res.currentLocale = locales.filter(locale => locale.code === currentLocale)[0]; 
+  } catch (err) { locales.filter(locale => locale.code === 'en-us')[0]; }
 
   next();
 });
