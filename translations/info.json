@@ -8,6 +8,34 @@
         "available": true
     },
     {
+        "label": "Nederlands",
+        "label_en": "Dutch",
+        "label_lat": "nederlands",
+        "lang_dir": "LTR",
+        "code": "nl",
+        "available": true,
+        "translators": [
+            {
+                "name": "Frank Meeuwsen",
+                "url": "https://frankmeeuwsen.com"
+            }
+        ]
+    },
+    {
+        "label": "Deutsch (Deutschland)",
+        "label_en": "German (Germany)",
+        "lang_dir": "LTR",
+        "code": "de-de",
+        "available": true,
+        "translators": [
+            {
+                "name": "DasMammut",
+                "url": "https://rollenspiel.social/@rkbw"
+            }
+        ]
+
+    },
+    {
         "label": "Slovenčina",
         "label_en": "Slovak",
         "label_lat": "slovak",
@@ -60,6 +88,20 @@
             {
                 "name": "Tarek Hoteit",
                 "url": "https://oldbytes.space/@tarek"
+            }
+        ]
+    },
+    {
+        "label": "Suomi",
+        "label_en": "finnish",
+        "label_lat": "suomi",
+        "lang_dir": "LTR",
+        "code": "fi",
+        "available": true,
+        "translators": [
+            {
+                "name": "Jari Nikkinen",
+                "url": "https://mastodontti.fi/@Jarska96"
             }
         ]
     },

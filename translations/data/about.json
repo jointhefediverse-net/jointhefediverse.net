@@ -1,26 +1,38 @@
 {
     "page_title": {
         "en-us": "About the project",
-        "sk": "O projekte",
-        "ru": "О проекте",
-        "fr": "A propos du projet",
         "ar": "حول المشروع",
+        "de-de": "Über das Projekt",
+        "es-es": "Acerca del proyecto",
+        "fi": "Projektista",
+        "fr": "A propos du projet",
+        "nl": "Over het project",
+        "ru": "О проекте",
+        "sk": "O projekte",
         "pl": "O projekcie"
     },
     "description": {
-        "en-us": "JoinTheFediverse.net was created by <a href=''>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>). Translations were provided by the following awesome people:",
-        "sk": "JoinTheFediverse.net vytvoril <a href=''>Štefan Boháček</a> (<a href='mailto:stefan@stefanbohacek.com'>kontakt</a>). Preklady poskytli títo úžasní ľudia:",
-        "ru": "JoinTheFediverse.net был создан <a href=''>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>связаться</a>). Переводы были предоставлены следующими крутыми людьми:",
-		"fr": "JoinTheFediverse.net est une création de <a href=''>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>). Les traductions ont été réalisées par les sympathiques personnes suivantes :",
+        "en-us": "JoinTheFediverse.net was created by <a href='https://stefanbohacek.online/@stefan'>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>). Translations were provided by the following awesome people:",
+    		"fr": "JoinTheFediverse.net est une création de <a href='https://stefanbohacek.online/@stefan'>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>). Les traductions ont été réalisées par les sympathiques personnes suivantes :",
         "ar": "تم إنشاء JoinTheFediverse.net بواسطة <a href=''> Stefan Bohacek </a> (<a href='mailto:stefan@stefanbohacek.com'> جهة اتصال </a>). تم توفير الترجمات من قبل الأشخاص الرائعين التاليين:",
+        "de-de": "JoinTheFediverse.net wurde von <a href='https://stefanbohacek.online/@stefan'>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>) ins Leben gerufen. Übersetzungen wurden von folgenden wunderbaren Menschen beigesteuert:",
+        "es-es": "JoinTheFediverse.net fue creado por <a href='https://stefanbohacek.online/@stefan'>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contacto</a>. Las traducciones fueron brindadas por las siguientes personas:",
+        "fi": "JoinTheFediverse.net:in loi <a href='https://stefanbohacek.online/@stefan'>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>). Käännökset tarjosi seuraavat mahtavat ihmiset:",
+        "nl": "JoinTheFediverse.net is ontwikkeld door <a href='https://stefanbohacek.online/@stefan'>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>). De vertalingen zijn mede mogelijk gemaakt door deze geweldige community:",
+        "ru": "JoinTheFediverse.net был создан <a href='https://stefanbohacek.online/@stefan'>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>связаться</a>). Переводы были предоставлены следующими крутыми людьми:",
+        "sk": "JoinTheFediverse.net vytvoril <a href=''>Štefan Boháček</a> (<a href='mailto:stefan@stefanbohacek.com'>kontakt</a>). Preklady poskytli títo úžasní ľudia:",
         "pl": "JoinTheFediverse.net stworzył <a href=''>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>kontakt</a>). Tłumaczenia zostały przygotowane przez te wspaniałe osoby:"
     },
     "cta_home": {
         "en-us": "Back to main page",
-        "sk": "Naspäť na hlavnú stránku",
-        "ru": "Вернуться на главную страницу",
-		"fr": "Retour à la page d'accueil",
+    		"fr": "Retour à la page d'accueil",
         "ar": "العودة إلى الصفحة الرئيسية",
+        "de-de": "Zurück zur Hauptseite",
+        "es-es": "Volver a la página principal",
+        "fi": "Takaisin etusivulle",
+        "nl": "Terug naar de homepage",
+        "ru": "Вернуться на главную страницу",
+        "sk": "Naspäť na hlavnú stránku",
         "pl": "Powrót na główną stronę"
     }
 }

@@ -1,18 +1,24 @@
 {
     "site_title": {
         "en-us": "Join the fediverse!",
-        "sk": "Pripoj sa do fediversu!",
-        "ru": "Присоединяйтесь к fediverse!",
-        "fr": "Rejoindre le fediverse !",
         "ar": "انضم إلى الفديفيرس!",
+        "de-de": "Trete dem Fediverse bei!",
+        "fi": "Liity fediversumiin!",
+        "fr": "Rejoindre le fediverse !",
+        "nl": "Doe mee met de fediverse!",
+        "ru": "Присоединяйтесь к fediverse!",
+        "sk": "Pripoj sa do fediversu!",
         "pl": "Dołącz do fediwersum!"
     },
     "site_description": {
         "en-us": "Learn about the fediverse and find your community.",
-        "sk": "Zisti co je  o federatívnom svete a nájdite svoju komunitu.",
-        "ru": "Узнайте больше про fediverse и найдите сообщество для себя.",
-        "fr": "Comprendre le fediverse et trouver sa communauté.",
         "ar": "تعرف على الفديفيرس واعثر على مجتمعك.",
+        "de-de": "Lerne über das Fediverse und finde deine Community.",
+        "fi": "Opi fediversumista ja löydä sinun yhteisösi.",
+        "fr": "Comprendre le fediverse et trouver sa communauté.",
+        "nl": "Ontdek de fediverse en vind je community.",
+        "ru": "Узнайте больше про fediverse и найдите сообщество для себя.",
+        "sk": "Zisti co je  o federatívnom svete a nájdite svoju komunitu.",
         "pl": "Poznaj fediwersum i znajdź swoją społeczność."
     }
 }
