@@ -4,20 +4,23 @@
         "sk": "Domov",
         "ru": "Домой",
         "fr": "Accueil",
-        "ar": "الصفحة الرئيسية"
+        "ar": "الصفحة الرئيسية",
+        "pl": "Strona główna"
     },
     "join": {
         "en-us": "Join",
         "sk": "Pripoj sa",
         "ru": "Присоединиться",
         "fr": "Rejoindre",
-        "ar": "انضم"
+        "ar": "انضم",
+        "pl": "Dołącz"
     },
     "learn": {
         "en-us": "Learn",
         "sk": "Nauč sa",
         "ru": "Узнать больше",
         "fr": "Découvrir",
-        "ar": "تعلَّم"
+        "ar": "تعلَّم",
+        "pl": "Poznaj"
     }
 }

@@ -4,13 +4,15 @@
         "sk": "Pripoj sa do fediversu!",
         "ru": "Присоединяйтесь к fediverse!",
         "fr": "Rejoindre le fediverse !",
-        "ar": "انضم إلى الفديفيرس!"
+        "ar": "انضم إلى الفديفيرس!",
+        "pl": "Dołącz do fediwersum!"
     },
     "site_description": {
         "en-us": "Learn about the fediverse and find your community.",
         "sk": "Zisti co je  o federatívnom svete a nájdite svoju komunitu.",
         "ru": "Узнайте больше про fediverse и найдите сообщество для себя.",
         "fr": "Comprendre le fediverse et trouver sa communauté.",
-        "ar": "تعرف على الفديفيرس واعثر على مجتمعك."
+        "ar": "تعرف على الفديفيرس واعثر على مجتمعك.",
+        "pl": "Poznaj fediwersum i znajdź swoją społeczność."
     }
 }

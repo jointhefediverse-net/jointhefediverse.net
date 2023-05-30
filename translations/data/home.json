@@ -4,125 +4,143 @@
         "sk": "Čo je <mark>fediverse</mark>?",
         "fr": "Qu'est-ce que le <mark>fediverse</mark> ?",
         "ru": "Что такое <mark>fediverse</mark>?",
-        "ar": "ما هو <mark>الفديفيرس</ mark>؟"
+        "ar": "ما هو <mark>الفديفيرس</ mark>؟",
+        "pl": "Czym jest <mark>fediwersum</mark>?"
     },
     "intro_btn_explore": {
         "en-us": "Explore",
         "sk": "Povedz mi",
         "fr": "Explorer",
         "ru": "Обзор",
-        "ar": "استكشف"
+        "ar": "استكشف",
+        "pl": "Pokaż mi"
     },
     "intro_analogy": {
         "en-us": "A good analogy for the fediverse is <mark>email</mark>.",
         "sk": "Fediverse sa najviac podobá <mark>emailu</mark>.",
         "fr": "Une analogie utile pour le fediverse est l'<mark>email</mark>.",
         "ru": "Хорошей аналогией для fediverse можно назвать <mark>электронную почту</mark>.",
-        "ar": "<mark> البريد الإلكتروني </ mark> هو تشبيه جيد بالنسبة إلى الفديفيرس."
+        "ar": "<mark> البريد الإلكتروني </ mark> هو تشبيه جيد بالنسبة إلى الفديفيرس.",
+        "pl": "Dobrą analogią fediwersum jest <mark>email</mark>"
     },
     "intro_email": {
         "en-us": "You're probably using Gmail. Or perhaps Outlook. Or Yahoo Mail.",
         "sk": "Pravdepodobne používaš Gmail. Alebo Zoznam.sk. Možno Centrum.sk.",
         "fr": "Vous utilisez probablement Gmail. Ou peut-être Outlook. Ou Yahoo Mail.",
         "ru": "Вы, скорее всего, используете Gmail. Или, может, Outlook. Или Yahoo Mail.",
-        "ar": "من المحتمل أنك تستخدم Gmail أو ربما Outlook أو بريد Yahoo."
+        "ar": "من المحتمل أنك تستخدم Gmail أو ربما Outlook أو بريد Yahoo.",
+        "pl": "Pewnie używasz Gmaila, poczty na wp.pl albo na Onecie."
     },
     "intro_anyone": {
         "en-us": "Regardless of your choice, you can send an email to <mark>anyone</mark> in the world without knowing or caring what service they use.",
         "sk": "Bez ohľadu na tvoju voľbu, môžeš poslať email <mark>hocikomu</mark> na celom svete.",
         "fr": "Indépendamment du choix que vous avez effectué, vous pouvez adresser un email à toute personne dans le monde, sans avoir à vous soucier du service qu'elle utilise.",
         "ru": "Независимо от вашего выбора, вы всегда можете отправить письмо <mark>любому</mark> человеку в мире, не зная и не думая о том, каким сервисом они пользуются.",
-        "ar": "بغض النظر عن اختيارك ، يمكنك إرسال بريد إلكتروني إلى <mark> أي شخص </ mark> في العالم دون معرفة أو الاهتمام بالخدمة التي يستخدمونها." 
+        "ar": "بغض النظر عن اختيارك ، يمكنك إرسال بريد إلكتروني إلى <mark> أي شخص </ mark> في العالم دون معرفة أو الاهتمام بالخدمة التي يستخدمونها." ,
+        "pl": "Niezależnie od swojego wyboru, możesz wysłać email <mark>każdej</mark> osobie na świecie, bez zastanawiania się jakiej usługi używa."
     },
     "intro_btn_neat": {
         "en-us": "Neat",
         "sk": "Pekné",
         "fr": "Sympa !",
         "ru": "Неплохо",
-        "ar": "أنيق"
+        "ar": "أنيق",
+        "pl": "Nieźle"
     },
     "intro_not_social_media": {
         "en-us": "This is not the case for social media",
         "sk": "Sociálne média takto nefunguju.",
         "fr": "Ce n'est pas le cas pour les réseaux sociaux.",
         "ru": "С социальными сетями всё по-другому.",
-        "ar": "هذا ليس هو الحال بالنسبة لوسائل الإعلام الاجتماعية"
+        "ar": "هذا ليس هو الحال بالنسبة لوسائل الإعلام الاجتماعية",
+        "pl": "Media społecznościowe tak nie działają"
     },
     "intro_social_media": {
         "en-us": "If you're on Instagram or TikTok, and your friends or celebrities you like are on Twitter, or Facebook, you will have to sign up for <mark>each separate service</mark> to stay in touch with them.",
         "sk": "Ak si na Instagrame alebo TikToku a tvoji priatelia alebo celebrity, o ktoré sa zaujímaš sú na Twitteri alebo Facebooku, musíš sa zaregistrovať <mark>na každej sociálnej sieti</mark>.",
         "fr": "Si vous êtes sur Instagram ou TikTok, et vos amis, ou les célébrités que vous suivez sont sur Twitter ou Facebook, vous devrez créer un compte sur <mark>chacun de ces services séparément</mark> pour rester en contact avec eux.",
         "ru": "Если вы пользуетесь Instagram или TikTok, а ваши друзья или знаменитости, которые вам нравятся, используют Twitter, или Facebook, вам придётся зарегистрироваться на <mark>каждом отдельном сервисе</mark>, чтобы с ними держать связь.",
-        "ar": "إذا كنت تستخدم Instagram أو TikTok ، وكان أصدقاؤك أو المشاهير الذين تحبهم على Twitter أو Facebook ، فسيتعين عليك الاشتراك في <mark> كل خدمة منفصلة </ mark> للبقاء على اتصال معهم." 
+        "ar": "إذا كنت تستخدم Instagram أو TikTok ، وكان أصدقاؤك أو المشاهير الذين تحبهم على Twitter أو Facebook ، فسيتعين عليك الاشتراك في <mark> كل خدمة منفصلة </ mark> للبقاء على اتصال معهم." ,
+        "pl": "Jeżeli jesteś na Instagramie lub TikToku, a twoi przyjaciele i celebryci, których lubisz, są na Twitterze lub Facebooku, musisz zarejestrować się na <mark>każdej z tych usług</mark>, żeby pozostać z nimi w kontakcie."
     },
     "intro_btn_good_point": {
         "en-us": "Good point",
         "sk": "To je pravda",
         "fr": "Effectivement...",
         "ru": "Действительно",
-        "ar": "وجهة نظر جيدة"
+        "ar": "وجهة نظر جيدة",
+        "pl": "To prawda"
     },
     "intro_what_if": {
         "en-us": "But what if you could sign up for just <mark>one site</mark>, and follow <mark>anyone</mark> in the world, just like sending them an email?",
         "sk": "Ale čo keby si sa mohol zaregistrovať len na <mark>jednej</mark> a sledovať <mark>kohokoľvek</mark> na svete, ako keby si mu poslal e-mail?",
         "fr": "Mais imaginons que vous puissiez créer un compte sur <mark>un site unique</mark> et suivre <mark>n'importe qui</mark> dans le monde, aussi simplement que de lui adresser un email...",
         "ru": "Но что если бы вы могли зарегистрироваться на всего <mark>одном сайте</mark>, и подписываться <mark>на всех</mark> людей в мире, также как и отправлять им электронные письма?",
-        "ar": "ولكن ماذا لو كان بإمكانك الاشتراك في <mark> موقع واحد </ mark> فقط ، ومتابعة <mark> أي شخص </ mark> في العالم ، تمامًا مثل إرسال بريد إلكتروني إليهم؟"
+        "ar": "ولكن ماذا لو كان بإمكانك الاشتراك في <mark> موقع واحد </ mark> فقط ، ومتابعة <mark> أي شخص </ mark> في العالم ، تمامًا مثل إرسال بريد إلكتروني إليهم؟",
+        "pl": "A co gdyby można było zarejestrować się tylko na <mark>jednej</mark> witrynie i obserwować <mark>kogokolwiek</mark> na świecie, tak jak wysyłając im email?"
     },
     "intro_fediverse_lets_you": {
         "en-us": "That's exactly what fediverse lets you do.",
         "sk": "A takto presne fediverse funguje.",
         "fr": "C'est exactement ce que le fediverse autorise.",
         "ru": "Именно это вам fediverse и позволяет сделать.",
-        "ar": "هذا هو بالضبط ما يتيح لك الفديفيرس القيام به."
+        "ar": "هذا هو بالضبط ما يتيح لك الفديفيرس القيام به.",
+        "pl": "Na to właśnie pozwala fediwersum"
     },
     "intro_btn_interesting": {
         "en-us": "Interesting",
         "sk": "Zaujímavé",
         "fr": "Intéressant !",
         "ru": "Интересно",
-        "ar": "ممتع"
+        "ar": "ممتع",
+        "pl": "Ciekawe"
     },
     "intro_fediverse_is": {
         "en-us": "Fediverse is a common name for social media sites that <mark>cooperate</mark> instead of competing.",
         "sk": "Fediverse je sieť sociálnych médií, ktoré <mark>spolupracujú</mark> namiesto toho, aby súťažili.",
         "fr": "Le fediverse est un nom générique pour les réseaux sociaux qui <mark>coopèrent</mark>, plutôt que de se faire concurrence.",
         "ru": "Fediverse это общее название для социальных сетей, которые <mark>сотрудничают</mark> вместо того, чтобы конкурировать.",
-        "ar": "الفديفيرس هو اسم شائع لمواقع التواصل الاجتماعي التي <mark> تتعاون </ mark> بدلاً من المنافسة."
+        "ar": "الفديفيرس هو اسم شائع لمواقع التواصل الاجتماعي التي <mark> تتعاون </ mark> بدلاً من المنافسة.",
+        "pl": "Fediwersum to sieć mediów społecznościowych, które <mark>współpracują</mark>, zamiast rywalizować."        
     },
     "intro_fediverse_social_media": {
         "en-us": "And every major social media site has a great <mark>alternative</mark> in the fediverse, so it doesn't matter if you're into sharing images, videos, news, or just short quips. You will find <mark>your home</mark>.",
         "sk": "A väčšina má skvelú <mark>alternatívu</mark> vo fediverse, takže nezáleží na tom, či chceš zdieľať obrázky, videá, správy, alebo len krátke vtipy. Nájdeš tu <mark>svoj domov</mark>.",
         "fr": "Et chaque réseau social majeur dispose d'une super <mark>alternative</mark> dans le fediverse, donc peu importe que vous préfériez partager des images, des vidéos, des informations ou de courts messages. Vous trouverez ce qui <mark>vous convient le mieux</mark>.",
         "ru": "И каждая популярная социальная сеть имеет отличную <mark>альтернативу</mark> в fediverse, так что неважно, нравится ли вам делиться картинками, видео, новостями, или просто колкими шутками.",
-        "ar": "وكل موقع من مواقع التواصل الاجتماعي الرئيسية لديه <mark> بديل </ mark> رائع في الفديفيرس، لذلك لا يهم إذا كنت تشارك الصور أو مقاطع الفيديو أو الأخبار أو مجرد المزح القصيرة. سوف تجد <mark> منزلك </ mark>."
+        "ar": "وكل موقع من مواقع التواصل الاجتماعي الرئيسية لديه <mark> بديل </ mark> رائع في الفديفيرس، لذلك لا يهم إذا كنت تشارك الصور أو مقاطع الفيديو أو الأخبار أو مجرد المزح القصيرة. سوف تجد <mark> منزلك </ mark>.",
+        "pl": "I każda z głównych platform społecznościowych ma świetny <mark>odpowiednik</mark> w fediwersum, więc nie ważne, czy chcesz dzielić się zdjęciami, filmami, wiadomościami czy po prostu krótkimi wiadomościami. Znajdziesz tu <mark>swój dom</mark>."
     },
     "intro_btn_alright": {
         "en-us": "Alright!",
         "sk": "Super!",
         "fr": "Génial !",
         "ru": "Отлично!",
-        "ar": "ممتاز!"
+        "ar": "ممتاز!",
+        "pl": "Świetnie!"
     },
     "outro_join": {
         "en-us": "Join the fediverse",
         "sk": "Pripoj sa do fediversu",
         "fr": "Rejoindre le fediverse",
         "ru": "Присоединиться к fediverse",
-        "ar": "انضم إلى الفديفيرس"
+        "ar": "انضم إلى الفديفيرس",
+        "pl": "Dołącz do fediwersum"
     },
     "outro_or": {
         "en-us": "or",
         "sk": "alebo",
         "fr": "ou",
         "ru": "или",
-        "ar": "أو"
+        "ar": "أو",
+        "pl": "lub"
     },
     "outro_learn_more": {
         "en-us": "see how it works",
         "sk": "sa dozveď viac",
         "fr": "découvrir comment ça fonctionne",
         "ru": "посмотрите как это работает",
-        "ar": "انظر كيف يعمل"
+        "ar": "انظر كيف يعمل",
+        "pl": "zobacz jak to działa"
     }
 }
