@@ -1,0 +1,14 @@
+{
+    "label": "Deutsch",
+    "label_lat": "deutsch",
+    "label_en": "German",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "DasMammut",
+            "url": "https://rollenspiel.social/@rkbw"
+        }
+    ]
+
+}

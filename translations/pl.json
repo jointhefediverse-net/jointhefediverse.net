@@ -1,0 +1,13 @@
+{
+    "label": "Polski",
+    "label_lat": "polski",
+    "label_en": "Polish",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Łukasz Horodecki",
+            "url": "https://pol.social/@LukaszHorodecki"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "label": "Français",
+    "label_lat": "francais",
+    "label_en": "French",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Didier J. MARY",
+            "url": "https://masto.ai/@cybeardjm"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "label": "Nederlands",
+    "label_lat": "nederlands",
+    "label_en": "Dutch",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Frank Meeuwsen",
+            "url": "https://frankmeeuwsen.com"
+        }
+    ]
+}

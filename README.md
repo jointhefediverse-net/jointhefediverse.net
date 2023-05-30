@@ -30,39 +30,41 @@ Otherwise, you can [fork this repo](https://docs.github.com/en/get-started/quick
 
 Step 4 does not require installing project dependencies, but you will need [node](https://nodejs.org/en/download) installed.
 
-1. Navigate to the `translations` folder.
-2. Add a new language section inside the `info.json` file. If you need help with this step, please reach out!
+1. Note the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language you'd like to translate. This will be your "locale". 
+2. Navigate to the `translations` folder.
+3. Make a copy of the `en-us.json` file and `en-us` folder. Rename these to match your locale.
+4. Update the `.json` file for your locale.
 
 ```js
-    {
-        "label": "Native name of the language",
-        "label_en": "English name of the language",
-        "label_lat": "latinized native name of the language, used for sorting",
-        "lang_dir": "the direction of the languaue, LTR (left-to-right) or RTL (right-to-left)",
-        "code": "the ISO 639-1 language code, see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes",
-        "available": true, // Should the language be visible in the language picker? true or false
-        "translators": [ // List of people who contributed to the translation
-            {
-                "name": "Person A",
-                "url": "https://example.social/@person_a"
-            },
-            {
-                "name": "Person B",
-                "url": "https://example.social/@person_b"
-            }
-        ]
-    },
+{
+    "label": "Native name of the language",
+    "label_lat": "latinized native name of the language, this is used for sorting",
+    "label_en": "English name of the language",
+    "lang_dir": "the direction of the languaue, LTR (left-to-right) or RTL (right-to-left)",
+    "available": true, // Should the language be visible in the language picker? true or false
+    "translators": [ // List of people who contributed to the translation
+        {
+            "name": "Person A",
+            "url": "https://example.social/@person_a"
+        },
+        {
+            "name": "Person B",
+            "url": "https://example.social/@person_b"
+        }
+    ]
+}
 ```
 
 Please note that `label_lat` should be a latinized (or transliterated) version of the English name of the language. This is needed for a more natural alphabetical sorting in the language picker menu. For example, for Spanish:
 
 ```json
 "label": "Español",
-"label_en": "Spanish",
 "label_lat": "espanol",
+"label_en": "Spanish",
 ```
 
-3. Update the JSON files inside the `data` folder for each page and selected site sections.
+5. Translate each file inside your locale folder.
+
 
 If you're working with a local copy of the site, you will need to run `npm run translate` to compile  translation files inside the `locales` directory. These files are not committed to the repo and will be generated during site deployment. 
 

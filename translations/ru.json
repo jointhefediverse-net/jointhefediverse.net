@@ -1,0 +1,13 @@
+{
+    "label": "Русский",
+    "label_lat": "russkiy",
+    "label_en": "Russian",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Sarah Quartz",
+            "url": "https://lamp.leemoon.network/@sarahquartz"
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "label": "Slovenčina",
+    "label_lat": "slovak",
+    "label_en": "Slovak",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Štefan Boháček",
+            "url": "https://stefanbohacek.online/@stefan"
+        }
+    ]
+}

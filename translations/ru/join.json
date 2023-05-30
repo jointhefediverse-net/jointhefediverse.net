@@ -1,0 +1,15 @@
+{
+  "page_title": "Присоединиться к <mark>fediverse</mark>",
+  "page_intro": "Вот несколько популярных <mark>fediverse альтернатив</mark> коммерческим социальным сетям. Вы можете присоединиться к любой из них и всё ещё </mark>подписываться на кого угодно</mark> на других сервисах, потому что они все общаются на одном языке, в отличие от традиционных социальных сетей.",
+  "comparison_if": "Если вам нравится...",
+  "comparison_then": "Вам стоит опробовать...",
+  "outro": "Вы также можете просмотреть список fediverse сообществ <mark>по интересам</mark> на <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> или по <mark>функционалу</mark> который предоставляют различные сети на <a href='https://fediverse.info/explore/projects'>fediverse.info</a> или внизу страницы <a href='https://calckey.org/#comparison'>calckey.org</a>",
+  "more_info_label": "И после того, как вы зарегистрировались, вы можете поискать <mark>популярные аккаунты</mark> и контент, на который можно подписаться:",
+  "more_info_feditrends_description": "агрегирование того, что в тренде во всём fediverse",
+  "more_info_fedi_directory_description": "интересные аккаунты, на которые можно подписаться",
+  "more_info_fedified_description": "примечательные аккаунты на Mastodon",
+  "more_info_fediverse_explorer_description": "просматривайте самые свежие публичные посты во всём fediverse по хэштегам",
+  "cta_home": "Вернуться домой",
+  "cta_or": "или",
+  "cta_learn": "погрузиться глубже"
+}

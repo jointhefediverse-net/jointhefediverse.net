@@ -1,0 +1,13 @@
+{
+    "label": "العربية",
+    "label_lat": "al arabiyyah",
+    "label_en": "Arabic",
+    "lang_dir": "RTL",
+    "available": true,
+    "translators": [
+        {
+            "name": "Tarek Hoteit",
+            "url": "https://oldbytes.space/@tarek"
+        }
+    ]
+}
