@@ -28,8 +28,6 @@ The current translation workflow is described below. If you don't have a GitHub 
 
 Otherwise, you can [fork this repo](https://docs.github.com/en/get-started/quickstart/fork-a-repo), make the necessary changes, and open a pull request.
 
-Step 4 does not require installing project dependencies, but you will need [node](https://nodejs.org/en/download) installed.
-
 1. Note the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the language you'd like to translate. This will be your "locale". 
 2. Navigate to the `translations` folder.
 3. Make a copy of the `en-us.json` file and `en-us` folder. Rename these to match your locale.
@@ -65,8 +63,7 @@ Please note that `label_lat` should be a latinized (or transliterated) version o
 
 5. Translate each file inside your locale folder.
 
-
-If you're working with a local copy of the site, you will need to run `npm run translate` to compile  translation files inside the `locales` directory. These files are not committed to the repo and will be generated during site deployment. 
+If you're working with a local copy of the site, you will need to [install node](https://nodejs.org/en/download) and run `npm run translate` to compile  translation files inside the `locales` directory. These files are not committed to the repo and will be generated during site deployment. 
 
 Keep in mind that the goal is to [communicate the same ideas to an audience in a different culture](https://localizejs.com/articles/what-is-the-difference-between-translation-and-localization/). For example, in this sentence:
 
