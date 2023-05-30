@@ -24,7 +24,7 @@
     {
         "label": "Deutsch (Deutschland)",
         "label_en": "German (Germany)",
-        "lang_dir": "DE",
+        "lang_dir": "LTR",
         "code": "de-de",
         "available": true,
         "translators": [
