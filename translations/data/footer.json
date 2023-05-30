@@ -1,6 +1,7 @@
 {
     "about": {
         "en-us": "About this project",
+        "de-de": "Über das Projekt",
         "nl": "Over dit project",
         "sk": "O projekte",
         "ru": "О проекте",
@@ -10,6 +11,7 @@
     },
     "view_source": {
         "en-us": "View source",
+        "de-de": "Quelltext anschauen",
         "nl": "Bekijk broncode",
         "sk": "Zobraziť zdrojový kód",
         "ru": "Посмотреть исходный код",

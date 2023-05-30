@@ -1,6 +1,7 @@
 {
     "page_title": {
         "en-us": "About the project",
+        "de-de": "Über das Projekt",
         "sk": "O projekte",
         "ru": "О проекте",
         "fr": "A propos du projet",
@@ -10,6 +11,7 @@
     },
     "description": {
         "en-us": "JoinTheFediverse.net was created by <a href=''>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>). Translations were provided by the following awesome people:",
+        "de-de": "JoinTheFediverse.net wurde von <a href=''>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>) ins Leben gerufen. Übersetzungen wurden von folgenden wunderbaren Menschen beigesteuert:",
         "nl": "JoinTheFediverse.net is ontwikkeld door <a href=''>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>contact</a>). De vertalingen zijn mede mogelijk gemaakt door deze geweldige community:",
         "sk": "JoinTheFediverse.net vytvoril <a href=''>Štefan Boháček</a> (<a href='mailto:stefan@stefanbohacek.com'>kontakt</a>). Preklady poskytli títo úžasní ľudia:",
         "ru": "JoinTheFediverse.net был создан <a href=''>Stefan Bohacek</a> (<a href='mailto:stefan@stefanbohacek.com'>связаться</a>). Переводы были предоставлены следующими крутыми людьми:",
@@ -19,6 +21,7 @@
     },
     "cta_home": {
         "en-us": "Back to main page",
+        "de-de": "Zurück zur Hauptseite",
         "nl": "Terug naar de homepage",
         "sk": "Naspäť na hlavnú stránku",
         "ru": "Вернуться на главную страницу",

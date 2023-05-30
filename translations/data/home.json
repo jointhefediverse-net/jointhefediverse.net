@@ -1,6 +1,7 @@
 {
     "intro_what_is_fediverse": {
         "en-us": "What is <mark>fediverse</mark>?",
+        "de-de": "Was ist das <mark>Fediverse</mark>?",
         "nl": "Wat is de <mark>fediverse</mark>?",
         "sk": "Čo je <mark>fediverse</mark>?",
         "fr": "Qu'est-ce que le <mark>fediverse</mark> ?",
@@ -10,6 +11,7 @@
     },
     "intro_btn_explore": {
         "en-us": "Explore",
+        "de-de": "Erkunden",
         "nl": "Ontdek",
         "sk": "Povedz mi",
         "fr": "Explorer",
@@ -19,6 +21,7 @@
     },
     "intro_analogy": {
         "en-us": "A good analogy for the fediverse is <mark>email</mark>.",
+        "de-de": "Als Analogie zum Fediverse bietet sich <mark>E-Mail</mark> an.",
         "nl": "Een goede analogie voor de fediverse is <mark>email</mark>.",
         "sk": "Fediverse sa najviac podobá <mark>emailu</mark>.",
         "fr": "Une analogie utile pour le fediverse est l'<mark>email</mark>.",
@@ -28,6 +31,7 @@
     },
     "intro_email": {
         "en-us": "You're probably using Gmail. Or perhaps Outlook. Or Yahoo Mail.",
+        "de-de": "Du benutzt vielleicht gmail. Oder GMX. Oder Web.de ...",
         "nl": "Je gebruikt waarschijnlijk Gmail. Of misschien Outlook. Of Hotmail.",
         "sk": "Pravdepodobne používaš Gmail. Alebo Zoznam.sk. Možno Centrum.sk.",
         "fr": "Vous utilisez probablement Gmail. Ou peut-être Outlook. Ou Yahoo Mail.",
@@ -37,6 +41,7 @@
     },
     "intro_anyone": {
         "en-us": "Regardless of your choice, you can send an email to <mark>anyone</mark> in the world without knowing or caring what service they use.",
+        "de-de": "Unabhängig davon, für welchen E-Mail-Anbieter Du Dich entschieden hast, kannst Du an <mark>jeden</mark> auf der Welt E-Mails schicken, ohne Dich darum kümmern zu müssen, welchen Anbieter der Empfänger nutzt.",
         "nl": "Ongeacht je keuze kun je een e-mail sturen naar <mark>iedereen</mark> in de wereld zonder te weten welke dienst zij gebruiken.",
         "sk": "Bez ohľadu na tvoju voľbu, môžeš poslať email <mark>hocikomu</mark> na celom svete.",
         "fr": "Indépendamment du choix que vous avez effectué, vous pouvez adresser un email à toute personne dans le monde, sans avoir à vous soucier du service qu'elle utilise.",
@@ -46,6 +51,7 @@
     },
     "intro_btn_neat": {
         "en-us": "Neat",
+        "de-de": "Prima",
         "nl": "Lekker!",
         "sk": "Pekné",
         "fr": "Sympa !",
@@ -55,6 +61,7 @@
     },
     "intro_not_social_media": {
         "en-us": "This is not the case for social media",
+        "de-de": "Das gilt aber nicht für Social Media.",
         "nl": "Helaas is dat niet zo bij social media",
         "sk": "Sociálne média takto nefunguju.",
         "fr": "Ce n'est pas le cas pour les réseaux sociaux.",
@@ -64,6 +71,7 @@
     },
     "intro_social_media": {
         "en-us": "If you're on Instagram or TikTok, and your friends or celebrities you like are on Twitter, or Facebook, you will have to sign up for <mark>each separate service</mark> to stay in touch with them.",
+        "de-de": "Wenn Du bei Instagram oder TikTok bist, aber Deine Freunde oder Prominente bei Twitter oder Facebook sind, musst Du Dich bei <mark>jedem</mark> dieser Anbieter registrieren, um mit ihnen in Kontakt zu treten.",
         "nl": "Als je op Instagram of TikTok zit, en je vrienden of beroemdheden die je leuk vindt zitten op Twitter, of Facebook, dan moet je je aanmelden voor <mark>elke aparte dienst</mark> om met hen in contact te blijven.",
         "sk": "Ak si na Instagrame alebo TikToku a tvoji priatelia alebo celebrity, o ktoré sa zaujímaš sú na Twitteri alebo Facebooku, musíš sa zaregistrovať <mark>na každej sociálnej sieti</mark>.",
         "fr": "Si vous êtes sur Instagram ou TikTok, et vos amis, ou les célébrités que vous suivez sont sur Twitter ou Facebook, vous devrez créer un compte sur <mark>chacun de ces services séparément</mark> pour rester en contact avec eux.",
@@ -73,6 +81,7 @@
     },
     "intro_btn_good_point": {
         "en-us": "Good point",
+        "de-de": "Gutes Argument!",
         "nl": "Goed punt...",
         "sk": "To je pravda",
         "fr": "Effectivement...",
@@ -82,6 +91,7 @@
     },
     "intro_what_if": {
         "en-us": "But what if you could sign up for just <mark>one site</mark>, and follow <mark>anyone</mark> in the world, just like sending them an email?",
+        "de-de": "Wie wäre es denn, wenn Du Dich nur ein einziges Mal registrieren müsstest, und dann mit <mark>jedem</mark> weltweit kommunizieren könntest - genauso einfach wie bei E-Mail ?",
         "nl": "Maar wat als je je zou kunnen aanmelden voor slechts <mark>één site</mark>, en <mark>iedereen</mark> in de wereld zou kunnen volgen, net zoals je ze een e-mail stuurt?",
         "sk": "Ale čo keby si sa mohol zaregistrovať len na <mark>jednej</mark> a sledovať <mark>kohokoľvek</mark> na svete, ako keby si mu poslal e-mail?",
         "fr": "Mais imaginons que vous puissiez créer un compte sur <mark>un site unique</mark> et suivre <mark>n'importe qui</mark> dans le monde, aussi simplement que de lui adresser un email...",
@@ -91,6 +101,7 @@
     },
     "intro_fediverse_lets_you": {
         "en-us": "That's exactly what fediverse lets you do.",
+        "de-de": "Genau das passiert im Fediverse.",
         "nl": "Dat is precies wat de fediverse je laat doen.",
         "sk": "A takto presne fediverse funguje.",
         "fr": "C'est exactement ce que le fediverse autorise.",
@@ -100,6 +111,7 @@
     },
     "intro_btn_interesting": {
         "en-us": "Interesting",
+        "de-de": "Interessant.",
         "nl": "Interessant...",
         "sk": "Zaujímavé",
         "fr": "Intéressant !",
@@ -109,6 +121,7 @@
     },
     "intro_fediverse_is": {
         "en-us": "Fediverse is a common name for social media sites that <mark>cooperate</mark> instead of competing.",
+        "de-de": "Fediverse ist ein Oberbegriff für soziale Medien, die zusammenarbeiten statt zu konkurrieren.",
         "nl": "Fediverse is een algemene benaming voor sociale mediasites die <mark>samenwerken</mark> in plaats van concurreren.",
         "sk": "Fediverse je sieť sociálnych médií, ktoré <mark>spolupracujú</mark> namiesto toho, aby súťažili.",
         "fr": "Le fediverse est un nom générique pour les réseaux sociaux qui <mark>coopèrent</mark>, plutôt que de se faire concurrence.",
@@ -118,6 +131,8 @@
     },
     "intro_fediverse_social_media": {
         "en-us": "And every major social media site has a great <mark>alternative</mark> in the fediverse, so it doesn't matter if you're into sharing images, videos, news, or just short quips. You will find <mark>your home</mark>.",
+        "de-de": "Und zu jeder wichtigen Social Media Seite gibt es im Fediverse tolle <mark>Alternativen</mark>. Es kommt also nicht darauf an, ob Du Bilder, Videos, Nachrichten oder witzige Sprüche austauschen möchtest. Du wirst ein passendes Zuhause finden.",
+        "sk": "A väčšina má skvelú <mark>alternatívu</mark> vo fediverse, takže nezáleží na tom, či chceš zdieľať obrázky, videá, správy, alebo len krátke vtipy. Nájdeš tu <mark>svoj domov</mark>.",
         "nl": "En elke grote sociale mediasite heeft een geweldig <mark>alternatief</mark> in het fediverse, dus het maakt niet uit of je houdt van het delen van afbeeldingen, video's, nieuws of gewoon korte updates. Je vindt er <mark>je thuis</mark>.",
         "sk": "A väčšina má skvelú <mark>alternatívu</mark> vo fediverse, takže nezáleží na tom, či chceš zdieľať obrázky, videá, správy, alebo len krátke vtipy. Nájdeš tu <mark>svoj domov</mark>.",
         "fr": "Et chaque réseau social majeur dispose d'une super <mark>alternative</mark> dans le fediverse, donc peu importe que vous préfériez partager des images, des vidéos, des informations ou de courts messages. Vous trouverez ce qui <mark>vous convient le mieux</mark>.",
@@ -127,6 +142,7 @@
     },
     "intro_btn_alright": {
         "en-us": "Alright!",
+	"de-de": "Zauberhaft!",
         "nl": "Geweldig!",
         "sk": "Super!",
         "fr": "Génial !",
@@ -136,6 +152,7 @@
     },
     "outro_join": {
         "en-us": "Join the fediverse",
+        "de-de": "Komm ins Fediverse!",
         "nl": "Doe mee met de fediverse",
         "sk": "Pripoj sa do fediversu",
         "fr": "Rejoindre le fediverse",
@@ -145,6 +162,7 @@
     },
     "outro_or": {
         "en-us": "or",
+        "de-de": "oder",
         "nl": "of",
         "sk": "alebo",
         "fr": "ou",
@@ -154,11 +172,12 @@
     },
     "outro_learn_more": {
         "en-us": "see how it works.",
+      	"de-de": "schau Dir an, wie es funktioniert.",
         "nl": "zie hoe het werkt.",
         "sk": "sa dozveď viac.",
         "fr": "découvrir comment ça fonctionne.",
         "ru": "посмотрите как это работает.",
         "ar": "انظر كيف يعمل",
-        "fi": "tutki lisää aiheesta"
+        "fi": "tutki lisää aiheesta."
     }
 }

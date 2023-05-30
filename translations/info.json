@@ -22,6 +22,20 @@
         ]
     },
     {
+        "label": "Deutsch (Deutschland)",
+        "label_en": "German (Germany)",
+        "lang_dir": "DE",
+        "code": "de-de",
+        "available": true,
+        "translators": [
+            {
+                "name": "DasMammut",
+                "url": "https://rollenspiel.social/@rkbw"
+            }
+        ]
+
+    },
+    {
         "label": "Slovenčina",
         "label_en": "Slovak",
         "label_lat": "slovak",
