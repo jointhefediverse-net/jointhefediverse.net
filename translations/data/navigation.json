@@ -7,7 +7,8 @@
         "fr": "Accueil",
         "nl": "Home",
         "ru": "Домой",
-        "sk": "Domov"
+        "sk": "Domov",
+        "pl": "Strona główna"
     },
     "join": {
         "en-us": "Join",
@@ -17,7 +18,8 @@
         "fr": "Rejoindre",
         "nl": "Doe mee",
         "ru": "Присоединиться",
-        "sk": "Pripoj sa"
+        "sk": "Pripoj sa",
+        "pl": "Dołącz"
     },
     "learn": {
         "en-us": "Learn",
@@ -27,6 +29,7 @@
         "fr": "Découvrir",
         "nl": "Ontdek",
         "ru": "Узнать больше",
-        "sk": "Nauč sa"
+        "sk": "Nauč sa",
+        "pl": "Poznaj"
     }
 }

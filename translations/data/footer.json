@@ -7,7 +7,8 @@
         "fr": "A propos du projet",
         "nl": "Over dit project",
         "ru": "О проекте",
-        "sk": "O projekte"
+        "sk": "O projekte",
+        "pl": "O projekcie"
     },
     "view_source": {
         "en-us": "View source",
@@ -17,6 +18,7 @@
         "fr": "Accéder au code source",
         "nl": "Bekijk broncode",
         "ru": "Посмотреть исходный код",
-        "sk": "Zobraziť zdrojový kód"
+        "sk": "Zobraziť zdrojový kód",
+        "pl": "Zobacz kod źródłowy"              
     }
 }

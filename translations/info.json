@@ -104,5 +104,19 @@
                 "url": "https://mastodontti.fi/@Jarska96"
             }
         ]
+    },
+    {
+        "label": "Polski",
+        "label_en": "Polish",
+        "label_lat": "polski",
+        "lang_dir": "LTR",
+        "code": "pl",
+        "available": true,
+        "translators": [
+            {
+                "name": "Łukasz Horodecki",
+                "url": "https://pol.social/@LukaszHorodecki"
+            }
+        ]
     }
 ]

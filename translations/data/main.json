@@ -7,7 +7,8 @@
         "fr": "Rejoindre le fediverse !",
         "nl": "Doe mee met de fediverse!",
         "ru": "Присоединяйтесь к fediverse!",
-        "sk": "Pripoj sa do fediversu!"
+        "sk": "Pripoj sa do fediversu!",
+        "pl": "Dołącz do fediwersum!"
     },
     "site_description": {
         "en-us": "Learn about the fediverse and find your community.",
@@ -17,6 +18,7 @@
         "fr": "Comprendre le fediverse et trouver sa communauté.",
         "nl": "Ontdek de fediverse en vind je community.",
         "ru": "Узнайте больше про fediverse и найдите сообщество для себя.",
-        "sk": "Zisti co je  o federatívnom svete a nájdite svoju komunitu."
+        "sk": "Zisti co je  o federatívnom svete a nájdite svoju komunitu.",
+        "pl": "Poznaj fediwersum i znajdź swoją społeczność."
     }
 }
