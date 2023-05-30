@@ -51,7 +51,7 @@
     },
     "intro_btn_neat": {
         "en-us": "Neat",
-        "de-de": "Prima - weiter",
+        "de-de": "Prima",
         "nl": "Lekker!",
         "sk": "Pekné",
         "fr": "Sympa !",
@@ -81,7 +81,7 @@
     },
     "intro_btn_good_point": {
         "en-us": "Good point",
-        "de-de": "Stimmt - gutes Argument !",
+        "de-de": "Gutes Argument!",
         "nl": "Goed punt...",
         "sk": "To je pravda",
         "fr": "Effectivement...",
@@ -142,7 +142,7 @@
     },
     "intro_btn_alright": {
         "en-us": "Alright!",
-	"de-de": "Zauberhaft !",
+	"de-de": "Zauberhaft!",
         "nl": "Geweldig!",
         "sk": "Super!",
         "fr": "Génial !",
@@ -152,7 +152,7 @@
     },
     "outro_join": {
         "en-us": "Join the fediverse",
-        "de-de": "Komm ins Fediverse !",
+        "de-de": "Komm ins Fediverse!",
         "nl": "Doe mee met de fediverse",
         "sk": "Pripoj sa do fediversu",
         "fr": "Rejoindre le fediverse",
@@ -172,12 +172,12 @@
     },
     "outro_learn_more": {
         "en-us": "see how it works.",
-      	"de-de": "Schau Dir an, wie es funktioniert.",
+      	"de-de": "schau Dir an, wie es funktioniert.",
         "nl": "zie hoe het werkt.",
         "sk": "sa dozveď viac.",
         "fr": "découvrir comment ça fonctionne.",
         "ru": "посмотрите как это работает.",
         "ar": "انظر كيف يعمل",
-        "fi": "tutki lisää aiheesta"
+        "fi": "tutki lisää aiheesta."
     }
 }
