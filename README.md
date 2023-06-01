@@ -4,7 +4,7 @@
 Learn about the fediverse and find your new community.
 ## Development
 
-This projects uses node 18.13.0.
+This project uses node 18.13.0.
 
 ```sh
 #install dependencies
