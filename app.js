@@ -46,6 +46,10 @@ Handlebars.registerHelper('__n', function () {
   return i18n.__n.apply(this, arguments);
 });
 
+Handlebars.registerHelper('ifEquals', (firstArg, secondArg, options) => {
+  return (firstArg === secondArg) ? options.fn(this) : options.inverse(this);
+});
+
 const app = express();
 
 app.use(compression());
