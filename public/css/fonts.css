@@ -1,10 +1,24 @@
-body{
+html[dir="LTR"] body {
     font-family: 'Work Sans', sans-serif;
-    font-size: 1.5rem !important;
 }
 
-h1, h2, h3, h4{
+html[dir="LTR"] h1,
+html[dir="LTR"] h2,
+html[dir="LTR"] h3,
+html[dir="LTR"] h4{
     font-family: 'Anton', sans-serif;
+}
+
+html[dir="RTL"] body,
+html[dir="RTL"] h1,
+html[dir="RTL"] h2,
+html[dir="RTL"] h3,
+html[dir="RTL"] h4{
+    font-family: 'Tajawal', sans-serif;
+}
+
+body{
+    font-size: 1.5rem !important;
 }
 
 h1{
