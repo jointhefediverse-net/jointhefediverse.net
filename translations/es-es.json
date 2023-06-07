@@ -3,11 +3,11 @@
     "label_lat": "espanol",
     "label_en": "Spanish",
     "lang_dir": "LTR",
-    "available": false,
+    "available": true,
     "translators": [
         {
-            "name": "",
-            "url": ""
+            "name": "Guillermo Movia",
+            "url": "https://mastodon.uy/@deimidis"
         }
     ]
 }
