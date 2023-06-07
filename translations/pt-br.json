@@ -1,0 +1,13 @@
+{
+    "label": "Português (BR)",
+    "label_lat": "portugues br",
+    "label_en": "Portugese (BR)",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "William Fonseca Lima",
+            "url": "https://www.linkedin.com/in/williamfonseca/"
+        }        
+    ]
+}
