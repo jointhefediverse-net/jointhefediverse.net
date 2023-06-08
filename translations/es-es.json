@@ -1,10 +1,14 @@
 {
-    "label": "Español",
-    "label_lat": "espanol",
-    "label_en": "Spanish",
+    "label": "Español (ES)",
+    "label_lat": "espanol es",
+    "label_en": "Spanish (ES)",
     "lang_dir": "LTR",
     "available": true,
     "translators": [
+        {
+            "name": "Alex Barredo",
+            "url": "https://mastodon.social/@Barredo"
+        },
         {
             "name": "Guillermo Movia",
             "url": "https://mastodon.uy/@deimidis"
