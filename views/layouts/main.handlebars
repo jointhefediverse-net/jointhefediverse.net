@@ -50,10 +50,10 @@
         <header class="position-absolute">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top">
                 <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-collapse collapse" id="navbarCollapse" style="">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
 
                         <li class="nav-item p-1">
@@ -66,19 +66,19 @@
                             <a class="nav-link" href="/learn">{{{__ "navigation_learn"}}}</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search">
+
+                </div>
+                    <form id="language-switcher-wrapper" class="d-flex">
                         <select id="language-switcher" class="form-select mt-2">
                             <option style="display:none"></option>
                             {{#each translations}}
                                 <option value="{{this.code}}">{{this.label}}</option>
                             {{/each}}
                         </select>
-                    </form>
-                </div>
+                    </form>                
+
                 </div>
             </nav>
-            <div class="position-fixed top-0 end-0 m-1">
-            </div>
         </header>
         <main class="flex-shrink-0">{{{body}}}</main>
         <footer class="footer mt-auto py-3 text-center">

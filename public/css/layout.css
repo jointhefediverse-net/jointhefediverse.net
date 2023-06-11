@@ -23,3 +23,26 @@ header{
 /* header .navbar-nav {
     flex-direction: row !important;
 } */
+
+#language-switcher-wrapper{
+    position: fixed;
+    top: 0;
+}
+
+html[dir="LTR"] #language-switcher-wrapper{
+    right: 1rem;
+}
+
+
+@media (max-width: 768px) {
+    html[dir="RTL"] #language-switcher-wrapper{
+        left: 1rem;
+    }
+}
+
+
+@media (min-width: 768px) {
+    html[dir="RTL"] #language-switcher-wrapper{
+        right: 1rem;
+    }
+}
