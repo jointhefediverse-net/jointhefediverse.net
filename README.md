@@ -20,7 +20,8 @@ Note that there is an [open ticket](https://github.com/jointhefediverse-net/join
 
 Before you begin translating the site:
 
-- Please check if someone is [already working on a translation into your language](https://github.com/jointhefediverse-net/jointhefediverse.net/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-desc+label%3Atranslation).
+- See [which languages are already available](https://github.com/jointhefediverse-net/jointhefediverse.net/tree/main/translations) (see also the [About page](https://jointhefediverse.net/about)).
+- Check if someone is [already working on a translation into your language](https://github.com/jointhefediverse-net/jointhefediverse.net/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-desc+label%3Atranslation).
 - If there is an open ticket with your language, feel free to leave a comment if you'd like to join in.
 - If not, [please reach out](https://stefanbohacek.com/contact/) first so that we can open a new translation ticket to keep track of any ongoing work.
 
