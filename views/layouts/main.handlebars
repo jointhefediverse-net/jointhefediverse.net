@@ -55,7 +55,6 @@
                 </button>
                 <div class="navbar-collapse collapse" id="navbarCollapse" style="">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
-
                         <li class="nav-item p-1">
                             <a class="nav-link" href="/">{{{__ "navigation_home"}}}</a>
                         </li>
@@ -65,8 +64,10 @@
                         <li class="nav-item p-1">
                             <a class="nav-link" href="/learn">{{{__ "navigation_learn"}}}</a>
                         </li>
+                        <li class="nav-item p-1">
+                            <a class="nav-link" href="/about">{{{__ "navigation_about"}}}</a>
+                        </li>
                     </ul>
-
                 </div>
                     <form id="language-switcher-wrapper" class="d-flex">
                         <select id="language-switcher" class="form-select mt-2">
@@ -83,9 +84,6 @@
         <main class="flex-shrink-0">{{{body}}}</main>
         <footer class="footer mt-auto py-3 text-center">
             <div class="container">
-                <small>
-                    <a href="/about">{{{__ "footer_about"}}}</a>
-                </small>
             </div>
         </footer>
         <script type="module" src="/libs/bootstrap-5.3.0-alpha3/js/bootstrap.min.js" async></script>
