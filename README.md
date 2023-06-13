@@ -31,8 +31,10 @@ Otherwise, you can [fork this repo](https://docs.github.com/en/get-started/quick
 
 1. Note the [language code](https://www.ibm.com/docs/en/datacap/9.1.8?topic=support-supported-language-codes) for the language you'd like to translate. This will be your "locale".
 2. Navigate to the `translations` folder.
-3. Make a copy of the `en-us.json` file and `en-us` folder. Rename these to match your locale, in lower case.
-4. Update the `.json` file for your locale.
+3. Make a copy of the `en-us` folder and rename it to match your locale, in lower case.
+4. Update the `.json` files inside the new folder.
+
+The `[locale].json` file should have the following format:
 
 ```js
 {
