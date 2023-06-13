@@ -27,7 +27,7 @@ readdirSync(`${__dirname}/locales`)
   locale = locale.replace('.json', '');
   locales.push(locale);
 
-  const translationDataObj = JSON.parse(fs.readFileSync(`${__dirname}/translations/${locale}.json`, 'utf8'));
+  const translationDataObj = JSON.parse(fs.readFileSync(`${__dirname}/translations/${locale}/${locale}.json`, 'utf8'));
   translationDataObj.code = locale;
   translationData.push(translationDataObj)
 });
