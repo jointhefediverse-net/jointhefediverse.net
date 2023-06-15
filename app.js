@@ -78,7 +78,7 @@ app.use((req, res, next) => {
 
   try{
     res.currentLocale =  translationData.filter(locale => locale.code === currentLocale)[0];
-  } catch(err){ /**  */}
+  } catch(err){ /* noop */}
 
   next();
 });
