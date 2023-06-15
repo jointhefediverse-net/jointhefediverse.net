@@ -1,0 +1,13 @@
+{
+    "label": "Euskara",
+    "label_lat": "euskara",
+    "label_en": "Basque",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Aitor Salaberria",
+            "url": "https://mastodon.eus/@a_mento"
+        }
+    ]
+}
