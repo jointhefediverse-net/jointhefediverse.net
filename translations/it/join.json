@@ -1,0 +1,15 @@
+{
+  "page_title": "Entra nel <mark>fediverso</mark>",
+  "page_intro": "Ecco alcune delle <mark>alternative</mark> più popolari che il fediverso offre ai siti commerciali di social media. Puoi iscriverti a una qualsiasi di esse e comunque <mark>seguire chiunque</mark> sugli altri servizi, perché tutti parlano la stessa lingua, a differenza dei social media tradizionali.",
+  "comparison_if": "Se ti piace...",
+  "comparison_then": "Dovresti provare...",
+  "outro": "Puoi anche vedere le community che fanno parte del fediverso in base ai loro <mark>interessi</mark> su <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, o in base alle <mark>funzioni</mark> che i vari network offrono su <a href='https://fediverse.info/explore/projects'>fediverse.info</a> o nella parte finale di <a href='https://calckey.org/#comparison'>calckey.org</a>",
+  "more_info_label": "E una volta che sei entrato nel fediverso, puoi trovare diversi <mark>account popolari</mark> e contenuti da seguire usando:",
+  "more_info_feditrends_description": "un aggregatore di quello che fa tendenza nel fediverso",
+  "more_info_fedi_directory_description": "account interessanti da seguire",
+  "more_info_fedified_description": "account degni di nota su Mastodon",
+  "more_info_fediverse_explorer_description": "scorri per hashtag i post pubblici più recenti nel fediverso",
+  "cta_home": "Torna alla home",
+  "cta_or": "o",
+  "cta_learn": "approfondisci"
+}
