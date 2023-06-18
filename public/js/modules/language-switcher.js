@@ -7,15 +7,12 @@ const switchLanguage = () => {
     if (!currentLanguage){
         if (navigator.languages){
             const languages = navigator.languages.map(language => language.toLowerCase());
-
-            languages.every(language => {
-                if (supportedLanguages.includes(language)) {
-                    currentLanguage = language;
-                    return currentLanguage;
+            for (let i = 0, j = languages.length; i < j; i++){
+                if (supportedLanguages.includes(languages[i])) {
+                    currentLanguage = languages[i];
+                    break;
                 }
-                currentLanguage = 'en-us';
-                return currentLanguage;
-            });
+            }
         } else {
             currentLanguage = 'en-us';
         }

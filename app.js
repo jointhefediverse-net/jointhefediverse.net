@@ -5,8 +5,6 @@ import cookieParser from 'cookie-parser';
 import Handlebars from 'handlebars';
 import { engine } from 'express-handlebars';
 
-import util from 'util';
-
 import indexRoute from './routes/index.js';
 import aboutRoute from './routes/about.js';
 import joinRoute from './routes/join.js';
@@ -18,8 +16,10 @@ import path from 'node:path';
 import { readdirSync, readFileSync } from 'fs';
 import { fileURLToPath } from 'node:url';
 
+import sortArrayOfObjects from './modules/sort-array-of-objects.js';
+
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-let translationData = {}, locales = [];
+let translationData = [], locales = [];
 
 readdirSync(`${__dirname}/locales`)
 .filter(file => path.extname(file) === '.json')
@@ -27,8 +27,9 @@ readdirSync(`${__dirname}/locales`)
   locale = locale.replace('.json', '');
   locales.push(locale);
 
-  translationData[locale] = JSON.parse(fs.readFileSync(`${__dirname}/translations/${locale}.json`, 'utf8'));
-  translationData[locale].code = locale;
+  const translationDataObj = JSON.parse(fs.readFileSync(`${__dirname}/translations/${locale}/${locale}.json`, 'utf8'));
+  translationDataObj.code = locale;
+  translationData.push(translationDataObj)
 });
 
 const i18n = new I18n({
@@ -44,6 +45,10 @@ Handlebars.registerHelper('__', function () {
 
 Handlebars.registerHelper('__n', function () {
   return i18n.__n.apply(this, arguments);
+});
+
+Handlebars.registerHelper('ifEquals', (firstArg, secondArg, options) => {
+  return (firstArg === secondArg) ? options.fn(this) : options.inverse(this);
 });
 
 const app = express();
@@ -63,15 +68,21 @@ app.use(i18n.init)
 app.use((req, res, next) => {
   const cookies = cookieParser.JSONCookies(req.cookies);
   let currentLocale = 'en-us';
-  
-  res.locals.languages = i18n.getLocales();
-  res.translations = translationData;
 
+  res.locals.languages = i18n.getLocales();
+  res.translations = sortArrayOfObjects(translationData, 'label_lat');
+  
   if (cookies && cookies.locale){
     currentLocale =  cookies.locale;
+  } else if (req.getLocale()){
+    currentLocale = req.getLocale();
   }
 
-  res.currentLocale = translationData[currentLocale] 
+  try{
+    res.currentLocale =  translationData.filter(locale => locale.code === currentLocale)[0];
+  } catch(err){ /* noop */}
+  
+  res.cookie('locale', currentLocale);
   next();
 });
 

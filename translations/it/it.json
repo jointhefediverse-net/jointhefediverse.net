@@ -1,0 +1,17 @@
+{
+    "label": "Italiano",
+    "label_lat": "italiano",
+    "label_en": "Italian",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Francesco Pignatelli",
+            "url": "https://www.linkedin.com/in/francesco-pignatelli-1a3a5/"
+        },
+        {
+            "name": "Gabriele Svelto",
+            "url": "https://setphaserstostun.org/"
+        }
+    ]
+}

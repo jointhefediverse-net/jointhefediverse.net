@@ -3,16 +3,25 @@
         <div class="col-sm-12 ">
             <div class="mx-auto text-center">
                 <h1 class="display-4 fw-normal my-5">{{{__ "join_page_title"}}}</h1>
-                <p class="text-start">{{{__ "join_page_intro"}}}</p>
+                <p class="
+                    {{#ifEquals current_locale.lang_dir "LTR"}}text-start{{/ifEquals}}
+                    {{#ifEquals current_locale.lang_dir "RTL"}}text-end{{/ifEquals}}
+                ">{{{__ "join_page_intro"}}}</p>
             </div>
         </div>
         <div class="col-sm-12">
             <table class="mx-auto mt-5 mb-5 w-100 social-media-alternatives">
-                <tr class="text-start">
+                <tr class="
+                    {{#ifEquals current_locale.lang_dir "LTR"}}text-start{{/ifEquals}}
+                    {{#ifEquals current_locale.lang_dir "RTL"}}text-end{{/ifEquals}}
+                ">
                   <th class="w-50 p-2">{{{__ "join_comparison_if"}}}</th>
                   <th class="w-50 p-2">{{{__ "join_comparison_then"}}}</th>
                 </tr>
-                <tr class="text-start">
+                <tr class="
+                    {{#ifEquals current_locale.lang_dir "LTR"}}text-start{{/ifEquals}}
+                    {{#ifEquals current_locale.lang_dir "RTL"}}text-end{{/ifEquals}}
+                ">
                   <td class="p-3">
                     <span class="logo-small-wrapper d-block d-md-inline-block d-lg-inline-block">
                         <img width="50" height="50" alt="Instagram logo" class="logo-small" src="/images/logos/social/instagram.svg">
@@ -28,7 +37,10 @@
                     </span>
                   </td>
                 </tr>
-                <tr class="text-start">
+                <tr class="
+                    {{#ifEquals current_locale.lang_dir "LTR"}}text-start{{/ifEquals}}
+                    {{#ifEquals current_locale.lang_dir "RTL"}}text-end{{/ifEquals}}
+                ">
                   <td class="p-3">
                     <span class="logo-small-wrapper d-block d-md-inline-block d-lg-inline-block">
                         <img width="50" height="50" alt="Facebook logo" class="logo-small" src="/images/logos/social/facebook.svg">
@@ -50,7 +62,10 @@
                     </span>
                   </td>
                 </tr>
-                <tr class="text-start">
+                <tr class="
+                    {{#ifEquals current_locale.lang_dir "LTR"}}text-start{{/ifEquals}}
+                    {{#ifEquals current_locale.lang_dir "RTL"}}text-end{{/ifEquals}}
+                ">
                     <td class="p-3">
                       <span class="logo-small-wrapper d-block d-md-inline-block d-lg-inline-block">
                           <img width="50" height="50" alt="YouTube logo" class="logo-small" src="/images/logos/social/youtube.svg">
@@ -84,7 +99,10 @@
                       </span>
                     </td>
                 </tr>
-                <tr class="text-start">
+                <tr class="
+                    {{#ifEquals current_locale.lang_dir "LTR"}}text-start{{/ifEquals}}
+                    {{#ifEquals current_locale.lang_dir "RTL"}}text-end{{/ifEquals}}
+                ">
                     <td class="p-3">
                       <span class="logo-small-wrapper d-block d-md-inline-block d-lg-inline-block">
                           <img width="50" height="50" alt="Twitter logo" class="logo-small" src="/images/logos/social/twitter.svg">
@@ -124,7 +142,10 @@
                       </span>
                   </td>
                 </tr>
-                <tr class="text-start">
+                <tr class="
+                    {{#ifEquals current_locale.lang_dir "LTR"}}text-start{{/ifEquals}}
+                    {{#ifEquals current_locale.lang_dir "RTL"}}text-end{{/ifEquals}}
+                ">
                     <td class="p-3">
                       <span class="logo-small-wrapper d-block d-md-inline-block d-lg-inline-block">
                           <img width="50" height="50" alt="Reddit logo" class="logo-small" src="/images/logos/social/reddit.svg">
@@ -136,21 +157,24 @@
                       </span>
                     </td>
                     <td class="p-3">
-                      <span class="logo-small-wrapper d-block d-md-inline-block d-lg-inline-block">
+                      {{!-- <span class="logo-small-wrapper d-block d-md-inline-block d-lg-inline-block">
                           <a href="https://joinfediverse.wiki/What_is_Lemmy%3F">
                               <img width="50" height="50" alt="Lemmy logo" class="logo-small" src="/images/logos/fediverse/lemmy.svg">
                               Lemmy
                           </a>
-                      </span>
+                      </span> --}}
                       <span class="logo-small-wrapper d-block d-md-inline-block d-lg-inline-block">
                           <a href="https://joinfediverse.wiki/What_is_Kbin">
-                              <img width="50" height="50" alt="Kbin logo" class="logo-small" src="/images/logos/fediverse/kbin.png">
+                              <img width="50" height="50" alt="Kbin logo" class="logo-small" src="/images/logos/fediverse/kbin.svg">
                               Kbin
                           </a>
                       </span>
                   </td>
                 </tr>
-                  <tr class="text-start">
+                  <tr class="
+                    {{#ifEquals current_locale.lang_dir "LTR"}}text-start{{/ifEquals}}
+                    {{#ifEquals current_locale.lang_dir "RTL"}}text-end{{/ifEquals}}
+                  ">
                   <td class="p-3">
                     <span class="logo-small-wrapper d-block d-md-inline-block d-lg-inline-block">
                         <img width="50" height="50" alt="Medium logo" class="logo-small" src="/images/logos/social/medium.svg">
@@ -166,7 +190,10 @@
                     </span>
                   </td>
                 </tr>
-                  <tr class="text-start">
+                  <tr class="
+                    {{#ifEquals current_locale.lang_dir "LTR"}}text-start{{/ifEquals}}
+                    {{#ifEquals current_locale.lang_dir "RTL"}}text-end{{/ifEquals}}
+                  ">
                   <td class="p-3">
                     <span class="logo-small-wrapper d-block d-md-inline-block d-lg-inline-block">
                         <img width="50" alt="GoodReads logo" class="logo-small" src="/images/logos/social/goodreads.svg">

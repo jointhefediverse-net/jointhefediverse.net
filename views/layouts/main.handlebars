@@ -5,9 +5,14 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{{__ "main_site_title"}}}</title>
+        {{#ifEquals current_locale.lang_dir "LTR"}}
         <link href="/fonts/Anton-Regular.ttf" rel="stylesheet">
         <link href="/fonts/WorkSans-VariableFont_wght.ttf" rel="stylesheet">
         <link href="/fonts/WorkSans-Italic-VariableFont_wght.ttf" rel="stylesheet">
+        {{/ifEquals}}
+        {{#ifEquals current_locale.lang_dir "RTL"}}
+        <link href="/fonts/Tajawal/Tajawal-Regular.ttf" rel="stylesheet">
+        {{/ifEquals}}
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/libs/bootstrap-5.3.0-alpha3/css/bootstrap.min.css">
         <meta property="og:title" content="{{{__ "main_site_title"}}}" />
@@ -17,9 +22,9 @@
         <meta name="twitter:description" content="{{{__ "main_site_description"}}}" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://jointhefediverse.net/" />
-        <meta property="og:image" content="https://jointhefediverse.net/assets/images/join-the-fediverse.png" /> 
+        <meta property="og:image" content="https://jointhefediverse.net/images/images/join-the-fediverse.png" /> 
         <meta property="og:image:alt" content="The text 'Join the fediverse' in shades of purple on a dark background" /> 
-        <meta property="twitter:image:src" content="https://jointhefediverse.net/assets/images/join-the-fediverse.png" /> 
+        <meta property="twitter:image:src" content="https://jointhefediverse.net/images/images/join-the-fediverse.png" /> 
         <meta property="twitter:image:alt" content="The text 'Join the fediverse' in shades of purple on a dark background" /> 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:domain" content="https://jointhefediverse.net/" />
@@ -45,12 +50,11 @@
         <header class="position-absolute">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top">
                 <div class="container-fluid">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-collapse collapse" id="navbarCollapse" style="">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
-
                         <li class="nav-item p-1">
                             <a class="nav-link" href="/">{{{__ "navigation_home"}}}</a>
                         </li>
@@ -60,27 +64,26 @@
                         <li class="nav-item p-1">
                             <a class="nav-link" href="/learn">{{{__ "navigation_learn"}}}</a>
                         </li>
+                        <li class="nav-item p-1">
+                            <a class="nav-link" href="/about">{{{__ "navigation_about"}}}</a>
+                        </li>
                     </ul>
-                    <form class="d-flex" role="search">
+                </div>
+                    <form id="language-switcher-wrapper" class="d-flex">
                         <select id="language-switcher" class="form-select mt-2">
                             <option style="display:none"></option>
                             {{#each translations}}
                                 <option value="{{this.code}}">{{this.label}}</option>
                             {{/each}}
                         </select>
-                    </form>
-                </div>
+                    </form>                
+
                 </div>
             </nav>
-            <div class="position-fixed top-0 end-0 m-1">
-            </div>
         </header>
         <main class="flex-shrink-0">{{{body}}}</main>
         <footer class="footer mt-auto py-3 text-center">
             <div class="container">
-                <small>
-                    <a href="/about">{{{__ "footer_about"}}}</a>
-                </small>
             </div>
         </footer>
         <script type="module" src="/libs/bootstrap-5.3.0-alpha3/js/bootstrap.min.js" async></script>

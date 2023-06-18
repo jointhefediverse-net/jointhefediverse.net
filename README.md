@@ -2,27 +2,26 @@
 # JoinTheFediverse.net
 
 Learn about the fediverse and find your new community.
-## Development
 
-This project uses node 18.13.0.
+## Contributing
 
-```sh
-#install dependencies
-npm install
+This project is run by volunteers and we appreciate all help. Here's how you can contribute.
 
-# start development server
-npm start dev
-```
+### Suggesting new features or fediverse platforms to include
 
-Note that there is an [open ticket](https://github.com/jointhefediverse-net/jointhefediverse.net/issues/13) to migrate the styles to SCSS, which will also require adding a build step.
+All included fediverse platforms should have a dedicated page on [joinfediverse.wiki](https://joinfediverse.wiki/) (not affiliated with this project).
 
-## Translation
+Feel free to [open a new issue on this repo](https://github.com/jointhefediverse-net/jointhefediverse.net/issues/new/choose), or [reach out privately](https://stefanbohacek.com/contact/).
+
+
+### Translation
 
 Before you begin translating the site:
 
-- Please check if someone is [already working on a translation into your language](https://github.com/jointhefediverse-net/jointhefediverse.net/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-desc+label%3Atranslation).
+- See [which languages are already available](https://github.com/jointhefediverse-net/jointhefediverse.net/tree/main/translations) (see also the [About page](https://jointhefediverse.net/about)).
+- Check if someone is [already working on a translation into your language](https://github.com/jointhefediverse-net/jointhefediverse.net/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-desc+label%3Atranslation).
 - If there is an open ticket with your language, feel free to leave a comment if you'd like to join in.
-- If not, [please reach out](https://stefanbohacek.com/contact/) first so that we can open a new translation ticket to keep track of any ongoing work.
+- You can [open a new issue](https://github.com/jointhefediverse-net/jointhefediverse.net/issues/new/choose) titled `Translation: LANGUAGE NAME (language code)`, or [reach out privately](https://stefanbohacek.com/contact/) and a ticket to track your work will be created for you.
 
 The current translation workflow is described below. If you don't have a GitHub account, or prefer not to use it, feel free to follow steps 1 through 4 and send the translated files [via email](https://stefanbohacek.com/contact/).
 
@@ -30,8 +29,10 @@ Otherwise, you can [fork this repo](https://docs.github.com/en/get-started/quick
 
 1. Note the [language code](https://www.ibm.com/docs/en/datacap/9.1.8?topic=support-supported-language-codes) for the language you'd like to translate. This will be your "locale".
 2. Navigate to the `translations` folder.
-3. Make a copy of the `en-us.json` file and `en-us` folder. Rename these to match your locale, in lower case.
-4. Update the `.json` file for your locale.
+3. Make a copy of the `en-us` folder and rename it to match your locale, in lower case.
+4. Update the `.json` files inside the new folder.
+
+The `[locale].json` file should have the following format:
 
 ```js
 {
@@ -72,3 +73,31 @@ Keep in mind that the goal is to [communicate the same ideas to an audience in a
 Consider listing services that are popular in your particular country.
 
 > Pravdepodobne používaš Gmail. Alebo Zoznam.sk. Možno Centrum.sk.
+
+
+### Development
+
+This project uses node v18.13.0. Here's how you can run it locally:
+
+```sh
+#install dependencies
+npm install
+
+# start development server
+npm start dev
+```
+Note that there is an [open ticket](https://github.com/jointhefediverse-net/jointhefediverse.net/issues/13) to migrate the styles to SCSS, which will also require adding a build step.
+
+## FAQ
+
+### Fediverse platforms
+
+#### Why was Lemmy removed from the list of fediverse alternatives?
+
+Lemmy [was removed](https://github.com/jointhefediverse-net/jointhefediverse.net/commit/54ecb3b3249bd2f81cb7d06633b24d60110d1be3) due to:
+
+- reports of how the developers handle [certain types of content](https://mstdn.social/@feditips/106835057054633379)
+- the [behavior of its creator](https://raddle.me/f/lobby/96713/heads-up-the-tankie-behind-lemmy-ml-got-banned-from-r)
+- how the sotware itself [handles users' privacy](https://raddle.me/f/lobby/155371/warning-lemmy-doesn-t-care-about-your-privacy-everything-is).
+
+Keep in mind that software is by no means "neutral". The people who make it make decisions about how it works based on their beliefs and goals. That's why, for example, you [can't quote posts on Mastodon](https://github.com/mastodon/mastodon/issues/309) (at least for now), but you can do so on other fediverse platforms.

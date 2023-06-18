@@ -3,22 +3,24 @@
         <div class="col-sm-12">
             <h1 class="display-4 fw-normal text-center my-5">{{{__ "about_page_title"}}}</h1>
             <p>{{{__ "about_description"}}}</p>
-            <ul>
-            {{#each translations}}
-                {{#if this.available}}
-                    {{#if this.translators}}
-                        <li>{{this.label}}
-                        {{#each this.translators}}
-                            <ul>
-                                <li>
-                                    <a rel="me" href="{{this.url}}">{{this.name}}</a>
-                                </li>
-                            </ul>
-                        {{/each}}
-                        </li>
+            <ul class="row mt-5">
+                {{#each translations}}
+                    {{#if this.available}}
+                        {{#if this.translators}}
+                        <div class="col-sm-12 col-md-6 col-lg-4  pb-4">
+                            <li>{{this.label}}
+                            {{#each this.translators}}
+                                <ul>
+                                    <li>
+                                        <a rel="me" href="{{this.url}}">{{this.name}}</a>
+                                    </li>
+                                </ul>
+                            {{/each}}
+                            </li>
+                        </div>                        
+                        {{/if}}
                     {{/if}}
-                {{/if}}
-            {{/each}}
+                {{/each}}
             </ul>
             <p class="mt-5"><a href="/">{{{__ "about_cta_home"}}}</a> | <a href="https://github.com/jointhefediverse-net/jointhefediverse.net">{{{__ "footer_view_source"}}}</a></p>
         </div>
