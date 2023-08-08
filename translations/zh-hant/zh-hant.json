@@ -1,0 +1,13 @@
+{
+    "label": "繁體中文",
+    "label_lat": "chinese traditional",
+    "label_en": "Chinese (Traditional)",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Tan Hou Yuan",
+            "url": "https://www.linkedin.com/in/hou-yuan-tan-116932211/"
+        }
+    ]
+}
