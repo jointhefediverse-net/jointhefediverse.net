@@ -21,7 +21,7 @@ Before you begin translating the site:
 - See [which languages are already available](https://github.com/jointhefediverse-net/jointhefediverse.net/tree/main/translations) (see also the [About page](https://jointhefediverse.net/about)).
 - Check if someone is [already working on a translation into your language](https://github.com/jointhefediverse-net/jointhefediverse.net/issues?q=is%3Aopen+is%3Aissue+sort%3Aupdated-desc+label%3Atranslation).
 - If there is an open ticket with your language, feel free to leave a comment if you'd like to join in.
-- You can [open a new issue](https://github.com/jointhefediverse-net/jointhefediverse.net/issues/new/choose) titled `Translation: LANGUAGE NAME (language code)`, or [reach out privately](https://stefanbohacek.com/contact/) and a ticket to track your work will be created for you.
+- You can [open a new issue](https://github.com/jointhefediverse-net/jointhefediverse.net/issues/new?assignees=&labels=translation&projects=&template=translation.md&title=Translation%3A+LANGUAGE+NAME+%28language-code%29) titled `Translation: LANGUAGE NAME (language code)` (Here's a [helpful list of language codes](https://www.andiamo.co.uk/resources/iso-language-codes/ ).), or [reach out privately](https://stefanbohacek.com/contact/) and a ticket to track your work will be created for you.
 
 The current translation workflow is described below. If you don't have a GitHub account, or prefer not to use it, feel free to follow steps 1 through 4 and send the translated files [via email](https://stefanbohacek.com/contact/).
 
