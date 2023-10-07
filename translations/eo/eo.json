@@ -4,10 +4,10 @@
     "label_en": "Esperanto",
     "lang_dir": "LTR",
     "available": true,
-    "translators": 
-
-	{
-	"name": "Marc Rodrigues",
-        "url": "https://mastodon.social/deck/@sustainrelease"
-        }   
+    "translators": [
+        {
+            "name": "Marc Rodrigues",
+            "url": "https://mastodon.social/deck/@sustainrelease"
+        }
+    ]
 }
