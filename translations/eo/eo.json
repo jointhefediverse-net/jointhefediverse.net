@@ -4,10 +4,16 @@
     "label_en": "Esperanto",
     "lang_dir": "LTR",
     "available": true,
-    "translators": 
+    "translators": [
 
 	{
 	"name": "Marc Rodrigues",
-        "url": "https://mastodon.social/deck/@sustainrelease"
-        }   
+        "url": "https://mastodon.social/@sustainrelease"
+        },
+
+        {
+	"name": "Tirifto",
+        "url": "https://jam.xwx.moe/users/tirifto"
+        }
+      ]  
 }
