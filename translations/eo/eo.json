@@ -3,5 +3,11 @@
     "label_lat": "esperanto",
     "label_en": "Esperanto",
     "lang_dir": "LTR",
-    "available": true
+    "available": true,
+    "translators": 
+
+	{
+	"name": "Marc Rodrigues",
+        "url": "https://example.social/@person_a"
+        }   
 }
