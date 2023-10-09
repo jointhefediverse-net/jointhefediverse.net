@@ -1,15 +1,15 @@
 {
-  "page_title": "Aliĝu al la <mark>fediverso</mark>",
+  "page_title": "Aliĝu al la <mark>fediverso/federujo</mark>",
   "page_intro": "Jen kelkaj el la popularaj <mark>fediversaj alternativoj</mark> al komercaj amaskomunikiloj. Vi povas aliĝi al iu ajn el ĉi tiuj kaj ankoraŭ <mark>sekvi iun ajn</mark> en la aliaj servoj, ĉar ili ĉiuj parolas la saman lingvon, male al tradiciaj amaskomunikiloj.",
   "comparison_if": "Se vi ŝatas...",
   "comparison_then": "Vi devus provi...",
-  "outro": "Vi ankaŭ povas foliumi fediverse komunumojn surbaze de <mark>interesoj</mark> ĉe <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, aŭ per <mark>trajtoj</mark > ke la diversaj retoj proponas ĉe <a href='https://fediverse.info/explore/projects'>fediverse.info</a> aŭ ĉe la fundo de <a href='https://joinfirefish.org/ #comparison'>joinfirefish.org</a>",
-  "more_info_label": "Kaj post kiam vi eniras, vi povas trovi iujn <mark>popularajn kontojn</mark> kaj enhavon por sekvi:",
-  "more_info_feditrends_description": "kunigante tion, kio tendencas tra la fediverso",
+  "outro": "Vi ankaŭ povas foliumi fediverse komunumojn surbaze de <mark>interesoj</mark> ĉe <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, aŭ per <mark>trajtoj</mark > kiujn la diversaj retoj proponas ĉe <a href='https://fediverse.info/explore/projects'>fediverse.info</a> aŭ ĉe la fundo de <a href='https://joinfirefish.org/ #comparison'>joinfirefish.org</a>",
+  "more_info_label": "Kaj post kiam vi eniras, vi povas trovi iujn <mark>popularajn kontojn</mark> kaj enhavon por aboni:",
+  "more_info_feditrends_description": "kunigante tion, kio popularas tra la fediverso/federujo",
   "more_info_fedi_directory_description": "interesaj kontoj por sekvi",
-  "more_info_fedified_description": "rimarkindaj raportoj pri Mastodon",
-  "more_info_fediverse_explorer_description": "foliumi plej lastatempajn publikajn afiŝojn tra la fediverso per kradvorto",
+  "more_info_fedified_description": "rimarkindaj kontoj en Mastodon",
+  "more_info_fediverse_explorer_description": "foliumi plej lastatempajn publikajn afiŝojn tra la federujo per kradvorto",
   "cta_home": "Reiru al hejmpaĝo",
   "cta_or": "aŭ",
-  "cta_learn": "plonĝi pli profunde"
+  "cta_learn": "plonĝu pli profunde"
 }

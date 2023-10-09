@@ -1,13 +1,17 @@
 {
-    "label": "Esperanto",
-    "label_lat": "esperanto",
-    "label_en": "Esperanto",
-    "lang_dir": "LTR",
-    "available": true,
-    "translators": [
-        {
-            "name": "Marc Rodrigues",
-            "url": "https://mastodon.social/@sustainrelease"
-        }
-    ]
+  "label": "Esperanto",
+  "label_lat": "esperanto",
+  "label_en": "Esperanto",
+  "lang_dir": "LTR",
+  "available": true,
+  "translators": [
+    {
+      "name": "Marc Rodrigues",
+      "url": "https://mastodon.social/@sustainrelease"
+    },
+    {
+      "name": "Tirifto",
+      "url": "https://jam.xwx.moe/users/tirifto"
+    }
+  ]
 }
