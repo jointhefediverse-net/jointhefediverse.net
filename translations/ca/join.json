@@ -1,15 +1,15 @@
 {
-  "page_title": "Join the <mark>fediverse</mark>",
-  "page_intro": "Here are some of the popular <mark>fediverse alternatives</mark> to commercial social media sites. You can join any of these and still <mark>follow anyone</mark> on the other services, because they all speak the same language, unlike traditional social media.",
-  "comparison_if": "If you like...",
-  "comparison_then": "You should try...",
-  "outro": "You can also browse fediverse communities based on <mark>interests</mark> at <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, or by <mark>features</mark> that the various networks offer at <a href='https://fediverse.info/explore/projects'>fediverse.info</a> or at the bottom of <a href='https://joinfirefish.org/#comparison'>joinfirefish.org</a>",
-  "more_info_label": "And once you're in, you can find some <mark>popular accounts</mark> and content to follow:",
-  "more_info_feditrends_description": "aggregating what's trending across the fediverse",
-  "more_info_fedi_directory_description": "interesting accounts to follow",
-  "more_info_fedified_description": "notable accounts on Mastodon",
-  "more_info_fediverse_explorer_description": "browse most recent public posts across the fediverse by hashtag",
-  "cta_home": "Go back home",
-  "cta_or": "or",
-  "cta_learn": "dive deeper"
+  "page_title": "Uniu-vos al <mark>Fediverse</mark>",
+  "page_intro": "Aquí teniu algunes de les <mark>alternatives del Fediverse</mark> a les xarxes socials comercials més populars. Si us uniu a qualsevol d'aquestes, podreu <mark>seguir qualsevol persona</mark> dels altres serveis, per què parlen el mateix idioma, a diferència de les xarxes socials tradicionals.",
+  "comparison_if": "Si us agrada...",
+  "comparison_then": "Hauríeu de provar...",
+  "outro": "També podeu buscar per les comunitats del Fediverse en funció dels vostres <mark>interessos</mark> a <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, o per <mark>catacterístiques</mark> que ofereixen les diferents xarxes a <a href='https://fediverse.info/explore/projects'>fediverse.info</a> o al capdabaix de <a href='https://joinfirefish.org/#comparison'>joinfirefish.org</a>",
+  "more_info_label": "I, un cop hi sigueu, podreu trobar alguns <mark>comptes populars</mark> i contingut per seguir:",
+  "more_info_feditrends_description": "agregant tot el que és tendència al Fediverse",
+  "more_info_fedi_directory_description": "comptes interessants per seguir",
+  "more_info_fedified_description": "comptes destacats a Mastodon",
+  "more_info_fediverse_explorer_description": "visualitzeu els tuts més recents arreu del Fediverse per etiqueta",
+  "cta_home": "Torna a l'inici",
+  "cta_or": "o",
+  "cta_learn": "busca més a fons"
 }

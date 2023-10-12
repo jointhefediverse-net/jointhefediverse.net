@@ -1,0 +1,13 @@
+{
+    "label": "Català (CA)",
+    "label_lat": "català ca",
+    "label_en": "Catalan (CA)",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Josep Sanchez",
+            "url": "https://mastotut.cat/@papapep"
+        }
+    ]
+}
