@@ -21,7 +21,7 @@ const switchLanguage = () => {
     languageSwitcher.value = currentLanguage;
 
     [...document.querySelectorAll('a:not([href*="://"])')].forEach(a => {
-        a.href += `?lang=${currentLanguage}`;
+        // a.href += `?lang=${currentLanguage}`;
     });
 
     languageSwitcher.addEventListener('change', (ev) => {
