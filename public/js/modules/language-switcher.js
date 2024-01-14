@@ -36,7 +36,7 @@ const switchLanguage = () => {
 
     languageSwitcher.addEventListener('change', (ev) => {
         const language = ev.target.value;
-        Cookies.setCookie('locale', language, 100);
+        Cookies.setCookie('locale', language, 365);
         window.location = `${window.location.pathname}?lang=${language}`; 
         // location.reload();
     });
