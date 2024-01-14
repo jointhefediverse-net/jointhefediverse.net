@@ -36,6 +36,7 @@ const i18n = new I18n({
   directory: path.join(__dirname, 'locales'),
   autoReload: true,
   defaultLocale: 'en-us',
+  queryParameter: 'lang',
   cookie: 'locale'
 });
 
@@ -72,7 +73,10 @@ app.use((req, res, next) => {
   res.locals.languages = i18n.getLocales();
   res.translations = sortArrayOfObjects(translationData, 'label_lat');
   
-  if (cookies && cookies.locale){
+  if (req.query.lang){
+    currentLocale =  req.query.lang;
+  }
+  else if (cookies && cookies.locale){
     currentLocale =  cookies.locale;
   } else if (req.getLocale()){
     currentLocale = req.getLocale();

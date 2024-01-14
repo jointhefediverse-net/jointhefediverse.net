@@ -19,11 +19,19 @@ const switchLanguage = () => {
     }
 
     languageSwitcher.value = currentLanguage;
+
+    [...document.querySelectorAll('a:not([href*="://"])')].forEach(a => {
+        a.href += `?lang=${currentLanguage}`;
+    });
+
     languageSwitcher.addEventListener('change', (ev) => {
         const language = ev.target.value;
         Cookies.setCookie('locale', language, 100);
-        location.reload();
+        window.location = `${window.location.pathname}?lang=${language}`; 
+        // location.reload();
     });
+
+
 }
 
 export default switchLanguage;
