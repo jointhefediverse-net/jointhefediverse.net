@@ -1,4 +1,5 @@
 import Cookies from './cookies.js';
+import {getUrlParam, setUrlParam} from './urlParams.js';
 
 const switchLanguage = () => {
     const languageSwitcher = document.getElementById('language-switcher');
@@ -16,6 +17,12 @@ const switchLanguage = () => {
         } else {
             currentLanguage = 'en-us';
         }
+    }
+
+    const langParam = getUrlParam("lang");
+
+    if (!langParam){
+        setUrlParam("lang", currentLanguage);
     }
 
     languageSwitcher.value = currentLanguage;
