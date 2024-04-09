@@ -1,14 +1,14 @@
 {
   "page_title": "Batu <mark>fedibertsora</mark>",
-  "page_intro": "Hemen dituzu komertzialak diren sare-sozialen guneen <mark>fedibertsoko alternatibak</mark>. Edozein gunetara batu zaitezke eta beste zerbitzuetako <mark>edozeini jarraitu</mark>, denek hizkuntz berbera darabiltelako, sare-sozial tradizionalek ez bezala.",
+  "page_intro": "Hemen dituzu komertzialak diren sare sozialen guneen <mark>fedibertsoko alternatibak</mark>. Edozein gunetara batu zaitezke eta beste zerbitzuetako <mark>edozeini jarraitu</mark>, denek hizkuntza berbera darabiltelako, sare sozial tradizionalek ez bezala.",
   "comparison_if": "Gustoko baduzu...",
   "comparison_then": "Proba dezakezu...",
   "outro": "Baita ere, <mark>interesetan</mark> oinarritutako fedibertsoak araka ditzakezu <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> gunean, edo hainbat sareek eskaintzen dituzten <mark>eginbideen</mark> bitartez, <a href='https://fediverse.info/explore/projects'>fediverse.info</a> gunean edo <a href='https://joinfirefish.org/#comparison'>joinfirefish.org</a> gunearen azpialdean. Gainera, <a href='https://kaixo.lemmy.eus'>euskarazko Lemmy instantzia</a> bisita dezakezu, bertan aurkituko dituzu fedibertsoan zehar dauden euskarazko zerbitzu mordoa.",
   "more_info_label": "Behin barruan zaudela, <mark>kontu famatuak</mark> aurkitu edo edukiak jarrai ditzakezu:",
   "more_info_feditrends_description": "fedibertsoan zehar pil-pilean dagoena eskuratu",
   "more_info_fedi_directory_description": "jarraitzeko kontu interesgarriak",
-  "more_info_fedified_description": "Mastodoneko kontu esanguratsuak",
-  "more_info_fediverse_explorer_description": "traolen bidez, fedibertso guztiko azken bidalketa publikoak arakatu",
+  "more_info_fedified_description": "Mastodon-eko kontu esanguratsuak",
+  "more_info_fediverse_explorer_description": "traolen bidez, fedibertso osoko azken bidalketa publikoak arakatu",
   "cta_home": "Itzuli hasierara",
   "cta_or": "edo",
   "cta_learn": "gehiago ikertu"
