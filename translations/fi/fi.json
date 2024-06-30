@@ -1,13 +1,17 @@
 {
-    "label": "Suomi",
-    "label_lat": "suomi",
-    "label_en": "finnish",
-    "lang_dir": "LTR",
-    "available": true,
-    "translators": [
-        {
-            "name": "Jari Nikkinen",
-            "url": "https://mastodontti.fi/@Jarska96"
-        }
-    ]
+  "label": "Suomi",
+  "label_lat": "suomi",
+  "label_en": "finnish",
+  "lang_dir": "LTR",
+  "available": true,
+  "translators": [
+    {
+      "name": "Jari Nikkinen",
+      "url": "https://mastodontti.fi/@Jarska96"
+    },
+    {
+      "name": "Roni Äikäs",
+      "url": "https://mementomori.social/@raikas"
+    }
+  ]
 }
