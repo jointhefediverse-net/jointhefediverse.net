@@ -96,7 +96,7 @@ Note that there is an [open ticket](https://github.com/jointhefediverse-net/join
 
 Lemmy [was removed](https://github.com/jointhefediverse-net/jointhefediverse.net/commit/54ecb3b3249bd2f81cb7d06633b24d60110d1be3) due to:
 
-- reports of how the developers handle [certain types of content](https://mstdn.social/@feditips/106835057054633379)
+- reports of how the developers handle [certain types of content](https://mstdn.social/@feditips/106835057054633379) (post removed, [view an incomplete archive](https://web.archive.org/web/20210901023138/https://mstdn.social/@feditips/106835057054633379))
 - the [behavior of its creator](https://raddle.me/f/lobby/96713/heads-up-the-tankie-behind-lemmy-ml-got-banned-from-r)
 - how the sotware itself [handles users' privacy](https://raddle.me/f/lobby/155371/warning-lemmy-doesn-t-care-about-your-privacy-everything-is).
 
