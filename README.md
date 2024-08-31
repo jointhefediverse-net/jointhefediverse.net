@@ -84,7 +84,7 @@ This project uses node v18.13.0. Here's how you can run it locally:
 npm install
 
 # start development server
-npm start dev
+npm run dev
 ```
 Note that there is an [open ticket](https://github.com/jointhefediverse-net/jointhefediverse.net/issues/13) to migrate the styles to SCSS, which will also require adding a build step.
 
