@@ -1,7 +1,7 @@
 {
-  "intro_what_is_fediverse": "Qu'est-ce que le <mark>fediverse</mark> ?",
+  "intro_what_is_fediverse": "Qu'est-ce que le <mark>fédivers</mark> ?",
   "intro_btn_explore": "Explorer",
-  "intro_analogy": "Une analogie utile pour le fediverse est l'<mark>email</mark>.",
+  "intro_analogy": "Une analogie utile pour le fédivers est l'<mark>email</mark>.",
   "intro_email": "Vous utilisez probablement Gmail. Ou peut-être Outlook. Ou Yahoo Mail.",
   "intro_anyone": "Indépendamment du choix que vous avez effectué, vous pouvez adresser un email à toute personne dans le monde, sans avoir à vous soucier du service qu'elle utilise.",
   "intro_btn_neat": "Sympa !",
@@ -9,12 +9,12 @@
   "intro_social_media": "Si vous êtes sur Instagram ou TikTok, et vos amis, ou les célébrités que vous suivez sont sur X ou Facebook, vous devrez créer un compte sur <mark>chacun de ces services séparément</mark> pour rester en contact avec eux.",
   "intro_btn_good_point": "Effectivement...",
   "intro_what_if": "Mais imaginons que vous puissiez créer un compte sur <mark>un site unique</mark> et suivre <mark>n'importe qui</mark> dans le monde, aussi simplement que de lui adresser un email...",
-  "intro_fediverse_lets_you": "C'est exactement ce que le fediverse autorise.",
+  "intro_fediverse_lets_you": "C'est exactement ce que le fédivers autorise.",
   "intro_btn_interesting": "Intéressant !",
-  "intro_fediverse_is": "Le fediverse est un nom générique pour les réseaux sociaux qui <mark>coopèrent</mark>, plutôt que de se faire concurrence.",
-  "intro_fediverse_social_media": "Et chaque réseau social majeur dispose d'une super <mark>alternative</mark> dans le fediverse, donc peu importe que vous préfériez partager des images, des vidéos, des informations ou de courts messages. Vous trouverez ce qui <mark>vous convient le mieux</mark>.",
+  "intro_fediverse_is": "Le fédivers est un nom générique pour les réseaux sociaux qui <mark>coopèrent</mark>, plutôt que de se faire concurrence.",
+  "intro_fediverse_social_media": "Et chaque réseau social majeur dispose d'une super <mark>alternative</mark> dans le fédivers, donc peu importe que vous préfériez partager des images, des vidéos, des informations ou de courts messages. Vous trouverez ce qui <mark>vous convient le mieux</mark>.",
   "intro_btn_alright": "Génial !",
-  "outro_join": "Rejoindre le fediverse",
+  "outro_join": "Rejoindre le fédivers",
   "outro_or": "ou",
   "outro_learn_more": "découvrir comment ça fonctionne."
 }
