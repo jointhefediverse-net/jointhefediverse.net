@@ -4,6 +4,7 @@
   "comparison_if": "Si vous aimez...",
   "comparison_then": "Vous devriez essayer...",
   "learn_more": "<a href='https://joinfediverse.wiki/What_are_Fediverse_projects%3F'>En savoir plus</a>",
+  "find_community": "<a href='https://instances.social/'>Trouver une communauté</a>",
   "outro": "Vous pouvez également parcourir les communautés du fediverse en fonction de <mark>vos centres d'intérêt</mark> sur <a href='https://joinfediverse.wiki/Main_Page/fr'>joinfediverse.wiki</a> (cliquez l'option 'Instances' dans le menu à gauche), par les <mark>fonctionnalités</mark> qu'offrent ces nombreux réseaux sur <a href='https://fediverse.info/explore/projects'>fediverse.info</a> (EN)",
   "more_info_label": "Une fois inscrit, vous pourrez trouver des <mark>comptes intéressants</mark> ou des sujets pertinents à suivre:",
   "more_info_feditrends_description": "parcourir une sélection des tendances dans le fediverse",
