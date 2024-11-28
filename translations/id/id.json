@@ -1,0 +1,13 @@
+{
+    "label": "Bahasa Indonesia",
+    "label_lat": "bahasa indonesia",
+    "label_en": "Indonesian",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Ufal Salman",
+            "url": "https://misskey.id/@ufal"
+        }
+    ]
+}
