@@ -1,0 +1,13 @@
+{
+    "label": "Български",
+    "label_lat": "bulgarski",
+    "label_en": "Bulgarian",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Martin Ruskov",
+            "url": "https://masto.bg/@mapto"
+        }
+
+}
