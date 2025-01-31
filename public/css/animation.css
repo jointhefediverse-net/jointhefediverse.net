@@ -117,8 +117,8 @@ html[dir="LTR"] .network-animation > .item > .line{
     transform: translateX(-50%) translateY(-50%);
     height: 100%;
     width: 100%;
-    -webkit-animation: move-dot1 5.5s linear infinite;
-    animation: move-dot1 5.5s linear infinite;
+    -webkit-animation: move-dot1 5.5s linear infinite alternate;
+    animation: move-dot1 5.5s linear infinite alternate;
 }
 .network-animation > .item > .dot::after {
     content: '✉️';
@@ -195,8 +195,8 @@ html[dir="LTR"] .network-animation > .item.-type2 > .line{
 .network-animation > .item.-type2 > .dot {
     top: 30%;
     left: 30%;
-    -webkit-animation: move-dot2 4s linear infinite;
-    animation: move-dot2 4s linear infinite;
+    -webkit-animation: move-dot2 4s linear infinite alternate;
+    animation: move-dot2 4s linear infinite alternate;
 }
 .network-animation > .item.-type2 > .circle {
     top: 30%;
