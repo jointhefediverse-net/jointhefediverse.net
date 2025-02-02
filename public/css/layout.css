@@ -46,3 +46,14 @@ html[dir="LTR"] #language-switcher-wrapper{
         right: 1rem;
     }
 }
+
+
+#what-is{
+    margin-top: -42vh;
+}
+
+@media (min-width: 768px) {
+    #what-is{
+        margin-top: 0;
+    }
+}
