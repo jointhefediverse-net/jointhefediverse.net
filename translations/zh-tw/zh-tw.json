@@ -1,0 +1,13 @@
+{
+    "label": "臺灣正體中文",
+    "label_lat": "taiwanese mandarin",
+    "label_en": "Taiwanese Mandarin",
+    "lang_dir": "LTR",
+    "available": true
+    "translators": [
+        {
+            "name": "Jeff Huang",
+            "url": "https://github.com/s8321414"
+        }
+    ]
+}
