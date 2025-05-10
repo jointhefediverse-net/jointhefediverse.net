@@ -2,8 +2,8 @@
   "intro_what_is_fediverse": "Co je <mark>Fediverse</mark>?",
   "intro_btn_explore": "Více",
   "intro_analogy": "Fediverse se nejvíce podobá <mark>emailu</mark>.",
-  "intro_email": "Pravděpodobně používaš Gmail nebo Seznam.cz, možná Centrum.cz.",
-  "intro_anyone": "Bez ohledu na tvojí volbu, můžeš poslat email <mark>komukoliv</mark> na celém světě.",
+  "intro_email": "Pravděpodobně používáš Gmail nebo Seznam.cz, možná Centrum.cz.",
+  "intro_anyone": "Bez ohledu na tvoji volbu můžeš poslat email <mark>komukoliv</mark> na celém světě.",
   "intro_btn_neat": "Pěkné",
   "intro_not_social_media": "Sociální média takto nefungují.",
   "intro_social_media": "Ať jsi na Instagramu nebo TikToku a tvoji přátelé nebo celebrity, o které sa zajímáš jsou na X nebo Facebooku, musíš se zaregistrovat <mark>na každé sociální síti</mark>.",
@@ -16,5 +16,4 @@
   "intro_btn_alright": "Super!",
   "outro_join": "Připoj se do Fediverse",
   "outro_or": "nebo",
-  "outro_learn_more": "zjisti víc."
-}
+  "outro_learn_more":
