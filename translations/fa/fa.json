@@ -1,0 +1,13 @@
+{
+    "label": "فارسی",
+    "label_lat": "Farsi",
+    "label_en": "Persian",
+    "lang_dir": "RTL",
+    "available": true,
+    "translators": [
+        {
+            "name": "Alireza Rashidi",
+            "url": "https://khiar.net/@al"
+        }
+    ]
+}
