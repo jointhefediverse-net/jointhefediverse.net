@@ -83,6 +83,9 @@ This project uses node v18.13.0. Here's how you can run it locally:
 #install dependencies
 npm install
 
+# generate translation files
+npm run translate
+
 # start development server
 npm run dev
 ```
