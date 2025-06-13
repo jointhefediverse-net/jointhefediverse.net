@@ -6,12 +6,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>{{{__ "main_site_title"}}}</title>
         {{#ifEquals current_locale.lang_dir "LTR"}}
-        <link href="/fonts/Anton-Regular.ttf" rel="stylesheet">
-        <link href="/fonts/WorkSans-VariableFont_wght.ttf" rel="stylesheet">
-        <link href="/fonts/WorkSans-Italic-VariableFont_wght.ttf" rel="stylesheet">
+        <link rel="preload" href="/fonts/Anton-Regular.ttf" as="font" type="font/ttf" crossorigin>
+        <link rel="preload" href="/fonts/WorkSans-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
+        <link rel="preload" href="/fonts/WorkSans-Italic-VariableFont_wght.ttf" as="font" type="font/ttf" crossorigin>
         {{/ifEquals}}
         {{#ifEquals current_locale.lang_dir "RTL"}}
-        <link href="/fonts/Tajawal/Tajawal-Regular.ttf" rel="stylesheet">
+        <link rel="preload" href="/fonts/Tajawal/Tajawal-Regular.ttf" as="font" type="font/ttf" crossorigin>
         {{/ifEquals}}
         <link rel="stylesheet" href="/css/main.css">
         <link rel="stylesheet" href="/libs/bootstrap-5.3.3/css/bootstrap.min.css">
