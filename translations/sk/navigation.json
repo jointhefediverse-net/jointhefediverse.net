@@ -3,7 +3,7 @@
   "join": "Pripoj sa",
   "learn": "Nauč sa",
   "about": "O projekte",
-  "theme_dark": "Dark",
-  "theme_light": "Light",
-  "theme_auto": "Auto"
+  "theme_dark": "Tmavá téma",
+  "theme_light": "Svetlá téma",
+  "theme_auto": "Podľa systému"
 }
