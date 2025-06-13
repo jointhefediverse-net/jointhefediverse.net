@@ -2,5 +2,8 @@
   "home": "Начало",
   "join": "Присъединете се",
   "learn": "Научете повече",
-  "about": "За проекта"
+  "about": "За проекта",
+  "theme_dark": "Dark",
+  "theme_light": "Light",
+  "theme_auto": "Auto"
 }

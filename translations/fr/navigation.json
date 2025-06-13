@@ -2,5 +2,8 @@
   "home": "Accueil",
   "join": "Rejoindre",
   "learn": "Découvrir",
-  "about": "A propos du projet"
+  "about": "A propos du projet",
+  "theme_dark": "Dark",
+  "theme_light": "Light",
+  "theme_auto": "Auto"
 }

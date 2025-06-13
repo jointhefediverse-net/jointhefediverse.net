@@ -2,5 +2,8 @@
   "home": "Home",
   "join": "Entra",
   "learn": "Come funziona",
-  "about": "Il progetto"
+  "about": "Il progetto",
+  "theme_dark": "Dark",
+  "theme_light": "Light",
+  "theme_auto": "Auto"
 }

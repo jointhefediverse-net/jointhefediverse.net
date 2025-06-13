@@ -2,5 +2,8 @@
   "home": "Hasiera",
   "join": "Batu",
   "learn": "Ikasi",
-  "about": "Proiektu honi buruz"
+  "about": "Proiektu honi buruz",
+  "theme_dark": "Dark",
+  "theme_light": "Light",
+  "theme_auto": "Auto"
 }
