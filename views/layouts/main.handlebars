@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html dir="{{current_locale.lang_dir}}" lang="{{current_locale.code}}" class="h-100" data-bs-theme="dark">
+<html dir="{{current_locale.lang_dir}}" lang="{{current_locale.code}}" class="h-100">
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -43,7 +43,7 @@
         <header class="position-absolute">
             <nav class="navbar navbar-expand-md navbar-dark fixed-top">
                 <div class="container-fluid">
-                <button class="navbar-toggler collapsed bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="navbar-collapse collapse" id="navbarCollapse" style="">
@@ -62,14 +62,19 @@
                         </li>
                     </ul>
                 </div>
-                    <form id="language-switcher-wrapper" class="d-flex">
+                    <form id="language-switcher-wrapper" class="d-flex gap-2">
+                        <select id="theme-switcher" class="form-select mt-2 w-auto">
+                            <option value="auto">🌓 Auto</option>
+                            <option value="light">☀️ Light</option>
+                            <option value="dark">🌙 Dark</option>
+                        </select>
                         <select id="language-switcher" class="form-select mt-2">
                             <option style="display:none"></option>
                             {{#each translations}}
                                 <option value="{{this.code}}">{{this.label}}</option>
                             {{/each}}
                         </select>
-                    </form>                
+                    </form>
 
                 </div>
             </nav>

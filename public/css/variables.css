@@ -1,10 +1,47 @@
-:root {
-    --color-primary: #91a1f4;
-    --color-headline: #fffffe;
+/* Light mode (default and explicit) */
+:root,
+[data-bs-theme="light"] {
+    --color-primary: #5864b1;
+    --color-headline: #000000;
     --color-secondary: #72757e;
-    --color-highlight: #7f5af0;
-    --color-link: #7f5af0;
-    --color-link-hover: #fffffe;
+    --color-highlight: #623cd3;
+    --color-link: #623cd3;
+    --color-link-hover: #000000;
     --color-button: #7f5af0;
-    --background-primary: #16161a;
+    --background-primary: #f1f1fe;
+}
+
+:root {
+    --dark-color-primary: #91a1f4;
+    --dark-color-headline: #fffffe;
+    --dark-color-secondary: #72757e;
+    --dark-color-highlight: #7f5af0;
+    --dark-color-link: #7f5af0;
+    --dark-color-link-hover: #fffffe;
+    --dark-color-button: #7f5af0;
+    --dark-background-primary: #16161a;
+}
+
+[data-bs-theme="dark"] {
+    --color-primary: var(--dark-color-primary);
+    --color-headline: var(--dark-color-headline);
+    --color-secondary: var(--dark-color-secondary);
+    --color-highlight: var(--dark-color-highlight);
+    --color-link: var(--dark-color-link);
+    --color-link-hover: var(--dark-color-link-hover);
+    --color-button: var(--dark-color-button);
+    --background-primary: var(--dark-background-primary);
+}
+
+@media (prefers-color-scheme: dark) {
+    :root:not([data-bs-theme]) {
+        --color-primary: var(--dark-color-primary);
+        --color-headline: var(--dark-color-headline);
+        --color-secondary: var(--dark-color-secondary);
+        --color-highlight: var(--dark-color-highlight);
+        --color-link: var(--dark-color-link);
+        --color-link-hover: var(--dark-color-link-hover);
+        --color-button: var(--dark-color-button);
+        --background-primary: var(--dark-background-primary);
+    }
 }
