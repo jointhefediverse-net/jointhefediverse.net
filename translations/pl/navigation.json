@@ -3,7 +3,7 @@
   "join": "Dołącz",
   "learn": "Poznaj",
   "about": "O projekcie",
-  "theme_dark": "Dark",
-  "theme_light": "Light",
-  "theme_auto": "Auto"
+  "theme_dark": "Styl ciemny",
+  "theme_light": "Styl jasny",
+  "theme_auto": "Automatycznie"
 }
