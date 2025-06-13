@@ -31,7 +31,8 @@ const switchTheme = () => {
                 break;
             case 'auto':
             default:
-                delete htmlElement.dataset.bsTheme;
+                const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+                htmlElement.dataset.bsTheme = prefersDark ? 'dark' : 'light';
         }
     }
 };

@@ -62,13 +62,3 @@ p{
 [data-bs-theme="dark"] .navbar-toggler-icon {
     filter: none;
 }
-@media (prefers-color-scheme: light) {
-    [data-bs-theme="auto"] .navbar-toggler-icon {
-        filter: invert(1);
-    }
-}
-@media (prefers-color-scheme: dark) {
-    [data-bs-theme="auto"] .navbar-toggler-icon {
-        filter: none;
-    }
-}
