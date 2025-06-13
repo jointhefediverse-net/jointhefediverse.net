@@ -2,5 +2,8 @@
   "home": "Strona główna",
   "join": "Dołącz",
   "learn": "Poznaj",
-  "about": "O projekcie"
+  "about": "O projekcie",
+  "theme_dark": "Dark",
+  "theme_light": "Light",
+  "theme_auto": "Auto"
 }

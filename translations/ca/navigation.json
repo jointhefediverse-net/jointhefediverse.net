@@ -2,5 +2,8 @@
   "home": "Inici",
   "join": "Uniu-vos",
   "learn": "Apreneu",
-  "about": "Quant al projecte"
+  "about": "Quant al projecte",
+  "theme_dark": "Dark",
+  "theme_light": "Light",
+  "theme_auto": "Auto"
 }

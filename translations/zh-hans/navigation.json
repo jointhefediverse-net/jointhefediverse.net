@@ -2,5 +2,8 @@
   "home": "首页",
   "join": "加入我们",
   "learn": "了解更多",
-  "about": "关于项目"
+  "about": "关于项目",
+  "theme_dark": "Dark",
+  "theme_light": "Light",
+  "theme_auto": "Auto"
 }

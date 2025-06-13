@@ -2,5 +2,8 @@
   "home": "Beranda",
   "join": "Bergabung",
   "learn": "Pelajari",
-  "about": "Tentang proyek"
+  "about": "Tentang proyek",
+  "theme_dark": "Dark",
+  "theme_light": "Light",
+  "theme_auto": "Auto"
 }

@@ -2,5 +2,8 @@
   "home": "الصفحة الرئيسية",
   "join": "الإنضمام",
   "learn": "تعلّم المزيد",
-  "about": "عن هذا المشروع"
+  "about": "عن هذا المشروع",
+  "theme_dark": "Dark",
+  "theme_light": "Light",
+  "theme_auto": "Auto"
 }

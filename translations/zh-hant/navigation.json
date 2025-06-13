@@ -2,5 +2,8 @@
   "home": "首頁",
   "join": "加入我們",
   "learn": "了解更多",
-  "about": "關於計劃"
+  "about": "關於計劃",
+  "theme_dark": "Dark",
+  "theme_light": "Light",
+  "theme_auto": "Auto"
 }
