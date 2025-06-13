@@ -55,12 +55,18 @@ Handlebars.registerHelper("__n", function () {
   return i18n.__n.apply(this, arguments);
 });
 
+Handlebars.registerHelper("translationExists", function (key, locale) {
+    const catalog = i18n.getCatalog(locale || i18n.getLocale());
+    return catalog && catalog.hasOwnProperty(key) && catalog[key] !== '';
+});
+
 Handlebars.registerHelper("ifEquals", (firstArg, secondArg, options) => {
   return firstArg === secondArg ? options.fn(this) : options.inverse(this);
 });
 
 const app = express();
 
+app.enable("view cache");
 app.use(compression());
 app.use(express.static("public"));
 
@@ -99,7 +105,7 @@ app.use((req, res, next) => {
   }
 
   res.cookie("locale", currentLocale, {
-    maxAge: 365 * 24 * 60 * 60 * 1000
+    maxAge: 365 * 24 * 60 * 60 * 1000,
   });
   next();
 });
