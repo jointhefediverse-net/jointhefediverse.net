@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: 'Anton';
     src: url('/fonts/Anton-Regular.ttf') format('truetype');
     font-weight: normal;
@@ -20,21 +20,129 @@
     font-weight: 100 900;
     font-style: italic;
     font-display: swap;
+} */
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-Bold.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
-    font-family: 'Tajawal';
-    src: url('/fonts/Tajawal/Tajawal-Regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-BoldItalic.ttf")
+    format("truetype");
+  font-weight: bold;
+  font-style: italic;
 }
 
-html[dir="LTR"] body {
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-ExtraBold.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-ExtraBoldItalic.ttf")
+    format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-ExtraLight.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-ExtraLightItalic.ttf")
+    format("truetype");
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-LightItalic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-MediumItalic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-RegularItalic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Atkinson Hyperlegible Next";
+  src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-SemiBoldItalic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+    font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+}
+
+/* html[dir="LTR"] body {
     font-family: 'Work Sans', sans-serif;
-}
+} */
 
-html[dir="LTR"] h1,
+/* html[dir="LTR"] h1,
 html[dir="LTR"] h2,
 html[dir="LTR"] h3,
 html[dir="LTR"] h4{
@@ -47,7 +155,7 @@ html[dir="RTL"] h2,
 html[dir="RTL"] h3,
 html[dir="RTL"] h4{
     font-family: 'Tajawal', sans-serif;
-}
+} */
 
 body{
     font-size: 1.5rem !important;
