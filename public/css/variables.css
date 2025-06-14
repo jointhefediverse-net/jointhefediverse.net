@@ -1,23 +1,27 @@
 /* Light mode (default and explicit) */
 :root,
 [data-bs-theme="light"] {
-    --color-primary: #5864b1;
-    --color-headline: #000000;
-    --color-secondary: #72757e;
+    --color-primary: #232946;
+    --color-headline: #232946;
+    --color-secondary: #232946;
     --color-highlight: #623cd3;
-    --color-link: #623cd3;
-    --color-link-hover: #000000;
+    --color-link: #232946;
+    --color-link-hover: #fffffe;
     --color-button: #7f5af0;
-    --background-primary: #f1f1fe;
+    --background-primary: #b8c1ec;
+    --bs-body-bg: #b8c1ec;
+    --table-bg-alt: #d4d8f0;
 }
 
 [data-bs-theme="dark"] {
-    --color-primary: #91a1f4;
-    --color-headline: #fffffe;
-    --color-secondary: #72757e;
+    --color-primary: #b8c1ec;
+    --color-headline: #b8c1ec;
+    --color-secondary: #232946;
     --color-highlight: #7f5af0;
-    --color-link: #7f5af0;
+    --color-link: #b8c1ec;
     --color-link-hover: #fffffe;
     --color-button: #7f5af0;
-    --background-primary: #16161a;
+    --background-primary: #232946;
+    --bs-body-bg: #232946;
+    --table-bg-alt: #121629;
 }

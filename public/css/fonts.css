@@ -134,13 +134,9 @@
   font-style: normal;
 }
 
-body {
-    font-family: "Atkinson Hyperlegible Next", sans-serif !important;
+html[dir="LTR"]:not([lang^="zh-"]) body {
+  font-family: "Atkinson Hyperlegible Next", sans-serif !important;
 }
-
-/* html[dir="LTR"] body {
-    font-family: 'Work Sans', sans-serif;
-} */
 
 /* html[dir="LTR"] h1,
 html[dir="LTR"] h2,
@@ -157,18 +153,18 @@ html[dir="RTL"] h4{
     font-family: 'Tajawal', sans-serif;
 } */
 
-body{
-    font-size: 1.5rem !important;
+body {
+  font-size: 1.5rem !important;
 }
 
-h1{
-    font-size: 4rem !important;
+h1 {
+  font-size: 4rem !important;
 }
 
-.lead{
-    font-size: 1.8rem !important;
+.lead {
+  font-size: 1.8rem !important;
 }
 
-.navbar-nav{
-    font-size: 1.2rem !important;
+.navbar-nav {
+  font-size: 1.2rem !important;
 }
