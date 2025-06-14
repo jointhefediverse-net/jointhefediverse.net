@@ -56,7 +56,12 @@ a:focus {
 
 a.btn:hover,
 a.btn:focus {
-  color: var(--color-link) !important;
+  color: var(--color-button-hover) !important;
+}
+
+
+a.btn {
+  color: var(--color-button) !important;
 }
 
 .lead {

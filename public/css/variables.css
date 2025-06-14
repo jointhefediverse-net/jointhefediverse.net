@@ -1,6 +1,8 @@
 /* Light mode (default and explicit) */
 
 :root{
+  --color-button: #623cd3;
+  --color-button-hover: #7f5af0;
 }
 
 :root,
@@ -11,7 +13,6 @@
   --color-highlight: #623cd3;
   --color-link: #232946;
   --color-link-hover: #fffffe;
-  --color-button: #7f5af0;
   --background-primary: #b8c1ec;
   --bs-body-bg: #b8c1ec;
   --table-bg-alt: #d4d8f0;
@@ -24,7 +25,6 @@
   --color-highlight: #7f5af0;
   --color-link: #b8c1ec;
   --color-link-hover: #eebbc3;
-  --color-button: #7f5af0;
   --background-primary: #232946;
   --bs-body-bg: #232946;
   --table-bg-alt: #121629;
