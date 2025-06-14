@@ -1,64 +1,75 @@
 body,
 p.bg-dark,
 ul {
-    background-color: var(--background-primary) !important;
-    color: var(--color-primary);
+  background-color: var(--background-primary) !important;
+  color: var(--color-primary);
 }
 
-h1 mark{
-    /* color: var(--color-highlight);
-    background: none; */
-    background: #8C6BF2;
-    background: linear-gradient(to right, #8C6BF2 0%, #6648c0 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+h1 mark {
+  background: #8c6bf2;
+  /* background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%); */
+  /* background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%); */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-h1, h2, h3, h4, p{
-    color: var(--color-primary) !important;
+[data-bs-theme="dark"] h1 mark {
+  background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
 }
 
-a.nav-link{
-    color: var(--color-link) !important;
+[data-bs-theme="light"] h1 mark {
+background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+
 }
 
-a.nav-link:hover{
-    color: var(--color-link-hover) !important;
+h1,
+h2,
+h3,
+h4,
+p {
+  color: var(--color-primary) !important;
 }
 
+a.nav-link {
+  color: var(--color-link) !important;
+}
+
+a.nav-link:hover {
+  color: var(--color-link-hover) !important;
+}
 
 p mark,
-ul mark{
-    font-weight: bold;
-    color: var(--color-primary);
-    background: none;
+ul mark {
+  font-weight: bold;
+  color: var(--color-primary);
+  background: none;
 }
 
-a{
-    color: var(--color-link);
+a {
+  color: var(--color-link);
 }
 
 a:hover,
-a:focus{
-    color: var(--color-link-hover);
+a:focus {
+  color: var(--color-link-hover);
 }
 
 a.btn:hover,
-a.btn:focus{
-    color: var(--color-link);
+a.btn:focus {
+  color: var(--color-link);
 }
 
-.lead{
-    color: var(--color-headline);
+.lead {
+  color: var(--color-headline);
 }
 
-p{
-    color: var(--color-secondary);
+p {
+  color: var(--color-secondary);
 }
 
 .navbar-toggler-icon {
-    filter: invert(1);
+  filter: invert(1);
 }
 [data-bs-theme="dark"] .navbar-toggler-icon {
-    filter: none;
+  filter: none;
 }
