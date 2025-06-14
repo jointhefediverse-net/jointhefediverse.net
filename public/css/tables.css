@@ -1,7 +1,7 @@
-tr{
-    padding: 0.7rem;
+tr {
+  margin: 2rem 0;
 }
 
 tr:nth-child(even) {
-    background-color: var(--bs-body-bg);
+  background-color: var(--table-bg-alt);
 }

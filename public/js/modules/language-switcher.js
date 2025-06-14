@@ -1,4 +1,3 @@
-import Cookies from './cookies.js';
 import {getUrlParam, setUrlParam} from './urlParams.js';
 
 const switchLanguage = () => {
