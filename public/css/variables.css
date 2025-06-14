@@ -1,4 +1,8 @@
 /* Light mode (default and explicit) */
+
+:root{
+}
+
 :root,
 [data-bs-theme="light"] {
   --color-primary: #232946;
@@ -19,7 +23,7 @@
   --color-secondary: #232946;
   --color-highlight: #7f5af0;
   --color-link: #b8c1ec;
-  --color-link-hover: #fffffe;
+  --color-link-hover: #eebbc3;
   --color-button: #7f5af0;
   --background-primary: #232946;
   --bs-body-bg: #232946;
