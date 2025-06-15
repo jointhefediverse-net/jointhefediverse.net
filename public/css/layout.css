@@ -28,6 +28,13 @@ header {
     flex-direction: row !important;
 } */
 
+@media (max-width: 768px) {
+  .navbar {
+    position: fixed !important;
+    top: 0 !important
+  }
+}
+
 #language-switcher-wrapper {
   position: fixed;
   top: 0;
