@@ -28,11 +28,6 @@ header {
     flex-direction: row !important;
 } */
 
-#language-switcher-wrapper {
-  position: fixed;
-  top: 0;
-}
-
 html[dir="LTR"] #language-switcher-wrapper {
   right: 1rem;
 }
