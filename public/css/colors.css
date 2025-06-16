@@ -1,5 +1,7 @@
 body,
 p.bg-dark,
+.navbar-toggler.bg-dark,
+.step.bg-dark,
 ul {
   background-color: var(--background-primary) !important;
   color: var(--color-primary);
