@@ -23,6 +23,24 @@
 } */
 
 @font-face {
+  font-family: "Roboto Serif";
+  src: url("/fonts/roboto-serif/RobotoSerif-VariableFont_GRAD,opsz,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Roboto Serif";
+  src: url("/fonts/roboto-serif/RobotoSerif-Italic-VariableFont_GRAD,opsz,wdth,wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
   font-family: "Atkinson Hyperlegible Next";
   src: url("/fonts/Atkinson_Hyperlegible_Next/TTF/AtkinsonHyperlegibleNext-Bold.ttf")
     format("truetype");
@@ -138,7 +156,17 @@ html[dir="LTR"]:not([lang^="zh-"]) body {
   font-family: "Atkinson Hyperlegible Next", sans-serif !important;
 }
 
-/* html[dir="LTR"] h1,
+html[dir="LTR"]:not([lang^="zh-"]) h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Roboto Serif", serif !important;
+}
+
+/*
+html[dir="LTR"] h1,
 html[dir="LTR"] h2,
 html[dir="LTR"] h3,
 html[dir="LTR"] h4{
