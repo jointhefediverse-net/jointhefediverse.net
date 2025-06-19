@@ -4,9 +4,10 @@
     "label_en": "Galician",
     "lang_dir": "LTR",
     "available": true,
-    "translators": [ // List of people who contributed to the translation
+    "translators": [
         {
             "name": "José M.",
             "url": "https://xmgz.eu/traducindo"
         }
+    ]
 }
