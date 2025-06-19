@@ -1,9 +1,9 @@
 {
-  "home": "Home",
-  "join": "Join",
-  "learn": "Learn",
-  "about": "About the project",
-  "theme_dark": "Dark",
-  "theme_light": "Light",
+  "home": "Inicio",
+  "join": "Únete",
+  "learn": "Coñece",
+  "about": "Sobre o proxecto",
+  "theme_dark": "Escuro",
+  "theme_light": "Claro",
   "theme_auto": "Auto"
 }
