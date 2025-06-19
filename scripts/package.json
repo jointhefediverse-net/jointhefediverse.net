@@ -24,8 +24,8 @@
   },
   "contributors": [],
   "scripts": {
-    "dev": "",
-    "test": ""
+    "screenshot": "node scripts/takeScreenshots.js",
+    "gif": "node scripts/makeGIF.js"
   },
   "dependencies": {
     "canvas": "^3.1.0",

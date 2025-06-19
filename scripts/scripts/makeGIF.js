@@ -3,26 +3,23 @@ import path from "path";
 import { createCanvas, loadImage } from "canvas";
 import GIFEncoder from "gifencoder";
 
-export default async () => {
-  console.log("making GIF...");
+console.log("making a GIF...");
 
-  const screenshotsDir = path.resolve("./screenshots");
-  const outputGifPath = path.resolve("./screenshots.gif");
+const screenshotsDir = path.resolve("./screenshots");
+const outputGifPath = path.resolve("./screenshots.gif");
 
-  const getScreenshots = () => {
-    return fs
-      .readdirSync(screenshotsDir)
-      .filter((file) => file.endsWith(".png"))
-      .sort();
-  };
+const getScreenshots = () => {
+  return fs
+    .readdirSync(screenshotsDir)
+    .filter((file) => file.endsWith(".png"))
+    .sort();
+};
 
-  const files = getScreenshots();
+const files = getScreenshots();
 
-  if (files.length === 0) {
-    console.error("no screenshots found");
-    return;
-  }
-
+if (files.length === 0) {
+  console.error("no screenshots found");
+} else {
   // const width = 500;
   // const height = 500;
 
@@ -51,4 +48,4 @@ export default async () => {
 
   encoder.finish();
   console.log(`GIF saved as ${outputGifPath}`);
-};
+}
