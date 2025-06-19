@@ -1,0 +1,12 @@
+{
+    "label": "Galego",
+    "label_lat": "galego",
+    "label_en": "Galician",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [ // List of people who contributed to the translation
+        {
+            "name": "José M.",
+            "url": "https://xmgz.eu/traducindo"
+        }
+}
