@@ -34,3 +34,8 @@
   --bs-btn-color: #232946 !important;
   --bs-btn-active-color: #232946 !important;
 }
+
+.btn.btn-outline-primary {
+  background-color: unset !important;
+  color: #fff !important;
+}

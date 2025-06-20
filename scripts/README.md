@@ -1,3 +1,13 @@
 # Helper scripts
 
-Run `node index.js` to generate screenshots and an animated GIF of the site.
+## Take screenshots of the site in all languages.
+
+```sh
+npm run screenshot
+```
+
+## Make a GIF from images inside the "screenshots" folder
+
+```sh
+npm run gif
+```
