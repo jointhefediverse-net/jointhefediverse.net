@@ -278,3 +278,12 @@ html[dir="LTR"] .network-animation > .item.-type2 > .line{
     animation: fade-in 0.5s forwards;
 }
 
+@media (prefers-reduced-motion: reduce) {
+  .network-animation > .item > .dot,
+  .network-animation > .item.-type2 > .dot,
+  .fade-out,
+  .fade-in {
+    animation: none !important;
+    transition: none !important;
+  }
+}
