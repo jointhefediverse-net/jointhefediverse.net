@@ -1,4 +1,4 @@
-  @-webkit-keyframes move-dot1 {
+@-webkit-keyframes move-dot1 {
     0% {
         transform: translateX(-50%) translateY(-50%);
     }
@@ -144,10 +144,13 @@ html[dir="LTR"] .network-animation > .item > .dot::after{
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    height: 20%;
-    width: 20%;
+    height: 30%;
+    width: 30%;
     border-radius: 50%;
     background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .network-animation > .item.-type2 {
     top: 0;
@@ -251,8 +254,8 @@ html[dir="LTR"] .network-animation > .item.-type2 > .line{
     border-radius: 50%;
 }
 .network-animation > .center > .circle {
-    height: 50%;
-    width: 50%;
+    height: 40%;
+    width: 40%;
     background: var(--color-highlight);
 }
 
