@@ -34,3 +34,11 @@ img.fediverse-logo-content{
     float: left;
     margin-right: 2rem;
 }
+
+[data-bs-theme='light'] .github-logo {
+    content: url('/images/logos/miscellaneous/GitHub-light.svg');
+}
+
+[data-bs-theme='dark'] .github-logo {
+    content: url('/images/logos/miscellaneous/GitHub-dark.svg');
+}
