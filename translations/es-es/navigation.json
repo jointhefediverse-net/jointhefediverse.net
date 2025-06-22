@@ -3,7 +3,7 @@
   "join": "Unirme",
   "learn": "Aprender",
   "about": "Acerca del proyecto",
-  "theme_dark": "Dark",
-  "theme_light": "Light",
+  "theme_dark": "Oscuro",
+  "theme_light": "Claro",
   "theme_auto": "Auto"
 }
