@@ -1,0 +1,13 @@
+{
+  "label": "עברית",
+  "label_lat": "hebrew",
+  "label_en": "Hebrew",
+  "lang_dir": "RTL",
+  "available": true,
+  "translators": [
+    {
+      "name": "Michael Zeevi",
+      "url": "https://maze.omg.lol"
+    }
+  ]
+}
