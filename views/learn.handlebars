@@ -3,24 +3,39 @@
         <div class="col-sm-12">
             <h1 class="display-4 fw-bold text-center my-5">{{{__ "learn_diving_into_fediverse"}}}</h1>
             {{{__ "learn_what_is_fediverse"}}}
+
+
+            <div class="mt-5"
+                style="position: relative; padding-top: 56.25%;">
+                <iframe title="Introducing the Fediverse: a New Era of Social Media"
+                    width="100%"
+                    height="100%"
+                    src="https://videos.elenarossini.com/videos/embed/64VuNCccZNrP4u9MfgbhkN"
+                    frameborder="0"
+                    allowfullscreen=""
+                    sandbox="allow-same-origin allow-scripts allow-popups allow-forms"
+                    style="position: absolute; inset: 0px;"></iframe>
+            </div>
+
             <h2 id="faq"
                 class="mt-5"><a href="#faq">{{{__ "learn_faq_title"}}}</a></h2>
             <p id="faq-instance"
-                class="lead">{{{__ "learn_faq_instance_q"}}}</p>
+                class="fw-bold">{{{__ "learn_faq_instance_q"}}}</p>
             {{{__ "learn_faq_instance_a"}}}
 
             <p>
-                <a href="https://fedidb.com/welcome">{{__ "join_find_community"}}</a>
+                <a class="btn btn-outline-primary mt-2 mb-3"
+                    href="https://fedidb.com/welcome">{{__ "join_find_community"}}</a>
             </p>
 
             <p id="faq-decentralized-social-media"
-                class="lead">{{{__ "learn_faq_decentralized_social_media_q"}}}</p>
+                class="fw-bold">{{{__ "learn_faq_decentralized_social_media_q"}}}</p>
             {{{__ "learn_faq_decentralized_social_media_a"}}}
             <p id="faq-funding"
-                class="lead">{{{__ "learn_faq_funding_q"}}}</p>
+                class="fw-bold">{{{__ "learn_faq_funding_q"}}}</p>
             {{{__ "learn_faq_funding_a"}}}
             <p id="faq-rules"
-                class="lead">{{{__ "learn_faq_rules_q"}}}</p>
+                class="fw-bold">{{{__ "learn_faq_rules_q"}}}</p>
             {{{__ "learn_faq_rules_a"}}}
             <ul>{{{__ "learn_faq_rules_general"}}}</ul>
             <h2 id="resources"
@@ -41,7 +56,8 @@
                 </li>
                 <li>
                     <a href="https://fediverseexplorations.org">{{{__
-                        "learn_resource_fediverse_explorations_title"}}}</a>{{#if (translationExists "learn_resource_fediverse_explorations_description" current_locale.code)}}: {{{__
+                        "learn_resource_fediverse_explorations_title"}}}</a>{{#if (translationExists
+                    "learn_resource_fediverse_explorations_description" current_locale.code)}}: {{{__
                     "learn_resource_fediverse_explorations_description"}}}
                     {{/if}}
                 </li>

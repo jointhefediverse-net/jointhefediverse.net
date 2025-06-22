@@ -1,6 +1,6 @@
 /* Light mode (default and explicit) */
 
-:root{
+:root {
   --color-button: #623cd3;
   --color-button-hover: #7f5af0;
 }
@@ -35,7 +35,20 @@
   --bs-btn-active-color: #232946 !important;
 }
 
-.btn.btn-outline-primary {
+[data-bs-theme="light"] .btn.btn-outline-primary {
+  color: #232946 !important;
   background-color: unset !important;
+}
+
+.btn.btn-outline-primary:hover {
+  color: #fff !important;
+}
+
+[data-bs-theme="dark"] .btn.btn-outline-primary {
+  color: #b8c1ec !important;
+  background-color: unset !important;
+}
+
+[data-bs-theme="dark"] .btn.btn-outline-primary:hover {
   color: #fff !important;
 }
