@@ -3,7 +3,7 @@
   "join": "Присоединиться",
   "learn": "Узнать больше",
   "about": "О проекте",
-  "theme_dark": "Dark",
-  "theme_light": "Light",
-  "theme_auto": "Auto"
+  "theme_dark": "Тёмная",
+  "theme_light": "Светлая",
+  "theme_auto": "Автоматически"
 }

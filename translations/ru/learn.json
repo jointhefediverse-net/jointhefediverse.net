@@ -22,7 +22,10 @@
   "resource_fediverse_report_description": "подсказки и советы по Mastodon и fediverse",
   "resource_netizens_guide_title": "Путеводитель по Mastodon и fediverse",
   "resource_fediverse_explorations_title": "Fediverse Explorations",
+  "resource_fediverse_explorations_description": "исследования, научные работы и неформальные опросы, изучающие fediverse",
   "cta_home": "Вернуться домой",
   "cta_or": "или",
-  "cta_explore": "просмотреть сообщества"
+  "cta_explore": "просмотреть сообщества",
+  "resource_observatorio_do_fediverso_title": "Observatório do Fediverso",
+  "resource_observatorio_do_fediverso_description": "уроки, новости и рекомендации серверов для бразильцев, поддерживаемые Alquimídia — организацией, продвигающей fediverse в Бразилии"
 }
