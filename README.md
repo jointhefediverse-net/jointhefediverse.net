@@ -1,4 +1,5 @@
-![Logos of various fediverse platforms arranged in a circle, with little envelopes being sent between them.](public/images/images/fedi-920x240.png)
+![A word cloud of translations of the word fediverse into multiple languages.](public/wordcloud/media/fediverse.jpg)
+
 # JoinTheFediverse.net
 
 Learn about the fediverse and find your new community.
