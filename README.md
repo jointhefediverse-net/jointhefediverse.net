@@ -74,10 +74,15 @@ Consider listing services that are popular in your particular country.
 
 > Pravdepodobne používaš Gmail. Alebo Zoznam.sk. Možno Centrum.sk.
 
+### Updating existing translations
+
+If you'd like to suggest changes to existing translations, and you're comfortable using git/GitHub, you can open a pull request with edits to the [translated files for your particular language](https://github.com/jointhefediverse-net/jointhefediverse.net/tree/main/translations).
+
+Otherwise, please [reach out with your suggestions](https://stefanbohacek.com/contact/).
 
 ### Development
 
-This project uses node v18.13.0. Here's how you can run it locally:
+This project uses node v22.16.0. Here's how you can run it locally:
 
 ```sh
 #install dependencies
@@ -89,4 +94,5 @@ npm run translate
 # start development server
 npm run dev
 ```
+
 Note that there is an [open ticket](https://github.com/jointhefediverse-net/jointhefediverse.net/issues/13) to migrate the styles to SCSS, which will also require adding a build step.
