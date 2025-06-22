@@ -21,7 +21,10 @@
   "resource_fedi_tips_description": "unha guía non-técnica para usar Mastodon e o fediverso en xeral",
   "resource_fediverse_report_description": "trucos e detalles sobre Mastodon e o fediverso",
   "resource_netizens_guide_title": "Guía para internautas sobre Mastodon e o Fediverso",
+  "resource_observatorio_do_fediverso_title": "Observatório do Fediverso",
+  "resource_observatorio_do_fediverso_description": "Titoriais, novas, e suxestión de instancias para persoas do Brasil, mantida por Alquimidia, unha organización dedicada á promoción do Fediverso no Brasil",
   "resource_fediverse_explorations_title": "Fediverse Explorations",
+  "resource_fediverse_explorations_description": "estudos, investigacións, e enquisas informais que exploran o Fediverso",
   "cta_home": "Volver ao inicio",
   "cta_or": "ou",
   "cta_explore": "atopar comunidades"
