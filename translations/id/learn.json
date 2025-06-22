@@ -21,7 +21,8 @@
   "resource_fedi_tips_description": "panduan nonteknis untuk menggunakan Mastodon dan fediverse secara luas",
   "resource_fediverse_report_description": "tips dan trik mengenai Mastodon dan fediverse",
   "resource_netizens_guide_title": "Panduan bagi netizen menuju Mastodon dan fediverse",
-  "resource_fediverse_explorations_title": "Fediverse Explorations",
+  "resource_fediverse_explorations_title": "Eksplorasi Fediverse",
+  "resource_fediverse_explorations_description": "studi, makalah penelitian, dan jajak pendapat informal yang mengeksplorasi fediverse",
   "cta_home": "Kembali ke beranda",
   "cta_or": "atau",
   "cta_explore": "jelajahi komunitas"
