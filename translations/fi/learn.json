@@ -21,7 +21,8 @@
   "resource_fedi_tips_description": "Ei-tekninen manuaali mastodonin sekä laajan fediversumin käyttöön",
   "resource_fediverse_report_description": "vihjeitä ja vinkkejä mastodonista sekä fediversumista",
   "resource_netizens_guide_title": "Netin käyttäjän opas Mastodoniin sekä fediversumiin",
-  "resource_fediverse_explorations_title": "Fediverse Explorations",
+  "resource_fediverse_explorations_title": "Tutkimusmatkailua Fediverseen",
+  "resource_fediverse_explorations_description": "Tutkimuksia, tieteellisä artikkeleita ja epämuodollisempia kyselyitä, jotka luotaavat Fediverseä." 
   "cta_home": "Takaisin kotisivulle",
   "cta_or": "tai",
   "cta_explore": "tutki yhteisöjä"
