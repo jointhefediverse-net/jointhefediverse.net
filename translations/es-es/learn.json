@@ -22,6 +22,9 @@
   "resource_fediverse_report_description": "pistas y consejos acerca de Mastodon y el fediverso",
   "resource_netizens_guide_title": "Una guía de ciudadanía a Mastodon y el fediverso",
   "resource_fediverse_explorations_title": "Fediverse Explorations",
+  "resource_fediverse_explorations_description": "Estudios, artículos de investigación y encuestas informales que exploran el fediverso.",
+  "resource_observatorio_do_fediverso_title": "Observatório do Fediverso",
+  "resource_observatorio_do_fediverso_description": "Tutoriales, noticias y sugerencias de instancias para brasileños mantenidas por Alquimídia, una organización dedicada a fortalecer el fediverso en Brasil.",
   "cta_home": "Volver al inicio",
   "cta_or": "o",
   "cta_explore": "explorar comunidades"
