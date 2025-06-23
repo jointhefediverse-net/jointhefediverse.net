@@ -22,6 +22,9 @@
   "resource_fediverse_report_description": "pistes i trucs sobre Mastodon i el Fedivers",
   "resource_netizens_guide_title": "Guia per a l'usuari digital de Mastodon i el Fedivers",
   "resource_fediverse_explorations_title": "Fediverse Explorations",
+  "resource_fediverse_explorations_description": "Estudis, articles de recerca i enquestes informals que exploren el fedivers.",
+  "resource_observatorio_do_fediverso_title": "Observatório do Fediverso",
+  "resource_observatorio_do_fediverso_description": "Tutorials, notícies i suggeriments d'instàncies per a brasilers mantinguts per Alquimídia, una organització dedicada a enfortir el fedivers al Brasil.",
   "cta_home": "Torneu a l'inici",
   "cta_or": "o",
   "cta_explore": "exploreu comunitats"
