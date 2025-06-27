@@ -1,0 +1,17 @@
+{
+  "page_title": "Gå med i <mark>fediversumet</mark>",
+  "page_intro": "Här är några av de populära <mark>fediversum-alternativen</mark> till kommersiella sociala medier. Du kan gå med i vilken av dessa som helst och ändå <mark>följa vem som helst</mark> på de andra tjänsterna, eftersom de alla talar samma språk, till skillnad från traditionella sociala medier.",
+  "comparison_if": "Om du gillar...",
+  "comparison_then": "Bör du prova...",
+  "learn_more": "Utforska fler plattformar",
+  "find_community": "Hitta en gemenskap",
+  "outro": "Du kan också bläddra bland fediversum-gemenskaper baserade på <mark>intressen</mark> på <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, eller efter <mark>funktioner</mark> som de olika nätverken erbjuder på <a href='https://fediverse.info/explore/projects'>fediverse.info</a>",
+  "more_info_label": "Och när du väl är inne kan du hitta några <mark>populära konton</mark> och innehåll att följa:",
+  "more_info_feditrends_description": "samlar trender över hela fediversumet",
+  "more_info_fedi_directory_description": "intressanta konton att följa",
+  "more_info_fedified_description": "kända konton på Mastodon",
+  "more_info_fediverse_explorer_description": "bläddra bland de senaste offentliga inläggen över hela fediversumet efter hashtag",
+  "cta_home": "Gå tillbaka hem",
+  "cta_or": "eller",
+  "cta_learn": "dyk djupare"
+}
