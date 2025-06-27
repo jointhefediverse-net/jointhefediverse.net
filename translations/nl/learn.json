@@ -21,7 +21,10 @@
   "resource_fedi_tips_description": "niet-technische gids voor het gebruik van Mastodon en het verdere fediversum",
   "resource_fediverse_report_description": "tips en advies over Mastodon en het fediversum",
   "resource_netizens_guide_title": "Een wegwijzer voor internetgebruikers naar Mastodon en het fediversum...",
-  "resource_fediverse_explorations_title": "Fediverse Explorations",
+  "resource_fediverse_explorations_title": "Verkenningen van het Fediverse",
+  "resource_fediverse_explorations_description": "studies, onderzoeksartikelen en informele peilingen die het Fediverse verkennen",
+  "resource_observatorio_do_fediverso_title": "Observatorium van het Fediverse",
+  "resource_observatorio_do_fediverso_description": "Tutorials, nieuws en aanbevelingen van instances voor Brazilianen, onderhouden door Alquimídia – een organisatie gewijd aan het versterken van het Fediverse in Brazilië",
   "cta_home": "Ga terug naar de startpagina",
   "cta_or": "of",
   "cta_explore": "ontdek gemeenschappen"
