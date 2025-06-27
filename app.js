@@ -17,7 +17,7 @@ import path from "node:path";
 import { readdirSync, readFileSync } from "fs";
 import { fileURLToPath } from "node:url";
 
-import sortArrayOfObjects from "./modules/sort-array-of-objects.js";
+import sortArrayOfObjects from "./modules/sortArrayOfObjects.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 let translationData = [],
