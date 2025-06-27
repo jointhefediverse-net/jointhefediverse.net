@@ -1,4 +1,4 @@
-[![A word cloud of translations of the word fediverse into multiple languages: fediverse, فدیورس, الفديفيرس, федивърса, Fedivers, Fediverse, 联邦宇宙, 聯邦宇宙, fediverso, federujo, fedibertsoa, fédivers, fediversum, fediwersum, fediversumi.](public/wordcloud/light/fediverse.png)](https://github.com/jointhefediverse-net/jointhefediverse.net/tree/main/public/wordcloud)
+[![A word cloud of translations of the word fediverse into multiple languages: fediverse, فدیورس, الفديفيرس, федивърса, Fedivers, Fediverse, 联邦宇宙, 聯邦宇宙, fediverso, federujo, fedibertsoa, fédivers, fediversum, fediwersum, fediversumi.](public/wordcloud/light/rectangle/fediverse.png)](https://github.com/jointhefediverse-net/jointhefediverse.net/tree/main/public/wordcloud)
 
 # JoinTheFediverse.net
 
