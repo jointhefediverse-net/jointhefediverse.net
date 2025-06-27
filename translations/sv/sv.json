@@ -3,5 +3,11 @@
   "label_lat": "svenska",
   "label_en": "Swedish",
   "lang_dir": "LTR",
-  "available": true
+  "available": true,
+  "translators": [
+    {
+      "name": "Konstantin Kostov",
+      "url": "https://iamkonstantin.eu"
+    }
+  ]
 }
