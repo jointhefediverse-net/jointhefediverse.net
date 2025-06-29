@@ -88,10 +88,10 @@ export default (locale) => {
     //   video_id: "64VuNCccZNrP4u9MfgbhkN",
     //   video_subtitles: "XXXX",
     // },
-    // "sv-se" : {
-    //   video_id: "64VuNCccZNrP4u9MfgbhkN",
-    //   video_subtitles: "sv",
-    // },
+    "sv" : {
+      video_id: "64VuNCccZNrP4u9MfgbhkN",
+      video_subtitles: "sv",
+    },
     "zh-hans": {
       video_id: "64VuNCccZNrP4u9MfgbhkN",
       video_subtitles: "XXXX",
