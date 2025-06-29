@@ -63,6 +63,8 @@ Please note that `label_lat` should be a latinized (or transliterated) version o
 "label_en": "Spanish",
 ```
 
+Also, please note that `//` and the following text used in the example above should not be included in the translated JSON file, this is only used for explanation.
+
 5. Translate each file inside your locale folder.
 
 If you're working with a local copy of the site, you will need to [install node](https://nodejs.org/en/download) and run `npm run translate` to compile  translation files inside the `locales` directory. These files are not committed to the repo and will be generated during site deployment. 
