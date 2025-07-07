@@ -123,7 +123,7 @@
         applyTheme(currentTheme);
     </script>
     <header class="w-100">
-        <nav class="navbar navbar-expand-md navbar-dark">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
             <div class="container-fluid">
                 <button class="navbar-toggler collapsed bg-dark"
                     type="button"
@@ -157,7 +157,7 @@
                     </ul>
                 </div>
                 <form id="language-switcher-wrapper"
-                    class="d-flex gap-2">
+                    class="d-flex gap-2 flex-row flex-md-column flex-lg-row">
                     <select id="theme-switcher"
                         class="form-select mt-2 w-auto">
                         <option value="auto">🌓 {{{__ "navigation_theme_auto"}}}</option>
