@@ -44,10 +44,10 @@ export default (locale) => {
     //   video_id: "64VuNCccZNrP4u9MfgbhkN",
     //   video_subtitles: "XXXX",
     // },
-    // fi: {
-    //   video_id: "64VuNCccZNrP4u9MfgbhkN",
-    //   video_subtitles: "XXXX",
-    // },
+    fi: {
+      video_id: "64VuNCccZNrP4u9MfgbhkN",
+      video_subtitles: "fi",
+    },
     fr: {
       video_id: "hxzy97B63KJBtVC6jU5Cf4",
       video_subtitles: "fr",
