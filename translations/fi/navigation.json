@@ -1,9 +1,9 @@
 {
-  "home": "Kotisivu",
+  "home": "Etusivu",
   "join": "Liity",
-  "learn": "Opettele",
+  "learn": "Opi lisää",
   "about": "Projektista",
   "theme_dark": "Tumma",
   "theme_light": "Vaalea",
-  "theme_auto": "Auto"
+  "theme_auto": "Automaattinen"
 }
