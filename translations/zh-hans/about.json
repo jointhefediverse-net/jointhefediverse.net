@@ -1,5 +1,7 @@
 {
   "page_title": "关于项目",
   "description": "JoinTheFediverse.net 由<a href='https://stefanbohacek.com/contact/'>Stefan Bohacek</a>创办。翻译由下列优秀人士提供：",
-  "cta_home": "返回首页"
+  "cta_home": "返回首页",
+  "translation_title": "Translations:",
+  "additional_work_title": "Additional work:"
 }

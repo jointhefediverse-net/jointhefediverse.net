@@ -3,7 +3,8 @@
         <div class="col-sm-12">
             <h1 class="display-4 fw-bold text-center my-5">{{{__ "about_page_title"}}}</h1>
             <p>{{{__ "about_description"}}}</p>
-            <ul class="row mt-5">
+            <p class="fw-bold">{{{__ "about_translation_title"}}}</p>
+            <ul class="row">
                 {{#each translations}}
                     {{#if this.available}}
                         {{#if this.translators}}
@@ -21,8 +22,21 @@
                         {{/if}}
                     {{/if}}
                 {{/each}}
+
+                <p class="fw-bold">{{{__ "about_additional_work_title"}}}</p>
+                <ul class="row">
+                    {{#each attributions.attributions}}
+                        <div class="col-sm-12 col-md-6 col-lg-4 pb-4">
+                            <li>
+                                <img src="images/logos/miscellaneous/GitHub-light.svg" alt="GitHub logo" class="github-logo" style="width: 20px; height: 20px;">
+                                <a href="{{this.GithubLink}}">{{this.Name}}</a>: {{this.Description}}
+                            </li>
+                        </div>
+                    {{/each}}
+                </ul>
             </ul>
             <p class="mt-5"><a href="/">{{{__ "about_cta_home"}}}</a> | <a href="https://github.com/jointhefediverse-net/jointhefediverse.net">{{{__ "footer_view_source"}}}</a></p>
         </div>
+        
     </div>
 </div>
