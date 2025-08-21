@@ -12,6 +12,10 @@
         {
             "name": "MartyTF",
             "url": "https://fedi.marty.tf/@marty"
+        },
+        {
+            "name": "joergi",
+            "url": "https://chaos.social/@joergi"
         }
     ]
 }
