@@ -55,6 +55,7 @@
     max-width: 300px;
     max-height: 300px;
     margin: 0 auto;
+    transform: skew(2deg,1deg);
 }
 
 @media (min-width: 768px) {
