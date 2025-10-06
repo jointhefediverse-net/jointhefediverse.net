@@ -4,7 +4,7 @@ import fediverseVideoMapping from "../modules/fediverseVideoMapping.js";
 const router = express.Router();
 
 router.get("/", (req, res) => {
-  const { video_id, video_subtitles } = fediverseVideoMapping(
+  const { video_server, video_id, video_subtitles } = fediverseVideoMapping(
     res?.currentLocale?.code || "en-us"
   );
 
@@ -12,6 +12,7 @@ router.get("/", (req, res) => {
     supported_languages: JSON.stringify(res.locals.languages),
     translations: res.translations,
     current_locale: res.currentLocale,
+    video_server,
     video_id,
     video_subtitles,
     footer_scripts: process.env.FOOTER_SCRIPTS,
