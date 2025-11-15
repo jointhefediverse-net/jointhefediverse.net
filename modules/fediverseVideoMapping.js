@@ -34,10 +34,11 @@ export default (locale) => {
       video_id: "64VuNCccZNrP4u9MfgbhkN",
       video_subtitles: "en",
     },
-    // eo: {
-    //   video_id: "64VuNCccZNrP4u9MfgbhkN",
-    //   video_subtitles: "XXXX",
-    // },
+    "eo": {
+      video_server: "videos.elenarossini.com",
+      video_id: "64VuNCccZNrP4u9MfgbhkN",
+      video_subtitles: "eo",
+    },
     "es-es": {
       video_server: "videos.elenarossini.com",
       video_id: "64VuNCccZNrP4u9MfgbhkN",
