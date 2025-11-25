@@ -152,6 +152,12 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Bricolage";
+  src: url("/fonts/Bricolage/BricolageGrotesque[opsz,wdth,wght].ttf")
+    format("truetype");
+}
+
 html[dir="LTR"]:not([lang^="zh-"]) body {
   font-family: "Atkinson Hyperlegible Next", sans-serif !important;
 }
@@ -161,8 +167,19 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  font-family: "Roboto Serif", serif !important;
+h6,
+.lead{
+  font-family: "Bricolage", serif !important;
+}
+
+.lead{
+  font-size: 1.8rem !important;
+}
+
+.btn {
+  font-size: 1.2rem !important;
+  padding: 0.5rem 1rem !important;
+  min-width: 4rem !important;
 }
 
 /*
@@ -187,10 +204,6 @@ body {
 
 h1 {
   font-size: 4rem !important;
-}
-
-.lead {
-  font-size: 1.8rem !important;
 }
 
 .navbar-nav {
