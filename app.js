@@ -9,6 +9,7 @@ import indexRoute from "./routes/index.js";
 import aboutRoute from "./routes/about.js";
 import joinRoute from "./routes/join.js";
 import learnRoute from "./routes/learn.js";
+import zineRoute from "./routes/zine.js";
 import sitemapRoute from "./routes/sitemap.js";
 
 import { I18n } from "i18n";
@@ -118,6 +119,7 @@ app.use("/", indexRoute);
 app.use("/about", aboutRoute);
 app.use("/join", joinRoute);
 app.use("/learn", learnRoute);
+app.use("/zine", zineRoute);
 app.use("/sitemap.xml", sitemapRoute);
 
 export default app;
