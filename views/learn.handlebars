@@ -83,6 +83,18 @@
                     <a href="https://stefanbohacek.com/blog/a-netizens-guide-to-mastodon-fediverse/">{{{__
                         "learn_resource_netizens_guide_title"}}}</a>
                 </li>
+                {{#if (translationExists "learn_resource_fediverse_overview_community_title" current_locale.code)}}
+                <li>
+                    <a href="https://stefanbohacek.com/blog/fediverse-an-overview-for-community-organizers/">{{{__
+                        "learn_resource_fediverse_overview_community_title"}}}</a>
+                </li>
+                {{/if}}
+                {{#if (translationExists "learn_resource_fediverse_overview_government_title" current_locale.code)}}
+                <li>
+                    <a href="https://stefanbohacek.com/blog/fediverse-an-overview-for-government-agencies/">{{{__
+                        "learn_resource_fediverse_overview_government_title"}}}</a>
+                </li>
+                {{/if}}
                 {{#if (translationExists "learn_resource_observatorio_do_fediverso_title" current_locale.code)}}
                 <li>
                     <a href="https://alquimidia.org/fediverso/">{{{__

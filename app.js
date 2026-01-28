@@ -21,8 +21,8 @@ import { fileURLToPath } from "node:url";
 import sortArrayOfObjects from "./modules/sortArrayOfObjects.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-let translationData = [],
-  locales = [];
+let translationData = [];
+let locales = [];
 
 readdirSync(`${__dirname}/locales`)
   .filter((file) => path.extname(file) === ".json")
@@ -33,8 +33,8 @@ readdirSync(`${__dirname}/locales`)
     const translationDataObj = JSON.parse(
       fs.readFileSync(
         `${__dirname}/translations/${locale}/${locale}.json`,
-        "utf8"
-      )
+        "utf8",
+      ),
     );
     translationDataObj.code = locale;
     translationData.push(translationDataObj);
@@ -57,8 +57,8 @@ Handlebars.registerHelper("__n", function () {
 });
 
 Handlebars.registerHelper("translationExists", function (key, locale) {
-    const catalog = i18n.getCatalog(locale || i18n.getLocale());
-    return catalog && catalog.hasOwnProperty(key) && catalog[key] !== '';
+  const catalog = i18n.getCatalog(locale || i18n.getLocale());
+  return catalog && catalog.hasOwnProperty(key) && catalog[key] !== "";
 });
 
 Handlebars.registerHelper("ifEquals", (firstArg, secondArg, options) => {
@@ -74,32 +74,31 @@ app.use(express.static("public"));
 app.use(
   bodyParser.urlencoded({
     extended: true,
-  })
+  }),
 );
 
 app.use(cookieParser());
 app.use(bodyParser.json());
 
+app.use((req, res, next) => {
+  if (req.headers["accept-language"]) {
+    req.headers["accept-language"] =
+      req.headers["accept-language"].toLowerCase();
+  }
+  next();
+});
+
 app.use(i18n.init);
 
 app.use((req, res, next) => {
-  const cookies = cookieParser.JSONCookies(req.cookies);
-  let currentLocale = "en-us";
+  const currentLocale = req?.query?.lang || req.getLocale() || "en-us";
 
   res.locals.languages = i18n.getLocales();
   res.translations = sortArrayOfObjects(translationData, "label_lat");
 
-  if (req.query.lang) {
-    currentLocale = req.query.lang;
-  } else if (cookies && cookies.locale) {
-    currentLocale = cookies.locale;
-  } else if (req.getLocale()) {
-    currentLocale = req.getLocale();
-  }
-
   try {
     res.currentLocale = translationData.filter(
-      (locale) => locale.code === currentLocale
+      (locale) => locale.code === currentLocale,
     )[0];
   } catch (err) {
     /* noop */
