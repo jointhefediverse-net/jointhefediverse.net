@@ -94,6 +94,11 @@ app.use((req, res, next) => {
 
   res.locals.languages = i18n.getLocales();
   res.translations = sortArrayOfObjects(translationData, "label_lat");
+  
+  const attributions = JSON.parse(
+    readFileSync(`${__dirname}/public/attributions/attributions.json`, 'utf8')
+  );
+  res.attributions = attributions;
 
   try {
     res.currentLocale = translationData.filter(
