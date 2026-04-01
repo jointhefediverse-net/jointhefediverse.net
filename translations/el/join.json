@@ -1,0 +1,17 @@
+{
+  "page_title": "Γίνε μέλος στο <mark>fediverse</mark>",
+  "page_intro": "Ορίστε μερικές από τις πιο δημοφιλείς <mark>εναλλακτικές του fediverse</mark> για τα εμπορικά κοιωνικά δίκτυα. Μπορείς να γίνεις μέλος σε οποιοδήποτε απ' αυτά και πάλι να <mark>ακολουθείς οποιονδήποτε</mark> στις άλλες υπηρεσίες, επειδή όλες μιλούν την ίδια γλώσσα, σε αντίθεση με τα παραδοσιακά κοιωνικά δίκτυα.",
+  "comparison_if": "Αν σου αρέσει το...",
+  "comparison_then": "Δοκίμασε το...",
+  "learn_more": "Εξερεύνησε περισσότερες πλατφόρμες",
+  "find_community": "Βρες μια κοινότητα",
+  "outro": "Μπορείς επίσης να περιηγηθείς σε κοινότητες του fediverse βασισμένες σε <mark>ενδιαφέροντα</mark> στο <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> ή βάσει <mark>δυνατοτήτων</mark> όπου διάφορα δίκτυα προσφέρουν στο <a href='https://fedidb.com/welcome'>fedidb.com</a>",
+  "more_info_label": "Μόλις μπεις, μπορείς να βρεις μερικούς <mark>δημοφιλείς λογαριασμούς</mark> και περιεχόμενο για να ακολουθήσεις:",
+  "more_info_feditrends_description": "Συγκέντρωση όσων είναι σε τάση σε όλο το fediverse",
+  "more_info_fedi_directory_description": "ενδιαφέροντες λογαριασμοί προς ακολούθηση",
+  "more_info_fedified_description": "Αξιοσημείωτοι λογαριασμοί στο Mastodon",
+  "more_info_fediverse_explorer_description": "περιηγήσου στις πιο σχετικές αναρτήσεις σε όλο το fediverse βάσει ετικέτας",
+  "cta_home": "Πήγαινε στην αρχική",
+  "cta_or": "ή",
+  "cta_learn": "μπες στα βαθιά"
+}
