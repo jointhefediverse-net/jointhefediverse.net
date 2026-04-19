@@ -1,282 +1,259 @@
-@-webkit-keyframes move-dot1 {
-    0% {
-        transform: translateX(-50%) translateY(-50%);
-    }
-    20% {
-        transform: translateX(-50%) translateY(30%);
-    }
-    100% {
-        transform: translateX(-50%) translateY(30%);
-    }
+html[dir="RTL"] .network-animation > .item > .line {
+  border-left: 2px dashed var(--color-highlight);
 }
-@keyframes move-dot1 {
-    0% {
-        transform: translateX(-50%) translateY(-50%);
-    }
-    20% {
-        transform: translateX(-50%) translateY(30%);
-    }
-    100% {
-        transform: translateX(-50%) translateY(30%);
-    }
+
+html[dir="LTR"] .network-animation > .item > .line {
+  border-right: 2px dashed var(--color-highlight);
 }
-@-webkit-keyframes move-dot2 {
-    0% {
-        transform: translateX(-50%) translateY(-50%);
-    }
-    15% {
-        transform: translateX(-50%) translateY(-10%);
-    }
-    30% {
-        transform: translateX(20%) translateY(-10%);
-    }
-    100% {
-        transform: translateX(20%) translateY(30%);
-    }
+
+html[dir="RTL"] .network-animation > .item > .dot::after {
+  right: 42%;
 }
-@keyframes move-dot2 {
-    0% {
-        transform: translateX(-50%) translateY(-50%);
-    }
-    15% {
-        transform: translateX(-50%) translateY(-10%);
-    }
-    30% {
-        transform: translateX(20%) translateY(-10%);
-    }
-    100% {
-        transform: translateX(20%) translateY(30%);
-    }
+
+html[dir="LTR"] .network-animation > .item > .dot::after {
+  left: 42%;
 }
+
+html[dir="RTL"] .network-animation > .item.-type2 > .line {
+  /* border-right: 2px dashed var(--color-highlight); */
+}
+
+html[dir="LTR"] .network-animation > .item.-type2 > .line {
+  border-left: 2px dashed var(--color-highlight);
+}
+
 .network-animation {
-    position: relative;
-    height: 100vw;
-    width: 100vw;
-    max-width: 300px;
-    max-height: 300px;
-    margin: 0 auto;
+  position: relative;
+  height: 100vw;
+  width: 100vw;
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0 auto;
 }
 
 @media (min-width: 768px) {
-    .network-animation {
-        transform: skew(2deg,1deg);
-        max-width: 400px;
-        max-height: 400px;
-    }
+  .network-animation {
+    transform: skew(2deg, 1deg);
+    max-width: 400px;
+    max-height: 400px;
+  }
 }
 
+.envelope {
+  z-index: 20;
+}
 
 .network-animation > .item {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    height: 50%;
-    width: 50%;
-    transform: translateX(-50%);
-    transform-origin: 50% 100%;
-    pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  height: 50%;
+  width: 50%;
+  transform: translateX(-50%);
+  transform-origin: 50% 100%;
+  pointer-events: none;
+  z-index: 100;
 }
+
 .network-animation > .item:nth-child(2) {
-    transform: translateX(-50%) rotate(90deg);
+  transform: translateX(-50%) rotate(90deg);
 }
+
 .network-animation > .item:nth-child(2) img {
-    transform: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .network-animation > .item:nth-child(3) {
-    transform: translateX(-50%) rotate(180deg);
+  transform: translateX(-50%) rotate(180deg);
 }
+
 .network-animation > .item:nth-child(3) img {
-    transform: rotate(-180deg);
+  transform: rotate(-180deg);
 }
 
 .network-animation > .item:nth-child(4) {
-    transform: translateX(-50%) rotate(270deg);
+  transform: translateX(-50%) rotate(270deg);
 }
+
 .network-animation > .item:nth-child(4) img {
-    transform: rotate(-270deg);
+  transform: rotate(-270deg);
 }
 
 .network-animation > .item > .line {
-    height: 100%;
-    width: calc(50% + 1px);
+  height: 100%;
+  width: calc(50% + 1px);
 }
-
-html[dir="RTL"] .network-animation > .item > .line{
-    border-left: 2px dashed var(--color-highlight);
-}
-
-html[dir="LTR"] .network-animation > .item > .line{
-    border-right: 2px dashed var(--color-highlight);
-}
-
 
 .network-animation > .item > .dot {
-    position: absolute;
-    left: 50%;
-    top: 10%;
-    transform: translateX(-50%) translateY(-50%);
-    height: 100%;
-    width: 100%;
-    -webkit-animation: move-dot1 5.5s linear infinite alternate;
-    animation: move-dot1 5.5s linear infinite alternate;
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  transform: translateX(-50%) translateY(-50%);
+  height: 100%;
+  width: 100%;
 }
+
 .network-animation > .item > .dot::after {
-    content: '✉️';
-    position: absolute;
-    top: 42%;
-    transform: translateX(-50%) translateY(-50%);
-    height: 5%;
-    width: 5%;
-    z-index: 100;
-    position: relative;
-}
-
-html[dir="RTL"] .network-animation > .item > .dot::after{
-    right: 42%;
-}
-
-html[dir="LTR"] .network-animation > .item > .dot::after{
-    left: 42%;
+  content: "✉️";
+  position: absolute;
+  top: 42%;
+  transform: translateX(-50%) translateY(-50%);
+  height: 5%;
+  width: 5%;
+  z-index: 100;
+  position: relative;
 }
 
 .network-animation > .item > .circle {
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 30%;
-    width: 30%;
-    border-radius: 50%;
-    background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 30%;
+  width: 30%;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
 .network-animation > .item.-type2 {
-    top: 0;
-    left: 0;
-    transform: none;
-    transform-origin: 100% 100%;
+  top: 0;
+  left: 0;
+  transform: none;
+  transform-origin: 100% 100%;
 }
+
 .network-animation > .item.-type2:nth-child(5) {
-    transform: scaleX(-100%);
+  transform: scaleX(-100%);
 }
-.network-animation > .item.-type2:nth-child(5) img{
-    transform: scaleX(-100%);
+
+.network-animation > .item.-type2:nth-child(5) img {
+  transform: scaleX(-100%);
 }
+
 .network-animation > .item.-type2:nth-child(6) {
-    transform: scaleX(-100%) scaleY(-100%);
+  transform: scaleX(-100%) scaleY(-100%);
 }
-.network-animation > .item.-type2:nth-child(6) img{
-    transform: scaleX(-100%) scaleY(-100%);
+
+.network-animation > .item.-type2:nth-child(6) img {
+  transform: scaleX(-100%) scaleY(-100%);
 }
+
 .network-animation > .item.-type2:nth-child(7) {
-    transform: scaleY(-100%);
+  transform: scaleY(-100%);
 }
-.network-animation > .item.-type2:nth-child(7) img{
-    transform: scaleY(-100%);
+
+.network-animation > .item.-type2:nth-child(7) img {
+  transform: scaleY(-100%);
 }
+
 .network-animation > .item.-type2 > .line {
-    position: absolute;
-    top: 30%;
-    left: calc(30% - 1px);
-    width: 71%;
-    height: 40%;
-    border-right: none;
-    border-bottom: 2px dashed var(--color-highlight);
-}
-
-
-html[dir="RTL"] .network-animation > .item.-type2 > .line{
-    /* border-right: 2px dashed var(--color-highlight); */
-}
-
-html[dir="LTR"] .network-animation > .item.-type2 > .line{
-    border-left: 2px dashed var(--color-highlight);
+  position: absolute;
+  top: 30%;
+  left: calc(30% - 1px);
+  width: 71%;
+  height: 40%;
+  border-right: none;
+  border-bottom: 2px dashed var(--color-highlight);
 }
 
 .network-animation > .item.-type2 > .dot {
-    top: 30%;
-    left: 30%;
-    -webkit-animation: move-dot2 4s linear infinite alternate;
-    animation: move-dot2 4s linear infinite alternate;
-}
-.network-animation > .item.-type2 > .circle {
-    top: 30%;
-    left: 30%;
-    transform: translateX(-50%) translateY(-50%);
-}
-.network-animation > .item:nth-of-type(1) > .dot {
-    -webkit-animation-delay: 0;
-    animation-delay: 0;
-}
-.network-animation > .item:nth-of-type(7) > .dot {
-    -webkit-animation-delay: 0.5s;
-    animation-delay: 0.5s;
-}
-.network-animation > .item:nth-of-type(2) > .dot {
-    -webkit-animation-delay: 1s;
-    animation-delay: 1s;
-}
-.network-animation > .item:nth-of-type(6) > .dot {
-    -webkit-animation-delay: 1.5s;
-    animation-delay: 1.5s;
-}
-.network-animation > .item:nth-of-type(3) > .dot {
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-}
-.network-animation > .item:nth-of-type(5) > .dot {
-    -webkit-animation-delay: 2.5s;
-    animation-delay: 2.5s;
-}
-.network-animation > .item:nth-of-type(4) > .dot {
-    -webkit-animation-delay: 3s;
-    animation-delay: 3s;
-}
-.network-animation > .item:nth-of-type(8) > .dot {
-    -webkit-animation-delay: 3.5s;
-    animation-delay: 3.5s;
-}
-.network-animation > .center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    height: 50%;
-    width: 50%;
-}
-.network-animation > .center > .circle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateX(-50%) translateY(-50%);
-    border-radius: 50%;
-}
-.network-animation > .center > .circle {
-    height: 40%;
-    width: 40%;
-    background: var(--color-highlight);
+  top: 30%;
+  left: 30%;
 }
 
+.network-animation > .item.-type2 > .circle {
+  top: 30%;
+  left: 30%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.network-animation > .item:nth-of-type(1) > .dot {
+  animation-delay: 0;
+}
+
+.network-animation > .item:nth-of-type(7) > .dot {
+  animation-delay: 0.5s;
+}
+
+.network-animation > .item:nth-of-type(2) > .dot {
+  animation-delay: 1s;
+}
+
+.network-animation > .item:nth-of-type(6) > .dot {
+  animation-delay: 1.5s;
+}
+
+.network-animation > .item:nth-of-type(3) > .dot {
+  animation-delay: 2s;
+}
+
+.network-animation > .item:nth-of-type(5) > .dot {
+  animation-delay: 2.5s;
+}
+
+.network-animation > .item:nth-of-type(4) > .dot {
+  animation-delay: 3s;
+}
+
+.network-animation > .item:nth-of-type(8) > .dot {
+  animation-delay: 3.5s;
+}
+
+.network-animation > .center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  height: 50%;
+  width: 50%;
+}
+
+.network-animation > .center > .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 50%;
+}
+
+.network-animation > .center > .circle {
+  height: 40%;
+  width: 40%;
+  background: var(--color-highlight);
+}
+
+.network-animation > .item > .line,
+.network-animation > .item.-type2 > .line {
+  display: none;
+}
 
 @keyframes fade-out {
-    0% { opacity: 1; }
-    100% { opacity: 0; }
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 @keyframes fade-in {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .fade-out {
-    animation: fade-out 0.5s forwards !important;
+  animation: fade-out 0.5s forwards !important;
 }
 
 .fade-in {
-    animation: fade-in 0.5s forwards;
+  animation: fade-in 0.5s forwards;
 }
 
 @media (prefers-reduced-motion: reduce) {
