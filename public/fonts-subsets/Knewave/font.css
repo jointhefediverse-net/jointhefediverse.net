@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: "Knewave";
+  src: url("Knewave-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-knewave {
+  font-family: "Knewave" !important;
+}
+
+@font-face {
+  font-family: "Knewave";
+  src: url("Knewave-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-knewave {
+  font-family: "Knewave" !important;
+}

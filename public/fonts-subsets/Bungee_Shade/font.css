@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: "Bungee_Shade";
+  src: url("BungeeShade-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-bungeeshade {
+  font-family: "Bungee_Shade" !important;
+}
+
+@font-face {
+  font-family: "Bungee_Shade";
+  src: url("BungeeShade-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-bungeeshade {
+  font-family: "Bungee_Shade" !important;
+}

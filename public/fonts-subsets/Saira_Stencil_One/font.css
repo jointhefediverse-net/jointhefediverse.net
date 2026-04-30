@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: "Saira_Stencil_One";
+  src: url("SairaStencilOne-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-sairastencilone {
+  font-family: "Saira_Stencil_One" !important;
+}
+
+@font-face {
+  font-family: "Saira_Stencil_One";
+  src: url("SairaStencilOne-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-sairastencilone {
+  font-family: "Saira_Stencil_One" !important;
+}

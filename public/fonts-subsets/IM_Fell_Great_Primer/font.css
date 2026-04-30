@@ -1,0 +1,44 @@
+
+@font-face {
+  font-family: "IM_Fell_Great_Primer";
+  src: url("IMFellGreatPrimer-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-imfellgreatprimer {
+  font-family: "IM_Fell_Great_Primer" !important;
+}
+
+@font-face {
+  font-family: "IM_Fell_Great_Primer";
+  src: url("IMFellGreatPrimer-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-imfellgreatprimer {
+  font-family: "IM_Fell_Great_Primer" !important;
+}
+
+@font-face {
+  font-family: "IM_Fell_Great_Primer";
+  src: url("IMFellGreatPrimer-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-imfellgreatprimer {
+  font-family: "IM_Fell_Great_Primer" !important;
+}
+
+@font-face {
+  font-family: "IM_Fell_Great_Primer";
+  src: url("IMFellGreatPrimer-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-imfellgreatprimer {
+  font-family: "IM_Fell_Great_Primer" !important;
+}

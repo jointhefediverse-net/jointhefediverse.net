@@ -256,6 +256,39 @@ html[dir="LTR"] .network-animation > .item.-type2 > .line {
   animation: fade-in 0.5s forwards;
 }
 
+.fediverse-heading mark {
+  display: inline-block;
+  opacity: 0;
+}
+
+@keyframes word-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(0.3em);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes word-fade-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fediverse-heading mark.word-fade-up {
+  animation: word-fade-up 0.6s ease forwards;
+}
+
+.fediverse-heading mark.word-fade-out {
+  animation: word-fade-out 0.3s ease forwards;
+}
+
 @media (prefers-reduced-motion: reduce) {
   .network-animation > .item > .dot,
   .network-animation > .item.-type2 > .dot,
@@ -263,5 +296,10 @@ html[dir="LTR"] .network-animation > .item.-type2 > .line {
   .fade-in {
     animation: none !important;
     transition: none !important;
+  }
+
+  .fediverse-heading mark.word-fade-up,
+  .fediverse-heading mark.word-fade-out {
+    animation: none;
   }
 }

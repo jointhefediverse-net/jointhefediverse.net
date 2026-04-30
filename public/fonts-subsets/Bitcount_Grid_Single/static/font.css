@@ -1,0 +1,594 @@
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Cursive-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("BitcountGridSingle_Roman-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}

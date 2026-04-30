@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: "Blaka";
+  src: url("Blaka-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-blaka {
+  font-family: "Blaka" !important;
+}
+
+@font-face {
+  font-family: "Blaka";
+  src: url("Blaka-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-blaka {
+  font-family: "Blaka" !important;
+}
