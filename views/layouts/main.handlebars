@@ -29,7 +29,8 @@
         content="https://jointhefediverse.net/images/images/join-the-fediverse.png" />
     <meta property="og:image:alt"
         content="The text 'Join the fediverse' in shades of purple on a dark background" />
-    <link href="https://mastodon.social/@FediverseExplorations" rel="me">
+    <link href="https://mastodon.social/@FediverseExplorations"
+        rel="me">
     <link rel="apple-touch-icon"
         href="icons/apple-touch-icon.png"
         sizes="180x180">
@@ -181,15 +182,21 @@
         <div class="container">
         </div>
     </footer>
-    <script type="module"
-        src="/libs/bootstrap-5.3.3/js/bootstrap.min.js"
-        async></script>
-    <script type="module"
-        src="/libs/scrollama/3.1.1/scrollama.min.js"
-        async></script>
-    <script type="module"
-        src="/js/main.js"
-        async></script>
+
+
+    <script defer
+        src="/libs/gsap/gsap.min.js"></script>
+    <script defer
+        src="/libs/gsap/MotionPathPlugin.min.js"></script>
+    <script defer
+        type="module"
+        src="/libs/bootstrap-5.3.3/js/bootstrap.min.js"></script>
+    <script defer
+        type="module"
+        src="/libs/scrollama/3.1.1/scrollama.min.js"></script>
+    <script defer
+        type="module"
+        src="/js/main.js"></script>
     <script>const supportedLanguages = {{{ supported_languages }}}</script>
     <script>{{{footer_scripts}}}</script>
 </body>

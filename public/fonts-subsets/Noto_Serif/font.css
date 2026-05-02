@@ -1,0 +1,44 @@
+
+@font-face {
+  font-family: "Noto_Serif";
+  src: url("NotoSerif-Italic-VariableFont_wdth,wght.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-notoserif {
+  font-family: "Noto_Serif" !important;
+}
+
+@font-face {
+  font-family: "Noto_Serif";
+  src: url("NotoSerif-VariableFont_wdth,wght.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-notoserif {
+  font-family: "Noto_Serif" !important;
+}
+
+@font-face {
+  font-family: "Noto_Serif";
+  src: url("NotoSerif-Italic-VariableFont_wdth,wght.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-notoserif {
+  font-family: "Noto_Serif" !important;
+}
+
+@font-face {
+  font-family: "Noto_Serif";
+  src: url("NotoSerif-VariableFont_wdth,wght.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-notoserif {
+  font-family: "Noto_Serif" !important;
+}

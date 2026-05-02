@@ -1,0 +1,17 @@
+{
+  "page_title": "<mark>Fediverse'e</mark> katıl",
+  "page_intro": "Bazı popüler <mark>fediverse alternatiflerini</mark> burada bulabilirsiniz. Bunlardan yalnızca birine katılsanız bile diğer servislerden istediğiniz herkesi <mark>takip edebilirsiniz</mark>, çünkü geleneksel sosyal medyanın aksine bu platformların hepsi aynı dili konuşuyor.",
+  "comparison_if": "Bunu seviyorsanız...",
+  "comparison_then": "Bunları denemelisiniz...",
+  "learn_more": "Başka platformları keşfedin",
+  "find_community": "Bir topluluk bulun",
+  "outro": "Ayrıca <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a> adresinde <mark>ilgi alanlarınıza</mark> göre fediverse topluluklarını, <a href='https://fedidb.com/welcome'>fedidb.com</a> adresinde ise platformların sundukları <mark>özelliklere</mark> göre fediverse ağlarını keşfedebilirsiniz.",
+  "more_info_label": "Birine kaydolduktan sonra <mark>popüler hesapları</mark> ve içerikleri keşfedebilirsiniz:",
+  "more_info_feditrends_description": "fediverse'teki trendler",
+  "more_info_fedi_directory_description": "takip etmeye değer ilginç hesaplar",
+  "more_info_fedified_description": "Mastodon'daki kayda değer hesaplar",
+  "more_info_fediverse_explorer_description": "fediverse'teki son gönderileri hashtag'e göre arayın",
+  "cta_home": "Anasayfaya dönün",
+  "cta_or": "veya",
+  "cta_learn": "daha derine inin"
+}

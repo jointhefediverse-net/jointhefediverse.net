@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: "Bitcount_Grid_Single";
+  src: url("BitcountGridSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-bitcountgridsingle {
+  font-family: "Bitcount_Grid_Single" !important;
+}
+
+@font-face {
+  font-family: "Bitcount_Grid_Single";
+  src: url("BitcountGridSingle-VariableFont_CRSV,ELSH,ELXP,slnt,wght.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-bitcountgridsingle {
+  font-family: "Bitcount_Grid_Single" !important;
+}

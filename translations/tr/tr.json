@@ -1,0 +1,12 @@
+{
+    "label": "Türkçe",
+    "label_lat": "turkce",
+    "label_en": "Turkish",
+    "lang_dir": "LTR",
+    "available": true,
+    "translators": [
+        {
+            "name": "Özgür Deniz Akdemir",
+            "url": "https://hcommons.social/@denizakdemir"
+        }   ]
+}

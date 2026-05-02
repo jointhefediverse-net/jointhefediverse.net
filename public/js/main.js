@@ -3,11 +3,13 @@ import smoothScroll from "./modules/smoothScroll.js";
 import animate from "./modules/animation.js";
 import switchLanguage from "./modules/language-switcher.js";
 import initThemeSwitcher from './modules/theme-switcher.js';
+import initFediverseWordAnimation from './modules/fediverseWordAnimation.js';
 
 onReady(() => {
   smoothScroll();
   switchLanguage();
   initThemeSwitcher();
+  initFediverseWordAnimation(document.querySelector(".fediverse-heading mark"));
 
   if (typeof scrollama !== "undefined" && document.getElementsByClassName("step")?.length) {
     const scroller = scrollama();

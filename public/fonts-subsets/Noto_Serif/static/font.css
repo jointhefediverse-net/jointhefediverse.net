@@ -1,0 +1,1584 @@
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-ExtraLightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-ThinItalic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-ExtraLightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-ThinItalic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-ExtraLightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-ThinItalic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-ExtraLightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-ThinItalic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-ExtraLightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif-ThinItalic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-ExtraLightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_Condensed-ThinItalic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-ExtraLightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_ExtraCondensed-ThinItalic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-ExtraBoldItalic.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-ExtraLight.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-ExtraLightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Light.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-LightItalic.woff2") format("woff2");
+  font-weight: 300;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-MediumItalic.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-SemiBold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-SemiBoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}
+
+@font-face {
+  font-family: "static";
+  src: url("NotoSerif_SemiCondensed-ThinItalic.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+.font-static {
+  font-family: "static" !important;
+}

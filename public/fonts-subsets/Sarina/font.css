@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: "Sarina";
+  src: url("Sarina-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-sarina {
+  font-family: "Sarina" !important;
+}
+
+@font-face {
+  font-family: "Sarina";
+  src: url("Sarina-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-sarina {
+  font-family: "Sarina" !important;
+}

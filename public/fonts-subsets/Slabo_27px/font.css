@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: "Slabo_27px";
+  src: url("Slabo27px-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-slabo27px {
+  font-family: "Slabo_27px" !important;
+}
+
+@font-face {
+  font-family: "Slabo_27px";
+  src: url("Slabo27px-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-slabo27px {
+  font-family: "Slabo_27px" !important;
+}

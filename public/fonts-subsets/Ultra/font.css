@@ -1,0 +1,22 @@
+
+@font-face {
+  font-family: "Ultra";
+  src: url("Ultra-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-ultra {
+  font-family: "Ultra" !important;
+}
+
+@font-face {
+  font-family: "Ultra";
+  src: url("Ultra-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.font-ultra {
+  font-family: "Ultra" !important;
+}
