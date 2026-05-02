@@ -1,0 +1,13 @@
+{
+    "label": "Română (RO)",
+    "label_lat": "romana ro",
+    "label_en": "Romanian (RO)",
+    "lang_dir": "LTR",
+    "available": true,
+     "translators": [
+        {
+            "name": "Alessia (AlexTECPlayz)",
+            "url": "https://www.alextecplayz.com"
+        }
+    ]
+}
