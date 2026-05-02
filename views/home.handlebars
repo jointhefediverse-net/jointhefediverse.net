@@ -216,10 +216,10 @@
                 </a>
             </div>
         </div>
-        {{#if (eq current_locale.code "en-us")}}
+        {{#unless (localeNeedsTranslation "zine" current_locale.code)}}
         <div class="text-center mt-2">
             <a href='/zine'>{{{__ "home_outro_get_zine"}}}</a>
         </div>
-        {{/if}}
+        {{/unless}}
     </div>
 </div>
