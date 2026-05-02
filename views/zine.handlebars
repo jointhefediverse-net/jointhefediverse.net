@@ -34,6 +34,10 @@
 		color: black !important;
 	}
 
+	.zine > * {
+		overflow: visible;
+	}	
+
 	.zine> :nth-child(1) .page-image {
 		object-fit: cover !important;
 		padding: 0;
@@ -110,6 +114,17 @@
 
 
 	@media print {
+		html,
+		body {
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		* {
+			-webkit-print-color-adjust: exact;
+			print-color-adjust: exact;
+		}
+
 		body > header,
 		body > footer,
 		.container > .row,
@@ -256,7 +271,7 @@
 	});
 </script>
 	<picture class="zine-howto">
-		<source srcset="/images/zine/zine-howto-no-text-alpha-inverted.png" media="(prefers-color-scheme: dark)">
-		<img class="img-fluid d-block mx-auto mt-4" src="/images/zine/zine-howto-no-text-alpha.png" alt="">
+		<source srcset="/images/zine/zine-how-to-light.png" media="(prefers-color-scheme: dark)">
+		<img class="img-fluid d-block mx-auto mt-4" src="/images/zine/zine-how-to-dark.png" alt="">
 	</picture>
 </div>
