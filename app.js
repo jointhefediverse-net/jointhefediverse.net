@@ -110,6 +110,8 @@ app.use((req, res, next) => {
   next();
 });
 
+Handlebars.registerHelper("eq", (a, b) => a === b);
+
 app.engine("handlebars", engine());
 app.set("view engine", "handlebars");
 app.set("views", "./views");
