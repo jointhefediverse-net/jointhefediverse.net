@@ -1,4 +1,5 @@
 {
   "site_title": "Gå med i fediversumet!",
-  "site_description": "Lär dig om fediversumet och hitta din gemenskap."
+  "site_description": "Lär dig om fediversumet och hitta din gemenskap.",
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
 }

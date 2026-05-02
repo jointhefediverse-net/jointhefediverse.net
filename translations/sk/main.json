@@ -1,4 +1,5 @@
 {
   "site_title": "Pripoj sa do fediversu!",
-  "site_description": "Zisti co je  o federatívnom svete a nájdite svoju komunitu."
+  "site_description": "Zisti co je  o federatívnom svete a nájdite svoju komunitu.",
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
 }

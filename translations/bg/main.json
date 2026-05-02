@@ -1,4 +1,5 @@
 {
   "site_title": "Присъединете се към федивърса!",
-  "site_description": "Научете повече за федивърса и открийте вашата общност."
+  "site_description": "Научете повече за федивърса и открийте вашата общност.",
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
 }

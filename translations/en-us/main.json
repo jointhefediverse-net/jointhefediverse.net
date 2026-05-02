@@ -1,4 +1,5 @@
 {
   "site_title": "Join the fediverse!",
-  "site_description": "Learn about the fediverse and find your community."
+  "site_description": "Learn about the fediverse and find your community.",
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
 }

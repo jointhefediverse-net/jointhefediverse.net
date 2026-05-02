@@ -1,4 +1,5 @@
 {
   "site_title": "Připoj se do Fediverse!",
-  "site_description": "Zjisti co je ve světě Fediverse a najdi svojí komunitu."
+  "site_description": "Zjisti co je ve světě Fediverse a najdi svojí komunitu.",
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
 }

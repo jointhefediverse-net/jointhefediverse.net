@@ -1,4 +1,5 @@
 {
   "site_title": "انضم إلى الفديفيرس!",
-  "site_description": "تعرف على الفديفيرس واعثر على مجتمعك."
+  "site_description": "تعرف على الفديفيرس واعثر على مجتمعك.",
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
 }

@@ -1,4 +1,5 @@
 {
   "site_title": "Bergabung ke fediverse!",
-  "site_description": "Pelajari mengenai fediverse dan temukan komunitasmu."
+  "site_description": "Pelajari mengenai fediverse dan temukan komunitasmu.",
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
 }

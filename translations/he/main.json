@@ -1,4 +1,5 @@
 {
   "site_title": "הצטרפו לפדיברס!",
-  "site_description": "למדו על הפדיברס ומצאו את הקהילה שלכם."
+  "site_description": "למדו על הפדיברס ומצאו את הקהילה שלכם.",
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
 }

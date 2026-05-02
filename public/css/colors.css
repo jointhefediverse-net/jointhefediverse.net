@@ -21,8 +21,12 @@ h1 mark {
 }
 
 [data-bs-theme="light"] h1 mark {
-background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
-
+  background-image: linear-gradient(
+    -225deg,
+    #ac32e4 0%,
+    #7918f2 48%,
+    #4801ff 100%
+  );
 }
 
 h1,
@@ -62,6 +66,10 @@ a.btn:focus {
   color: var(--color-button-hover) !important;
 }
 
+[data-bs-theme="light"] .alert-link:hover,
+[data-bs-theme="light"] .alert-link:focus {
+  color: var(--bs-alert-link-color) !important;
+}
 
 a.btn {
   color: var(--color-button) !important;

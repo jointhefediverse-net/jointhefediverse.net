@@ -1,4 +1,5 @@
 {
   "site_title": "Batu fedibertsora!",
-  "site_description": "Jakin fedibertsoa zer den eta aurki ezazu zure komunitatea."
+  "site_description": "Jakin fedibertsoa zer den eta aurki ezazu zure komunitatea.",
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
 }

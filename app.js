@@ -18,6 +18,7 @@ import path from "node:path";
 import { readdirSync, readFileSync } from "fs";
 import { fileURLToPath } from "node:url";
 
+import untranslatedLocales from "./config/untranslatedLocales.js";
 import sortArrayOfObjects from "./modules/sortArrayOfObjects.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -65,6 +66,20 @@ Handlebars.registerHelper("ifEquals", (firstArg, secondArg, options) => {
   return firstArg === secondArg ? options.fn(this) : options.inverse(this);
 });
 
+Handlebars.registerHelper("eq", (a, b) => a === b);
+
+Handlebars.registerHelper("localeNeedsTranslation", function (page, localeCode) {
+  return untranslatedLocales[page]?.locales.has(localeCode) ?? false;
+});
+
+Handlebars.registerHelper("translationMissingAlert", function (page) {
+  const config = untranslatedLocales[page];
+  if (!config) return "";
+  return new Handlebars.SafeString(
+    i18n.__("main_translation_missing", { help_link: config.help_link })
+  );
+});
+
 const app = express();
 
 app.enable("view cache");
@@ -109,8 +124,6 @@ app.use((req, res, next) => {
   });
   next();
 });
-
-Handlebars.registerHelper("eq", (a, b) => a === b);
 
 app.engine("handlebars", engine());
 app.set("view engine", "handlebars");

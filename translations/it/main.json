@@ -1,4 +1,5 @@
 {
   "site_title": "Entra nel fediverso!",
-  "site_description": "Impara come funziona il fediverso e trova la tua community."
+  "site_description": "Impara come funziona il fediverso e trova la tua community.",
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
 }
