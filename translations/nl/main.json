@@ -1,5 +1,5 @@
 {
   "site_title": "Word lid van het fediversum!",
   "site_description": "Ontdek het fediversum en vind een gemeenschap.",
-  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%s'>Can you help translate it?</a>"
 }

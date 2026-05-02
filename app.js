@@ -76,7 +76,7 @@ Handlebars.registerHelper("translationMissingAlert", function (page) {
   const config = untranslatedLocales[page];
   if (!config) return "";
   return new Handlebars.SafeString(
-    i18n.__("main_translation_missing", { help_link: config.help_link })
+    i18n.__("main_translation_missing", config.help_link)
   );
 });
 

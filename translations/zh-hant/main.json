@@ -1,5 +1,5 @@
 {
   "site_title": "加入聯邦宇宙！",
   "site_description": "了解聯邦宇宙，找到屬於你的社群。",
-  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%s'>Can you help translate it?</a>"
 }

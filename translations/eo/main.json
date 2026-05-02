@@ -1,5 +1,5 @@
 {
   "site_title": "Aliĝu al la fediverso!",
   "site_description": "Lernu pri la fediverso kaj trovu vian komunumon.",
-  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%(help_link)s'>Can you help translate it?</a>"
+  "translation_missing": "This page is not yet available in your language. <a class='alert-link' href='%s'>Can you help translate it?</a>"
 }
