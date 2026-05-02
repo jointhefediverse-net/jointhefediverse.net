@@ -21,18 +21,6 @@
 		gap: 2rem;
 		margin: 2rem;
 	}
-	.zine::before {
-		font-family: system-ui, sans-serif;
-		content: "This is a micro-zine 🗞️. You can read it online, or 🖨️ print, ✂️ cut and 📃 fold it!";
-		/*position: fixed;*/
-		/*display: block;*/
-		/*right: 1rem;*/
-		/*top: 1rem;*/
-		/*width: 10rem;*/
-		padding: 1rem 2rem;
-		line-height: 2rem;
-		color: #828282;
-	}
 	/* Pages drop shadow to appear natural */
 	.zine > * {
 		border-radius: 2px;

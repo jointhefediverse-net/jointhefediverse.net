@@ -1,99 +1,262 @@
+<!-- Made with https://github.com/zserge/zine -->
 <style>
-/* Minimal CSS reset */
-* { margin: 0; padding: 0; box-sizing: border-box; }
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
 
-/* Common styles: zine is a grid with some gap between pages */
-.zine { display: grid; padding: 1mm; gap: 2mm; }
-/* Pages are also 21x15 grids to roughly fit A4/Letter aspect ratio */
-.zine > * {
-	display: grid;
-	grid-template-columns: repeat(15, 5mm);
-	grid-template-rows: repeat(21, 5mm);
-	background-color: white;
-}
-
-@media (prefers-color-scheme: dark) { body { background-color: #424242; } }
-
-@media screen {
-	/* On screen all pages go vertically in the middle of the screen */
 	.zine {
-		grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6" "p7" "p8";
-		justify-items: center;
-		gap: 2rem;
-		margin: 2rem;
+		display: grid;
+		padding: 1mm;
+		gap: 2mm;
 	}
-	.zine::before {
+
+	.zine>* {
+		display: grid;
+		grid-template-columns: repeat(15, 5mm);
+		grid-template-rows: repeat(21, 5mm);
+		background-color: white;
+		overflow: hidden;
+	}
+
+	.zine .page-image {
+		grid-column: 1 / span 15;
+		grid-row: 1 / span 21;
+		width: 75mm;
+		height: 105mm;
+		object-fit: contain !important;
+		padding: 10px;
+	}
+
+	.zine p,
+	.zine mark {
+		color: black !important;
+	}
+
+	.zine> :nth-child(1) .page-image {
+		object-fit: cover !important;
+		padding: 0;
+	}
+
+	.zine .page-text {
+		grid-column: 1 / span 15;
+		grid-row: 1 / span 21;
+		width: 75mm;
+		height: 105mm;
+		padding: 5mm;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 4mm;
 		font-family: system-ui, sans-serif;
-		content: "This is a micro-zine 🗞️. You can read it online, or 🖨️ print, ✂️ cut and 📃 fold it!";
-		/*position: fixed;*/
-		/*display: block;*/
-		/*right: 1rem;*/
-		/*top: 1rem;*/
-		/*width: 10rem;*/
-		padding: 1rem 2rem;
-		line-height: 2rem;
+		font-size: 4.5mm;
+		line-height: 1.5;
+	}
+
+	.zine .page-qr {
+		grid-column: 1 / span 15;
+		grid-row: 1 / span 21;
+		width: 75mm;
+		height: 105mm;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 3mm;
+		padding: 4mm;
+		font-family: system-ui, sans-serif;
+	}
+
+	.zine .page-qr img,
+	.zine .page-qr canvas {
+		width: 60mm;
+		height: 60mm;
+	}
+
+	.zine .page-qr .site-url {
+		font-size: 5mm;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	@media (prefers-color-scheme: dark) {
+		body {
+			background-color: #424242;
+		}
+	}
+
+	@media screen {
+
+		.zine {
+			grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6" "p7" "p8";
+			justify-items: center;
+			gap: 2rem;
+			margin: 2rem;
+		}
+
+.zine>* {
+			border-radius: 2px;
+			box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+		}
+	}
+
+	.zine-attribution {
+		font-family: system-ui, sans-serif;
+		text-align: center;
 		color: #828282;
+		margin-top: 1rem;
 	}
-	/* Pages drop shadow to appear natural */
-	.zine > * {
-		border-radius: 2px;
-		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	}
-}
 
-@media print {
-	/* 8-page zine should be printed in landscape mode with no additional margins */
-	@page { size: landscape; margin: 0; bleed: 0; }
-	/* Zine has strange page ordering to make folding possible */
-	.zine { width: 100vw; height: 100vh; grid-template-areas: "p5 p4 p3 p2" "p6 p7 p8 p1"; }
-	/* Some pages have to be flipped 180 degrees */
-	.zine > :nth-child(5), .zine > :nth-child(4), .zine > :nth-child(3), .zine > :nth-child(2) {
-		transform: rotate(180deg);
-	}
-	.zine :nth-child(1) { grid-area: p1; }
-	.zine :nth-child(2) { grid-area: p2; }
-	.zine :nth-child(3) { grid-area: p3; }
-	.zine :nth-child(4) { grid-area: p4; }
-	.zine :nth-child(5) { grid-area: p5; }
-	.zine :nth-child(6) { grid-area: p6; }
-	.zine :nth-child(7) { grid-area: p7; }
-	.zine :nth-child(8) { grid-area: p8; }
-}
 
+	@media print {
+		body > header,
+		body > footer,
+		.container > .row,
+		.zine-attribution,
+		.zine-howto {
+			display: none !important;
+		}
+
+		body.d-flex {
+			display: block !important;
+			height: auto !important;
+			margin: 0 !important;
+			padding: 0 !important;
+		}
+
+		html.h-100 {
+			height: auto !important;
+		}
+
+		body > main,
+		.container {
+			max-width: none !important;
+			width: 100vw !important;
+			padding: 0 !important;
+			margin: 0 !important;
+		}
+
+		@page {
+			size: landscape;
+			margin: 0;
+			bleed: 0;
+		}
+
+		.zine {
+			width: 100vw;
+			height: 100vh;
+			padding: 0;
+			gap: 0;
+			grid-template-areas: "p5 p4 p3 p2" "p6 p7 p8 p1";
+			grid-template-columns: repeat(4, 25vw);
+			grid-template-rows: repeat(2, 50vh);
+		}
+
+		.zine .page-image,
+		.zine .page-text,
+		.zine .page-qr {
+			width: 25vw;
+			height: 50vh;
+		}
+
+		.zine> :nth-child(5),
+		.zine> :nth-child(4),
+		.zine> :nth-child(3),
+		.zine> :nth-child(2) {
+			transform: rotate(180deg);
+		}
+
+		.zine > :nth-child(1) {
+			grid-area: p1;
+		}
+
+		.zine > :nth-child(2) {
+			grid-area: p2;
+		}
+
+		.zine > :nth-child(3) {
+			grid-area: p3;
+		}
+
+		.zine > :nth-child(4) {
+			grid-area: p4;
+		}
+
+		.zine > :nth-child(5) {
+			grid-area: p5;
+		}
+
+		.zine > :nth-child(6) {
+			grid-area: p6;
+		}
+
+		.zine > :nth-child(7) {
+			grid-area: p7;
+		}
+
+		.zine > :nth-child(8) {
+			grid-area: p8;
+		}
+	}
 </style>
 <div class="container mb-5 mt-5">
-    <div class="row">
-        <div class="col-sm-12">
-            <h1 class="display-4 fw-bold text-center my-5">{{{__ "zine_title"}}}</h1>
-            {{{__ "zine_description"}}}
-        </div>
-    </div>
+	<div class="row">
+		<div class="col-sm-12">
+			<h1 class="display-4 fw-bold text-center my-5">{{{__ "zine_title"}}}</h1>
+			<p class="text-center">
+				{{{__ "zine_description"}}}
+			</p> 
+		</div>
+	</div>
 
-
-    <main class="zine">
-      <article>
-        <h1>Header</h1>
-      </article>
-      <article>
-        <p>First page</p>
-      </article>
-      <article>
-        <p>Second page</p>
-      </article>
-      <article>
-        <p>Third page</p>
-      </article>
-      <article>
-        <p>Fourth page</p>
-      </article>
-      <article>
-        <p>Fifth page</p>
-      </article>
-      <article>
-        <p>Sixth page</p>
-      </article>
-      <article>
-        <h1>The end</h1>
-      </article>
-    </main>    
+	<main class="zine">
+		<article>
+			<img class="page-image" src="/images/images/fediverse-translations-inverted.png" alt="Fediverse">
+		</article>
+		<article>
+			<img class="page-image" src="/images/zine/email.png" alt="">
+		</article>
+		<article>
+			<div class="page-text">
+				<p>{{{__ "home_intro_email"}}}</p>
+				<p>{{{__ "home_intro_anyone"}}}</p>
+			</div>
+		</article>
+		<article>
+			<img class="page-image" src="/images/zine/social-media-corporate.png" alt="">
+		</article>
+		<article>
+			<div class="page-text">
+				<p>{{{__ "home_intro_social_media"}}}</p>
+			</div>
+		</article>
+		<article>
+			<img class="page-image" src="/images/zine/social-media-fediverse.png" alt="">
+		</article>
+		<article>
+			<div class="page-text">
+				<p>{{{__ "home_intro_what_if"}}}</p>
+			</div>
+		</article>
+		<article>
+			<div class="page-qr">
+				<div id="qrcode"></div>
+				<p class="site-url">JoinTheFediverse.net</p>
+			</div>
+		</article>
+	</main>
+	<p class="zine-attribution">{{{__ "zine_attribution"}}}</p>
+<script src="/libs/qr-code/qrcode.min.js"></script>
+<script>
+	new QRCode(document.getElementById("qrcode"), {
+		text: "https://invite.jointhefediverse.net/?lang={{current_locale.code}}",
+		width: 256,
+		height: 256
+	});
+</script>
+	<picture class="zine-howto">
+		<source srcset="/images/zine/zine-howto-no-text-alpha-inverted.png" media="(prefers-color-scheme: dark)">
+		<img class="img-fluid d-block mx-auto mt-4" src="/images/zine/zine-howto-no-text-alpha.png" alt="">
+	</picture>
 </div>
