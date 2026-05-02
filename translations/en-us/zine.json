@@ -1,4 +1,5 @@
 {
   "title": "Join the <mark>fediverse</mark>! zine",
-  "description": "Lorem ipsum!"
+  "description": "Print this micro-zine, cut it, fold it, and share it with your friends!",
+  "attribution": "Made with <a href='https://github.com/zserge/zine'>Micro Zine</a>."
 }
