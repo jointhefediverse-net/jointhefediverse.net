@@ -166,7 +166,7 @@
                     </select>
                     <select id="language-switcher"
                         class="form-select mt-2">
-                        <option style="display:none"></option>
+                        <option value="" disabled selected></option>
                         {{#each translations}}
                         <option value="{{this.code}}">{{this.label}}</option>
                         {{/each}}
