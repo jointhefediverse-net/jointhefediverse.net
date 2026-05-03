@@ -1,11 +1,11 @@
 {
-  "title": "Join the <mark>fediverse</mark>! zine",
-  "description": "Print this page as a micro-zine (select \"no borders\" in your printer settings), cut it, fold it, and share it with your friends!",
-  "attribution": "Made with <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
-  "alt_cover": "Translations of the word fediverse in various languages repeating across multiple lines.",
-  "alt_email": "Logos of various email clients, including GMail, Outlook, Apple Mail, and others, arranged in a circle, connected with dashed lines. A few emoji envelope are shown as being sent between the email clients.",
-  "alt_social_corporate": "Logos of various corporate social media platforms, including Facebook, Instagram, X, and others, arranged in a circle. There are no connections between them and no messages are being sent.",
-  "alt_social_fediverse": "Logos of various fediverse social media platforms, including Mastodon, Pixelfed, and others, arranged in a circle, connected with dashed lines. A few emoji envelope are shown as being sent between the platforms.",
-  "alt_qr_code": "QR code generated for the website JoinTheFediverse.net",
-  "alt_instructions": "Step-by-step diagram showing how to fold and cut the printed zine: 1. Fold the paper in half horizontally. 2. Fold in half vertically. 3. Fold in half vertically again. 4. Unfold, then fold again horizontally. 5. Cut mid-way across the center. 6. Unfold. A slit should be in the middle of the zine. 7. Fold horizontally again. 8. Push the two ends of the zine toward the center. This will open up the center part of the zine. 9. As you keep pushing the ends of the zine, the zine will take its finished shape of a booklet."
+  "title": "¡Únete al <mark>fediverso</mark>! zine",
+  "description": "Imprime esta página como un microfanzine (selecciona \"sin márgenes\" en la configuración de tu impresora), recórtala, dóblala ¡y compártela con tus amigos!",
+  "attribution": "Creado con <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
+  "alt_cover": "Traducciones de la palabra fediverso en varios idiomas que se repiten en varias líneas.",
+  "alt_email": "Logotipos de varios clientes de correo electrónico, incluidos GMail, Outlook, Apple Mail y otros, dispuestos en círculo y conectados con líneas discontinuas. Se muestran algunos emojis de sobres que se envían entre los clientes de correo electrónico.",
+  "alt_social_corporate": "Logotipos de varias plataformas de redes sociales corporativas, como Facebook, Instagram, X y otras, dispuestos en círculo. No hay conexiones entre ellos y no se están enviando mensajes.",
+  "alt_social_fediverse": "Logotipos de varias plataformas de redes sociales del fediverso, como Mastodon, Pixelfed y otras, dispuestos en círculo y conectados por líneas discontinuas. Se muestran varios emojis de sobres que parecen enviarse entre las plataformas.",
+  "alt_qr_code": "Código QR generado para el sitio web JoinTheFediverse.net",
+  "alt_instructions": "Diagrama paso a paso que muestra cómo doblar y cortar el zine impreso: 1. Dobla el papel por la mitad horizontalmente. 2. Dobla por la mitad verticalmente. 3. Dobla por la mitad verticalmente de nuevo. 4. Desdobla y vuelve a doblar horizontalmente. 5. Corta por la mitad a lo largo del centro. 6. Desdobla. Debería quedar una hendidura en el centro del zine. 7. Dobla de nuevo horizontalmente. 8. Empuja los dos extremos del zine hacia el centro. Esto abrirá la parte central del zine. 9. A medida que sigas empujando los extremos del fanzine, este adoptará su forma final de folleto."
 }
