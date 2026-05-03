@@ -1,7 +1,11 @@
 import randomFromArray from "./randomFromArray.js";
 
 export default async (el) => {
-  if (el) {
+  const prefersReducedMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)",
+  ).matches;
+
+  if (el && !prefersReducedMotion) {
     const resp = await fetch("/data/translations/fediverse.json");
     const translations = await resp.json();
 
