@@ -1,5 +1,6 @@
 {
   "title": "¡Únete al <mark>fediverso</mark>! zine",
+  "title_no_html": "¡Únete al fediverso! zine",
   "description": "Imprime esta página como un microfanzine (selecciona \"sin márgenes\" en la configuración de tu impresora), recórtala, dóblala ¡y compártela con tus amigos!",
   "attribution": "Creado con <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
   "alt_cover": "Traducciones de la palabra fediverso en varios idiomas que se repiten en varias líneas.",

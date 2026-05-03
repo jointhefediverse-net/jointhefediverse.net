@@ -1,5 +1,6 @@
 {
   "title": "Revista Alătură-te pe <mark>fedivers</mark>!",
+  "title_no_html": "Revista Alătură-te pe fedivers!",
   "description": "Printează această pagină ca o micro-revistă (selectează \"fără chenar\" în setările imprimantei), decupează, îndoaie și distribuie-o apoi prietenilor tăi!",
   "attribution": "Creat cu <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
   "alt_cover": "Traduceri ale cuvântului fedivers în diferite limbi care se repetă pe mai multe rânduri.",

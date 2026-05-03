@@ -1,5 +1,6 @@
 {
   "title": "Comparte o <mark>fediverse</mark>! zine",
+  "title_no_html": "Comparte o fediverse! zine",
   "description": "Imprime esta páxina como un micro-zine (selecciona \"sen bordos\" nos axustes da impresora), córtao, prégao, e compárteo coas túas amizades!",
   "attribution": "Feito con <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
   "alt_cover": "Traducións da palabra <i>fediverse</i> en varios idiomas e repetida en múltiples liñas.",
