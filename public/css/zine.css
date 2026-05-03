@@ -76,6 +76,11 @@
   body {
     background-color: #424242;
   }
+
+  .zine p,
+  .zine mark {
+    color: black !important;
+  }
 }
 
 @media screen {
