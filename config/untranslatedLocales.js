@@ -12,7 +12,6 @@ const untranslatedLocales = {
       "fa",
       "fi",
       "fr",
-      "gl",
       "he",
       "id",
       "it",
