@@ -1,139 +1,184 @@
 /* From https://github.com/zserge/zine */
-/* Minimal CSS reset */
-* { margin: 0; padding: 0; box-sizing: border-box; }
 
-/* Common styles: zine is a grid with some gap between pages */
-.zine { display: grid; padding: 1mm; gap: 2mm; }
-/* Pages are also 21x15 grids to roughly fit A4/Letter aspect ratio */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.zine {
+  display: grid;
+  padding: 1mm;
+  gap: 2mm;
+}
+
 .zine > * {
-	display: grid;
-	grid-template-columns: repeat(15, 5mm);
-	grid-template-rows: repeat(21, 5mm);
-	background-color: white;
+  display: grid;
+  grid-template-columns: repeat(15, 5mm);
+  grid-template-rows: repeat(21, 5mm);
+  background-color: white;
 }
 
 .zine .page-image {
-	grid-column: 1 / span 15;
-	grid-row: 1 / span 21;
-	max-width: 100%;
-	align-self: center;
-	object-fit: contain;
-	padding: 10px;
+  grid-column: 1 / span 15;
+  grid-row: 1 / span 21;
+  max-width: 100%;
+  align-self: center;
+  object-fit: contain;
+  padding: 10px;
 }
 
 .zine > :nth-child(1) .page-image {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-	padding: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 0;
 }
 
 .zine .page-text {
-	grid-column: 1 / span 15;
-	grid-row: 1 / span 21;
-	padding: 5mm;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	gap: 4mm;
-	font-family: system-ui, sans-serif;
-	font-size: 4.5mm;
-	line-height: 1.5;
+  grid-column: 1 / span 15;
+  grid-row: 1 / span 21;
+  padding: 5mm;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4mm;
+  font-family: system-ui, sans-serif;
+  font-size: 4.5mm;
+  line-height: 1.5;
 }
 
 .zine .page-qr {
-	grid-column: 1 / span 15;
-	grid-row: 1 / span 21;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	gap: 3mm;
-	padding: 4mm;
-	font-family: system-ui, sans-serif;
+  grid-column: 1 / span 15;
+  grid-row: 1 / span 21;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3mm;
+  padding: 4mm;
+  font-family: system-ui, sans-serif;
 }
 
 .zine .page-qr img,
 .zine .page-qr canvas {
-	width: 60mm;
-	height: 60mm;
+  width: 60mm;
+  height: 60mm;
 }
 
 .zine .page-qr .site-url {
-	font-size: 5mm;
-	font-weight: bold;
-	text-align: center;
+  font-size: 5mm;
+  font-weight: bold;
+  text-align: center;
 }
 
-@media (prefers-color-scheme: dark) { body { background-color: #424242; } }
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #424242;
+  }
+}
 
 @media screen {
-	/* On screen all pages go vertically in the middle of the screen */
-	.zine {
-		grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6" "p7" "p8";
-		justify-items: center;
-		gap: 2rem;
-		margin: 2rem;
-	}
-	/* Pages drop shadow to appear natural */
-	.zine > * {
-		border-radius: 2px;
-		box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-	}
+  .zine {
+    grid-template-areas: "p1" "p2" "p3" "p4" "p5" "p6" "p7" "p8";
+    justify-items: center;
+    gap: 2rem;
+    margin: 2rem;
+  }
+  .zine > * {
+    border-radius: 2px;
+    box-shadow:
+      0 3px 6px rgba(0, 0, 0, 0.16),
+      0 3px 6px rgba(0, 0, 0, 0.23);
+  }
 }
 
 @media print {
-	/* 8-page zine should be printed in landscape mode with no additional margins */
-	@page { size: landscape; margin: 0; bleed: 0; }
+  @page {
+    size: landscape;
+    margin: 0;
+    bleed: 0;
+  }
 
-	body > header,
-	body > footer,
-	.container > .row,
-	.zine-attribution,
-	.zine-howto {
-		display: none !important;
-	}
+  body > header,
+  body > footer,
+  .container > .row,
+  .zine-attribution,
+  .zine-howto {
+    display: none !important;
+  }
 
-	* {
-		-webkit-print-color-adjust: exact;
-		print-color-adjust: exact;
-	}
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
 
-	html,
-	body {
-		background: white !important;
-	}
+  html,
+  body {
+    background: white !important;
+  }
 
-	html.h-100 {
-		height: auto !important;
-	}
+  html.h-100 {
+    height: auto !important;
+  }
 
-	body.d-flex {
-		display: block !important;
-		height: auto !important;
-		margin: 0 !important;
-		padding: 0 !important;
-	}
+  body.d-flex {
+    display: block !important;
+    height: auto !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 
-	body > main,
-	.container {
-		max-width: none !important;
-		width: 100vw !important;
-		padding: 0 !important;
-		margin: 0 !important;
-	}
-	/* Zine has strange page ordering to make folding possible */
-	.zine { width: 100vw; height: 100vh; padding: 0; gap: 0; grid-template-areas: "p5 p4 p3 p2" "p6 p7 p8 p1"; }
-	/* Some pages have to be flipped 180 degrees */
-	.zine > :nth-child(5), .zine > :nth-child(4), .zine > :nth-child(3), .zine > :nth-child(2) {
-		transform: rotate(180deg);
-	}
-	.zine > :nth-child(1) { grid-area: p1; }
-	.zine > :nth-child(2) { grid-area: p2; }
-	.zine > :nth-child(3) { grid-area: p3; }
-	.zine > :nth-child(4) { grid-area: p4; }
-	.zine > :nth-child(5) { grid-area: p5; }
-	.zine > :nth-child(6) { grid-area: p6; }
-	.zine > :nth-child(7) { grid-area: p7; }
-	.zine > :nth-child(8) { grid-area: p8; }
+  body > main,
+  .container {
+    max-width: none !important;
+    width: 100vw !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  .zine {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    gap: 0;
+    grid-template-areas: "p5 p4 p3 p2" "p6 p7 p8 p1";
+  }
+
+	.zine > :nth-child(5),
+  .zine > :nth-child(4),
+  .zine > :nth-child(3),
+  .zine > :nth-child(2) {
+    transform: rotate(180deg);
+  }
+
+  /* TODO: Dashed lines for folding and cutting */
+  /* .zine > * { border-bottom: 1px dashed #999; } */
+  /* .zine > :nth-child(1), .zine > :nth-child(5) { border-right: 1px dashed #999; } */
+  /* .zine > :nth-child(2), .zine > :nth-child(6) { border-left: 1px dashed #999; } */
+
+  .zine > :nth-child(1) {
+    grid-area: p1;
+  }
+  .zine > :nth-child(2) {
+    grid-area: p2;
+  }
+  .zine > :nth-child(3) {
+    grid-area: p3;
+  }
+  .zine > :nth-child(4) {
+    grid-area: p4;
+  }
+  .zine > :nth-child(5) {
+    grid-area: p5;
+  }
+  .zine > :nth-child(6) {
+    grid-area: p6;
+  }
+  .zine > :nth-child(7) {
+    grid-area: p7;
+  }
+  .zine > :nth-child(8) {
+    grid-area: p8;
+  }
 }
