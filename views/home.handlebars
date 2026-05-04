@@ -188,43 +188,5 @@
                 href='/join'>{{{__ "home_outro_join"}}}</a> {{{__ "home_outro_or"}}} <a class='d-block d-md-inline'
                 href='/learn'>{{{__ "home_outro_learn_more"}}}</a>
         </div>
-        <div class="row mt-3">
-            <div class="col-12 text-center">
-                <a class="d-inline-block text-decoration-none"
-                    title="jointhefediverse.net QR code"
-                    href="/images/qr-code/fediverse-qr-light.png">
-                    <img loading="lazy"
-                        alt=""
-                        role="presentation"
-                        width="280"
-                        height="280"
-                        class="mw-100 p-3"
-                        style="image-rendering: crisp-edges;"
-                        src="/images/qr-code/fediverse-qr-light-280px.png">
-                </a>
-                <a class="d-inline-block text-decoration-none"
-                    title="jointhefediverse.net QR code"
-                    href="/images/qr-code/fediverse-qr-dark.png">
-                    <img loading="lazy"
-                        alt=""
-                        role="presentation"
-                        width="280"
-                        height="280"
-                        class="mw-100 p-3"
-                        style="image-rendering: crisp-edges;"
-                        src="/images/qr-code/fediverse-qr-dark-280px.png">
-                </a>
-            </div>
-        </div>
-        {{#unless (localeNeedsTranslation "zine" current_locale.code)}}
-        <div class="text-center mt-4">
-            <a class="d-inline-block" href='/zine'>
-                <img width="262" height="262" alt="{{{__ "zine_alt_cover"}}}" title="{{{__ "zine_title_no_html"}}}" src="images/zine/zine-prints/zine-link-image.png">
-                <p>
-                    {{{__ "home_outro_get_zine"}}}
-                </p>
-            </a>
-        </div>
-        {{/unless}}
     </div>
 </div>
