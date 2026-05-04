@@ -208,6 +208,7 @@
                 </div>
             </div>
             {{#unless (localeNeedsTranslation "zine" current_locale.code)}}
+            {{#unless (includes hideElements "zine-promo")}}
             <div id="zine-promo" class="text-center mt-4">
                 <a class="d-inline-block" href='/zine'>
                     <img width="262" height="262" alt="{{{__ "zine_alt_cover"}}}" title="{{{__ "zine_title_no_html"}}}" src="images/zine/zine-prints/zine-link-image.png">
@@ -216,7 +217,8 @@
                     </p>
                 </a>
             </div>
-            {{/unless}}            
+            {{/unless}}
+            {{/unless}}
         </div>
     </footer>
 

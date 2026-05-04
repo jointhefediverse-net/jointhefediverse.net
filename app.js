@@ -68,6 +68,8 @@ Handlebars.registerHelper("ifEquals", (firstArg, secondArg, options) => {
 
 Handlebars.registerHelper("eq", (a, b) => a === b);
 
+Handlebars.registerHelper("includes", (arr, value) => Array.isArray(arr) && arr.includes(value));
+
 Handlebars.registerHelper("localeNeedsTranslation", function (page, localeCode) {
   return untranslatedLocales[page]?.locales.has(localeCode) ?? false;
 });

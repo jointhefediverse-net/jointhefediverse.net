@@ -5,7 +5,7 @@ const router = express.Router();
 
 router.get("/", (req, res) => {
   const { video_server, video_id, video_subtitles } = fediverseVideoMapping(
-    res?.currentLocale?.code || "en-us"
+    res?.currentLocale?.code || "en-us",
   );
 
   res.render("../views/learn.handlebars", {
