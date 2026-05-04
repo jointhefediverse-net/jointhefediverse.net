@@ -109,7 +109,8 @@
   body > footer,
   .container > .row,
   .zine-attribution,
-  .zine-howto {
+  .zine-howto,
+  .zine-printout {
     display: none !important;
   }
 
