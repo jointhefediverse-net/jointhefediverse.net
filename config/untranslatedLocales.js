@@ -5,7 +5,6 @@ const untranslatedLocales = {
       "bg",
       "ca",
       "cz-cs",
-      "de-de",
       "el",
       "eo",
       "eu",
