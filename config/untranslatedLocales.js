@@ -10,7 +10,6 @@ const untranslatedLocales = {
       "eu",
       "fa",
       "fi",
-      "fr",
       "he",
       "id",
       "it",
