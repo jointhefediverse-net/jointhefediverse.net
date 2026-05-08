@@ -36,8 +36,9 @@ const drawConnections = (container, nodePositions) => {
 };
 
 let resizeHandler = null;
+let activeEmoji = null;
 
-const initEnvelopes = () => {
+const initEnvelopes = (emoji) => {
   const container = document.querySelector(".network-animation");
   if (!container || !window.gsap) return;
 
@@ -58,7 +59,7 @@ const initEnvelopes = () => {
 
     drawConnections(container, nodePositions);
 
-    const envelopes = nodePositions.map((pos) => {
+    const envelopes = nodePositions.map((pos, i) => {
       const el = document.createElement("div");
       el.classList.add("envelope");
       el.style.cssText = `
@@ -70,7 +71,7 @@ const initEnvelopes = () => {
         transform: translate(-50%, -50%);
         opacity: 0;
       `;
-      el.textContent = "✉️";
+      el.textContent = emoji[i % emoji.length];
       container.appendChild(el);
       gsap.set(el, { x: pos.x, y: pos.y });
       return el;
@@ -112,11 +113,13 @@ const initEnvelopes = () => {
   window.addEventListener("resize", resizeHandler);
 };
 
+const fediverseInteractions = ["✉️", "🔁", "⭐", "❤️"];
+
 const steps = {
-  1: { logoType: "email", fade: "in" },
+  1: { logoType: "email", fade: "in", emoji: ["✉️"] },
   2: { logoType: "social", fade: "out" },
-  3: { logoType: "fediverse", fade: "in" },
-  4: { logoType: "fediverse", fade: "in" },
+  3: { logoType: "fediverse", fade: "in", emoji: fediverseInteractions },
+  4: { logoType: "fediverse", fade: "in", emoji: fediverseInteractions },
 };
 
 const animate = (step) => {
@@ -134,7 +137,10 @@ const animate = (step) => {
       el.classList.toggle("fade-out", config.fade === "out");
     });
 
-  if (step === 1) initEnvelopes();
+  if (config.emoji && config.emoji !== activeEmoji) {
+    activeEmoji = config.emoji;
+    initEnvelopes(config.emoji);
+  }
 };
 
 export default animate;
