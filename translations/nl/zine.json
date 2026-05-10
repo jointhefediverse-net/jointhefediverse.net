@@ -4,12 +4,12 @@
   "description": "Print deze pagina als een micro-zine (selecteer \"geen randen\" in jou printer instellingen), knip het uit, vouw het, en deel het met je vrienden!",
   "attribution": "Gemaakt met <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
   "alt_cover": "Vertalingen van het woord fediversum in verschillende talen, herhaald over meerdere lijnen.",
-  "alt_email": "Logos van verschillende email applicaties, zoals GMail, Outlook, Apple Mail, en andere, geschikt in een cirkel, verbonden met stippellijnen. Een paar emoji enveloppen zijn zichtbaar, alsof ze verzondern worden tussen de mail apps.",
-  "alt_social_corporate": "Logos of various corporate social media platforms, including Facebook, Instagram, X, and others, arranged in a circle. There are no connections between them and no messages are being sent.",
-  "alt_social_fediverse": "Logos of various fediverse social media platforms, including Mastodon, Pixelfed, and others, arranged in a circle, connected with dashed lines. A few emoji envelope are shown as being sent between the platforms.",
-  "alt_qr_code": "QR code generated for the website JoinTheFediverse.net",
-  "alt_instructions": "Step-by-step diagram showing how to fold and cut the printed zine: 1. Fold the paper in half horizontally. 2. Fold in half vertically. 3. Fold in half vertically again. 4. Unfold, then fold again horizontally. 5. Cut mid-way across the center. 6. Unfold. A slit should be in the middle of the zine. 7. Fold horizontally again. 8. Push the two ends of the zine toward the center. This will open up the center part of the zine. 9. As you keep pushing the ends of the zine, the zine will take its finished shape of a booklet.",
-  "alt_printout": "Diagram showing the zine when it's printed out.",
-  "qr_invite_label": "Paste your <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>invitation link</a> to customize the QR code:",
-  "qr_invite_error": "Please use a link from invite.jointhefediverse.net."
+  "alt_email": "Logos van verschillende email applicaties, waaronder GMail, Outlook, Apple Mail, en andere, geschikt in een cirkel, verbonden met stippellijnen. Er zijn een paar emoji-enveloppen te zien, alsof ze verzonden worden tussen de mail apps.",
+  "alt_social_corporate": "Logo's van verschillende sociale media platformen van bedrijven, waaronder Facebook, Instagram, X en andere, in een cirkel gerangschikt. Er zijn geen verbindingen tussen de logo's en er worden geen berichten verzonden.",
+  "alt_social_fediverse": "Logo's van verschillende sociale media platformen binnen het fediverse, waaronder Mastodon, Pixelfed en andere, gerangschikt in een cirkel en met stippellijnen verbonden. Er zijn een paar emoji-enveloppen te zien, alsof ze verzondern worden tussen de platformen.",
+  "alt_qr_code": "QR code gegenereerd voor de website JoinTheFediverse.net",
+  "alt_instructions": "Stap voor stap diagram dat toont hoe het afgedrukte zine te vouwen: 1. Vouw het papier horizontaal dubbel. 2. Vouw het verticaal dubbel. 3. Vouw het opnieuw verticaal dubbel. 4. Vouw open en vouw vervolgens weer horizontaal. 5. Snijd halverwege door het midden. 6. Vouw open. Er moet een spleet in het midden van het zine zitten. 7. Vouw terug horizontaal. 8. Duw de twee uiteinden van het zine naar het midden. Dit zal het middelste gedeelte van het zine openen. 9. Als je de uiteinden van het zine blijft induwen, krijgt het zine uiteindelijk de vorm van een boekje.",
+  "alt_printout": "Diagram dat laat zien hoe het tijdschrift eruitziet na het printen.",
+  "qr_invite_label": "Plak jou <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>uitnodigingslink</a> om de QR-code aan te passen:",
+  "qr_invite_error": "Gebruik alstublieft een link van invite.jointhefediverse.net."
 }
