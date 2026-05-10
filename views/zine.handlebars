@@ -1,25 +1,33 @@
-<link rel="stylesheet" href="/css/zine.css">
+<link rel="stylesheet"
+	href="/css/zine.css">
 <div class="container mb-5 mt-5">
 	<div class="row">
 		<div class="col-sm-12">
 			{{#if (localeNeedsTranslation "zine" current_locale.code)}}
-					<div class="alert alert-warning mt-5" role="alert">
-							{{{translationMissingAlert "zine"}}}
-					</div>
+			<div class="alert alert-warning mt-5"
+				role="alert">
+				{{{translationMissingAlert "zine"}}}
+			</div>
 			{{/if}}
 			<h1 class="display-4 fw-bold text-center my-5">{{{__ "zine_title"}}}</h1>
 			<p class="text-center">
 				{{{__ "zine_description"}}}
-			</p> 
+			</p>
 		</div>
 	</div>
 
 	<main class="zine">
 		<article>
-			<img class="page-image" src="/images/images/fediverse-translations-inverted.png" alt="{{{__ "zine_alt_cover"}}}">
+			<img class="page-image"
+				src="/images/images/fediverse-translations-inverted.png"
+				alt="{{{__ "
+				zine_alt_cover"}}}">
 		</article>
 		<article>
-			<img class="page-image" src="/images/zine/email.png" alt="{{{__ "zine_alt_email"}}}">
+			<img class="page-image"
+				src="/images/zine/email.png"
+				alt="{{{__ "
+				zine_alt_email"}}}">
 		</article>
 		<article>
 			<div class="page-text">
@@ -28,7 +36,10 @@
 			</div>
 		</article>
 		<article>
-			<img class="page-image" src="/images/zine/social-media-corporate.png" alt="{{{__ "zine_alt_social_corporate"}}}">
+			<img class="page-image"
+				src="/images/zine/social-media-corporate.png"
+				alt="{{{__ "
+				zine_alt_social_corporate"}}}">
 		</article>
 		<article>
 			<div class="page-text">
@@ -36,7 +47,10 @@
 			</div>
 		</article>
 		<article>
-			<img class="page-image" src="/images/zine/social-media-fediverse.png" alt="{{{__ "zine_alt_social_fediverse"}}}">
+			<img class="page-image"
+				src="/images/zine/social-media-fediverse.png"
+				alt="{{{__ "
+				zine_alt_social_fediverse"}}}">
 		</article>
 		<article>
 			<div class="page-text">
@@ -45,31 +59,46 @@
 		</article>
 		<article>
 			<div class="page-qr">
-				<div id="qrcode" data-alt="{{{__ "zine_alt_qr_code"}}}"></div>
-				<p class="site-url">JoinTheFediverse.net</p>
+				<div id="qrcode"
+					data-alt="{{{__ "
+					zine_alt_qr_code"}}}"></div>
+				<p class="site-url"
+					id="qr-domain">JoinTheFediverse.net</p>
 			</div>
 		</article>
 	</main>
+	<div class="d-print-none mt-3 mb-3 mx-auto"
+		style="max-width: 500px;">
+		<label for="qr-invite"
+			class="form-label"><small>{{{__ "zine_qr_invite_label"}}}</small></label>
+		<input type="url"
+			id="qr-invite"
+			class="form-control"
+			placeholder="https://invite.jointhefediverse.net/..."
+			data-locale="{{current_locale.code}}"
+			autocomplete="off">
+		<div id="qr-invite-error"
+			class="invalid-feedback">{{{__ "zine_qr_invite_error"}}}</div>
+	</div>
 	<p class="zine-attribution text-center">{{{__ "zine_attribution"}}}</p>
-<script src="/libs/qr-code/qrcode.min.js"></script>
-<script>
-	const qrCodeEl = document.getElementById("qrcode");
-	new QRCode(qrCodeEl, {
-		text: "https://invite.jointhefediverse.net/?lang={{current_locale.code}}",
-		width: 256,
-		height: 256
-	});
-	qrCodeIMG = qrCodeEl.querySelector("img");
-	qrCodeIMG.alt = qrCodeEl.dataset.alt;
-</script>
+	<script src="/libs/qr-code/qrcode.min.js"></script>
+	<script src="/js/zine.js" type="module"></script>
 	<picture class="zine-howto">
-		<source srcset="/images/zine/zine-how-to-light-covers.png" media="(prefers-color-scheme: dark)">
-		<img class="img-fluid d-block mx-auto mt-4" src="/images/zine/zine-how-to-dark-covers.png" alt="{{{__ "zine_alt_instructions"}}}">
+		<source srcset="/images/zine/zine-how-to-light-covers.png"
+			media="(prefers-color-scheme: dark)">
+		<img class="img-fluid d-block mx-auto mt-4"
+			src="/images/zine/zine-how-to-dark-covers.png"
+			alt="{{{__ "
+			zine_alt_instructions"}}}">
 	</picture>
 	<a href="/images/zine/zine-print.png">
 		<picture class="zine-printout">
-			<source srcset="/images/zine/zine-print-inverted.png" media="(prefers-color-scheme: dark)">
-			<img class="img-fluid d-block mx-auto mt-4" src="/images/zine/zine-print.png" alt="{{{__ "zine_alt_printout"}}}">
+			<source srcset="/images/zine/zine-print-inverted.png"
+				media="(prefers-color-scheme: dark)">
+			<img class="img-fluid d-block mx-auto mt-4"
+				src="/images/zine/zine-print.png"
+				alt="{{{__ "
+				zine_alt_printout"}}}">
 		</picture>
 	</a>
 </div>

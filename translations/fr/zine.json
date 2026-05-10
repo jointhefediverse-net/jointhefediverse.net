@@ -9,5 +9,7 @@
   "alt_social_fediverse": "Logos de différentes plates-formes du fédivers, dont Mastodon et Pixelfed, agencés en cercle et connectés par des pointillés. Quelques emoji enveloppe sont affichés entre les plates-formes.",
   "alt_qr_code": "QR code généré pour le site JoinTheFediverse.net",
   "alt_instructions": "Schéma décrivant comment plier et couper l’impression du zine, étape par étape: 1. Plier la feuille en deux horizontalement. 2. Plier la feuille en deux verticalement. 3. Plier à nouveau la feuille en deux verticalement. 4. Déplier, puis replier à nouveau horizontalement. 5. Couper au centre sur une demi-longueur. 6. Déplier. Vous devez avoir une fente au milieu du zine. 7. Repliez horizontalement. 8. Poussez les deux extrémités du zine vers le centre. La partie centrale du zine s’écarte. 9. Continuez à pousser les extrémités du zine jusqu’à ce qu’il adopte sa forme de livret finale.",
-  "alt_printout": "Schéma montrant le zine imprimé."
+  "alt_printout": "Schéma montrant le zine imprimé.",
+  "qr_invite_label": "Collez votre <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>lien d'invitation</a> pour personnaliser le code QR :",
+  "qr_invite_error": "Veuillez utiliser un lien provenant de invite.jointhefediverse.net."
 }
