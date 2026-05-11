@@ -20,19 +20,33 @@ onReady(() => {
     qrCodeIMG.alt = qrCodeEl.dataset.alt;
   }
 
+  function isValidInviteURL(url) {
+    try {
+      const { protocol, hostname } = new URL(url);
+      return (
+        protocol === "https:" && hostname === "invite.jointhefediverse.net"
+      );
+    } catch {
+      return false;
+    }
+  }
+
   qrInviteInputEl.addEventListener("input", function () {
     const val = this.value.trim();
+    const isValidInvite = isValidInviteURL(val);
 
     if (!val) {
       this.classList.remove("is-invalid");
       qrCode.makeCode(defaultUrl);
       qrDomainEl.textContent = defaultDomain;
-    } else if (val.startsWith("https://invite.jointhefediverse.net/")) {
+    } else if (isValidInvite) {
       this.classList.remove("is-invalid");
       qrCode.makeCode(val);
       qrDomainEl.textContent = "invite.jointhefediverse.net";
     } else {
       this.classList.add("is-invalid");
+      qrCode.makeCode(defaultUrl);
+      qrDomainEl.textContent = defaultDomain;
     }
 
     const img = qrCodeEl.querySelector("img");
