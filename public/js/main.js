@@ -2,16 +2,21 @@ import onReady from "./modules/onReady.js";
 import smoothScroll from "./modules/smoothScroll.js";
 import animate from "./modules/animation.js";
 import switchLanguage from "./modules/language-switcher.js";
-import initThemeSwitcher from './modules/theme-switcher.js';
-import initFediverseWordAnimation from './modules/fediverseWordAnimation.js';
+import initThemeSwitcher from "./modules/theme-switcher.js";
+import initFediverseWordAnimation from "./modules/fediverseWordAnimation.js";
+import highlightAlternatives from "./modules/highlightAlternatives.js";
 
 onReady(() => {
   smoothScroll();
   switchLanguage();
   initThemeSwitcher();
+  highlightAlternatives();
   initFediverseWordAnimation(document.querySelector(".fediverse-heading mark"));
 
-  if (typeof scrollama !== "undefined" && document.getElementsByClassName("step")?.length) {
+  if (
+    typeof scrollama !== "undefined" &&
+    document.getElementsByClassName("step")?.length
+  ) {
     const scroller = scrollama();
 
     scroller
