@@ -1,0 +1,15 @@
+{
+  "title": "Pridružite se <mark>fediversumu</mark>! zine",
+  "title_no_html": "Pridružite se fediversumu! zine",
+  "description": "Isprintajte ovu stranicu kao mikro-zine (odaberite \"bez rubova\" u postavkama štampača), izrežite je, presavijte i podijelite s prijateljima!",
+  "attribution": "Napravljeno uz <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
+  "alt_cover": "Prijevodi riječi fediversum na raznim jezicima koji se ponavljaju u više redova.",
+  "alt_email": "Logotipi različitih email klijenata, uključujući GMail, Outlook, Apple Mail i druge, raspoređeni u krug, povezani isprekidanim linijama. Nekoliko emoji koverta prikazano je kako se šalju između email klijenata.",
+  "alt_social_corporate": "Logotipi različitih korporativnih društvenih mreža, uključujući Facebook, Instagram, X i druge, raspoređeni u krug. Nema veza između njih i ne šalju se poruke.",
+  "alt_social_fediverse": "Logotipi različitih fediverse društvenih mreža, uključujući Mastodon, Pixelfed i druge, raspoređeni u krug, povezani isprekidanim linijama. Nekoliko emoji koverta prikazano je kako se šalju između platformi.",
+  "alt_qr_code": "QR kod generisan za web stranicu JoinTheFediverse.net",
+  "alt_instructions": "Dijagram korak po korak koji pokazuje kako presaviti i izrezati odštampani zine: 1. Presavijte papir na pola horizontalno. 2. Presavijte na pola vertikalno. 3. Ponovo presavijte na pola vertikalno. 4. Raspresavijte, zatim ponovo presavijte horizontalno. 5. Izrežite do polovine po sredini. 6. Raspresavijte. U sredini zine-a trebao bi biti prorez. 7. Ponovo presavijte horizontalno. 8. Gurnite oba kraja zine-a prema centru. Ovo će otvoriti središnji dio zine-a. 9. Kako nastavljate gurati krajeve zine-a, on će poprimiti završni oblik knjižice.",
+  "alt_printout": "Dijagram koji prikazuje zine kad je odštampan.",
+  "qr_invite_label": "Zalijepite vaš <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>pozivni link</a> da prilagodite QR kod:",
+  "qr_invite_error": "Molimo koristite link sa invite.jointhefediverse.net."
+}

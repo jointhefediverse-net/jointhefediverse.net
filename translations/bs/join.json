@@ -1,0 +1,17 @@
+{
+  "page_title": "Pridružite se <mark>fediversumu</mark>",
+  "page_intro": "Evo nekih od popularnih <mark>fediverse alternativa</mark> komercijalnim društvenim mrežama. Možete se pridružiti bilo kojoj od njih i još uvijek <mark>pratiti bilo koga</mark> na ostalim servisima, jer svi govore isti jezik, za razliku od tradicionalnih društvenih mreža.",
+  "comparison_if": "Ako volite...",
+  "comparison_then": "Trebali biste isprobati...",
+  "learn_more": "Istražite više platformi",
+  "find_community": "Pronađite zajednicu",
+  "outro": "Možete također pretraživati fediverse zajednice prema <mark>interesima</mark> na <a href='https://joinfediverse.wiki/Instances'>joinfediverse.wiki</a>, ili prema <mark>funkcionalnostima</mark> koje nude različite mreže na <a href='https://fedidb.com/welcome'>fedidb.com</a>",
+  "more_info_label": "A kada ste unutra, možete pronaći neke <mark>popularne račune</mark> i sadržaj za pratiti:",
+  "more_info_feditrends_description": "prikuplja šta je popularno u fediversumu",
+  "more_info_fedi_directory_description": "zanimljivi računi za pratiti",
+  "more_info_fedified_description": "poznati računi na Mastodonu",
+  "more_info_fediverse_explorer_description": "pregledajte najnovije javne objave u fediversumu prema hashtagovima",
+  "cta_home": "Nazad na početnu",
+  "cta_or": "ili",
+  "cta_learn": "zaronite dublje"
+}
