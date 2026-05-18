@@ -11,7 +11,6 @@ const untranslatedLocales = {
       "fa",
       "fi",
       "he",
-      "id",
       "it",
       "pl",
       "pt-br",
