@@ -1,15 +1,15 @@
 {
-  "title": "Join the <mark>fediverse</mark>! zine",
-  "title_no_html": "Join the fediverse! zine",
-  "description": "Print this page as a micro-zine (select \"no borders\" in your printer settings), cut it, fold it, and share it with your friends!",
-  "attribution": "Made with <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
-  "alt_cover": "Translations of the word fediverse in various languages repeating across multiple lines.",
-  "alt_email": "Logos of various email clients, including GMail, Outlook, Apple Mail, and others, arranged in a circle, connected with dashed lines. A few emoji envelope are shown as being sent between the email clients.",
-  "alt_social_corporate": "Logos of various corporate social media platforms, including Facebook, Instagram, X, and others, arranged in a circle. There are no connections between them and no messages are being sent.",
-  "alt_social_fediverse": "Logos of various fediverse social media platforms, including Mastodon, Pixelfed, and others, arranged in a circle, connected with dashed lines. A few emoji envelope are shown as being sent between the platforms.",
-  "alt_qr_code": "QR code generated for the website JoinTheFediverse.net",
-  "alt_instructions": "Step-by-step diagram showing how to fold and cut the printed zine: 1. Fold the paper in half horizontally. 2. Fold in half vertically. 3. Fold in half vertically again. 4. Unfold, then fold again horizontally. 5. Cut mid-way across the center. 6. Unfold. A slit should be in the middle of the zine. 7. Fold horizontally again. 8. Push the two ends of the zine toward the center. This will open up the center part of the zine. 9. As you keep pushing the ends of the zine, the zine will take its finished shape of a booklet.",
-  "alt_printout": "Diagram showing the zine when it's printed out.",
-  "qr_invite_label": "Paste your <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>invitation link</a> to customize the QR code:",
-  "qr_invite_error": "Please use a link from invite.jointhefediverse.net."
+  "title": "Zine Bergabung ke <mark>fediverse</mark>!",
+  "title_no_html": "Zine Bergabung ke fediverse!",
+  "description": "Cetak halaman ini sebagai zine singkat (pilih \"tanpa border\" di pengaturan printer), potong, lipat, dan bagikan ke teman-temanmu!",
+  "attribution": "Dibuat dengan <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
+  "alt_cover": "Terjemahan dari kata fediverse dalam berbagai bahasa, berulang dalam beberapa baris.",
+  "alt_email": "Logo-logo dari beberapa klien email, seperti GMail, Outlook, Apple Mail, dan lain-lain, diurutkan dalam sebuah lingkaran, terhubung dengan garis putus-putus. Ada beberapa emoji amplop yang ditampilkan sedang dikirim di antara klien email tersebut.",
+  "alt_social_corporate": "Logo-logo dari beberapa platform media sosial korporat, seperti Facebook, Instagram, X, dan lain-lain, diurutkan dalam sebuah lingkaran. Tidak ada koneksi yang terhubung di antaranya dan tidak ada pesan yang terkirim.",
+  "alt_social_fediverse": "Logo-logo dari beberapa platform media sosial fediverse, seperti Mastodon, Pixelfed, dan lain-lain, diurutkan dalam sebuah lingkaran, terhubung dengan garis putus-putus. Ada beberapa emoji amplop yang ditampilkan sedang dikirim di antara klien email tersebut.",
+  "alt_qr_code": "Kode QR dibuat untuk situs web JoinTheFediverse.net",
+  "alt_instructions": "Diagram langkah demi langkah menampilkan bagaimana melipat dan memotong zine yang telah dicetak: 1. Lipat separuh kertasnya secara horizontal. 2. Lipat separuhnya secara vertikal. 3. Lipat lagi separuhnya secara vertikal. 4. Buka lipatannya, lipat lagi secara horizontal. 5. Potong separuh di bagian tengahnya. 6. Buka lipatannya. Terdapat celah di tengah zine. 7. Lipat secara horizontal lagi. 8. Dorong kedua sisi pinggirnya ke tengah. Bagian tengah zine akan terbuka. 9. Dorong terus sisi pinggirnya, maka zine akan berbentuk seperti sebuah booklet.",
+  "alt_printout": "Diagram menampilkan zine saat setelah dicetak.",
+  "qr_invite_label": "Tempel <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>tautan undanganmu</a> untuk mengubahsuai kode QR-nya:",
+  "qr_invite_error": "Mohon gunakan tautan dari invite.jointhefediverse.net."
 }
