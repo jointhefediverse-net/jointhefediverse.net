@@ -8,7 +8,6 @@ const untranslatedLocales = {
       "el",
       "eo",
       "eu",
-      "fa",
       "fi",
       "he",
       "it",
