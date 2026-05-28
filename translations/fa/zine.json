@@ -1,15 +1,15 @@
 {
-  "title": "Join the <mark>fediverse</mark>! zine",
-  "title_no_html": "Join the fediverse! zine",
-  "description": "Print this page as a micro-zine (select \"no borders\" in your printer settings), cut it, fold it, and share it with your friends!",
-  "attribution": "Made with <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
-  "alt_cover": "Translations of the word fediverse in various languages repeating across multiple lines.",
-  "alt_email": "Logos of various email clients, including GMail, Outlook, Apple Mail, and others, arranged in a circle, connected with dashed lines. A few emoji envelope are shown as being sent between the email clients.",
-  "alt_social_corporate": "Logos of various corporate social media platforms, including Facebook, Instagram, X, and others, arranged in a circle. There are no connections between them and no messages are being sent.",
-  "alt_social_fediverse": "Logos of various fediverse social media platforms, including Mastodon, Pixelfed, and others, arranged in a circle, connected with dashed lines. A few emoji envelope are shown as being sent between the platforms.",
-  "alt_qr_code": "QR code generated for the website JoinTheFediverse.net",
-  "alt_instructions": "Step-by-step diagram showing how to fold and cut the printed zine: 1. Fold the paper in half horizontally. 2. Fold in half vertically. 3. Fold in half vertically again. 4. Unfold, then fold again horizontally. 5. Cut mid-way across the center. 6. Unfold. A slit should be in the middle of the zine. 7. Fold horizontally again. 8. Push the two ends of the zine toward the center. This will open up the center part of the zine. 9. As you keep pushing the ends of the zine, the zine will take its finished shape of a booklet.",
-  "alt_printout": "Diagram showing the zine when it's printed out.",
-  "qr_invite_label": "Paste your <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>invitation link</a> to customize the QR code:",
-  "qr_invite_error": "Please use a link from invite.jointhefediverse.net."
+  "title": "برگچه پیوستن به <mark>فدیورس</mark>!",
+  "title_no_html": "برگچه پیوستن به فدیورس",
+  "description": "این صفحه را به‌عنوان یک برگه کوچک چاپ کنید (در تنظیمات چاپگر گزینه «بدون حاشیه» را انتخاب کنید)، برش بزنید، تا کنید و با دوستانتان هم‌رسانی کنید!",
+  "attribution": "ساخته‌شده با <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
+  "alt_cover": "ترجمه واژه fediverse به زبان‌های مختلف که در چندین خط تکرار شده‌اند.",
+  "alt_email": "نماد کلاینت‌های مختلف رایانامه، مانند جیمیل، اوت‌لوک، اپل میل و... به صورت دایره‌ای چیده شده و با خط‌چین به هم متصل شده‌اند. چند شکلک پاکت نامه در حال ارسال بین کلاینت‌های رایانامه نشان داده شده است.",
+  "alt_social_corporate": "نماد رسانه‌های اجتماعی مختلف شرکتی، مانند فیسبوک، اینستاگرام، ایکس و... به صورت دایره‌ای چیده شده‌اند. هیچ ارتباطی بین آن‌ها وجود ندارد و هیچ پیامی ارسال نمی‌شود.",
+  "alt_social_fediverse": "نماد رسانه‌های اجتماعی فدی‌ورس، مانند ماستودون، پیکسل‌فد و... به صورت دایره‌ای چیده شده‌اند، با خط‌چین به هم وصل شده‌اند. چند شکلک پاکت نامه در حال ارسال بین سکوها نمایش داده شده.",
+  "alt_qr_code": "کیوآر کد تولیدشده برای وبگاه JoinTheFediverse.net",
+  "alt_instructions": "نمودار گام‌به‌گام نشان‌دهنده نحوه تا کردن و بریدن برگچه چاپ‌شده: ۱. کاغذ را از وسط افقی تا کنید. ۲. از وسط عمودی تا کنید. ۳. دوباره از وسط عمودی تا کنید. ۴. باز کنید، سپس دوباره از وسط افقی تا کنید. ۵. مرکز را تا نیمه برش بزنید. ۶. باز کنید. یک شکاف باید در وسط برگچه باشد. ۷. دوباره از وسط افقی تا کنید. ۸. دو انتهای برگچه را به سوی مرکز بیاورید و فشار دهید. این کار قسمت مرکزی برگچه را باز می‌کند. ۹. وقتی به فشار دادن انتهای برگچه ادامه می‌دهید، برگچه شکل نهایی خود را به صورت یک کتابچه می‌گیرد.",
+  "alt_printout": "طرحی که برگچه را هنگام چاپ شدن نشان می‌دهد.",
+  "qr_invite_label": "اینجا <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>لینک دعوت</a> خود را برای سفارشی‌سازی کیوآر کد وارد کنید:",
+  "qr_invite_error": "لطفاً از لینکی استفاده کنید که از invite.jointhefediverse.net آمده باشد."
 }
