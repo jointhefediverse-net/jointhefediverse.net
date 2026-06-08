@@ -1,15 +1,15 @@
 {
-  "title": "Join the <mark>fediverse</mark>! zine",
-  "title_no_html": "Join the fediverse! zine",
-  "description": "Print this page as a micro-zine (select \"no borders\" in your printer settings), cut it, fold it, and share it with your friends!",
-  "attribution": "Made with <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
-  "alt_cover": "Translations of the word fediverse in various languages repeating across multiple lines.",
-  "alt_email": "Logos of various email clients, including GMail, Outlook, Apple Mail, and others, arranged in a circle, connected with dashed lines. A few emoji envelope are shown as being sent between the email clients.",
-  "alt_social_corporate": "Logos of various corporate social media platforms, including Facebook, Instagram, X, and others, arranged in a circle. There are no connections between them and no messages are being sent.",
-  "alt_social_fediverse": "Logos of various fediverse social media platforms, including Mastodon, Pixelfed, and others, arranged in a circle, connected with dashed lines. A few emoji envelope are shown as being sent between the platforms.",
-  "alt_qr_code": "QR code generated for the website JoinTheFediverse.net",
-  "alt_instructions": "Step-by-step diagram showing how to fold and cut the printed zine: 1. Fold the paper in half horizontally. 2. Fold in half vertically. 3. Fold in half vertically again. 4. Unfold, then fold again horizontally. 5. Cut mid-way across the center. 6. Unfold. A slit should be in the middle of the zine. 7. Fold horizontally again. 8. Push the two ends of the zine toward the center. This will open up the center part of the zine. 9. As you keep pushing the ends of the zine, the zine will take its finished shape of a booklet.",
-  "alt_printout": "Diagram showing the zine when it's printed out.",
-  "qr_invite_label": "Paste your <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>invitation link</a> to customize the QR code:",
-  "qr_invite_error": "Please use a link from invite.jointhefediverse.net."
+  "title": "<mark>Fediverse'e katıl</mark>! fanzini",
+  "title_no_html": "Fediverse'e katıl! fanzini",
+  "description": "Bu sayfayı mikro-fanzin olarak yazdırın (yazıcı ayarlarından \"kenar boşluğu yok\" seçeneğini seçin), kesin, katlayın ve arkadaşlarınızla paylaşın!",
+  "attribution": "<a href='https://github.com/zserge/zine'>Micro Zine</a> ile yapılmıştır.",
+  "alt_cover": "Fediverse kelimesinin çeşitli dillere çevirileri.",
+  "alt_email": "GMail, Outlook, Apple Mail ve diğerleri dahil olmak üzere çeşitli e-posta istemcilerinin logolarının, kesikli çizgilerle birbirine bağlanmış şekilde daire şeklinde düzenlenmiş hali. E-posta istemcileri arasında gönderilen birkaç zarf emojisi gösterilmektedir.",
+  "alt_social_corporate": "Facebook, Instagram, X ve diğerleri dahil olmak üzere çeşitli kurumsal sosyal medya platformlarının logolarının daire şeklinde düzenlenmiş hali. Aralarında herhangi bir bağlantı yoktur ve herhangi bir mesaj iletilmemektedir.",
+  "alt_social_fediverse": "Mastodon, Pixelfed ve diğerleri dahil olmak üzere çeşitli fediverse sosyal medya platformlarının logolarının, kesikli çizgilerle birbirine bağlanmış şekilde daire şeklinde düzenlenmiş hali. Platformlar arasında gönderilen birkaç zarf emojisi gösterilmektedir.",
+  "alt_qr_code": "JoinTheFediverse.net sitesi için oluşturulan karekod.",
+  "alt_instructions": "Fanzinin basılı halinin nasıl katlanacağını gösteren adım adım şema: 1. Kağıdı yatay olarak ikiye katlayın. 2. Dikey olarak ikiye katlayın. 3. Tekrar dikey olarak ikiye katlayın. 4. Açın, ardından tekrar yatay olarak katlayın. 5. Ortadan ikiye kesin. 6. Açın. Fanzinin ortasında bir kesik oluşacak. 7. Tekrar yatay olarak katlayın. 8. Fanzinin iki ucunu ortaya doğru itin. Bu, fanzinin orta kısmını açacaktır. 9. Fanzinin uçlarını itmeye devam ettikçe kitapçık şeklini alacaktır.",
+  "alt_printout": "Fanzinin basılmış halini gösteren şema.",
+  "qr_invite_label": "Karekodu özelleştirmek için <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>davet bağlantınızı</a> yapıştırın:",
+  "qr_invite_error": "Lütfen invite.jointhefediverse.net üzerinden bir bağlantı kullanın."
 }
