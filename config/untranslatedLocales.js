@@ -15,7 +15,6 @@ const untranslatedLocales = {
       "pt-br",
       "sk",
       "sv",
-      "tr",
       "zh-hans",
       "zh-hant",
       "zh-tw",
