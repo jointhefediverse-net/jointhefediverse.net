@@ -1,15 +1,15 @@
 {
-  "title": "Join the <mark>fediverse</mark>! zine",
-  "title_no_html": "Join the fediverse! zine",
-  "description": "Print this page as a micro-zine (select \"no borders\" in your printer settings), cut it, fold it, and share it with your friends!",
-  "attribution": "Made with <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
-  "alt_cover": "Translations of the word fediverse in various languages repeating across multiple lines.",
-  "alt_email": "Logos of various email clients, including GMail, Outlook, Apple Mail, and others, arranged in a circle, connected with dashed lines. A few emoji envelope are shown as being sent between the email clients.",
-  "alt_social_corporate": "Logos of various corporate social media platforms, including Facebook, Instagram, X, and others, arranged in a circle. There are no connections between them and no messages are being sent.",
-  "alt_social_fediverse": "Logos of various fediverse social media platforms, including Mastodon, Pixelfed, and others, arranged in a circle, connected with dashed lines. A few emoji envelope are shown as being sent between the platforms.",
-  "alt_qr_code": "QR code generated for the website JoinTheFediverse.net",
-  "alt_instructions": "Step-by-step diagram showing how to fold and cut the printed zine: 1. Fold the paper in half horizontally. 2. Fold in half vertically. 3. Fold in half vertically again. 4. Unfold, then fold again horizontally. 5. Cut mid-way across the center. 6. Unfold. A slit should be in the middle of the zine. 7. Fold horizontally again. 8. Push the two ends of the zine toward the center. This will open up the center part of the zine. 9. As you keep pushing the ends of the zine, the zine will take its finished shape of a booklet.",
-  "alt_printout": "Diagram showing the zine when it's printed out.",
-  "qr_invite_label": "Paste your <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>invitation link</a> to customize the QR code:",
-  "qr_invite_error": "Please use a link from invite.jointhefediverse.net."
+  "title": "Zine: Pripoj sa do <mark>fediversu</mark>!",
+  "title_no_html": "Zine: Pripoj sa do fediversu!",
+  "description": "Vytlač túto stránku ako mikro-zine (použi \"bez okrajov\" v nastaveniach tlačiarne), vystrihni ju, poskladaj ju a ukáž svojim kamarátom!",
+  "attribution": "Vytvorené pomocou <a href='https://github.com/zserge/zine'>Micro Zine</a>.",
+  "alt_cover": "Preklady slova fediverse v rôznych jazykoch opakujúce sa na viacerých riadkoch.",
+  "alt_email": "Logá rôznych emailových klientov, vrátane Gmailu, Outlooku, Apple Mailu a ďalších, usporiadané v kruhu, prepojené prerušovanými čiarami. Medzi emailovými klientmi sa posielajú emoji obálky.",
+  "alt_social_corporate": "Logá rôznych komerčných platforiem sociálnych médií, vrátane Facebooku, Instagramu, X a ďalších, usporiadané v kruhu. Medzi nimi nie sú žiadne spojenia a žiadne správy sa neposielajú.",
+  "alt_social_fediverse": "Logá rôznych platforiem sociálnych médií fediversu, vrátane Mastodonu, Pixelfedu a ďalších, usporiadané v kruhu, prepojené prerušovanými čiarami. Niekoľko emoji obálok je zobrazených ako posielaných medzi platformami.",
+  "alt_qr_code": "QR kód vygenerovaný pre webovú stránku JoinTheFediverse.net",
+  "alt_instructions": "Diagram ukazujúci ako poskladať a vystrihnúť vytlačený zine: 1. Poskladaj papier na polovicu vodorovne. 2. Poskladaj na polovicu zvisle. 3. Poskladaj na polovicu zvisle ešte raz. 4. Rozlož, potom znovu poskladaj vodorovne. 5. Vystrihni v polovici cez stred. 6. Rozlož. V strede zinu by mal byť otvor. 7. Poskladaj znovu vodorovne. 8. Potlač oba konce zinu smerom k stredu. Tým sa otvorí stredná časť zinu. 9. Zine sa postupne poskladá do tvaru brožúrky.",
+  "alt_printout": "Diagram znázorňujúci zine po vytlačení.",
+  "qr_invite_label": "Použi svoju <a href='https://stefanbohacek.com/project/fediverse-invitation/#link-builder' target='_blank'>pozvánku</a> a urob si vlastný QR kód:",
+  "qr_invite_error": "Prosím, použi invite.jointhefediverse.net."
 }
