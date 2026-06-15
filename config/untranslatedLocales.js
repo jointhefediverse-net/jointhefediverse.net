@@ -13,7 +13,6 @@ const untranslatedLocales = {
       "it",
       "pl",
       "pt-br",
-      "sk",
       "sv",
       "zh-hans",
       "zh-hant",
