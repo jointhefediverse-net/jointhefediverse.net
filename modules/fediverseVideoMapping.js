@@ -14,8 +14,8 @@ export default (locale) => {
       video_subtitles: "ca",
     },
     "cz-cs": {
-      video_server: "videos.elenarossini.com",
-      video_id: "64VuNCccZNrP4u9MfgbhkN",
+      video_server: "vhsky.cz",
+      video_id: "hNuFEJwjbcubMgsVnqtoXz",
       video_subtitles: "cs",
     },
     // "da-dk" : {
