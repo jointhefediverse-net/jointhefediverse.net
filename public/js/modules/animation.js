@@ -128,6 +128,7 @@ const animate = (step) => {
 
   [...logos].forEach((logo) => {
     logo.src = `images/logos/${config.logoType}/${logo.dataset[config.logoType]}.svg`;
+    logo.alt = logo.dataset[`${config.logoType}Alt`];
   });
 
   document
